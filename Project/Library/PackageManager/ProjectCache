@@ -5,20 +5,34 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638182957924047001
-    m_Hash: 2576402199
+      ticks: 638186948481683438
+    m_Hash: 1794236581
   m_LockFileStatus:
     m_FilePath: C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638182957924247227
-    m_Hash: 3791482674
+      ticks: 638186948722133272
+    m_Hash: 3472607253
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus:
+  - m_FilePath: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Packages\com.ptc.vuforia.engine-10.15.3.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Packages\com.ptc.vuforia.engine-10.15.3.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638180287240000000
+    m_Hash: 1783302083
   - m_FilePath: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.8.0.tgz/package.json
     m_PathExists: 0
     m_ContentTrackingEnabled: 1
@@ -64,6 +78,70 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Packages
 m_EditorVersion: 2021.3.22f1 (b6c551784ba3)
 m_ResolvedPackages:
+- packageId: com.ptc.vuforia.engine@file:C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Packages\com.ptc.vuforia.engine-10.15.3.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 10.15.3
+  source: 6
+  resolvedPath: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\PackageCache\com.ptc.vuforia.engine@53e25388be25
+  assetPath: Packages/com.ptc.vuforia.engine
+  name: com.ptc.vuforia.engine
+  displayName: Vuforia Engine AR
+  author:
+    name: PTC Inc.
+    email: 
+    url: https://developer.vuforia.com/
+  category: 
+  type: 
+  description: Vuforia Engine is the most widely used platform for AR development,
+    with support for leading phones, tablets, and eyewear. Developers can easily
+    add advanced computer vision functionality to Android, iOS, and UWP apps, to
+    create AR experiences that realistically interact with objects and the environment.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - vuforia
+  - engine
+  - ar
+  - xr
+  - augmented
+  - reality
+  - sdk
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.microsoft.mixedreality.openxr@file:C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Packages\MixedReality\com.microsoft.mixedreality.openxr-1.8.0.tgz
   testable: 0
   isDirectDependency: 1

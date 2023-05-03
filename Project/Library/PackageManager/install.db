@@ -1,6 +1,14 @@
 {
   "schemaVersion": 1,
   "packages": {
+    "com.ptc.vuforia.engine": {
+      "tarball": {
+        "hash": "53e25388be25",
+        "mtime": 1682431924000,
+        "size": 139840968,
+        "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\com.ptc.vuforia.engine-10.15.3.tgz"
+      }
+    },
     "com.microsoft.mixedreality.openxr": {
       "tarball": {
         "hash": "dfc0305df3e4",

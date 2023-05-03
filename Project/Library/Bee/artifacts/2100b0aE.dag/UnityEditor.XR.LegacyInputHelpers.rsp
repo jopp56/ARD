@@ -114,8 +114,7 @@
 -define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
--define:USE_INPUT_SYSTEM_POSE_CONTROL
--define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:VUFORIA_WSA_SETTINGS
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
@@ -334,6 +333,9 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/Managed/Editor/Vuforia.Unity.Editor.dll"
+-r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll"
+-r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@53e25388be25/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll"
 -r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
