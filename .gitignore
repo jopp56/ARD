@@ -71,8 +71,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-#Vuforia Files
-*.tgz
+#Vuforia Engine(too big)
+*com.ptc.vuforia.engine-10.15.3.tgz
 
 #Broken MRTK File
 ar-tracked-image-NPoT-texture-settings.png
