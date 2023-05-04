@@ -332,10 +332,10 @@
 -r:"Library/Bee/artifacts/2100b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.inputsystem@1.5.0/Tests/TestFixture/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.inputsystem@1.5.0/Tests/TestFixture/InputTestFixture.cs"
-"Library/PackageCache/com.unity.inputsystem@1.5.0/Tests/TestFixture/InputTestRuntime.cs"
-"Library/PackageCache/com.unity.inputsystem@1.5.0/Tests/TestFixture/WinUserInput.cs"
+"Library/PackageCache/com.unity.inputsystem@1.5.1/Tests/TestFixture/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.inputsystem@1.5.1/Tests/TestFixture/InputTestFixture.cs"
+"Library/PackageCache/com.unity.inputsystem@1.5.1/Tests/TestFixture/InputTestRuntime.cs"
+"Library/PackageCache/com.unity.inputsystem@1.5.1/Tests/TestFixture/WinUserInput.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
