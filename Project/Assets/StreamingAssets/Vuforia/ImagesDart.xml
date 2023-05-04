@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="OnlyDartscheibe" size="1.000000 1.000000" />
+    <ImageTarget name="Dartscheibe3" size="1.000000 0.993184" />
     <ImageTarget name="DartscheibeHoloLensCroped" size="1.000000 0.810183" />
     <ImageTarget name="DartscheibeHoloLens" size="0.500000 0.281250" />
   </Tracking>
