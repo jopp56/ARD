@@ -13,6 +13,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.BaseHandVisualizer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerMappingProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizationProfile" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityEyeTrackingProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityGesturesProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityHandTrackingProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionRulesProfile" preserve="nothing"/>
@@ -47,6 +48,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.FingerCursor" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.GGVPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MeshCursor" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MousePointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.PokePointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.RiggedHandVisualizer" preserve="nothing"/>

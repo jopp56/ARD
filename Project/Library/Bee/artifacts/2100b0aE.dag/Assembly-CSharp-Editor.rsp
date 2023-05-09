@@ -345,6 +345,7 @@
 -r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/2100b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.OpenXR.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.OpenXR.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Async.ref.dll"

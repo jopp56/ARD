@@ -176,6 +176,9 @@
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\StreamingAssets\Vuforia\ImagesDart.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\ImagesDart.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
     </AppxPackagedFile>
@@ -232,6 +235,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\StreamingAssets\Vuforia\ImagesDart.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\ImagesDart.dat</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\UnityOpenXR.dll">
       <PackagePath>UnityOpenXR.dll</PackagePath>

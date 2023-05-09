@@ -7,8 +7,12 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.OpenXR.MotionControllerFeaturePlugin
     - Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin
     - Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin
+    Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
+    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
+    Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll:
+    - Microsoft.MixedReality.Toolkit.LeapMotion.Input.LeapMotionDeviceManagerProfile
     Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OpenXRCameraSettingsProfile
     Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll:
@@ -20,6 +24,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.FingerCursor
     - Microsoft.MixedReality.Toolkit.Input.GGVPointer
     - Microsoft.MixedReality.Toolkit.Input.MeshCursor
+    - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer
     - Microsoft.MixedReality.Toolkit.Input.MousePointer
     - Microsoft.MixedReality.Toolkit.Input.PokePointer
     - Microsoft.MixedReality.Toolkit.Input.RiggedHandVisualizer
@@ -41,6 +46,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Input.BaseHandVisualizer
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerMappingProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizationProfile
+    - Microsoft.MixedReality.Toolkit.Input.MixedRealityEyeTrackingProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityGesturesProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityHandTrackingProfile
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionRulesProfile
@@ -103,6 +109,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    Vuforia.Unity.Editor.dll:
+    - Vuforia.EditorClasses.VuforiaConfigurationEditor
     Vuforia.Unity.Engine.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.ImageTargetPreview
@@ -3109,6 +3117,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR.dll
     namespaceName: UnityEngine.XR.OpenXR
     className: OpenXRLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: test
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

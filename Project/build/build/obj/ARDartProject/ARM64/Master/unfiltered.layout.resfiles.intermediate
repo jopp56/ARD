@@ -51,6 +51,8 @@ Data\RuntimeInitializeOnLoads.json
 Data\ScriptingAssemblies.json
 Data\sharedassets0.assets
 Data\sharedassets0.assets.resS
+Data\StreamingAssets\Vuforia\ImagesDart.dat
+Data\StreamingAssets\Vuforia\ImagesDart.xml
 Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json
 Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json
 MicrosoftOpenXRPlugin.dll

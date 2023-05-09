@@ -436,6 +436,7 @@
 -r:"Library/Bee/artifacts/2100b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aP.dag/VuforiaScripts.ref.dll"
+"Assets/test.cs"
 "Assets/VuforiaLicense.cs"
 -langversion:9.0
 

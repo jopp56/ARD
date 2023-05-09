@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Master\AppX</LayoutDir>
-    <RegisteredManifestChecksum>20C79FF56C0428B7F1DE2E7BCB4CCBC04B8BC9CE4875C61EB764161DC83CCA53</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>08EF214CD7546873F38CFCB977F65F06E5DB277E18848F71ABD69C5765BC574D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>Vuforia.Engine.VuforiaEngine_10.15.3.0_arm64__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>Vuforia.Engine.VuforiaEngine_pzq3xp76mxafg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>Vuforia.Engine.VuforiaEngine</RegisteredPackageID>
@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Master\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-04T13:02:04.680</Modified>
+      <Modified>2023-05-08T13:18:31.619</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Master\ARDartProject.exe">
       <PackagePath>ARDartProject.exe</PackagePath>
-      <Modified>2023-05-04T13:02:03.781</Modified>
+      <Modified>2023-05-08T13:18:30.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Master\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
@@ -47,7 +47,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Master\ARDartProject.winmd">
       <PackagePath>ARDartProject.winmd</PackagePath>
-      <Modified>2023-05-04T12:53:51.074</Modified>
+      <Modified>2023-05-08T11:08:25.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
@@ -221,19 +221,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2023-05-04T13:00:16.102</Modified>
+      <Modified>2023-05-08T13:17:19.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\StreamingAssets\Vuforia\ImagesDart.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\ImagesDart.xml</PackagePath>
+      <Modified>2023-05-08T10:50:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2023-05-04T13:00:14.855</Modified>
+      <Modified>2023-05-08T13:17:18.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2023-05-04T13:00:14.119</Modified>
+      <Modified>2023-05-08T13:17:18.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2023-05-04T13:00:12.152</Modified>
+      <Modified>2023-05-08T13:17:17.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -241,43 +245,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2023-05-04T13:00:14.855</Modified>
+      <Modified>2023-05-08T13:17:18.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2023-05-04T13:00:14.237</Modified>
+      <Modified>2023-05-08T13:17:18.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2023-05-04T13:00:14.319</Modified>
+      <Modified>2023-05-08T13:17:18.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2023-05-04T13:00:14.458</Modified>
+      <Modified>2023-05-08T13:17:18.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2023-05-04T13:00:12.152</Modified>
+      <Modified>2023-05-08T13:17:17.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2023-05-04T13:00:14.319</Modified>
+      <Modified>2023-05-08T13:17:18.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2023-05-04T13:00:14.458</Modified>
+      <Modified>2023-05-08T13:17:18.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2023-05-04T13:00:33.639</Modified>
+      <Modified>2023-05-08T13:17:43.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\RuntimeInitializeOnLoads.json">
       <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
-      <Modified>2023-05-04T13:00:11.570</Modified>
+      <Modified>2023-05-08T13:17:17.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\ScriptingAssemblies.json">
       <PackagePath>Data\ScriptingAssemblies.json</PackagePath>
-      <Modified>2023-05-04T13:00:13.902</Modified>
+      <Modified>2023-05-08T13:17:18.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
       <PackagePath>Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json</PackagePath>
@@ -289,15 +293,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2023-05-04T12:46:48.417</Modified>
+      <Modified>2023-05-08T13:17:40.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
-      <Modified>2023-05-04T12:46:33.592</Modified>
+      <Modified>2023-05-08T13:17:29.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2023-05-04T12:46:33.592</Modified>
+      <Modified>2023-05-08T13:17:29.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\Data\StreamingAssets\Vuforia\ImagesDart.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\ImagesDart.dat</PackagePath>
+      <Modified>2023-05-08T10:50:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDartProject\UnityOpenXR.dll">
       <PackagePath>UnityOpenXR.dll</PackagePath>
@@ -317,7 +325,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Master\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2023-05-04T12:53:46.372</Modified>
+      <Modified>2023-05-08T11:08:20.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Master\baselib.dll">
       <PackagePath>baselib.dll</PackagePath>
@@ -325,7 +333,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Master\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-04T13:02:04.403</Modified>
+      <Modified>2023-05-08T13:18:31.380</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
