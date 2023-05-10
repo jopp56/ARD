@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="Dartscheibe3Sized" size="0.450000 0.446933" />
+    <ImageTarget name="DartscheibeOL" size="0.450000 0.600000" />
   </Tracking>
 </QCARConfig>

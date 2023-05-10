@@ -22,7 +22,7 @@ struct VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC;
 // test
 struct test_t6A5BA0843FCCB5B30703C74242A106AB84B5506E;
 
-IL2CPP_EXTERN_C String_t* _stringLiteralA134CD40D7A9FF915E7B78C36F7B516476808140;
+IL2CPP_EXTERN_C String_t* _stringLiteral38BEECAE4FE29AFCDD566ADED0435F58F7842321;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -211,12 +211,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D5
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA134CD40D7A9FF915E7B78C36F7B516476808140);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral38BEECAE4FE29AFCDD566ADED0435F58F7842321);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		// return license;
-		return _stringLiteralA134CD40D7A9FF915E7B78C36F7B516476808140;
+		return _stringLiteral38BEECAE4FE29AFCDD566ADED0435F58F7842321;
 	}
 }
 // System.Void VuforiaLicense::.ctor()
