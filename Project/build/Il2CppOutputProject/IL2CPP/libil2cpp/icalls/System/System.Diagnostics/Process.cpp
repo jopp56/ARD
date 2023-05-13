@@ -1,4 +1,5 @@
 #include "il2cpp-config.h"
+
 #include "icalls/System/System.Diagnostics/Process.h"
 #include "os/Process.h"
 #include "vm/Exception.h"
@@ -14,25 +15,94 @@ namespace System
 {
 namespace Diagnostics
 {
-    bool Process::CreateProcess_internal(Il2CppObject* startInfo, intptr_t _stdin, intptr_t _stdout, intptr_t _stderr, ProcInfo* procInfo)
+    int32_t Process::ExitCode_internal(intptr_t handle)
     {
-        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::CreateProcess_internal);
-
-        return false;
-    }
-
-    bool Process::ShellExecuteEx_internal(Il2CppObject* startInfo, ProcInfo* procInfo)
-    {
-        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::ShellExecuteEx_internal);
-
-        return false;
-    }
-
-    Il2CppArray* Process::GetModules_icall(Il2CppObject* thisPtr, intptr_t handle)
-    {
-        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::GetModules_icall);
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::ExitCode_internal);
 
         return 0;
+    }
+
+    int64_t Process::ExitTime_internal(intptr_t handle)
+    {
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::ExitTime_internal);
+
+        return 0;
+    }
+
+    bool Process::GetWorkingSet_internal(intptr_t handle, int32_t* min, int32_t* max)
+    {
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::GetWorkingSet_internal);
+
+        return false;
+    }
+
+    bool Process::SetWorkingSet_internal(intptr_t handle, int32_t min, int32_t max, bool use_min)
+    {
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::SetWorkingSet_internal);
+
+        return false;
+    }
+
+    Il2CppArray* Process::GetModules_internal(void* /* System.Diagnostics.Process */ self, intptr_t handle)
+    {
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::GetModules_internal);
+
+        return 0;
+    }
+
+    int64_t Process::GetProcessData(int32_t pid, int32_t data_type, int32_t* error)
+    {
+        return os::Process::GetProcessData(pid, data_type, error);
+    }
+
+    int32_t Process::GetPriorityClass(intptr_t handle, int32_t* error)
+    {
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::GetPriorityClass);
+
+        return 0;
+    }
+
+    bool Process::SetPriorityClass(intptr_t handle, int32_t priority, int32_t* error)
+    {
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::SetPriorityClass);
+
+        return false;
+    }
+
+    int64_t Process::Times(intptr_t handle, int32_t type)
+    {
+        os::ProcessHandle *pHandle = (os::ProcessHandle*)handle;
+        return os::Process::Times(pHandle, type);
+    }
+
+    Il2CppString* Process::ProcessName_internal(intptr_t handle)
+    {
+        os::ProcessHandle *pHandle = (os::ProcessHandle*)handle;
+        std::string name = os::Process::GetProcessName(pHandle);
+        return il2cpp::vm::String::New(name.c_str());
+    }
+
+    int64_t Process::StartTime_internal(intptr_t handle)
+    {
+        os::ProcessHandle *pHandle = (os::ProcessHandle*)handle;
+        return os::Process::StartTime(pHandle);
+    }
+
+    bool Process::Kill_internal(intptr_t handle, int32_t signo)
+    {
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::Kill_internal);
+
+        return false;
+    }
+
+    intptr_t Process::GetProcess_internal(int32_t pid)
+    {
+        return reinterpret_cast<intptr_t>(os::Process::GetProcess(pid));
+    }
+
+    int32_t Process::GetPid_internal()
+    {
+        return os::Process::GetCurrentProcessId();
     }
 
     Il2CppArray* Process::GetProcesses_internal()
@@ -42,30 +112,37 @@ namespace Diagnostics
         return 0;
     }
 
-    int64_t Process::GetProcessData(int32_t pid, int32_t data_type, int32_t* error)
+    bool Process::ShellExecuteEx_internal(void* /* System.Diagnostics.ProcessStartInfo */ startInfo, ProcInfo* proc_info)
     {
-        NOT_SUPPORTED_IL2CPP(NativeMethods::GetProcessData, "IL2CPP does not support access to process data");
-        return 0;
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::ShellExecuteEx_internal);
+
+        return false;
     }
 
-    intptr_t Process::GetProcess_internal(int32_t pid)
+    bool Process::CreateProcess_internal(void* /* System.Diagnostics.ProcessStartInfo */ startInfo, intptr_t _stdin, intptr_t _stdout, intptr_t _stderr, ProcInfo* proc_info)
     {
-        auto process = os::Process::GetProcess(pid);
-        vm::Exception::RaiseIfError(process.GetError());
-        return reinterpret_cast<intptr_t>(process.Get());
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::CreateProcess_internal);
+
+        return false;
     }
 
-    Il2CppString* Process::ProcessName_icall(intptr_t handle)
+    bool Process::WaitForExit_internal(void* /* System.Diagnostics.Process */ self, intptr_t handle, int32_t ms)
     {
-        os::ProcessHandle *pHandle = (os::ProcessHandle*)handle;
-        auto name = os::Process::GetProcessName(pHandle);
-        vm::Exception::RaiseIfError(name.GetError());
-        return il2cpp::vm::String::New(name.Get().c_str());
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::WaitForExit_internal);
+
+        return false;
     }
 
-    intptr_t Process::MainWindowHandle_icall(int32_t pid)
+    bool Process::WaitForInputIdle_internal(void* /* System.Diagnostics.Process */ self, intptr_t handle, int32_t ms)
     {
-        return os::Process::GetMainWindowHandle(pid);
+        IL2CPP_NOT_IMPLEMENTED_ICALL(Process::WaitForInputIdle_internal);
+
+        return false;
+    }
+
+    void Process::Process_free_internal(void* /* System.Diagnostics.Process */ self, intptr_t handle)
+    {
+        os::Process::FreeProcess((os::ProcessHandle*)handle);
     }
 } /* namespace Diagnostics */
 } /* namespace System */

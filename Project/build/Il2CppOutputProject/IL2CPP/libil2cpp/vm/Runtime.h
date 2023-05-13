@@ -10,6 +10,7 @@
 #include "vm/Exception.h"
 #include "vm/Class.h"
 #include "vm/MetadataCache.h"
+#include "vm/Method.h"
 #include "utils/StringUtils.h"
 
 struct Il2CppArray;
@@ -47,19 +48,9 @@ namespace vm
         static void ObjectInitException(Il2CppObject* object, Il2CppException **exc);
         static void SetUnhandledExceptionPolicy(Il2CppRuntimeUnhandledExceptionPolicy value);
 
-        static void GetGenericVirtualMethod(const MethodInfo* vtableSlotMethod, const MethodInfo* genericVirtualmethod, VirtualInvokeData* invokeData);
+        static const MethodInfo* GetGenericVirtualMethod(const MethodInfo* vtableSlotMethod, const MethodInfo* genericVirtualMethod);
+        static void RaiseExecutionEngineExceptionIfMethodIsNotFound(const MethodInfo* method);
         static void AlwaysRaiseExecutionEngineException(const MethodInfo* method);
-        static void AlwaysRaiseExecutionEngineExceptionOnVirtualCall(const MethodInfo* method);
-
-        static inline bool IsFullGenericSharingEnabled()
-        {
-            return il2cpp_defaults.il2cpp_fully_shared_type != NULL;
-        }
-
-        static inline bool IsLazyRGCTXInflationEnabled()
-        {
-            return il2cpp_defaults.il2cpp_fully_shared_type != NULL;
-        }
 
     public:
         // internal
@@ -73,22 +64,26 @@ namespace vm
         static int32_t GetExitCode();
         static void SetExitCode(int32_t value);
 
-        static InvokerMethod GetMissingMethodInvoker();
-        static void RaiseAmbiguousImplementationException(const MethodInfo* method);
-        static void RaiseExecutionEngineException(const MethodInfo* method, bool virtualCall);
-        static void RaiseExecutionEngineException(const MethodInfo* method, const char* methodFullName, bool virtualCall);
-
-#if IL2CPP_TINY
-        static void FailFast(const std::string& message);
-#endif
-
     private:
         static void CallUnhandledExceptionDelegate(Il2CppDomain* domain, Il2CppDelegate* delegate, Il2CppException* exc);
         static Il2CppObject* CreateUnhandledExceptionEventArgs(Il2CppException* exc);
 
         static void VerifyApiVersion();
 
-        static void RaiseExecutionEngineExceptionIfGenericVirtualMethodIsNotFound(const MethodInfo* method, const Il2CppGenericMethod* genericMethod, const MethodInfo* infaltedMethod);
+        static inline void RaiseExecutionEngineExceptionIfMethodIsNotFound(const MethodInfo* method, const Il2CppGenericMethod* genericMethod)
+        {
+            if (method->methodPointer == NULL)
+            {
+                if (genericMethod != NULL)
+                    RaiseExecutionEngineException(metadata::GenericMethod::GetFullName(genericMethod).c_str());
+                RaiseExecutionEngineException(vm::Method::GetFullName(method).c_str());
+            }
+        }
+
+        static inline void RaiseExecutionEngineException(const char* methodFullName)
+        {
+            Exception::Raise(Exception::GetExecutionEngineException(utils::StringUtils::Printf("Attempting to call method '%s' for which no ahead of time (AOT) code was generated.", methodFullName).c_str()));
+        }
     };
 } /* namespace vm */
 } /* namespace il2cpp */

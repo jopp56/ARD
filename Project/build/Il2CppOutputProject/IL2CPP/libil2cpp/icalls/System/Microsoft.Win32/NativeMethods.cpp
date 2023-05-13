@@ -2,7 +2,6 @@
 #include "NativeMethods.h"
 #include "os/NativeMethods.h"
 #include "os/Process.h"
-#include "vm/Exception.h"
 
 namespace il2cpp
 {
@@ -21,38 +20,41 @@ namespace Win32
 
     bool NativeMethods::GetExitCodeProcess(intptr_t processHandle, int32_t* exitCode)
     {
-        auto result = os::NativeMethods::GetExitCodeProcess((il2cpp::os::ProcessHandle*)processHandle, exitCode);
-        vm::Exception::RaiseIfError(result.GetError());
-        return result.Get();
+        return os::NativeMethods::GetExitCodeProcess((il2cpp::os::ProcessHandle*)processHandle, exitCode);
     }
 
     bool NativeMethods::GetProcessTimes(intptr_t handle, int64_t* creation, int64_t* exit, int64_t* kernel, int64_t* user)
     {
-        NOT_SUPPORTED_IL2CPP(NativeMethods::SetPriorityClass, "IL2CPP does not support process times");
+        IL2CPP_NOT_IMPLEMENTED_ICALL(NativeMethods::GetProcessTimes);
+        IL2CPP_UNREACHABLE;
         return false;
     }
 
     bool NativeMethods::GetProcessWorkingSetSize(intptr_t handle, intptr_t* min, intptr_t* max)
     {
-        NOT_SUPPORTED_IL2CPP(NativeMethods::SetPriorityClass, "IL2CPP does not support process working set size");
+        IL2CPP_NOT_IMPLEMENTED_ICALL(NativeMethods::GetProcessWorkingSetSize);
+        IL2CPP_UNREACHABLE;
         return false;
     }
 
     bool NativeMethods::SetPriorityClass(intptr_t handle, int32_t priorityClass)
     {
-        NOT_SUPPORTED_IL2CPP(NativeMethods::SetPriorityClass, "IL2CPP does not support process priority");
+        IL2CPP_NOT_IMPLEMENTED_ICALL(NativeMethods::SetPriorityClass);
+        IL2CPP_UNREACHABLE;
         return false;
     }
 
     bool NativeMethods::SetProcessWorkingSetSize(intptr_t handle, intptr_t min, intptr_t max)
     {
-        NOT_SUPPORTED_IL2CPP(NativeMethods::SetPriorityClass, "IL2CPP does not support process working set size");
+        IL2CPP_NOT_IMPLEMENTED_ICALL(NativeMethods::SetProcessWorkingSetSize);
+        IL2CPP_UNREACHABLE;
         return false;
     }
 
     bool NativeMethods::TerminateProcess(intptr_t processHandle, int32_t exitCode)
     {
-        NOT_SUPPORTED_IL2CPP(NativeMethods::SetPriorityClass, "IL2CPP does not support process termination");
+        IL2CPP_NOT_IMPLEMENTED_ICALL(NativeMethods::TerminateProcess);
+        IL2CPP_UNREACHABLE;
         return false;
     }
 
@@ -63,21 +65,21 @@ namespace Win32
 
     int32_t NativeMethods::GetPriorityClass(intptr_t handle)
     {
-        NOT_SUPPORTED_IL2CPP(NativeMethods::GetPriorityClass, "IL2CPP does not support process priority");
+        IL2CPP_NOT_IMPLEMENTED_ICALL(NativeMethods::GetPriorityClass);
+        IL2CPP_UNREACHABLE;
         return 0;
     }
 
     int32_t NativeMethods::WaitForInputIdle(intptr_t handle, int32_t milliseconds)
     {
-        NOT_SUPPORTED_IL2CPP(NativeMethods::GetPriorityClass, "IL2CPP does not support waiting for input idle for a process");
+        IL2CPP_NOT_IMPLEMENTED_ICALL(NativeMethods::WaitForInputIdle);
+        IL2CPP_UNREACHABLE;
         return 0;
     }
 
     intptr_t NativeMethods::GetCurrentProcess()
     {
-        auto currentProcess = os::NativeMethods::GetCurrentProcess();
-        vm::Exception::RaiseIfError(currentProcess.GetError());
-        return reinterpret_cast<intptr_t>(currentProcess.Get());
+        return reinterpret_cast<intptr_t>(os::NativeMethods::GetCurrentProcess());
     }
 } // namespace Win32
 } // namespace Microsoft

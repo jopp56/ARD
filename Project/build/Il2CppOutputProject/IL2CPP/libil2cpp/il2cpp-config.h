@@ -10,6 +10,10 @@
 
 #include "il2cpp-sanitizers.h"
 
+#ifndef IL2CPP_EXCEPTION_DISABLED
+#define IL2CPP_EXCEPTION_DISABLED 0
+#endif
+
 #ifdef LIBIL2CPP_EXPORT_CODEGEN_API
 # define LIBIL2CPP_CODEGEN_API IL2CPP_EXPORT
 #elif LIBIL2CPP_IMPORT_CODEGEN_API
@@ -35,7 +39,6 @@
 #endif
 
 typedef void (STDCALL *SynchronizationContextCallback)(intptr_t arg);
-typedef void (STDCALL *CultureInfoChangedCallback)(const Il2CppChar* arg);
 
 #if defined(__cplusplus)
 #define IL2CPP_EXTERN_C extern "C"
@@ -126,7 +129,7 @@ typedef void (STDCALL *CultureInfoChangedCallback)(const Il2CppChar* arg);
 #endif
 
 #if IL2CPP_TINY
-    #if IL2CPP_TINY_DEBUG_METADATA || IL2CPP_TINY_DEBUGGER
+    #if IL2CPP_TINY_DEBUG_METADATA
         #define IL2CPP_ENABLE_STACKTRACES 1
     #else
         #define IL2CPP_ENABLE_STACKTRACES 0
@@ -245,6 +248,11 @@ static const uint16_t kInvalidIl2CppMethodSlot = 65535;
 #define RUNTIMEMESSAGE(name)    __FILE_UTF8__ "(" $Line ") : FIXME: Missing runtime implementation: " name
 #define NOTSUPPORTEDICALLMESSAGE(target, name, reason)  __FILE_UTF8__ "(" $Line ") : Unsupported internal call for " target ":" name " - " reason
 
+#ifndef IL2CPP_DEFAULT_DATA_DIR_PATH
+#define IL2CPP_DEFAULT_DATA_DIR_PATH Data
+#endif
+
+#define IL2CPP_DEFAULT_DATA_DIR_PATH_STR MAKE_STRING(STRINGIZE, IL2CPP_DEFAULT_DATA_DIR_PATH)
 
 // Keeping this for future usage if needed.
 //#if defined(_MSC_VER)
@@ -361,15 +369,11 @@ static const uint16_t kInvalidIl2CppMethodSlot = 65535;
 #define IL2CPP_USE_GENERIC_PROCESS !IL2CPP_TARGET_LUMIN
 #endif
 
-#ifndef IL2CPP_USE_GENERIC_THREAD
-#define IL2CPP_USE_GENERIC_THREAD (!IL2CPP_TARGET_WINDOWS && !IL2CPP_TARGET_POSIX && !IL2CPP_TARGET_DARWIN)
-#endif
-
 #define IL2CPP_SIZEOF_STRUCT_WITH_NO_INSTANCE_FIELDS 1
 #define IL2CPP_VALIDATE_FIELD_LAYOUT 0
 
 #ifndef IL2CPP_USE_POSIX_COND_TIMEDWAIT_REL
-#define IL2CPP_USE_POSIX_COND_TIMEDWAIT_REL ( IL2CPP_TARGET_DARWIN || IL2CPP_TARGET_PSP2 || ( IL2CPP_TARGET_ANDROID && __ANDROID_API__ < 21 ) )
+#define IL2CPP_USE_POSIX_COND_TIMEDWAIT_REL ( IL2CPP_TARGET_DARWIN || IL2CPP_TARGET_PSP2 || ( IL2CPP_TARGET_ANDROID && !IL2CPP_TARGET_ARM64 && !__x86_64__ ) )
 #endif
 
 #if IL2CPP_MONO_DEBUGGER
@@ -515,7 +519,7 @@ static const Il2CppChar kIl2CppNewLine[] = { '\r', '\n', '\0' };
 static const Il2CppChar kIl2CppNewLine[] = { '\n', '\0' };
 #endif
 
-#define MAXIMUM_NESTED_GENERICS_EXCEPTION_MESSAGE "IL2CPP encountered a managed type which it cannot convert ahead-of-time. The type uses generic or array types which are nested beyond the maximum depth which can be converted.   Consider increasing the --maximum-recursive-generic-depth=%d argument"
+#define MAXIMUM_NESTED_GENERICS_EXCEPTION_MESSAGE "IL2CPP encountered a managed type which it cannot convert ahead-of-time. The type uses generic or array types which are nested beyond the maximum depth which can be converted."
 #if IL2CPP_COMPILER_MSVC
 #define IL2CPP_ATTRIBUTE_WEAK
 #else
@@ -570,8 +574,4 @@ char(*il2cpp_array_size_helper(Type(&array)[Size]))[Size];
 #define IL2CPP_ASSERT(expr) (expr) ? void(0) : il2cpp_assert(#expr, __FILE__, __LINE__))
 #endif
 extern void il2cpp_assert(const char* assertion, const char* file, unsigned int line);
-#endif
-
-#if !defined(IL2CPP_SUPPORTS_BROKERED_FILESYSTEM)
-#define IL2CPP_SUPPORTS_BROKERED_FILESYSTEM IL2CPP_TARGET_WINRT
 #endif

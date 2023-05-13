@@ -1,19 +1,18 @@
-#include "il2cpp-class-internals.h"
 #include "il2cpp-config.h"
-#include "il2cpp-object-internals.h"
-#include "il2cpp-tabledefs.h"
-#include "mono-structs.h"
-#include "gc/WriteBarrier.h"
-#include "utils/StringUtils.h"
-#include "vm/Array.h"
 #include "vm/AssemblyName.h"
-#include "vm/Class.h"
 #include "vm/MetadataCache.h"
-#include "vm/Object.h"
-#include "vm/Reflection.h"
 #include "vm/Runtime.h"
-#include "vm/String.h"
+#include "il2cpp-tabledefs.h"
+#include "il2cpp-class-internals.h"
+#include "vm/Array.h"
+#include "il2cpp-object-internals.h"
+#include "vm/Reflection.h"
 #include "vm/Type.h"
+#include "vm/Object.h"
+#include "utils/StringUtils.h"
+#include "vm/String.h"
+#include "vm/Class.h"
+#include "mono-structs.h"
 
 #include <vector>
 #include <string>
@@ -161,22 +160,21 @@ namespace vm
 
     void AssemblyName::AssemblyNameReportChunked(const Il2CppAssemblyName& aname, void(*chunkReportFunction)(void* data, void* userData), void* userData)
     {
-        const size_t bufferSize = 1024;
-        char buffer[bufferSize];
+        char buffer[1024];
         const char* literalPtr = NULL;
 
         chunkReportFunction(const_cast<char*>(aname.name), userData);
         literalPtr = ", Version=";
         chunkReportFunction(const_cast<char*>(literalPtr), userData);
-        snprintf(buffer, bufferSize, "%d%s", aname.major, ".");
+        sprintf(buffer, "%d%s", aname.major, ".");
         chunkReportFunction(buffer, userData);
-        snprintf(buffer, bufferSize, "%d%s", aname.minor, ".");
+        sprintf(buffer, "%d%s", aname.minor, ".");
         chunkReportFunction(buffer, userData);
-        snprintf(buffer, bufferSize, "%d%s", aname.build, ".");
+        sprintf(buffer, "%d%s", aname.build, ".");
         chunkReportFunction(buffer, userData);
-        snprintf(buffer, bufferSize, "%d", aname.build);
+        sprintf(buffer, "%d", aname.build);
         chunkReportFunction(buffer, userData);
-        snprintf(buffer, bufferSize, "%d", aname.revision);
+        sprintf(buffer, "%d", aname.revision);
         chunkReportFunction(buffer, userData);
         literalPtr = ", Culture=";
         chunkReportFunction(const_cast<char*>(literalPtr), userData);
@@ -204,21 +202,20 @@ namespace vm
     {
         std::string name;
 
-        const size_t bufferSize = 1024;
-        char buffer[bufferSize];
+        char buffer[1024];
 
         name += aname.name;
         name += ", Version=";
-        snprintf(buffer, bufferSize, "%d", aname.major);
+        sprintf(buffer, "%d", aname.major);
         name += buffer;
         name += ".";
-        snprintf(buffer, bufferSize, "%d", aname.minor);
+        sprintf(buffer, "%d", aname.minor);
         name += buffer;
         name += ".";
-        snprintf(buffer, bufferSize, "%d", aname.build);
+        sprintf(buffer, "%d", aname.build);
         name += buffer;
         name += ".";
-        snprintf(buffer, bufferSize, "%d", aname.revision);
+        sprintf(buffer, "%d", aname.revision);
         name += buffer;
         name += ", Culture=";
         const char* culture = NULL;

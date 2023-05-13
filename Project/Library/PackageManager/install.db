@@ -1,6 +1,14 @@
 {
   "schemaVersion": 1,
   "packages": {
+    "com.ptc.vuforia.engine": {
+      "tarball": {
+        "hash": "c4d4273eb1b9",
+        "mtime": 1683725650000,
+        "size": 139841647,
+        "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\com.ptc.vuforia.engine-10.15.4.tgz"
+      }
+    },
     "com.microsoft.mixedreality.openxr": {
       "tarball": {
         "hash": "dfc0305df3e4",
@@ -23,14 +31,6 @@
         "mtime": 1682419791720,
         "size": 5328617,
         "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.standardassets-2.8.3.tgz"
-      }
-    },
-    "com.ptc.vuforia.engine": {
-      "tarball": {
-        "hash": "53e25388be25",
-        "mtime": 1682431924000,
-        "size": 139840968,
-        "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\com.ptc.vuforia.engine-10.15.3.tgz"
       }
     }
   }

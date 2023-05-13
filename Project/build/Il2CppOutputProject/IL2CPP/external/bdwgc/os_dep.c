@@ -2056,9 +2056,6 @@ void GC_register_data_segments(void)
           if ((word)DATASTART < (word)p)
             GC_add_roots_inner(DATASTART, p, FALSE);
         }
-#     elif defined(HOST_ANDROID) && !defined(DYNAMIC_LOADING) && defined(GC_DONT_REGISTER_MAIN_STATIC_DATA)
-        /* avoid even referencing DATASTART & DATAEND as they are       */
-        /* unnecessary and cause linker errors when bitcode is enabled  */
 #     else
         if ((word)DATASTART - 1U >= (word)DATAEND) {
                                 /* Subtract one to check also for NULL  */
@@ -2812,7 +2809,7 @@ void GC_reset_default_push_other_roots(void)
 #endif
 }
 
-GC_mark_stack_empty_proc GC_on_mark_stack_empty;
+GC_push_other_roots_proc GC_on_mark_stack_empty;
 
 GC_API void GC_CALL GC_set_mark_stack_empty (GC_mark_stack_empty_proc fn)
 {

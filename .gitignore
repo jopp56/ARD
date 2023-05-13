@@ -72,7 +72,10 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 #Vuforia Engine(too big)
-*com.ptc.vuforia.engine-10.15.3.tgz
+*com.ptc.vuforia.engine-10.15.4.tgz
 
 #Broken MRTK File
 ar-tracked-image-NPoT-texture-settings.png
+
+#artifact db file too big
+Library/ArtifactDB

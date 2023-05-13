@@ -49,7 +49,7 @@ namespace System
         return -1;
     }
 
-    bool Buffer::InternalBlockCopy(Il2CppArray* src, int32_t srcOffsetBytes, Il2CppArray* dest, int32_t dstOffsetBytes, int32_t count)
+    bool Buffer::BlockCopyInternal(Il2CppArray * src, int src_offset, Il2CppArray * dest, int dest_offset, int count)
     {
         IL2CPP_CHECK_ARG_NULL(src);
         IL2CPP_CHECK_ARG_NULL(dest);
@@ -57,11 +57,11 @@ namespace System
         // Watch out for integer overflow and note that these array byte "lengths" can be -1 (to indicate a failure).
         int32_t srcLength = ArrayOfPrimitivesByteLength(src);
         int32_t dstLength = ArrayOfPrimitivesByteLength(dest);
-        if ((srcOffsetBytes > (srcLength - count)) || (dstOffsetBytes > (dstLength - count)))
+        if (((int32_t)src_offset > (srcLength - count)) || ((int32_t)dest_offset > (dstLength - count)))
             return false;
 
-        char* src_buf = ((char*)il2cpp_array_addr_with_size(src, Class::GetInstanceSize(src->klass->element_class), 0)) + srcOffsetBytes;
-        char* dest_buf = ((char*)il2cpp_array_addr_with_size(dest, Class::GetInstanceSize(dest->klass->element_class), 0)) + dstOffsetBytes;
+        char *src_buf = ((char*)il2cpp_array_addr_with_size(src, Class::GetInstanceSize(src->klass->element_class), 0)) + src_offset;
+        char *dest_buf = ((char*)il2cpp_array_addr_with_size(dest, Class::GetInstanceSize(dest->klass->element_class), 0)) + dest_offset;
 
         if (src != dest)
             memcpy(dest_buf, src_buf, count);
@@ -69,6 +69,31 @@ namespace System
             memmove(dest_buf, src_buf, count); /* Source and dest are the same array */
 
         return true;
+    }
+
+    int32_t Buffer::ByteLengthInternal(Il2CppArray* arr)
+    {
+        return il2cpp::vm::Array::GetByteLength(arr);
+    }
+
+    uint8_t Buffer::GetByteInternal(Il2CppArray* arr, int idx)
+    {
+        return il2cpp_array_get(arr, uint8_t, idx);
+    }
+
+    void Buffer::SetByteInternal(Il2CppArray* arr, int idx, int value)
+    {
+        il2cpp_array_set(arr, uint8_t, idx, value);
+    }
+
+    uint8_t Buffer::_GetByte(Il2CppArray* array, int32_t index)
+    {
+        return GetByteInternal(array, index);
+    }
+
+    bool Buffer::InternalBlockCopy(Il2CppArray* src, int32_t srcOffsetBytes, Il2CppArray* dst, int32_t dstOffsetBytes, int32_t byteCount)
+    {
+        return BlockCopyInternal(src, srcOffsetBytes, dst, dstOffsetBytes, byteCount);
     }
 
     // This function should return -1 is the array element type is not a primitive type.
@@ -79,9 +104,9 @@ namespace System
         return ArrayOfPrimitivesByteLength(array);
     }
 
-    void Buffer::InternalMemcpy(uint8_t* dest, uint8_t* src, int32_t count)
+    void Buffer::_SetByte(Il2CppArray* array, int32_t index, uint8_t value)
     {
-        memcpy(dest, src, count);
+        SetByteInternal(array, index, value);
     }
 } /* namespace System */
 } /* namespace mscorlib */

@@ -167,7 +167,7 @@ namespace vm
         if (definition == NULL)
         {
             if (throwOnError)
-                vm::Exception::Raise(vm::Exception::GetMaximumNestedGenericsException());
+                vm::Exception::Raise(vm::Exception::GetMaxmimumNestedGenericsException());
             return NULL;
         }
 
@@ -198,7 +198,6 @@ namespace vm
             klass->this_arg.type = klass->byval_arg.type = IL2CPP_TYPE_GENERICINST;
             klass->this_arg.data.generic_class = klass->byval_arg.data.generic_class = gclass;
             klass->this_arg.byref = true;
-            klass->byval_arg.valuetype = genericTypeDefinition->byval_arg.valuetype;
 
             klass->event_count = definition->event_count;
             klass->field_count = definition->field_count;
@@ -207,21 +206,17 @@ namespace vm
             klass->property_count = definition->property_count;
 
             klass->enumtype = definition->enumtype;
+            klass->valuetype = definition->valuetype;
             klass->element_class = klass->castClass = klass;
 
             klass->has_cctor = definition->has_cctor;
-            klass->cctor_finished_or_no_cctor = !definition->has_cctor;
-
             klass->has_finalize = definition->has_finalize;
             klass->native_size = klass->thread_static_fields_offset = -1;
             klass->token = definition->token;
             klass->interopData = MetadataCache::GetInteropDataForType(&klass->byval_arg);
 
-            if (GenericClass::GetTypeDefinition(klass->generic_class) == il2cpp_defaults.generic_nullable_class)
-            {
-                klass->element_class = klass->castClass = Class::FromIl2CppType(klass->generic_class->context.class_inst->type_argv[0]);
-                klass->nullabletype = true;
-            }
+            if (Class::IsNullable(klass))
+                klass->element_class = klass->castClass  = Class::GetNullableArgument(klass);
 
             if (klass->enumtype)
                 klass->element_class = klass->castClass = definition->element_class;
@@ -253,7 +248,7 @@ namespace vm
 
     bool GenericClass::IsValueType(Il2CppGenericClass *gclass)
     {
-        return GetTypeDefinition(gclass)->byval_arg.valuetype;
+        return GetTypeDefinition(gclass)->valuetype;
     }
 } /* namespace vm */
 } /* namespace il2cpp */

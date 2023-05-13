@@ -13,19 +13,20 @@
 
 
 // 0x00000001 System.Boolean UnityEngine.ImageConversion::LoadImage(UnityEngine.Texture2D,System.Byte[],System.Boolean)
-extern void ImageConversion_LoadImage_m292ADCEED268A0A0AAD532BAB8D1710CF0FC8AEF (void);
+extern void ImageConversion_LoadImage_m43087185337C14708DC3CAFD02C4E0D92278AC15 (void);
 // 0x00000002 System.Boolean UnityEngine.ImageConversion::LoadImage(UnityEngine.Texture2D,System.Byte[])
-extern void ImageConversion_LoadImage_m1797365F78319B68638DE8BB02836F8D60760041 (void);
+extern void ImageConversion_LoadImage_m5DB6AFC9E2157EB82985C340A8D32D15CE6E4B43 (void);
 static Il2CppMethodPointer s_methodPointers[2] = 
 {
-	ImageConversion_LoadImage_m292ADCEED268A0A0AAD532BAB8D1710CF0FC8AEF,
-	ImageConversion_LoadImage_m1797365F78319B68638DE8BB02836F8D60760041,
+	ImageConversion_LoadImage_m43087185337C14708DC3CAFD02C4E0D92278AC15,
+	ImageConversion_LoadImage_m5DB6AFC9E2157EB82985C340A8D32D15CE6E4B43,
 };
 static const int32_t s_InvokerIndices[2] = 
 {
-	9964,
-	10668,
+	8078,
+	8582,
 };
+extern const CustomAttributesCacheGenerator g_UnityEngine_ImageConversionModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_ImageConversionModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_ImageConversionModule_CodeGenModule = 
 {
@@ -42,6 +43,7 @@ const Il2CppCodeGenModule g_UnityEngine_ImageConversionModule_CodeGenModule =
 	0,
 	NULL,
 	NULL,
+	g_UnityEngine_ImageConversionModule_AttributeGenerators,
 	NULL, // module initializer,
 	NULL,
 	NULL,
