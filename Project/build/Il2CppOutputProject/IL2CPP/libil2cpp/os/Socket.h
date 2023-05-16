@@ -9,6 +9,7 @@
 #include "os/Atomic.h"
 #include "os/Mutex.h"
 #include "os/WaitStatus.h"
+#include "utils/Expected.h"
 #include "utils/NonCopyable.h"
 
 namespace il2cpp
@@ -270,11 +271,6 @@ namespace os
 // cleaning up the temporarely allocated memory (if any).
     typedef bool (*ThreadStatusCallback)();
 
-/// Sockets should generally be referenced through SocketHandles for thread-safety.
-/// Handles are stored in a table and can be safely used even when the socket has already
-/// been deleted.
-    typedef intptr_t SocketHandle;
-
     class Socket : public il2cpp::utils::NonCopyable
     {
     public:
@@ -300,11 +296,11 @@ namespace os
         WaitStatus Bind(const char *path);
         WaitStatus Bind(uint32_t address, uint16_t port);
         WaitStatus Bind(const char *address, uint16_t port);
-        WaitStatus Bind(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port);
+        utils::Expected<WaitStatus> Bind(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port);
 
         WaitStatus Connect(const char *path);
         WaitStatus Connect(uint32_t address, uint16_t port);
-        WaitStatus Connect(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port);
+        utils::Expected<WaitStatus> Connect(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port);
 
         WaitStatus Disconnect(bool reuse);
         WaitStatus Shutdown(int32_t how);
@@ -319,12 +315,12 @@ namespace os
         WaitStatus ReceiveArray(WSABuf *wsabufs, int32_t count, int32_t *len, SocketFlags c_flags);
 
         WaitStatus SendTo(uint32_t address, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len);
-        WaitStatus SendTo(const char *path, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len);
-        WaitStatus SendTo(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len);
+        utils::Expected<WaitStatus> SendTo(const char *path, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len);
+        utils::Expected<WaitStatus> SendTo(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len);
 
         WaitStatus RecvFrom(uint32_t address, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len, os::EndPointInfo &ep);
-        WaitStatus RecvFrom(const char *path, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len, os::EndPointInfo &ep);
-        WaitStatus RecvFrom(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len, os::EndPointInfo &ep);
+        utils::Expected<WaitStatus> RecvFrom(const char *path, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len, os::EndPointInfo &ep);
+        utils::Expected<WaitStatus> RecvFrom(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len, os::EndPointInfo &ep);
 
         WaitStatus Available(int32_t *amount);
 
@@ -365,20 +361,21 @@ namespace os
 
     private:
         SocketImpl* m_Socket;
-
-        friend Socket* AcquireSocketHandle(SocketHandle handle);
-        friend void ReleaseSocketHandle(SocketHandle handle, Socket* socketToRelease, bool forceTableRemove);
-        uint32_t m_RefCount;
     };
+
+/// Sockets should generally be referenced through SocketHandles for thread-safety.
+/// Handles are stored in a table and can be safely used even when the socket has already
+/// been deleted.
+    typedef uint32_t SocketHandle;
 
     enum
     {
-        kInvalidSocketHandle = -1
+        kInvalidSocketHandle = 0
     };
 
     SocketHandle CreateSocketHandle(Socket* socket);
     Socket* AcquireSocketHandle(SocketHandle handle);
-    void ReleaseSocketHandle(SocketHandle handle, Socket* socketToRelease, bool forceTableRemove = false);
+    void ReleaseSocketHandle(SocketHandle handle);
 
     inline SocketHandle PointerToSocketHandle(void* ptr)
     {
@@ -422,7 +419,7 @@ namespace os
         void Release()
         {
             if (m_Socket)
-                ReleaseSocketHandle(m_Handle, m_Socket);
+                ReleaseSocketHandle(m_Handle);
             m_Socket = NULL;
             m_Handle = kInvalidSocketHandle;
         }

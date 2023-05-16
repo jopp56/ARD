@@ -18,6 +18,7 @@ IL2CPP_EXTERN_C const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[];
 IL2CPP_EXTERN_C const InvokerMethod g_Il2CppInvokerPointers[];
 IL2CPP_EXTERN_C const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[];
 IL2CPP_EXTERN_C Il2CppInteropData g_Il2CppInteropData[];
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_CJK_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_MidEast_CodeGenModule;
@@ -78,7 +79,8 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpatialTracking_CodeGenM
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpriteShapeModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreFontEngineModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreTextEngineModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TilemapModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIElementsModule_CodeGenModule;
@@ -104,10 +106,12 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_VuforiaScripts_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Vuforia_Unity_Engine_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Vuforia_Unity_Wrapper_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[87] = 
+const Il2CppCodeGenModule* g_CodeGenModules[90] = 
 {
+	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_I18N_CJK_CodeGenModule),
 	(&g_I18N_CodeGenModule),
 	(&g_I18N_MidEast_CodeGenModule),
@@ -168,7 +172,8 @@ const Il2CppCodeGenModule* g_CodeGenModules[87] =
 	(&g_UnityEngine_SpriteShapeModule_CodeGenModule),
 	(&g_UnityEngine_SubsystemsModule_CodeGenModule),
 	(&g_UnityEngine_TerrainModule_CodeGenModule),
-	(&g_UnityEngine_TextCoreModule_CodeGenModule),
+	(&g_UnityEngine_TextCoreFontEngineModule_CodeGenModule),
+	(&g_UnityEngine_TextCoreTextEngineModule_CodeGenModule),
 	(&g_UnityEngine_TextRenderingModule_CodeGenModule),
 	(&g_UnityEngine_TilemapModule_CodeGenModule),
 	(&g_UnityEngine_UIElementsModule_CodeGenModule),
@@ -194,25 +199,26 @@ const Il2CppCodeGenModule* g_CodeGenModules[87] =
 	(&g_Vuforia_Unity_Engine_CodeGenModule),
 	(&g_Vuforia_Unity_Wrapper_CodeGenModule),
 	(&g_WindowsRuntimeMetadata_CodeGenModule),
+	(&g___Generated_CodeGenModule),
 	(&g_mscorlib_CodeGenModule),
 };
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	22,
+	32,
 	g_ReversePInvokeWrapperPointers,
-	65048,
+	88179,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	9997,
+	13190,
 	g_Il2CppInvokerPointers,
-	2508,
+	3376,
 	g_UnresolvedVirtualMethodPointers,
-	10498,
+	12894,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	87,
+	90,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
@@ -220,6 +226,7 @@ static const Il2CppCodeGenOptions s_Il2CppCodeGenOptions =
 {
 	true,
 	7,
+	1,
 };
 void s_Il2CppCodegenRegistration()
 {

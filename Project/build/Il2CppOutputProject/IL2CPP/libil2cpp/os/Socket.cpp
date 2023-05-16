@@ -7,6 +7,7 @@
 #include "os/Socket.h"
 #include "os/Atomic.h"
 #include "os/Mutex.h"
+#include "utils/Expected.h"
 
 #include "Baselib.h"
 #include "Cpp/ReentrantLock.h"
@@ -26,28 +27,32 @@ namespace il2cpp
 {
 namespace os
 {
-    typedef std::map<SocketHandle, Socket&> SocketHandleTable;
+    struct SocketHandleEntry
+    {
+        Socket* m_Socket;
+        uint32_t m_RefCount;
+    };
 
+    typedef std::map<SocketHandle, SocketHandleEntry> SocketHandleTable;
+
+    SocketHandle g_LastSocketHandle;
     baselib::ReentrantLock g_SocketHandleTableMutex;
     SocketHandleTable g_SocketHandleTable;
 
     SocketHandle CreateSocketHandle(Socket* socket)
     {
-        // Get the handle from the socket file descripter.
-        SocketHandle newHandle = (SocketHandle)socket->GetDescriptor();
+        // Allocate handle.
+        SocketHandle newHandle = Atomic::Increment(&g_LastSocketHandle);
 
-        // If the descripter is invalid we revert to the old method
-        if (newHandle == kInvalidSocketHandle)
-        {
-            IL2CPP_ASSERT(0 && "Attempted to get an invalid socket handle. Should not be in this method.");
-            return kInvalidSocketHandle;
-        }
+        // Populate entry.
+        SocketHandleEntry handleEntry;
+        handleEntry.m_Socket = socket;
+        handleEntry.m_RefCount = 1;
 
         // Add to table.
         {
             FastAutoLock lock(&g_SocketHandleTableMutex);
-            auto insertRes = g_SocketHandleTable.insert(SocketHandleTable::value_type(newHandle, *socket));
-            IL2CPP_ASSERT(insertRes.second && "Attempted to add a handle to the map that was already there.");
+            g_SocketHandleTable.insert(SocketHandleTable::value_type(newHandle, handleEntry));
         }
 
         return newHandle;
@@ -66,40 +71,35 @@ namespace os
             return NULL;
 
         // Increase reference count.
-        Socket& socket = iter->second;
-        ++socket.m_RefCount;
+        SocketHandleEntry& entry = iter->second;
+        ++entry.m_RefCount;
 
-        return &socket;
+        return entry.m_Socket;
     }
 
-    void ReleaseSocketHandle(SocketHandle handle, Socket* socketToRelease, bool forceTableRemove)
+    void ReleaseSocketHandle(SocketHandle handle)
     {
-        if (handle == kInvalidSocketHandle || !socketToRelease)
-        {
-            IL2CPP_ASSERT(0 && "Invalid argument in ReleaseSocketHandle");
+        if (handle == kInvalidSocketHandle)
             return;
-        }
 
         Socket* socketToDelete = NULL;
         {
             FastAutoLock lock(&g_SocketHandleTableMutex);
 
-            IL2CPP_ASSERT(socketToRelease->m_RefCount && "Invalid ref count for Socket");
-            --socketToRelease->m_RefCount;
-
             // Look up in table.
             SocketHandleTable::iterator iter = g_SocketHandleTable.find(handle);
-            if (iter != g_SocketHandleTable.end() &&
-                ((socketToRelease == &iter->second && !socketToRelease->m_RefCount) || forceTableRemove))
-            {
-                g_SocketHandleTable.erase(iter);
-            }
+            if (iter == g_SocketHandleTable.end())
+                return;
 
-            if (!socketToRelease->m_RefCount)
+            // Decrease reference count.
+            SocketHandleEntry& entry = iter->second;
+            --entry.m_RefCount;
+            if (!entry.m_RefCount)
             {
                 // Kill socket. Should be the only place where we directly delete sockets that
                 // have made it past the creation step.
-                socketToDelete = socketToRelease;
+                socketToDelete = entry.m_Socket;
+                g_SocketHandleTable.erase(iter);
             }
         }
 
@@ -140,7 +140,7 @@ namespace os
     }
 
     Socket::Socket(ThreadStatusCallback thread_status_callback)
-        : m_Socket(new SocketImpl(thread_status_callback)), m_RefCount(1)
+        : m_Socket(new SocketImpl(thread_status_callback))
     {
     }
 
@@ -206,7 +206,7 @@ namespace os
         return m_Socket->Bind(address, port);
     }
 
-    WaitStatus Socket::Bind(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port)
+    utils::Expected<WaitStatus> Socket::Bind(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port)
     {
         return m_Socket->Bind(address, scope, port);
     }
@@ -221,7 +221,7 @@ namespace os
         return m_Socket->Connect(address, port);
     }
 
-    WaitStatus Socket::Connect(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port)
+    utils::Expected<WaitStatus> Socket::Connect(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port)
     {
         return m_Socket->Connect(address, scope, port);
     }
@@ -281,12 +281,12 @@ namespace os
         return m_Socket->SendTo(address, port, data, count, flags, len);
     }
 
-    WaitStatus Socket::SendTo(const char *path, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len)
+    utils::Expected<WaitStatus> Socket::SendTo(const char *path, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len)
     {
         return m_Socket->SendTo(path, data, count, flags, len);
     }
 
-    WaitStatus Socket::SendTo(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len)
+    utils::Expected<WaitStatus> Socket::SendTo(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len)
     {
         return m_Socket->SendTo(address, scope, port, data, count, flags, len);
     }
@@ -296,12 +296,12 @@ namespace os
         return m_Socket->RecvFrom(address, port, data, count, flags, len, ep);
     }
 
-    WaitStatus Socket::RecvFrom(const char *path, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len, os::EndPointInfo &ep)
+    utils::Expected<WaitStatus> Socket::RecvFrom(const char *path, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len, os::EndPointInfo &ep)
     {
         return m_Socket->RecvFrom(path, data, count, flags, len, ep);
     }
 
-    WaitStatus Socket::RecvFrom(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len, os::EndPointInfo &ep)
+    utils::Expected<WaitStatus> Socket::RecvFrom(uint8_t address[ipv6AddressSize], uint32_t scope, uint16_t port, const uint8_t *data, int32_t count, os::SocketFlags flags, int32_t *len, os::EndPointInfo &ep)
     {
         return m_Socket->RecvFrom(address, scope, port, data, count, flags, len, ep);
     }

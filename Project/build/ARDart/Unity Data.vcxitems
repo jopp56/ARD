@@ -77,75 +77,15 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\browscap.ini">
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.resource">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\config">
+    <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity default resources">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\2.0\machine.config">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\2.0\settings.map">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\2.0\web.config">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.0\machine.config">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.0\settings.map">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.0\web.config">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.5\machine.config">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.5\settings.map">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.5\web.config">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\etc\mono\mconfig\config.xml">
+    <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity_builtin_extra">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -158,14 +98,6 @@
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity default resources">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity_builtin_extra">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -217,6 +149,14 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)openxr_runtime_debugger.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.dll')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)openxr_runtime_debugger.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.pdb')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="$(UnityWSAPlayerDir)Players\UAP\il2cpp\$(PlatformTarget)\$(UnityPlayerConfiguration)\UnityPlayer.winmd">
@@ -261,5 +201,8 @@
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\MicrosoftOpenXRPlugin.dll" DestinationFiles="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\MicrosoftOpenXRPlugin.dll')" />
         <Delete Files="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.pdb" Condition="Exists('$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\MicrosoftOpenXRPlugin.pdb" DestinationFiles="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\MicrosoftOpenXRPlugin.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.dll" DestinationFiles="$(MSBuildThisFileDirectory)openxr_runtime_debugger.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.dll')" />
+        <Delete Files="$(MSBuildThisFileDirectory)openxr_runtime_debugger.pdb" Condition="Exists('$(MSBuildThisFileDirectory)openxr_runtime_debugger.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.pdb" DestinationFiles="$(MSBuildThisFileDirectory)openxr_runtime_debugger.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.pdb')" />
   </Target>
 </Project>

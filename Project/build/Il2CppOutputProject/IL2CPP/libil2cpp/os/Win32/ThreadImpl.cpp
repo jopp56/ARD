@@ -6,7 +6,6 @@
 #include "os/ThreadLocalValue.h"
 #include "os/Time.h"
 #include "WindowsHelpers.h"
-#include "il2cpp-vm-support.h"
 
 namespace il2cpp
 {
@@ -119,8 +118,6 @@ namespace os
 
         m_ThreadHandle = threadHandle;
         m_ThreadId = threadId;
-
-        SetPriority(m_Priority);
 
         return kErrorCodeSuccess;
     }
@@ -361,7 +358,9 @@ namespace
         }
         else
         {
-            IL2CPP_VM_RAISE_COM_EXCEPTION(hr, true);
+            // Based on where this function is called (Init and Shutdown) we can't really recover from this, so
+            // just abort.
+            abort();
         }
 
         return GetApartment();
