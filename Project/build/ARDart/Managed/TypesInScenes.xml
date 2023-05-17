@@ -1,4 +1,11 @@
 <linker>
+	<assembly fullname="Microsoft.MixedReality.GraphicsTools">
+		<type fullname="Microsoft.MixedReality.GraphicsTools.CanvasElementRoundedRect" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.GraphicsTools.CanvasMaterialAnimatorCanvasFrontplate" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.GraphicsTools.CanvasMaterialAnimatorCanvasGlow" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.GraphicsTools.FrontPlatePulse" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.GraphicsTools.ScaleMeshEffect" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Microsoft.MixedReality.OpenXR">
 		<type fullname="Microsoft.MixedReality.OpenXR.HandTrackingFeaturePlugin" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile" preserve="nothing"/>
@@ -6,6 +13,10 @@
 		<type fullname="Microsoft.MixedReality.OpenXR.MotionControllerFeaturePlugin" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.OpenXR.Remoting.AppRemotingPlugin" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Microsoft.MixedReality.Toolkit.Core">
+		<type fullname="Microsoft.MixedReality.Toolkit.HandBounds" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.MRTKProfile" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit">
 		<type fullname="Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile" preserve="nothing"/>
@@ -70,6 +81,22 @@
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Services.InputSystem">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.GazeProvider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchableUnityUI" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.Utilities.CanvasUtility" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Microsoft.MixedReality.Toolkit.SpatialManipulation">
+		<type fullname="Microsoft.MixedReality.Toolkit.SpatialManipulation.HandConstraintPalmUp" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.SpatialManipulation.SolverHandler" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Microsoft.MixedReality.Toolkit.UXCore">
+		<type fullname="Microsoft.MixedReality.Toolkit.UX.FontIconSelector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UX.FontIconSet" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UX.InteractablePulse" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UX.PressableButton" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UX.RectTransformColliderFitter" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UX.SeeItSayItLabelEnabler" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UX.StateVisualizer" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.UX.UGUIInputAdapter" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">
 		<type fullname="UnityEngine.InputSystem.InputSettings" preserve="nothing"/>
@@ -77,10 +104,14 @@
 		<type fullname="UnityEngine.InputSystem.RemoteInputPlayerConnection" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.XR.Interaction.Toolkit">
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.Management">
 		<type fullname="UnityEngine.XR.Management.XRGeneralSettings" preserve="nothing"/>
@@ -129,6 +160,8 @@
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
+		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
+		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
@@ -145,12 +178,14 @@
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.Object" preserve="nothing"/>
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
+		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
 		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
@@ -158,6 +193,14 @@
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.ContentSizeFitter" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.GridLayoutGroup" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Vuforia.Unity.Engine">
 		<type fullname="Vuforia.ImageTargetBehaviour" preserve="nothing"/>

@@ -14,56 +14,62 @@
 #include "utils/New.h"
 
 
-// System.Collections.Generic.IEqualityComparer`1<System.Guid>
-struct IEqualityComparer_1_t0706C8CEAD5235F761D9A8DB3AC57BA61E96F1C9;
-// System.Collections.Generic.IEqualityComparer`1<Microsoft.MixedReality.Toolkit.Utilities.Handedness>
-struct IEqualityComparer_1_tE71384662D86E7C95BA5C5C1CEDB13782A27045B;
-// System.Collections.Generic.IEqualityComparer`1<UnityEngine.UI.ICanvasElement>
-struct IEqualityComparer_1_t5C29E5A4FE3CA496AC4639E88752896A3582E546;
-// System.Collections.Generic.IEqualityComparer`1<UnityEngine.UI.IClipper>
-struct IEqualityComparer_1_t7023F8594441FAF60580E38CB57F4EF77DE841DC;
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceImage>
-struct KeyCollection_tC97B3C92934B38E3221D0FAB4F1893EB4FEF183C;
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceObject>
-struct KeyCollection_t3B8DFE03E2895D8D2358745B67BC0B89C06C5CFE;
-// System.Collections.Generic.Dictionary`2/KeyCollection<Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.BaseController>
-struct KeyCollection_t80627F48E6D5234C059BD65C1CBA7A3863883129;
-// System.Collections.Generic.Dictionary`2/KeyCollection<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Bounds>
-struct KeyCollection_tF4982008542322674F2F857A4D5040C5FA438E0F;
-// System.Collections.Generic.Dictionary`2/KeyCollection<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Matrix4x4>
-struct KeyCollection_t1279662769C3A6D31C3B2F6010ADD6821FBDD5E3;
-// System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.ICanvasElement,System.Int32>
-struct KeyCollection_tF177909DFFBFCB49A4F491CBE578FA3009CA6E40;
-// System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.IClipper,System.Int32>
-struct KeyCollection_tB3BD8549B5E71D4F5CAACC2B20275C1B597FE865;
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceImage>
-struct ValueCollection_t84ACCFDFD0A0E6267AFAAD5E2B1E07C35F457A43;
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceObject>
-struct ValueCollection_t8284758E20499C39755524EFC80C98D05790B662;
-// System.Collections.Generic.Dictionary`2/ValueCollection<Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.BaseController>
-struct ValueCollection_t4F90A419EC29BF7EE24EC20A8F1AB8E96A0E6D49;
-// System.Collections.Generic.Dictionary`2/ValueCollection<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Bounds>
-struct ValueCollection_t35B8D35D82A040886B0CE1737AE050BB28018BA6;
-// System.Collections.Generic.Dictionary`2/ValueCollection<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Matrix4x4>
-struct ValueCollection_tCC7A1B0694151DB619F98395FA77ED3437861701;
-// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.ICanvasElement,System.Int32>
-struct ValueCollection_t58F0FDC95F6D5A52BCF7F22097B0DE2EFFA5CB8F;
-// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.IClipper,System.Int32>
-struct ValueCollection_tDECC4FB5166B3F5244148530509291196D4AC0D9;
-// System.Collections.Generic.Dictionary`2/Entry<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceImage>[]
-struct EntryU5BU5D_t79B3F8B7459BC18C33A4ED91F9839171A7877ECB;
-// System.Collections.Generic.Dictionary`2/Entry<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceObject>[]
-struct EntryU5BU5D_t7810E42ABBD0FEE15E64D9CD2D52A568F65B9F7E;
-// System.Collections.Generic.Dictionary`2/Entry<Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.BaseController>[]
-struct EntryU5BU5D_t5AEBB4C3D07653F90DB0FFCEF127799C6CF654B7;
-// System.Collections.Generic.Dictionary`2/Entry<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Bounds>[]
-struct EntryU5BU5D_t6EF9E2F8862549237E65070C25D98BDB8B11F2DD;
-// System.Collections.Generic.Dictionary`2/Entry<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Matrix4x4>[]
-struct EntryU5BU5D_t4AFE75F0549BB88B068BE1343CA80D1B2E11A9AF;
-// System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UI.ICanvasElement,System.Int32>[]
-struct EntryU5BU5D_t97AF73735334C6DB1D02C4921E4751B89C240A05;
-// System.Collections.Generic.Dictionary`2/Entry<UnityEngine.UI.IClipper,System.Int32>[]
-struct EntryU5BU5D_t1311C0DD3A1BC5AA2BE12D3AFC790DA53A2534D2;
+// System.Collections.Generic.IEqualityComparer`1<UnityEngine.Collider>
+struct IEqualityComparer_1_t8B0F38FEDBDCD41E8338626B9114DF3410322BAD;
+// System.Collections.Generic.IEqualityComparer`1<Vuforia.CsAttributeComponentType>
+struct IEqualityComparer_1_tC6B26F9454D8D5B8FAA662A3C9777295B7765D78;
+// System.Collections.Generic.IEqualityComparer`1<UnityEngine.Event>
+struct IEqualityComparer_1_t06A20FCE354CD17FFF4DEB1B07F8862B4B748455;
+// System.Collections.Generic.IEqualityComparer`1<System.Reflection.FieldInfo>
+struct IEqualityComparer_1_t1A52E202619F4C8AEC77FF6C6696AC56B8A6119A;
+// System.Collections.Generic.IEqualityComparer`1<UnityEngine.Font>
+struct IEqualityComparer_1_tEEB879D0EB403B59FA4E7456CAA25388B0AE680E;
+// System.Collections.Generic.IEqualityComparer`1<Vuforia.Internal.Utility.GLTFLoading.GLTFMaterial>
+struct IEqualityComparer_1_tBCA6A19112CEE33A953E3AE505FFEB4477855995;
+// System.Collections.Generic.IEqualityComparer`1<Vuforia.Internal.Utility.GLTFLoading.GLTFTexture>
+struct IEqualityComparer_1_t908E0D85289DE1E42BB58A431FBE76CCF4EC6B58;
+// System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Collider,UnityEngine.XR.Interaction.Toolkit.IXRInteractable>
+struct KeyCollection_t6FF150496F7EAD8D47FB356D02BB6F1BD63DB73B;
+// System.Collections.Generic.Dictionary`2/KeyCollection<Vuforia.CsAttributeComponentType,System.Int32>
+struct KeyCollection_t419549BA4F4C1D600976F883A0F847897C9118F0;
+// System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
+struct KeyCollection_tD8E5051BC856554453D2FC2A3E67590779EEA8C1;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Reflection.FieldInfo,System.Linq.Expressions.Interpreter.Instruction>
+struct KeyCollection_tA4335A2F343BFC8E262A55ACE731117500CB016F;
+// System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Font,System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>>
+struct KeyCollection_t54161DEE4423785B16CFC908CD69B365EECEC1A8;
+// System.Collections.Generic.Dictionary`2/KeyCollection<Vuforia.Internal.Utility.GLTFLoading.GLTFMaterial,UnityEngine.Material>
+struct KeyCollection_t3D1BF61087B6AF31DCF5A4A7520DC980B7DFFEBA;
+// System.Collections.Generic.Dictionary`2/KeyCollection<Vuforia.Internal.Utility.GLTFLoading.GLTFTexture,UnityEngine.Texture2D>
+struct KeyCollection_tDACE42E0F41A4CC844A7969FA9561A456173F7DC;
+// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Collider,UnityEngine.XR.Interaction.Toolkit.IXRInteractable>
+struct ValueCollection_tBDB179E2A2C32EA0FF616B71FEB7D51F4EE8AE71;
+// System.Collections.Generic.Dictionary`2/ValueCollection<Vuforia.CsAttributeComponentType,System.Int32>
+struct ValueCollection_t193ED106554678A4B7F9A1BAC1B8CB1137185F9B;
+// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
+struct ValueCollection_tD787DE628A7B4562857DC9DC6F9AF03C95D591A7;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Reflection.FieldInfo,System.Linq.Expressions.Interpreter.Instruction>
+struct ValueCollection_t3D9302245769B397D81EB7960A8305FA72AAA699;
+// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Font,System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>>
+struct ValueCollection_t61C9C4E26BC6D2EDCA8254E79F9A037D9C9080B1;
+// System.Collections.Generic.Dictionary`2/ValueCollection<Vuforia.Internal.Utility.GLTFLoading.GLTFMaterial,UnityEngine.Material>
+struct ValueCollection_t24D2F514705CCDF2981880DB75EC1B51CAEB735E;
+// System.Collections.Generic.Dictionary`2/ValueCollection<Vuforia.Internal.Utility.GLTFLoading.GLTFTexture,UnityEngine.Texture2D>
+struct ValueCollection_t5B01A6006A22FCB0947D3EB8FDFF226DC460D4E8;
+// System.Collections.Generic.Dictionary`2/Entry<UnityEngine.Collider,UnityEngine.XR.Interaction.Toolkit.IXRInteractable>[]
+struct EntryU5BU5D_t7BA8ABE2B6F98A9BD425DBE67CDF35CC03388A30;
+// System.Collections.Generic.Dictionary`2/Entry<Vuforia.CsAttributeComponentType,System.Int32>[]
+struct EntryU5BU5D_tBFD3D45A49A85B8A07CD7616265C935FE3D377F0;
+// System.Collections.Generic.Dictionary`2/Entry<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>[]
+struct EntryU5BU5D_tC0539D9A6E36E6322968A3569631DC0564666FCB;
+// System.Collections.Generic.Dictionary`2/Entry<System.Reflection.FieldInfo,System.Linq.Expressions.Interpreter.Instruction>[]
+struct EntryU5BU5D_t0190C629CED897705174ECC7451FC442399CE147;
+// System.Collections.Generic.Dictionary`2/Entry<UnityEngine.Font,System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>>[]
+struct EntryU5BU5D_t0B0377D96CAA9B9DB97E0DBA896DB65939B2FE89;
+// System.Collections.Generic.Dictionary`2/Entry<Vuforia.Internal.Utility.GLTFLoading.GLTFMaterial,UnityEngine.Material>[]
+struct EntryU5BU5D_t09C319F68995F8E35E1E42FC9F54D2CCBB089873;
+// System.Collections.Generic.Dictionary`2/Entry<Vuforia.Internal.Utility.GLTFLoading.GLTFTexture,UnityEngine.Texture2D>[]
+struct EntryU5BU5D_t8C444BF7CB6A7A6EBAD73D1E1A6C5FF1E55A2EAA;
 // System.Int32[]
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 // System.String
@@ -87,13 +93,13 @@ struct NOVTABLE IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C : Il
 	virtual il2cpp_hresult_t STDCALL IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B97(IBindableIterator_t63CCD2268CEE8AFAB68518869D47C5BDAF72962F** comReturnValue) = 0;
 };
 
-// System.Collections.Generic.Dictionary`2<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceImage>
-struct Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49  : public RuntimeObject
+// System.Collections.Generic.Dictionary`2<UnityEngine.Collider,UnityEngine.XR.Interaction.Toolkit.IXRInteractable>
+struct Dictionary_2_t27580B46889C7E97A047AEB3AD96F6F5B67AB8C5  : public RuntimeObject
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
 	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
-	EntryU5BU5D_t79B3F8B7459BC18C33A4ED91F9839171A7877ECB* ____entries_1;
+	EntryU5BU5D_t7BA8ABE2B6F98A9BD425DBE67CDF35CC03388A30* ____entries_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_count
 	int32_t ____count_2;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
@@ -105,20 +111,20 @@ struct Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49  : public RuntimeO
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
 	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
-	KeyCollection_tC97B3C92934B38E3221D0FAB4F1893EB4FEF183C* ____keys_7;
+	KeyCollection_t6FF150496F7EAD8D47FB356D02BB6F1BD63DB73B* ____keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
-	ValueCollection_t84ACCFDFD0A0E6267AFAAD5E2B1E07C35F457A43* ____values_8;
+	ValueCollection_tBDB179E2A2C32EA0FF616B71FEB7D51F4EE8AE71* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
 };
 
-// System.Collections.Generic.Dictionary`2<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceObject>
-struct Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02  : public RuntimeObject
+// System.Collections.Generic.Dictionary`2<Vuforia.CsAttributeComponentType,System.Int32>
+struct Dictionary_2_t862B8FCC56B20E514A4F80D8BF133CAD9618B230  : public RuntimeObject
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
 	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
-	EntryU5BU5D_t7810E42ABBD0FEE15E64D9CD2D52A568F65B9F7E* ____entries_1;
+	EntryU5BU5D_tBFD3D45A49A85B8A07CD7616265C935FE3D377F0* ____entries_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_count
 	int32_t ____count_2;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
@@ -130,20 +136,20 @@ struct Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02  : public RuntimeO
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
 	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
-	KeyCollection_t3B8DFE03E2895D8D2358745B67BC0B89C06C5CFE* ____keys_7;
+	KeyCollection_t419549BA4F4C1D600976F883A0F847897C9118F0* ____keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
-	ValueCollection_t8284758E20499C39755524EFC80C98D05790B662* ____values_8;
+	ValueCollection_t193ED106554678A4B7F9A1BAC1B8CB1137185F9B* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
 };
 
-// System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.BaseController>
-struct Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183  : public RuntimeObject
+// System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
+struct Dictionary_2_t6AC338B3CEB934A66B363042F19213FE666F6818  : public RuntimeObject
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
 	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
-	EntryU5BU5D_t5AEBB4C3D07653F90DB0FFCEF127799C6CF654B7* ____entries_1;
+	EntryU5BU5D_tC0539D9A6E36E6322968A3569631DC0564666FCB* ____entries_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_count
 	int32_t ____count_2;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
@@ -155,20 +161,20 @@ struct Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183  : public RuntimeO
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
 	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
-	KeyCollection_t80627F48E6D5234C059BD65C1CBA7A3863883129* ____keys_7;
+	KeyCollection_tD8E5051BC856554453D2FC2A3E67590779EEA8C1* ____keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
-	ValueCollection_t4F90A419EC29BF7EE24EC20A8F1AB8E96A0E6D49* ____values_8;
+	ValueCollection_tD787DE628A7B4562857DC9DC6F9AF03C95D591A7* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
 };
 
-// System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Bounds>
-struct Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604  : public RuntimeObject
+// System.Collections.Generic.Dictionary`2<System.Reflection.FieldInfo,System.Linq.Expressions.Interpreter.Instruction>
+struct Dictionary_2_t6E102DECB177F86DDA3B068E0B28E809825E9A28  : public RuntimeObject
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
 	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
-	EntryU5BU5D_t6EF9E2F8862549237E65070C25D98BDB8B11F2DD* ____entries_1;
+	EntryU5BU5D_t0190C629CED897705174ECC7451FC442399CE147* ____entries_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_count
 	int32_t ____count_2;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
@@ -180,20 +186,20 @@ struct Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604  : public RuntimeO
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
 	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
-	KeyCollection_tF4982008542322674F2F857A4D5040C5FA438E0F* ____keys_7;
+	KeyCollection_tA4335A2F343BFC8E262A55ACE731117500CB016F* ____keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
-	ValueCollection_t35B8D35D82A040886B0CE1737AE050BB28018BA6* ____values_8;
+	ValueCollection_t3D9302245769B397D81EB7960A8305FA72AAA699* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
 };
 
-// System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Matrix4x4>
-struct Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929  : public RuntimeObject
+// System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>>
+struct Dictionary_2_tCFBC3A1899FD0D74189EB13D76050BD36EBFF0B7  : public RuntimeObject
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
 	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
-	EntryU5BU5D_t4AFE75F0549BB88B068BE1343CA80D1B2E11A9AF* ____entries_1;
+	EntryU5BU5D_t0B0377D96CAA9B9DB97E0DBA896DB65939B2FE89* ____entries_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_count
 	int32_t ____count_2;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
@@ -205,20 +211,20 @@ struct Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929  : public RuntimeO
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
 	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
-	KeyCollection_t1279662769C3A6D31C3B2F6010ADD6821FBDD5E3* ____keys_7;
+	KeyCollection_t54161DEE4423785B16CFC908CD69B365EECEC1A8* ____keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
-	ValueCollection_tCC7A1B0694151DB619F98395FA77ED3437861701* ____values_8;
+	ValueCollection_t61C9C4E26BC6D2EDCA8254E79F9A037D9C9080B1* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
 };
 
-// System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>
-struct Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7  : public RuntimeObject
+// System.Collections.Generic.Dictionary`2<Vuforia.Internal.Utility.GLTFLoading.GLTFMaterial,UnityEngine.Material>
+struct Dictionary_2_t77D6B6F2E083F0B792A2726B2E96BAB1E353DAB2  : public RuntimeObject
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
 	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
-	EntryU5BU5D_t97AF73735334C6DB1D02C4921E4751B89C240A05* ____entries_1;
+	EntryU5BU5D_t09C319F68995F8E35E1E42FC9F54D2CCBB089873* ____entries_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_count
 	int32_t ____count_2;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
@@ -230,20 +236,20 @@ struct Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7  : public RuntimeO
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
 	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
-	KeyCollection_tF177909DFFBFCB49A4F491CBE578FA3009CA6E40* ____keys_7;
+	KeyCollection_t3D1BF61087B6AF31DCF5A4A7520DC980B7DFFEBA* ____keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
-	ValueCollection_t58F0FDC95F6D5A52BCF7F22097B0DE2EFFA5CB8F* ____values_8;
+	ValueCollection_t24D2F514705CCDF2981880DB75EC1B51CAEB735E* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
 };
 
-// System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>
-struct Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC  : public RuntimeObject
+// System.Collections.Generic.Dictionary`2<Vuforia.Internal.Utility.GLTFLoading.GLTFTexture,UnityEngine.Texture2D>
+struct Dictionary_2_tA32B24D221EAF54C82E7F06EDE181266C72A875E  : public RuntimeObject
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
 	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
-	EntryU5BU5D_t1311C0DD3A1BC5AA2BE12D3AFC790DA53A2534D2* ____entries_1;
+	EntryU5BU5D_t8C444BF7CB6A7A6EBAD73D1E1A6C5FF1E55A2EAA* ____entries_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_count
 	int32_t ____count_2;
 	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
@@ -255,9 +261,9 @@ struct Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC  : public RuntimeO
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
 	RuntimeObject* ____comparer_6;
 	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
-	KeyCollection_tB3BD8549B5E71D4F5CAACC2B20275C1B597FE865* ____keys_7;
+	KeyCollection_tDACE42E0F41A4CC844A7969FA9561A456173F7DC* ____keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
-	ValueCollection_tDECC4FB5166B3F5244148530509291196D4AC0D9* ____values_8;
+	ValueCollection_t5B01A6006A22FCB0947D3EB8FDFF226DC460D4E8* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
 };
@@ -269,10 +275,10 @@ il2cpp_hresult_t IBindableIterable_First_mE23AC28EC9ADCDD2688247217CF40C800E780B
 
 
 
-// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceImage>
-struct Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<UnityEngine.Collider,UnityEngine.XR.Interaction.Toolkit.IXRInteractable>
+struct Dictionary_2_t27580B46889C7E97A047AEB3AD96F6F5B67AB8C5_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t27580B46889C7E97A047AEB3AD96F6F5B67AB8C5_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_t27580B46889C7E97A047AEB3AD96F6F5B67AB8C5_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t27580B46889C7E97A047AEB3AD96F6F5B67AB8C5_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -353,21 +359,21 @@ struct Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t27580B46889C7E97A047AEB3AD96F6F5B67AB8C5(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t27580B46889C7E97A047AEB3AD96F6F5B67AB8C5_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t02017471B47A6BEB88F94FACE526F622A42AEE49_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t27580B46889C7E97A047AEB3AD96F6F5B67AB8C5_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<System.Guid,UnityEngine.XR.ARSubsystems.XRReferenceObject>
-struct Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<Vuforia.CsAttributeComponentType,System.Int32>
+struct Dictionary_2_t862B8FCC56B20E514A4F80D8BF133CAD9618B230_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t862B8FCC56B20E514A4F80D8BF133CAD9618B230_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_t862B8FCC56B20E514A4F80D8BF133CAD9618B230_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t862B8FCC56B20E514A4F80D8BF133CAD9618B230_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -448,21 +454,21 @@ struct Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t862B8FCC56B20E514A4F80D8BF133CAD9618B230(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t862B8FCC56B20E514A4F80D8BF133CAD9618B230_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t2A895F6D5510191F016166DBE21C821944195F02_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t862B8FCC56B20E514A4F80D8BF133CAD9618B230_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.BaseController>
-struct Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
+struct Dictionary_2_t6AC338B3CEB934A66B363042F19213FE666F6818_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t6AC338B3CEB934A66B363042F19213FE666F6818_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_t6AC338B3CEB934A66B363042F19213FE666F6818_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t6AC338B3CEB934A66B363042F19213FE666F6818_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -543,21 +549,21 @@ struct Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t6AC338B3CEB934A66B363042F19213FE666F6818(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t6AC338B3CEB934A66B363042F19213FE666F6818_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t4EAACA38D6C42EFE530F40366386075B53612183_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t6AC338B3CEB934A66B363042F19213FE666F6818_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Bounds>
-struct Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<System.Reflection.FieldInfo,System.Linq.Expressions.Interpreter.Instruction>
+struct Dictionary_2_t6E102DECB177F86DDA3B068E0B28E809825E9A28_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t6E102DECB177F86DDA3B068E0B28E809825E9A28_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_t6E102DECB177F86DDA3B068E0B28E809825E9A28_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t6E102DECB177F86DDA3B068E0B28E809825E9A28_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -638,21 +644,21 @@ struct Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t6E102DECB177F86DDA3B068E0B28E809825E9A28(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t6E102DECB177F86DDA3B068E0B28E809825E9A28_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t900D387B2C8FDEAA3D754293DC49C00D9DFB2604_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t6E102DECB177F86DDA3B068E0B28E809825E9A28_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Matrix4x4>
-struct Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>>
+struct Dictionary_2_tCFBC3A1899FD0D74189EB13D76050BD36EBFF0B7_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tCFBC3A1899FD0D74189EB13D76050BD36EBFF0B7_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_tCFBC3A1899FD0D74189EB13D76050BD36EBFF0B7_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tCFBC3A1899FD0D74189EB13D76050BD36EBFF0B7_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -733,21 +739,21 @@ struct Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tCFBC3A1899FD0D74189EB13D76050BD36EBFF0B7(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tCFBC3A1899FD0D74189EB13D76050BD36EBFF0B7_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tD551D5D330AF4745114FEBF9E18596F0EED64929_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tCFBC3A1899FD0D74189EB13D76050BD36EBFF0B7_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>
-struct Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<Vuforia.Internal.Utility.GLTFLoading.GLTFMaterial,UnityEngine.Material>
+struct Dictionary_2_t77D6B6F2E083F0B792A2726B2E96BAB1E353DAB2_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_t77D6B6F2E083F0B792A2726B2E96BAB1E353DAB2_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_t77D6B6F2E083F0B792A2726B2E96BAB1E353DAB2_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_t77D6B6F2E083F0B792A2726B2E96BAB1E353DAB2_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -828,21 +834,21 @@ struct Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_t77D6B6F2E083F0B792A2726B2E96BAB1E353DAB2(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_t77D6B6F2E083F0B792A2726B2E96BAB1E353DAB2_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t7B743EE370C91886AACD33C715B57016D73804D7_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_t77D6B6F2E083F0B792A2726B2E96BAB1E353DAB2_ComCallableWrapper(obj));
 }
 
-// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>
-struct Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
+// COM Callable Wrapper for System.Collections.Generic.Dictionary`2<Vuforia.Internal.Utility.GLTFLoading.GLTFTexture,UnityEngine.Texture2D>
+struct Dictionary_2_tA32B24D221EAF54C82E7F06EDE181266C72A875E_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<Dictionary_2_tA32B24D221EAF54C82E7F06EDE181266C72A875E_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C
 {
-	inline Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC_ComCallableWrapper>(obj) {}
+	inline Dictionary_2_tA32B24D221EAF54C82E7F06EDE181266C72A875E_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<Dictionary_2_tA32B24D221EAF54C82E7F06EDE181266C72A875E_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -923,13 +929,13 @@ struct Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC_ComCallableWrapper
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_Dictionary_2_tA32B24D221EAF54C82E7F06EDE181266C72A875E(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(Dictionary_2_tA32B24D221EAF54C82E7F06EDE181266C72A875E_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tC39006A5FC4DA4BD0352B7AF47511553F2ED13CC_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) Dictionary_2_tA32B24D221EAF54C82E7F06EDE181266C72A875E_ComCallableWrapper(obj));
 }

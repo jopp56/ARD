@@ -32,6 +32,54 @@
         "size": 139841647,
         "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\com.ptc.vuforia.engine-10.15.4.tgz"
       }
+    },
+    "com.microsoft.mrtk.uxcomponents": {
+      "tarball": {
+        "hash": "a69c351c8ea0",
+        "mtime": 1684321062725,
+        "size": 62655,
+        "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\MixedReality\\com.microsoft.mrtk.uxcomponents-3.0.0-pre.15.tgz"
+      }
+    },
+    "com.microsoft.mrtk.graphicstools.unity": {
+      "tarball": {
+        "hash": "b8cb5dc7a3c3",
+        "mtime": 1684321066675,
+        "size": 9131872,
+        "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\MixedReality\\com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz"
+      }
+    },
+    "com.microsoft.mrtk.uxcore": {
+      "tarball": {
+        "hash": "3d55df98b93c",
+        "mtime": 1684321062392,
+        "size": 80368,
+        "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\MixedReality\\com.microsoft.mrtk.uxcore-3.0.0-pre.15.tgz"
+      }
+    },
+    "com.microsoft.mrtk.spatialmanipulation": {
+      "tarball": {
+        "hash": "68067f30ae61",
+        "mtime": 1684321062279,
+        "size": 141201,
+        "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\MixedReality\\com.microsoft.mrtk.spatialmanipulation-3.0.0-pre.15.tgz"
+      }
+    },
+    "com.microsoft.mrtk.standardassets": {
+      "tarball": {
+        "hash": "d7a59dd3cd03",
+        "mtime": 1684321062569,
+        "size": 3801508,
+        "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\MixedReality\\com.microsoft.mrtk.standardassets-3.0.0-pre.15.tgz"
+      }
+    },
+    "com.microsoft.mrtk.core": {
+      "tarball": {
+        "hash": "d8b2c10202b0",
+        "mtime": 1684321063166,
+        "size": 113327,
+        "localPath": "C:\\Users\\joshu\\OneDrive\\Desktop\\Dart\\ARD\\Project\\Packages\\MixedReality\\com.microsoft.mrtk.core-3.0.0-pre.15.tgz"
+      }
     }
   }
 }

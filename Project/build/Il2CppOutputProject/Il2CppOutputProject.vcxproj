@@ -108,9 +108,13 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppTypeDefinitions.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.GraphicsTools_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.OpenXR_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Async_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Core_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Gltf_CodeGen.c">
     </ClCompile>
@@ -143,6 +147,10 @@
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Services.TeleportSystem_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.SpatialManipulation_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.UXCore_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit_CodeGen.c">
     </ClCompile>
@@ -181,6 +189,10 @@
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARSubsystems_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.CoreUtils_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.Interaction.Toolkit_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.Management_CodeGen.c">
     </ClCompile>
@@ -304,6 +316,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods20.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\GenericMethods21.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods3.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods4.cpp">
@@ -340,7 +354,17 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics107.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics108.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics109.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics11.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics110.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics111.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics112.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics12.cpp">
     </ClCompile>
@@ -860,9 +884,47 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs226.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs227.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs228.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs229.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs23.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs230.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs231.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs232.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs233.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs234.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs235.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs236.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs237.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs238.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs239.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs24.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs240.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs241.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs242.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs243.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs244.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs245.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs25.cpp">
     </ClCompile>
@@ -1040,9 +1102,17 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppReversePInvokeWrapperTable.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.GraphicsTools.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.GraphicsTools1.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.OpenXR.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Async.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Core.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Core1.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.cpp">
     </ClCompile>
@@ -1095,6 +1165,12 @@
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.SpatialManipulation.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.SpatialManipulation1.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.UXCore.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit1.cpp">
     </ClCompile>
@@ -1260,6 +1336,18 @@
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARSubsystems.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARSubsystems1.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.CoreUtils.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.Interaction.Toolkit.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.Interaction.Toolkit1.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.Interaction.Toolkit2.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.Interaction.Toolkit3.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.Interaction.Toolkit4.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.Management.cpp">
     </ClCompile>

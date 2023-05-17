@@ -338,13 +338,13 @@
 -r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.xr.management@4.2.0/Runtime/IXRLoaderPreInit.cs"
-"Library/PackageCache/com.unity.xr.management@4.2.0/Runtime/XRConfigurationData.cs"
-"Library/PackageCache/com.unity.xr.management@4.2.0/Runtime/XRGeneralSettings.cs"
-"Library/PackageCache/com.unity.xr.management@4.2.0/Runtime/XRLoader.cs"
-"Library/PackageCache/com.unity.xr.management@4.2.0/Runtime/XRLoaderHelper.cs"
-"Library/PackageCache/com.unity.xr.management@4.2.0/Runtime/XRManagementAnalytics.cs"
-"Library/PackageCache/com.unity.xr.management@4.2.0/Runtime/XRManagerSettings.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/IXRLoaderPreInit.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRConfigurationData.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRGeneralSettings.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRLoader.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRLoaderHelper.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRManagementAnalytics.cs"
+"Library/PackageCache/com.unity.xr.management@4.2.1/Runtime/XRManagerSettings.cs"
 -langversion:9.0
 
 /deterministic
