@@ -15,7 +15,7 @@ C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51913
+61921
 Successfully changed project path to: C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
 C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 534.36 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 12.92 ms.
+Refreshing native plugins compatible for Editor in 84.06 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 2.74 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Assets
@@ -63,98 +63,98 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.035136 seconds.
+Registered in 0.065539 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 440.02 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.71 ms.
+Refreshing native plugins compatible for Editor in 109.60 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.007 seconds
+- Completed reload, in  2.492 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4009ms)
-		BeginReloadAssembly (578ms)
+	ReloadAssembly (2493ms)
+		BeginReloadAssembly (577ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (2640ms)
-			LoadAssemblies (569ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (684ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1223ms)
+			LoadAssemblies (592ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (475ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (152ms)
-			SetupLoadedEditorAssemblies (1512ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (554ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (442ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (791ms)
-				ProcessInitializeOnLoadMethodAttributes (224ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.056247 seconds.
+Registered in 0.038112 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 347.63 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.57 ms.
+Refreshing native plugins compatible for Editor in 127.02 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
 Package Manager log level set to [2]
-[XR] [MROpenXR][Info   ][15:25:58.137340][tid:5d60] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][15:25:58.137340][tid:5d60] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][15:25:58.137504][tid:5d60] InputProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][15:25:58.137504][tid:5d60] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][12:51:31.886280][tid:5b14] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][12:51:31.886280][tid:5b14] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][12:51:31.886520][tid:5b14] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][12:51:31.886520][tid:5b14] InputProvider_RegisterLifecycleProvider
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][15:25:58.140439][tid:5d60] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.7.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
-[XR] [MROpenXR][Info   ][15:25:58.140439][tid:5d60] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.7.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][12:51:31.890224][tid:5b14] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.7.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][12:51:31.890224][tid:5b14] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.7.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  6.446 seconds
+- Completed reload, in  2.552 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6448ms)
-		BeginReloadAssembly (510ms)
+	ReloadAssembly (2553ms)
+		BeginReloadAssembly (199ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (92ms)
-		EndReloadAssembly (5421ms)
-			LoadAssemblies (466ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2176ms)
+			LoadAssemblies (173ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1564ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (484ms)
-			SetupLoadedEditorAssemblies (2669ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (187ms)
+			SetupLoadedEditorAssemblies (1264ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (75ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (349ms)
-				BeforeProcessingInitializeOnLoad (501ms)
-				ProcessInitializeOnLoadAttributes (1628ms)
-				ProcessInitializeOnLoadMethodAttributes (106ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (738ms)
+				ProcessInitializeOnLoadMethodAttributes (129ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.99 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.23 ms.
+Refreshing native plugins compatible for Editor in 3.29 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
 Unloading 4236 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (133.9 KB). Loaded Objects now: 5012.
-Memory consumption went from 171.1 MB to 171.0 MB.
-Total: 5.622500 ms (FindLiveObjects: 0.510900 ms CreateObjectMapping: 0.473900 ms MarkObjects: 4.316300 ms  DeleteObjects: 0.319700 ms)
+Unloading 68 unused Assets / (134.0 KB). Loaded Objects now: 5013.
+Memory consumption went from 171.2 MB to 171.0 MB.
+Total: 6.374100 ms (FindLiveObjects: 0.507300 ms CreateObjectMapping: 0.511500 ms MarkObjects: 5.100000 ms  DeleteObjects: 0.251900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,43 +169,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9704.825301 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features
-  artifactKey: Guid(25bdfaac8e9b4a0d8f341b415322f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features using Guid(25bdfaac8e9b4a0d8f341b415322f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a162f5be193fe86b562940b6d5723a') in 0.014407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs
-  artifactKey: Guid(1f2e357b81ef4d768633d370bd861a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs using Guid(1f2e357b81ef4d768633d370bd861a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc360fb3176bcf61aa31cbea8b558a2a') in 0.002459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/MRTK.SDK.asmdef
-  artifactKey: Guid(8b7cc3e86d77403b8b984c08cbaeaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/MRTK.SDK.asmdef using Guid(8b7cc3e86d77403b8b984c08cbaeaf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367ff1d24613a3a871c381074a68981c') in 0.026685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX
-  artifactKey: Guid(26b56a78eb2f4b84b34ac290003f6869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX using Guid(26b56a78eb2f4b84b34ac290003f6869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a682244c7bd3f1f171354fb57335890e') in 0.001821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.320394 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Menus/NearMenu3x1.prefab
-  artifactKey: Guid(9a7c24f281a2c3d45a9b8befe608bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Menus/NearMenu3x1.prefab using Guid(9a7c24f281a2c3d45a9b8befe608bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c7b4e7f3b47a08c9c7f115d7156580') in 0.800077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Menus/NearMenu4x1.prefab
-  artifactKey: Guid(40b588bd40632eb41a0af374d91c4fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Menus/NearMenu4x1.prefab using Guid(40b588bd40632eb41a0af374d91c4fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afec266704fc1e68cfb0f763bd3c68b3') in 0.084382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Menus/NearMenu3x2.prefab
-  artifactKey: Guid(e969038e4d67d9b498de2ef538969506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Menus/NearMenu3x2.prefab using Guid(e969038e4d67d9b498de2ef538969506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b1cd3e9d3112fa085e32fe6cc7c1d8') in 0.103967 seconds 
+  Time since last request: 259648.004849 seconds.
+  path: Packages/com.microsoft.mrtk.uxcomponents/NearMenu/NearMenuBase.prefab
+  artifactKey: Guid(f443144a6d408c34bb8a7d70a73644c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.uxcomponents/NearMenu/NearMenuBase.prefab using Guid(f443144a6d408c34bb8a7d70a73644c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574ec3e3d77bf6bf36f7d853744e33b6') in 0.319679 seconds 
