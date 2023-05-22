@@ -17,7 +17,11 @@ Logs/AssetImportWorker1.log
 -srvPort
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 61921
+=======
+55780
+>>>>>>> Stashed changes
 =======
 55780
 >>>>>>> Stashed changes
@@ -59,11 +63,16 @@ C:/Praxispr/ARD/Project
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 84.06 ms, found 15 plugins.
 Preloading 2 native plugins for Editor in 2.74 ms.
 =======
 Refreshing native plugins compatible for Editor in 659.92 ms, found 15 plugins.
 Preloading 2 native plugins for Editor in 190.62 ms.
+>>>>>>> Stashed changes
+=======
+Refreshing native plugins compatible for Editor in 74.92 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 3.40 ms.
 >>>>>>> Stashed changes
 =======
 Refreshing native plugins compatible for Editor in 74.92 ms, found 15 plugins.
@@ -85,9 +94,13 @@ Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBle
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+>>>>>>> Stashed changes
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 >>>>>>> Stashed changes
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
@@ -107,6 +120,7 @@ Mono: successfully reloaded assembly
 - Completed reload, in  0.650 seconds
 Domain Reload Profiling:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	ReloadAssembly (2493ms)
 		BeginReloadAssembly (577ms)
 =======
@@ -120,6 +134,10 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (2384ms)
 		BeginReloadAssembly (377ms)
+>>>>>>> Stashed changes
+=======
+	ReloadAssembly (651ms)
+		BeginReloadAssembly (66ms)
 >>>>>>> Stashed changes
 =======
 	ReloadAssembly (651ms)
@@ -144,6 +162,7 @@ Domain Reload Profiling:
 				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				ProcessInitializeOnLoadAttributes (321ms)
 				ProcessInitializeOnLoadMethodAttributes (107ms)
 =======
@@ -167,12 +186,17 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (137ms)
 				ProcessInitializeOnLoadMethodAttributes (55ms)
 >>>>>>> Stashed changes
+=======
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.038112 seconds.
@@ -183,12 +207,20 @@ Android Extension - Scanning For ADB Devices 8373 ms
 =======
 Registered in 0.010300 seconds.
 >>>>>>> Stashed changes
+=======
+Registered in 0.010300 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 127.02 ms, found 15 plugins.
 Preloading 2 native plugins for Editor in 0.25 ms.
+=======
+Refreshing native plugins compatible for Editor in 55.64 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+>>>>>>> Stashed changes
 =======
 Refreshing native plugins compatible for Editor in 55.64 ms, found 15 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
@@ -237,6 +269,7 @@ Refreshing native plugins compatible for Editor in 1.02 ms, found 15 plugins.
 Preloading 2 native plugins for Editor in 0.10 ms.
 Unloading 4236 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 68 unused Assets / (134.0 KB). Loaded Objects now: 5013.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Memory consumption went from 171.2 MB to 171.0 MB.
 Total: 6.374100 ms (FindLiveObjects: 0.507300 ms CreateObjectMapping: 0.511500 ms MarkObjects: 5.100000 ms  DeleteObjects: 0.251900 ms)
@@ -295,6 +328,10 @@ Total: 14.136700 ms (FindLiveObjects: 0.696100 ms CreateObjectMapping: 0.777000 
 Memory consumption went from 171.2 MB to 171.1 MB.
 Total: 3.320800 ms (FindLiveObjects: 0.405300 ms CreateObjectMapping: 0.340600 ms MarkObjects: 2.449100 ms  DeleteObjects: 0.124600 ms)
 >>>>>>> Stashed changes
+=======
+Memory consumption went from 171.2 MB to 171.1 MB.
+Total: 3.320800 ms (FindLiveObjects: 0.405300 ms CreateObjectMapping: 0.340600 ms MarkObjects: 2.449100 ms  DeleteObjects: 0.124600 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -311,6 +348,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   Time since last request: 259648.004849 seconds.
   path: Packages/com.microsoft.mrtk.uxcomponents/NearMenu/NearMenuBase.prefab
   artifactKey: Guid(f443144a6d408c34bb8a7d70a73644c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -322,6 +360,8 @@ Start importing Packages/com.microsoft.mrtk.uxcomponents/NearMenu/NearMenuBase.p
 Start importing Assets/Formen/Form..blend using Guid(a7864702e3bbdc94a9e8363c0377a250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf3885ba617a25dbb623e5ecbfa1dcb') in 0.543508 seconds 
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> Stashed changes
   Time since last request: 343523.110209 seconds.
   path: Assets/Scripts/RestartButtonScript.cs
   artifactKey: Guid(7f14e48f8b9d6e94884ce79dc82d89eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -808,4 +848,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
