@@ -20,4 +20,8 @@ public class RestartButtonScript : MonoBehaviour
     {
         SceneManager.LoadScene("DartScene", LoadSceneMode.Single);
     }
+    public void CloseMenu()
+    {
+        GameObject.setActive(false);
+    }
 }
