@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -82,9 +82,13 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 64
 =======
   controlID: 72
+>>>>>>> Stashed changes
+=======
+  controlID: 67
 >>>>>>> Stashed changes
 --- !u!114 &4
 MonoBehaviour:
@@ -138,11 +142,16 @@ MonoBehaviour:
 <<<<<<< Updated upstream
     width: 660
     height: 426.4
+<<<<<<< Updated upstream
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 =======
     width: 258.4
     height: 479.2
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> Stashed changes
+=======
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
 >>>>>>> Stashed changes
@@ -251,9 +260,13 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 65
 =======
   controlID: 73
+>>>>>>> Stashed changes
+=======
+  controlID: 68
 >>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
@@ -280,6 +293,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 66
 =======
     width: 1247.2
@@ -288,6 +302,9 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 74
+>>>>>>> Stashed changes
+=======
+  controlID: 69
 >>>>>>> Stashed changes
 --- !u!114 &11
 MonoBehaviour:
@@ -369,12 +386,16 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 2
+    m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     - Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Scripts/Slate
 =======
     - Assets
+>>>>>>> Stashed changes
+=======
+    - Assets/Scripts
 >>>>>>> Stashed changes
     m_Globs: []
     m_OriginalText: 
@@ -382,12 +403,17 @@ MonoBehaviour:
   m_StartGridSize: 85
   m_LastFolders:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Scripts/Slate
+=======
+  - Assets/Scripts
+>>>>>>> Stashed changes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 784.6}
     m_SelectedIDs: f6b00000
     m_LastClickedID: 45302
@@ -403,6 +429,12 @@ MonoBehaviour:
     m_SelectedIDs: be760000
     m_LastClickedID: 30398
     m_ExpandedIDs: 00000000b8760000be760000ffffff7f
+>>>>>>> Stashed changes
+=======
+    scrollPos: {x: 0, y: 224.26732}
+    m_SelectedIDs: 6c790000
+    m_LastClickedID: 31084
+    m_ExpandedIDs: 0000000052790000547900005679000082790000b0790000b2790000b4790000b679000000ca9a3bffffff7f
 >>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -432,9 +464,13 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000007800000278000004780000
 =======
     m_ExpandedIDs: 00000000b8760000
+>>>>>>> Stashed changes
+=======
+    m_ExpandedIDs: 00000000527900005479000056790000
 >>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -577,6 +613,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_SelectedIDs: eec9feff
       m_LastClickedID: -79378
       m_ExpandedIDs: c2f9feff20f9ffff76f9ffff76faffff7cfaffff1efbffff2afbffff34fbffffc4660000e06600000ea30000
@@ -584,6 +621,11 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 82c9ffff22cbffff52d0ffffd0d4ffff8ad9ffff98dcfffff8e3ffff6ee7ffff10e9ffffceefffffc6f6ffff2efbffff4067000052670000
+>>>>>>> Stashed changes
+=======
+      m_SelectedIDs: 92290000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 34fbffff
 >>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -649,8 +691,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -101, y: -26}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -671,7 +713,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -842,6 +884,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 0.154, y: 0.2096, z: 0.55459994}
     speed: 2
     m_Value: {x: 0.154, y: 0.2096, z: 0.55459994}
@@ -849,6 +892,11 @@ MonoBehaviour:
     m_Target: {x: 0.14691958, y: 0.32281217, z: 1.4889747}
     speed: 2
     m_Value: {x: 0.14691958, y: 0.32281217, z: 1.4889747}
+>>>>>>> Stashed changes
+=======
+    m_Target: {x: 0.3521749, y: 0.59091085, z: 2.7657375}
+    speed: 2
+    m_Value: {x: 0.3521749, y: 0.59091085, z: 2.7657375}
 >>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
@@ -897,12 +945,17 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: -0.051005367, y: -0.104673326, z: 0.0053739785, w: -0.9931896}
+=======
+    m_Target: {x: 0.089104764, y: -0.1014178, z: -0.009122618, w: -0.99081033}
+>>>>>>> Stashed changes
     speed: 2
-    m_Value: {x: -0.05100505, y: -0.10467268, z: 0.005373945, w: -0.99318343}
+    m_Value: {x: 0.08761785, y: -0.10143068, z: -0.008970416, w: -0.99093616}
   m_Size:
-    m_Target: 0.02400001
+    m_Target: 0.8477142
     speed: 2
+<<<<<<< Updated upstream
     m_Value: 0.02400001
 =======
     m_Target: {x: -0.0093046045, y: 0.012886154, z: -0.000358019, w: -0.9999431}
@@ -912,6 +965,9 @@ MonoBehaviour:
     m_Target: 0.14676303
     speed: 2
     m_Value: 0.14687318
+>>>>>>> Stashed changes
+=======
+    m_Value: 0.8477141
 >>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
