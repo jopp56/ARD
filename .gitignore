@@ -77,3 +77,6 @@ crashlytics-build.properties
 #Broken MRTK File
 ar-tracked-image-NPoT-texture-settings.png
 
+#Local lock files
+*-lock
+UnityLockfile

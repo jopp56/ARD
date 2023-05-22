@@ -4,7 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class RestartButtonScript : MonoBehaviour
+
 {
+    public GameObject closeButton;
+
+    void Awake()
+    {
+        this.closeButton = closeButton;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +30,6 @@ public class RestartButtonScript : MonoBehaviour
     }
     public void CloseMenu()
     {
-        GameObject.setActive(false);
+        closeButton.SetActive(false);
     }
 }
