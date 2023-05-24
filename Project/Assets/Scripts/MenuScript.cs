@@ -32,7 +32,7 @@ public class MenuScript : MonoBehaviour
     {
         menu.SetActive(false);
         GameObject.Find("UIButtonToggleIconOn").SetActive(false);
-        GameObject.Find("UIButtonToogleIconOff").SetActive(true);
+        GameObject.Find("UIButtonToggleIconOff").SetActive(true);
     }
 
     public void ToogleMenu()
