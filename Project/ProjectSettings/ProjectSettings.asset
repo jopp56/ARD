@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: 14e4b95657c842e41bb4f40d816ad0dc
+  productGUID: 06f02efa30f27274f9238e1e164e18a1
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -48,7 +48,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 2
-  m_ActiveColorSpace: 1
+  m_ActiveColorSpace: 0
   m_MTRendering: 1
   mipStripping: 0
   numberOfMipsStripped: 0
@@ -77,7 +77,7 @@ PlayerSettings:
   androidFullscreenMode: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 0
-  runInBackground: 1
+  runInBackground: 0
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -820,13 +820,9 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    0: VUFORIA_ANDROID_SETTINGS
-    1: USE_INPUT_SYSTEM_POSE_CONTROL
-    14: USE_INPUT_SYSTEM_POSE_CONTROL
-    7: USE_INPUT_SYSTEM_POSE_CONTROL
-    Android: USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL
-    Standalone: USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL
-    Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL
+    Android: VUFORIA_ANDROID_SETTINGS
+    Windows Store Apps: VUFORIA_WSA_SETTINGS
+    iPhone: VUFORIA_IOS_SETTINGS
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
@@ -917,32 +913,31 @@ PlayerSettings:
       PrivateNetworkClientServer: False
       InternetClientServer: False
       VideosLibrary: False
-      BackgroundMediaPlayback: False
       Objects3D: False
+      InternetClient: True
       RemoteSystem: False
       BlockedChatMessages: False
       PhoneCall: False
       UserDataTasks: False
       Appointments: False
       SystemManagement: False
-      SpatialPerception: True
-      Microphone: True
+      SpatialPerception: False
+      Microphone: False
       SharedUserCertificates: False
       InputInjectionBrokered: False
       PicturesLibrary: False
       RemovableStorage: False
       WebCam: True
       VoipCall: False
-      GazeInput: True
       UserAccountInformation: False
       UserNotificationListener: False
       PhoneCallHistoryPublic: False
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      InternetClient: True
       Proximity: False
       CodeGeneration: False
+      BackgroundMediaPlayback: False
       EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
     Desktop: False
@@ -997,7 +992,7 @@ PlayerSettings:
     m_VersionCode: 10154
     m_VersionName: 10.15.4
   apiCompatibilityLevel: 3
-  activeInputHandler: 2
+  activeInputHandler: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []

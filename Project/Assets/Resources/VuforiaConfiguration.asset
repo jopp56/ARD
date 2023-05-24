@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AdOO3dL/////AAABmbIjRgtc9EQHrEAeAPPLqSEbbNVlt1QLPvUm+TAN/kSReMHFaGwGXhjmw4Co2yDIzL2RPex98HFCWEaVL4BlJAaS2DfeqpyqZRW+i0Jkx+pTPOH6gDo6YFAGoEnDNp0HNxlQ4wIneUEWNfrdvoRest4q7Eegl18bNo2lJTXO0trzc9Feqb3ZoLDnp9GpGCFNQM9xyGxcVDsDkZK6yq/eQ3A83M41sqD8yrc2IoXQueHo+XhzEwtY3ZNcknh1bmZYpQHizhTosPw7B4wvWesR3ayoisyiy2Yzv8LgIVpJpY7nW0GDUi3vwwfnn/Iot3YxAi2Nn+Flw1jggNGMPllnL3BNDzFHmTQu914XytBkygZt
-    ufoLicenseKey: QVNyelZNbi8vLy8vQUFBQUtOVVlFSUpFVmtIYnQ5TWtJMjVrRGlHUmtPVmt5VDBRdGNTcWtoc1BqcytzcW1nNFhnbGZ4dUI5d3hZeVhhaVB4SnNrTkxtaVphTkFYSmFPZWRwS0ZScWk1STVPQkwyajNoRE52cTZ1RlMwcngzSHlPY296bCtMVENKZDR6b3FDTFBKSGtNZ0VoQ2VvTWVkQ2ZDVzFZQ2NlcC9ibFdGeTdneFRTTG85ZnV2cDhZYUVuOWFpUWlyYVZKZG1FM1ZDOC9NMUNoM1JZTk1wWTcxZTdZdjlZVFNPbE50ZHFuTEVsaEliTndwNVlnR1o5Um9meElrSUMvY3M5ZDRJMXNlVDQ5RmNiVG44elB1Nml1VkQ0bWRoeTgvbGdBUVV3U0FmcHh2RWxETUxqNVZWNjhwN01ETXRVaG83TCtFZHRSTXQ0QmFGb0x2NysrY1FTeFR0SnR4TWIxOXlpdkNjYS9ZdWNramRBNytrVHJLc1c=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVJyS2ltSC8vLy8vQUFBQUtEZGF4RzJlSmtzaHVseDU1cUt2aDMwZnJ1cFBNK0l5NzIxOGRJMlI5Wk9mZHNGV0RRbjkvSVJBQWFiQlJVeVloeVNyd1R1a21peWJ3cTdLUDNvTEMxTTVGR2dDaHdpVnJETEtUUGd0dldSaGxvaU5QVzlZU0RyMWJjWGJERStWYW9WektNbkt0RTVONlkvREhvUTRaNCt5Q3FXN2dEcHVkTnRiUXNBMW9NaGtmUFg1WktvazZpbkF1aXBRWWJERzBpRm1zN2h0UjcyMkFPU0hYcGx0OU5FZHJ5QVJXbTNSQ2pIcXczazBnU1VKTExXMWZQQjlOZGZSVWVlQzBHV3J2ZGRLekVrang3bCs5emRFaElxb0J5dU0zQmFYNDV4cFhxR0pxSXlhVFM3MG4vUWZFb0ptN1RtK29kUU1Jb0ZmM0EyTlBOaUdEdTVVL1hQbUhCSzFINHNWMjdudERHbldCYU5STlRQUThpSDE=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -23,7 +23,7 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 10.15.4
+    version: 10.0.2
     eulaAcceptedVersions: '{"Values":["","0.0","10.15"]}'
   database:
     disableModelExtraction: 0
@@ -49,4 +49,4 @@ MonoBehaviour:
   webcam:
     renderTextureLayer: 30
   packageInformation:
-    ARFoundationVersion: 4.2.3
+    ARFoundationVersion: 
