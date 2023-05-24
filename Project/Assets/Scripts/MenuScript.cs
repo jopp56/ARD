@@ -7,10 +7,14 @@ public class MenuScript : MonoBehaviour
 
 {
     public GameObject menu;
+    public GameObject toggleOff;
+    public GameObject toggleOn;
 
     void Awake()
     {
         this.menu = menu;
+        this.toggleOff = toggleOff;
+        this.toggleOn = toggleOn;
     }
 
     // Start is called before the first frame update
@@ -30,19 +34,19 @@ public class MenuScript : MonoBehaviour
     }
     public void CloseMenu()
     {
+        toggleOn.SetActive(false);
+        toggleOff.SetActive(true);
         menu.SetActive(false);
-        GameObject.Find("UIButtonToggleIconOn").SetActive(false);
-        GameObject.Find("UIButtonToggleIconOff").SetActive(true);
     }
 
     public void ToogleMenu()
     {
-        if (GameObject.Find("UIButtonToggleIconOff").activeSelf == true)
+        if (toggleOff.activeSelf == true)
         {
             menu.SetActive(true);
         }
 
-        if(GameObject.Find("UIButtonToggleIconOn").activeSelf == true)
+        if(toggleOn.activeSelf == true)
         {
             menu.SetActive(false);
         }

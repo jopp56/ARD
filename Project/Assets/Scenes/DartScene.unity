@@ -375,6 +375,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menu: {fileID: 9003082562687299219}
+  toggleOff: {fileID: 1661344468}
+  toggleOn: {fileID: 660945238}
+--- !u!1 &660945238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 420149338755007032, guid: f1dfa3ff1f171964fa0717ff4d0131cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 611694857}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1646572595
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,6 +555,12 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!1 &1661344468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4193219501947293431, guid: f1dfa3ff1f171964fa0717ff4d0131cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 611694857}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2104587049
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +753,16 @@ PrefabInstance:
       propertyPath: menu
       value: 
       objectReference: {fileID: 9003082562687299219}
+    - target: {fileID: 9003082561330528797, guid: 4cbdb46ba06591949a30a87b843d007e,
+        type: 3}
+      propertyPath: toggleOn
+      value: 
+      objectReference: {fileID: 660945238}
+    - target: {fileID: 9003082561330528797, guid: 4cbdb46ba06591949a30a87b843d007e,
+        type: 3}
+      propertyPath: toggleOff
+      value: 
+      objectReference: {fileID: 1661344468}
     - target: {fileID: 9124989853620312811, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: m_RootOrder
