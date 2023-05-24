@@ -417,7 +417,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VuforiaEditorScripts.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VuforiaScripts.ref.dll"
-"Assets/Scripts/RestartButtonScript.cs"
+"Assets/Scripts/MenuScript.cs"
 -langversion:9.0
 
 /deterministic
