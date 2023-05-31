@@ -108,8 +108,6 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppTypeDefinitions.c">
     </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.GraphicsTools_CodeGen.c">
-    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.OpenXR_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Async_CodeGen.c">
@@ -147,10 +145,6 @@
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Services.TeleportSystem_CodeGen.c">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.SpatialManipulation_CodeGen.c">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.UXCore_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit_CodeGen.c">
     </ClCompile>
@@ -198,7 +192,11 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.ConformanceAutomation_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.MetaQuestSupport_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.MockRuntime_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.OculusQuestSupport_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.RuntimeDebugger_CodeGen.c">
     </ClCompile>
@@ -363,8 +361,6 @@
     <ClCompile Include="Source\il2cppOutput\Generics110.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics111.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Generics112.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics12.cpp">
     </ClCompile>
@@ -918,14 +914,6 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs241.cpp">
     </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs242.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs243.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs244.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs245.cpp">
-    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs25.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs26.cpp">
@@ -1102,10 +1090,6 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppReversePInvokeWrapperTable.cpp">
     </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.GraphicsTools.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.GraphicsTools1.cpp">
-    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.OpenXR.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Async.cpp">
@@ -1165,12 +1149,6 @@
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.SpatialManipulation.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.SpatialManipulation1.cpp">
-    </ClCompile>
-    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.UXCore.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit1.cpp">
     </ClCompile>
@@ -1355,7 +1333,11 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.ConformanceAutomation.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.MetaQuestSupport.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.MockRuntime.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.OculusQuestSupport.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.RuntimeDebugger.cpp">
     </ClCompile>

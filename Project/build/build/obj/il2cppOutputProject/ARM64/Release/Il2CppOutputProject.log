@@ -6,6 +6,755 @@
   
   	Output directory: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Release
   	Cache directory: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\obj\il2cppOutputProject\ARM64\Release
-  ObjectFiles: 773 of which compiled: 0
-  Total compilation time: 3525 milliseconds.
-  Cleaned up 1 object files.
+  Il2CppCCalculateTypeValues1.cpp
+  Il2CppInteropDataTable.cpp
+  Il2CppGenericInstDefinitions.c
+  Il2CppGenericMethodPointerTable.c
+  GenericMethods6.cpp
+  Il2CppMetadataUsage.c
+  mscorlib_CodeGen.c
+  Il2CppTypeDefinitions.c
+  Generics33.cpp
+  Il2CppGenericClassTable.c
+  Generics69.cpp
+  Generics61.cpp
+  Generics58.cpp
+  Generics56.cpp
+  Il2CppInvokerTable.cpp
+  GenericMethods3.cpp
+  GenericMethods7.cpp
+  Il2CppCCalculateFieldValues2.cpp
+  Il2CppGenericAdjustorThunkTable.c
+  Generics34.cpp
+  Generics63.cpp
+  GenericMethods15.cpp
+  Generics18.cpp
+  Generics64.cpp
+  Il2CppCCWs195.cpp
+  Generics65.cpp
+  Il2CppCCWs196.cpp
+  Generics54.cpp
+  Generics60.cpp
+  Generics87.cpp
+  Unity.XR.ARSubsystems.cpp
+  GenericMethods.cpp
+  Generics57.cpp
+  GenericMethods20.cpp
+  Generics66.cpp
+  Generics96.cpp
+  Il2CppGenericMethodTable.c
+  Unity.XR.ARFoundation.cpp
+  Generics15.cpp
+  Unity.XR.Interaction.Toolkit2.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Unity.XR.Interaction.Toolkit2.cpp(25948): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Microsoft.MixedReality.Toolkit4.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.MixedReality.Toolkit4.cpp(8157): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics86.cpp
+  Generics2.cpp
+  Generics36.cpp
+  Generics35.cpp
+  Generics98.cpp
+  GenericMethods11.cpp
+  Unity.XR.Interaction.Toolkit3.cpp
+  Generics49.cpp
+  Generics59.cpp
+  GenericMethods16.cpp
+  Microsoft.MixedReality.Toolkit.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.MixedReality.Toolkit.cpp(17400): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  GenericMethods10.cpp
+  GenericMethods12.cpp
+  Vuforia.Unity.Engine_CodeGen.c
+  GenericMethods2.cpp
+  UnityEngine.CoreModule.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.CoreModule.cpp(17502): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Il2CppGenericMethodDefinitions.c
+  Unity.InputSystem_CodeGen.c
+  Generics97.cpp
+  Generics46.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Generics46.cpp(17999): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Vuforia.Unity.Engine9.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Vuforia.Unity.Engine9.cpp(22378): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Unity.InputSystem7.cpp
+  GenericMethods13.cpp
+  Generics48.cpp
+  Generics62.cpp
+  GenericMethods17.cpp
+  Generics103.cpp
+  Generics19.cpp
+  UnresolvedVirtualCallStubs.cpp
+  Generics14.cpp
+  Il2CppCCWs171.cpp
+  Generics53.cpp
+  Generics20.cpp
+  Generics99.cpp
+  Microsoft.MixedReality.Toolkit.Core.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Core.cpp(24321): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Vuforia.Unity.Engine2.cpp
+  GenericMethods1.cpp
+  GenericMethods18.cpp
+  Generics85.cpp
+  Generics17.cpp
+  Generics91.cpp
+  GenericMethods14.cpp
+  Vuforia.Unity.Engine1.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Vuforia.Unity.Engine1.cpp(20862): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics38.cpp
+  Generics105.cpp
+  Generics39.cpp
+  Generics16.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Generics16.cpp(10466): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics1.cpp
+  Il2CppCCWs170.cpp
+  Generics37.cpp
+  Generics92.cpp
+  Generics106.cpp
+  Generics101.cpp
+  Generics.cpp
+  Generics12.cpp
+  Microsoft.MixedReality.Toolkit.SDK6.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.MixedReality.Toolkit.SDK6.cpp(30896): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics104.cpp
+  UnityEngine.UIElementsModule_CodeGen.c
+  UnityEngine.CoreModule1.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.CoreModule1.cpp(10337): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Il2CppCCalculateFieldValues3.cpp
+  Generics68.cpp
+  Generics67.cpp
+  Generics50.cpp
+  Il2CppCCWs221.cpp
+  GenericMethods19.cpp
+  Unity.TextMeshPro5.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Unity.TextMeshPro5.cpp(16264): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics9.cpp
+  Generics110.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Generics110.cpp(28868): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics102.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Generics102.cpp(25255): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics13.cpp
+  GenericMethods5.cpp
+  Generics95.cpp
+  Microsoft.MixedReality.Toolkit2.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.MixedReality.Toolkit2.cpp(16178): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics6.cpp
+  Generics55.cpp
+  Generics10.cpp
+  Generics21.cpp
+  Generics7.cpp
+  Microsoft.MixedReality.Toolkit.SDK.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Microsoft.MixedReality.Toolkit.SDK.cpp(29676): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics8.cpp
+  Generics93.cpp
+  Generics11.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Generics11.cpp(25329): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics70.cpp
+  Generics94.cpp
+  Generics40.cpp
+  Generics84.cpp
+  Generics41.cpp
+  Generics52.cpp
+  UnityEngine.CoreModule2.cpp
+  Generics45.cpp
+  Generics47.cpp
+  Microsoft.MixedReality.Toolkit.SDK_CodeGen.c
+  UnityEngine.UI1.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.UI1.cpp(29690): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics51.cpp
+  Generics43.cpp
+  Generics100.cpp
+  Generics107.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Generics107.cpp(26942): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics109.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Generics109.cpp(27935): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics42.cpp
+  Generics44.cpp
+  System_CodeGen.c
+  Il2CppCCWs200.cpp
+  mscorlib4.cpp
+  Il2CppCCWs206.cpp
+  Generics88.cpp
+  Generics90.cpp
+  Generics108.cpp
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4305: "return": Verk�rzung von "__int64" in "T"
+          with
+          [
+              T=int32_t
+          ]
+  C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\Source\il2cppOutput\Generics108.cpp(20979): note: Siehe Verweis auf die gerade kompilierte Instanziierung "T il2cpp_codegen_cast_double_to_int<int32_t>(double)" der Funktions-Vorlage.
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(34): warning C4309: "return": Verk�rzung eines konstanten Wertes
+  Generics89.cpp
+  GenericMethods4.cpp
+  Unity.XR.Interaction.Toolkit_CodeGen.c
+  Microsoft.MixedReality.Toolkit_CodeGen.c
+  Generics29.cpp
+  Il2CppCCWs220.cpp
+  Generics32.cpp
+  Generics25.cpp
+  Generics28.cpp
+  System.Core_CodeGen.c
+  Generics81.cpp
+  Generics30.cpp
+  Generics31.cpp
+  GenericMethods9.cpp
+  Generics27.cpp
+  Generics82.cpp
+  Generics83.cpp
+  Generics22.cpp
+  Generics26.cpp
+  Il2CppCCWs172.cpp
+  Generics80.cpp
+  Generics79.cpp
+  Generics73.cpp
+  Generics24.cpp
+  Generics77.cpp
+  Generics71.cpp
+  Generics23.cpp
+  Generics75.cpp
+  Generics76.cpp
+  Generics74.cpp
+  Generics72.cpp
+  Il2CppCCTypeValuesTable.cpp
+  UnityEngine.CoreModule_CodeGen.c
+  GenericMethods8.cpp
+  Generics78.cpp
+  Il2CppCCWs219.cpp
+  Il2CppCCWs211.cpp
+  Il2CppRgctxTable.c
+  Il2CppCCWs194.cpp
+  Il2CppCCWs217.cpp
+  Il2CppCCWs18.cpp
+  System.Xml_CodeGen.c
+  Il2CppCCWs13.cpp
+  Il2CppCCWs169.cpp
+  Il2CppCCWs157.cpp
+  Il2CppCCWs12.cpp
+  Il2CppCCWs201.cpp
+  Il2CppCCWs209.cpp
+  Il2CppCCWs202.cpp
+  Il2CppCCWs214.cpp
+  Il2CppCCWs208.cpp
+  Unity.XR.ARSubsystems_CodeGen.c
+  Il2CppCCWs204.cpp
+  Il2CppCCWs105.cpp
+  Il2CppCCWs193.cpp
+  Generics111.cpp
+  Il2CppCCFieldValuesTable.cpp
+  Il2CppCCWs240.cpp
+  Il2CppCCWs.cpp
+  Il2CppCCWs17.cpp
+  Il2CppCCWs212.cpp
+  Il2CppCCWs86.cpp
+  Il2CppCCWs85.cpp
+  Il2CppCCWs93.cpp
+  Il2CppCCWs104.cpp
+  Il2CppCCWs158.cpp
+  Il2CppCCWs11.cpp
+  UnityEngine.UI_CodeGen.c
+  Il2CppCCWs90.cpp
+  Il2CppCCWs84.cpp
+  Il2CppCCWs210.cpp
+  Il2CppCCWs87.cpp
+  Il2CppCCWs101.cpp
+  Il2CppCCWs88.cpp
+  Il2CppCCWs91.cpp
+  GenericMethods21.cpp
+  Il2CppCCWs166.cpp
+  Il2CppCCWs162.cpp
+  Il2CppCCWs67.cpp
+  Il2CppCCWs216.cpp
+  Il2CppCCWs89.cpp
+  Il2CppCCWs92.cpp
+  Il2CppCCWs9.cpp
+  Unity.TextMeshPro_CodeGen.c
+  Il2CppCCWs213.cpp
+  Il2CppCCWs155.cpp
+  Il2CppCCWs165.cpp
+  Il2CppCCWs160.cpp
+  Il2CppCCWs65.cpp
+  Il2CppCCWs63.cpp
+  Il2CppCCWs159.cpp
+  Il2CppCCWs10.cpp
+  Il2CppCCWs167.cpp
+  Il2CppCCWs66.cpp
+  Il2CppCCWs61.cpp
+  Il2CppCCWs205.cpp
+  Il2CppCCWs100.cpp
+  Il2CppCCWs239.cpp
+  Il2CppCCWs163.cpp
+  Vuforia.Unity.Wrapper_CodeGen.c
+  Il2CppCCWs64.cpp
+  Il2CppCCWs164.cpp
+  Il2CppCCWs223.cpp
+  Il2CppCCWs236.cpp
+  Il2CppCCWs168.cpp
+  Il2CppCCWs60.cpp
+  Il2CppCCWs189.cpp
+  Il2CppCCWs187.cpp
+  Il2CppCCWs188.cpp
+  Il2CppCCWs62.cpp
+  Unity.XR.ARFoundation_CodeGen.c
+  Il2CppCCWs192.cpp
+  Il2CppCCWs15.cpp
+  Il2CppCCWs190.cpp
+  Il2CppCCWs103.cpp
+  Il2CppCCWs102.cpp
+  Il2CppCCWs186.cpp
+  Il2CppCCWs191.cpp
+  Il2CppCCWs16.cpp
+  Il2CppCCWs203.cpp
+  Il2CppCCWs14.cpp
+  Il2CppCCWs161.cpp
+  Il2CppCCWs106.cpp
+  Il2CppCCWs98.cpp
+  Il2CppCCWs222.cpp
+  Il2CppCCWs76.cpp
+  Il2CppCCWs183.cpp
+  Il2CppCCWs94.cpp
+  Il2CppCCWs99.cpp
+  Il2CppCCWs232.cpp
+  Il2CppCCWs230.cpp
+  Il2CppCCWs97.cpp
+  Il2CppCCWs8.cpp
+  Il2CppCCWs73.cpp
+  Il2CppCCWs72.cpp
+  Il2CppCCWs69.cpp
+  Il2CppCCWs79.cpp
+  Il2CppCCWs68.cpp
+  Il2CppCCWs75.cpp
+  Il2CppCCWs71.cpp
+  Il2CppCCWs77.cpp
+  Il2CppCCWs156.cpp
+  Il2CppCCWs229.cpp
+  Il2CppCCWs70.cpp
+  Il2CppCCWs78.cpp
+  Il2CppCCWs234.cpp
+  Il2CppCCWs74.cpp
+  Microsoft.MixedReality.Toolkit.Core_CodeGen.c
+  Il2CppCCWs185.cpp
+  Il2CppCCWs198.cpp
+  Il2CppCCWs225.cpp
+  Il2CppCCWs226.cpp
+  Il2CppCCWs228.cpp
+  Il2CppCCWs241.cpp
+  Microsoft.MixedReality.OpenXR_CodeGen.c
+  Il2CppCCWs6.cpp
+  Il2CppCCWs218.cpp
+  Il2CppCCWs5.cpp
+  Il2CppCCWs3.cpp
+  Il2CppCCWs215.cpp
+  UnityEngine.UIModule.cpp
+  Il2CppCCWs7.cpp
+  Unity.XR.OpenXR_CodeGen.c
+  Il2CppCCWs235.cpp
+  Il2CppCCWs237.cpp
+  Il2CppCCWs4.cpp
+  Il2CppCCWs199.cpp
+  Il2CppCCWs207.cpp
+  UnityEngine.AnimationModule.cpp
+  Il2CppCCWs238.cpp
+  Il2CppCCWs197.cpp
+  Il2CppCCWs224.cpp
+  Il2CppCCWs96.cpp
+  Il2CppCCWs154.cpp
+  Il2CppCCWs107.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputSystem_CodeGen.c
+  Il2CppCCWs177.cpp
+  Il2CppCCWs178.cpp
+  Il2CppCCWs110.cpp
+  Il2CppCCWs175.cpp
+  UnityEngine.AudioModule.cpp
+  Il2CppCCWs181.cpp
+  Il2CppCCWs174.cpp
+  Il2CppCCWs2.cpp
+  Il2CppCCWs80.cpp
+  Il2CppCCWs179.cpp
+  Il2CppCCWs109.cpp
+  Il2CppCCWs182.cpp
+  Il2CppCCWs180.cpp
+  Mono.Security_CodeGen.c
+  Il2CppCCWs173.cpp
+  Il2CppCCWs184.cpp
+  Il2CppCCWs176.cpp
+  Il2CppCCWs140.cpp
+  Il2CppCCWs135.cpp
+  Il2CppCCWs227.cpp
+  Il2CppCCWs1.cpp
+  Il2CppCCWs125.cpp
+  Il2CppCCWs126.cpp
+  WindowsRuntimeMetadata_CodeGen.c
+  Il2CppCCWs139.cpp
+  Il2CppCCWs112.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputSimulation_CodeGen.c
+  Il2CppCCWs124.cpp
+  Il2CppCCWs114.cpp
+  Il2CppCCWs115.cpp
+  Il2CppCCWs111.cpp
+  UnityEngine.IMGUIModule_CodeGen.c
+  Unity.XR.CoreUtils_CodeGen.c
+  Il2CppCCWs146.cpp
+  Il2CppCCWs130.cpp
+  System.Runtime.WindowsRuntime_CodeGen.c
+  UnityEngine.TextCoreTextEngineModule_CodeGen.c
+  Il2CppCCWs231.cpp
+  Il2CppCCWs138.cpp
+  Il2CppCCWs141.cpp
+  Il2CppCCWs143.cpp
+  Il2CppCCWs137.cpp
+  Il2CppCCWs116.cpp
+  Il2CppCCWs144.cpp
+  Il2CppCCWs129.cpp
+  Il2CppCCWs142.cpp
+  Il2CppCCWs108.cpp
+  Il2CppCCWs147.cpp
+  Il2CppCCWs134.cpp
+  Il2CppCCWs127.cpp
+  Il2CppCCWs83.cpp
+  Il2CppCCWs133.cpp
+  Il2CppCCWs150.cpp
+  Il2CppCCWs131.cpp
+  Il2CppCCWs149.cpp
+  Il2CppCCWs145.cpp
+  Il2CppCCWs151.cpp
+  Il2CppCCWs132.cpp
+  Il2CppCCWs128.cpp
+  Il2CppCCWs119.cpp
+  Il2CppCCWs233.cpp
+  Il2CppCCWs120.cpp
+  Il2CppCCWs148.cpp
+  Il2CppCCWs113.cpp
+  Il2CppCCWs117.cpp
+  Il2CppCCWs136.cpp
+  Il2CppCCWs122.cpp
+  UnityEngine.XRModule_CodeGen.c
+  UnityEngine.UIElementsNativeModule_CodeGen.c
+  Il2CppCCWs123.cpp
+  Il2CppCCWs153.cpp
+  Il2CppCCWs152.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputAnimation_CodeGen.c
+  Il2CppCCWs118.cpp
+  Il2CppCCWs121.cpp
+  Il2CppCCWs95.cpp
+  I18N.Rare_CodeGen.c
+  __Generated_CodeGen.c
+  Il2CppCCWs82.cpp
+  UnityEngine.AndroidJNIModule_CodeGen.c
+  Il2CppCCWs81.cpp
+  Il2CppCCWs45.cpp
+  Il2CppCCWs37.cpp
+  Il2CppCCWs44.cpp
+  Microsoft.MixedReality.Toolkit.Services.SceneSystem_CodeGen.c
+  Il2CppCCWs30.cpp
+  Il2CppCCWs27.cpp
+  UnityEngine.PhysicsModule_CodeGen.c
+  Il2CppCCWs29.cpp
+  Microsoft.MixedReality.Toolkit.Providers.OpenXR_CodeGen.c
+  I18N.CJK_CodeGen.c
+  Il2CppCCWs52.cpp
+  Il2CppCCWs53.cpp
+  Il2CppCCWs36.cpp
+  UnityEngine.TextCoreFontEngineModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Gltf_CodeGen.c
+  Il2CppCCWs42.cpp
+  Il2CppCCWs54.cpp
+  Il2CppCCWs55.cpp
+  Il2CppCCWs43.cpp
+  Il2CppCCWs40.cpp
+  Il2CppCCWs19.cpp
+  Il2CppCCWs24.cpp
+  Il2CppCCWs59.cpp
+  Il2CppCCWs34.cpp
+  Il2CppCCWs20.cpp
+  Il2CppCCWs51.cpp
+  Il2CppCCWs38.cpp
+  Il2CppCCWs25.cpp
+  UnityEngine.SubsystemsModule_CodeGen.c
+  Il2CppCCWs48.cpp
+  Il2CppCCWs50.cpp
+  Il2CppCCWs39.cpp
+  Il2CppCCWs26.cpp
+  Il2CppCCWs57.cpp
+  Il2CppCCWs49.cpp
+  Il2CppCCWs23.cpp
+  Il2CppCCWs21.cpp
+  Il2CppCCWs35.cpp
+  Il2CppCCWs47.cpp
+  Il2CppCCWs33.cpp
+  Il2CppCCWs22.cpp
+  Il2CppCCWs58.cpp
+  Il2CppCCWs56.cpp
+  Il2CppCCWs32.cpp
+  Il2CppCCWs41.cpp
+  VuforiaScripts_CodeGen.c
+  System.Numerics_CodeGen.c
+  UnityEngine.UnityWebRequestModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem_CodeGen.c
+  Il2CppCCWs31.cpp
+  Il2CppCCWs46.cpp
+  Il2CppCCWs28.cpp
+  UnityEngine.AnimationModule_CodeGen.c
+  UnityEngine.UIModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared_CodeGen.c
+  Assembly-CSharp.cpp
+  I18N_CodeGen.c
+  UnityEngine.ParticleSystemModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding_CodeGen.c
+  Unity.XR.Management_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.XRSDK_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Async_CodeGen.c
+  I18N.West_CodeGen.c
+  UnityEngine.AudioModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput_CodeGen.c
+  UnityEngine.Physics2DModule_CodeGen.c
+  I18N.Other_CodeGen.c
+  UnityEngine.SharedInternalsModule_CodeGen.c
+  UnityEngine.InputLegacyModule_CodeGen.c
+  UnityEngine.TextRenderingModule_CodeGen.c
+  Unity.XR.OpenXR.Features.MockRuntime_CodeGen.c
+  Il2CppCodeRegistration.cpp
+  Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem_CodeGen.c
+  UnityEngine.TilemapModule_CodeGen.c
+  UnityEngine.SpatialTracking_CodeGen.c
+  UnityEngine.TerrainModule_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.TeleportSystem_CodeGen.c
+  I18N.MidEast_CodeGen.c
+  Unity.XR.OpenXR.Features.MetaQuestSupport.cpp
+  Unity.XR.OpenXR.Features.ConformanceAutomation_CodeGen.c
+  UnityEngine.VFXModule_CodeGen.c
+  UnityEngine.VideoModule_CodeGen.c
+  Unity.XR.OpenXR.Features.OculusQuestSupport.cpp
+  Microsoft.MixedReality.Toolkit.Services.CameraSystem_CodeGen.c
+  System.Configuration_CodeGen.c
+  UnityEngine.InputModule_CodeGen.c
+  UnityEngine.UnityAnalyticsModule_CodeGen.c
+  Unity.XR.OpenXR.Features.RuntimeDebugger_CodeGen.c
+  Assembly-CSharp_CodeGen.c
+  UnityEngine.JSONSerializeModule_CodeGen.c
+  System.Runtime.WindowsRuntime.UI.Xaml_CodeGen.c
+  System.Runtime.Serialization_CodeGen.c
+  UnityEngine.VRModule_CodeGen.c
+  UnityEngine.DirectorModule_CodeGen.c
+  UnityEngine.AIModule_CodeGen.c
+  Il2CppMetadataRegistration.c
+  UnityEngine.ImageConversionModule_CodeGen.c
+  Unity.XR.OpenXR.Features.OculusQuestSupport_CodeGen.c
+  Unity.XR.OpenXR.Features.MetaQuestSupport_CodeGen.c
+  UnityEngine.GridModule_CodeGen.c
+  ObjectFiles: 764 of which compiled: 506
+  	Time Compile: 35538 milliseconds Il2CppCCWs195.cpp
+  	Time Compile: 34986 milliseconds Il2CppCCWs171.cpp
+  	Time Compile: 33229 milliseconds Il2CppCCWs196.cpp
+  	Time Compile: 27615 milliseconds Il2CppCCWs170.cpp
+  	Time Compile: 20359 milliseconds Il2CppInvokerTable.cpp
+  	Time Compile: 18890 milliseconds Generics18.cpp
+  	Time Compile: 15741 milliseconds Generics49.cpp
+  	Time Compile: 14571 milliseconds Generics61.cpp
+  	Time Compile: 14317 milliseconds Generics98.cpp
+  	Time Compile: 13225 milliseconds Il2CppCCWs221.cpp
+  Total compilation time: 269439 milliseconds.
+  Bibliothek "C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_616A6014A1C726503CA540A487627878\GameAssembly.lib" und Objekt "C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_616A6014A1C726503CA540A487627878\GameAssembly.exp" werden erstellt.
+  Total link time: 22002 milliseconds.
+  Cleaned up 516 object files.
