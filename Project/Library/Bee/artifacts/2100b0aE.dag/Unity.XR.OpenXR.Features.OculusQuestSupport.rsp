@@ -119,6 +119,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:VUFORIA_WSA_SETTINGS
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -339,7 +340,7 @@
 -r:"Library/Bee/artifacts/2100b0aE.dag/Unity.XR.OpenXR.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.xr.openxr@1.7.0/OculusQuest/Runtime/OculusQuestFeature.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.8.0/OculusQuest/Runtime/OculusQuestFeature.cs"
 -langversion:9.0
 
 /deterministic
