@@ -15,7 +15,7 @@ C:/Praxispr/ARD/Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52576
+53316
 Successfully changed project path to: C:/Praxispr/ARD/Project
 C:/Praxispr/ARD/Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Praxispr/ARD/Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 243.96 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 8.62 ms.
+Refreshing native plugins compatible for Editor in 848.24 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 13.52 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Praxispr/ARD/Project/Assets
@@ -63,99 +63,99 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.020259 seconds.
+Registered in 0.010980 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 186.01 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 220.72 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 1.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.781 seconds
+- Completed reload, in  1.772 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1782ms)
-		BeginReloadAssembly (214ms)
+	ReloadAssembly (1773ms)
+		BeginReloadAssembly (259ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1274ms)
-			LoadAssemblies (209ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1269ms)
+			LoadAssemblies (243ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (230ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (836ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (845ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (204ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (187ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (225ms)
-				ProcessInitializeOnLoadMethodAttributes (218ms)
+				InitializePlatformSupportModulesInManaged (166ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (222ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.037683 seconds.
-Android Extension - Scanning For ADB Devices 7239 ms
+Registered in 0.044787 seconds.
+Android Extension - Scanning For ADB Devices 6831 ms
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 194.20 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 2.10 ms.
+Refreshing native plugins compatible for Editor in 185.46 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.46 ms.
 Package Manager log level set to [2]
-[XR] [MROpenXR][Info   ][13:32:20.619441][tid:4e90] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][13:32:20.619441][tid:4e90] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][13:32:20.619747][tid:4e90] InputProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][13:32:20.619747][tid:4e90] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:48:47.897665][tid:645c] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:48:47.897665][tid:645c] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:48:47.898376][tid:645c] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:48:47.898376][tid:645c] InputProvider_RegisterLifecycleProvider
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][13:32:20.626708][tid:4e90] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
-[XR] [MROpenXR][Info   ][13:32:20.626708][tid:4e90] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][16:48:47.910814][tid:645c] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][16:48:47.910814][tid:645c] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  4.795 seconds
+- Completed reload, in  5.394 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4798ms)
+	ReloadAssembly (5396ms)
 		BeginReloadAssembly (375ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (4096ms)
-			LoadAssemblies (452ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (4685ms)
+			LoadAssemblies (515ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (711ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (413ms)
-			SetupLoadedEditorAssemblies (2310ms)
+			SetupTypeCache (784ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (230ms)
+			SetupLoadedEditorAssemblies (3058ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (197ms)
-				BeforeProcessingInitializeOnLoad (325ms)
-				ProcessInitializeOnLoadAttributes (1487ms)
-				ProcessInitializeOnLoadMethodAttributes (206ms)
-				AfterProcessingInitializeOnLoad (30ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (186ms)
+				BeforeProcessingInitializeOnLoad (359ms)
+				ProcessInitializeOnLoadAttributes (2226ms)
+				ProcessInitializeOnLoadMethodAttributes (208ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 3.36 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.36 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.56 ms.
 Unloading 4269 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 73 unused Assets / (133.9 KB). Loaded Objects now: 5070.
-Memory consumption went from 174.4 MB to 174.2 MB.
-Total: 17.894700 ms (FindLiveObjects: 4.364700 ms CreateObjectMapping: 1.576700 ms MarkObjects: 10.823800 ms  DeleteObjects: 1.125800 ms)
+Memory consumption went from 174.5 MB to 174.3 MB.
+Total: 21.919700 ms (FindLiveObjects: 0.651100 ms CreateObjectMapping: 0.820600 ms MarkObjects: 19.606500 ms  DeleteObjects: 0.838400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,19 +170,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 268011.905405 seconds.
-  path: Assets/Formen/Außen_Kuchenstück.blend
-  artifactKey: Guid(8c7bc996efc68e041b82eea4634dac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Außen_Kuchenstück.blend using Guid(8c7bc996efc68e041b82eea4634dac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c6b312ba118a76161825eb79f99d7f') in 0.777170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Formen/Kreis_Außen.blend
-  artifactKey: Guid(07f388755c6cc7d489b430eaa81d911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Kreis_Außen.blend using Guid(07f388755c6cc7d489b430eaa81d911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4b9f170dc22ecadc4121a80e88f3b1') in 0.114320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Formen/Außen_rechteck.blend
+  Time since last request: 279818.362012 seconds.
+  path: Assets/Formen/TripleRing.blend
   artifactKey: Guid(a9ff13fa7d421ba4ebc14162a52f611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Außen_rechteck.blend using Guid(a9ff13fa7d421ba4ebc14162a52f611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743f6eaf8db2aa7aa3e6c16b164aa286') in 0.112942 seconds 
+Start importing Assets/Formen/TripleRing.blend using Guid(a9ff13fa7d421ba4ebc14162a52f611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bbd66466751712c9f3ca6efd309f03') in 0.446132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.005940 seconds.
+  path: Assets/Formen/TripleRing2.blend
+  artifactKey: Guid(985fa112968396b45a5bad2dc0cb755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Formen/TripleRing2.blend using Guid(985fa112968396b45a5bad2dc0cb755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a076e8b6cb5052234d6203e156e00744') in 0.107804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.181624 seconds.
+  path: Assets/Formen/DoubleRIng.blend
+  artifactKey: Guid(a9ff13fa7d421ba4ebc14162a52f611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Formen/DoubleRIng.blend using Guid(a9ff13fa7d421ba4ebc14162a52f611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50474c3ae2837b36e7ebd5ae31dd8e57') in 0.075250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.827439 seconds.
+  path: Assets/Formen/DoubleRing2.blend
+  artifactKey: Guid(985fa112968396b45a5bad2dc0cb755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Formen/DoubleRing2.blend using Guid(985fa112968396b45a5bad2dc0cb755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd128eccce4610ced4763241ec4f0cc') in 0.120365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.688687 seconds.
+  path: Assets/Formen/TripleRing.blend
+  artifactKey: Guid(c16fb1fcf08e8924f96238eafe3a0873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Formen/TripleRing.blend using Guid(c16fb1fcf08e8924f96238eafe3a0873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37afe95ad7972a3f142298b44657e719') in 0.052320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.023567 seconds.
+  path: Assets/Formen/Innen_Kuchenstücl.blend
+  artifactKey: Guid(c16fb1fcf08e8924f96238eafe3a0873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Formen/Innen_Kuchenstücl.blend using Guid(c16fb1fcf08e8924f96238eafe3a0873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a27a19915b34bd409f525fbe16be3ff') in 0.105235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.259946 seconds.
+  path: Assets/Formen/TripleRing.blend
+  artifactKey: Guid(fc72d611b0a10d241aed0b36de1f0bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Formen/TripleRing.blend using Guid(fc72d611b0a10d241aed0b36de1f0bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8410c4eaa007cd8d0c299c858d6e061') in 0.090419 seconds 
