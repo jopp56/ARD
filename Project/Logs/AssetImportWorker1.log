@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'de' Physical Memory: 15931 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'de' Physical Memory: 6020 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
+C:/Praxispr/ARD/Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50199
-Successfully changed project path to: C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
-C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
+58217
+Successfully changed project path to: C:/Praxispr/ARD/Project
+C:/Praxispr/ARD/Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,114 +47,115 @@ C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 137.78 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 5.28 ms.
+Refreshing native plugins compatible for Editor in 242.21 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 12.35 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Assets
+[Subsystems] Discovering subsystems at path C:/Praxispr/ARD/Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
-    Vendor:   NVIDIA
-    VRAM:     1920 MB
-    Driver:   31.0.15.2783
+    Renderer: AMD Radeon(TM) RX Vega 10 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     3010 MB
+    Driver:   31.0.12024.0
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008668 seconds.
-Native extension for UWP target not found
+Registered in 0.048143 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 112.38 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 203.22 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.73 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.051 seconds
+- Completed reload, in  4.171 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1052ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (4172ms)
+		BeginReloadAssembly (1055ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (745ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1908ms)
+			LoadAssemblies (1049ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
+			SetupTypeCache (487ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (446ms)
+			RebuildScriptCaches (178ms)
+			SetupLoadedEditorAssemblies (1029ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (79ms)
+				InitializePlatformSupportModulesInManaged (466ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (204ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.019814 seconds.
+Registered in 0.053555 seconds.
+Android Extension - Scanning For ADB Devices 7204 ms
 Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.40 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.22 ms.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 211.70 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.43 ms.
 Package Manager log level set to [2]
-[XR] [MROpenXR][Info   ][17:12:29.674073][tid:5fe4] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][17:12:29.674073][tid:5fe4] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][17:12:29.674240][tid:5fe4] InputProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][17:12:29.674240][tid:5fe4] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][17:25:24.998011][tid:37ac] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][17:25:24.998011][tid:37ac] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][17:25:24.998270][tid:37ac] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][17:25:24.998270][tid:37ac] InputProvider_RegisterLifecycleProvider
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][17:12:29.677506][tid:5fe4] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
-[XR] [MROpenXR][Info   ][17:12:29.677506][tid:5fe4] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][17:25:25.007949][tid:37ac] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][17:25:25.007949][tid:37ac] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  2.155 seconds
+- Completed reload, in  5.765 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2157ms)
-		BeginReloadAssembly (171ms)
+	ReloadAssembly (5769ms)
+		BeginReloadAssembly (414ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1808ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (5002ms)
+			LoadAssemblies (579ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (395ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (167ms)
-			SetupLoadedEditorAssemblies (1012ms)
+			SetupTypeCache (896ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (514ms)
+			SetupLoadedEditorAssemblies (2744ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (62ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (158ms)
-				ProcessInitializeOnLoadAttributes (594ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (212ms)
+				BeforeProcessingInitializeOnLoad (364ms)
+				ProcessInitializeOnLoadAttributes (1787ms)
+				ProcessInitializeOnLoadMethodAttributes (278ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.18 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.31 ms.
-Unloading 4251 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 73 unused Assets / (134.8 KB). Loaded Objects now: 5050.
-Memory consumption went from 172.9 MB to 172.7 MB.
-Total: 8.756700 ms (FindLiveObjects: 3.790800 ms CreateObjectMapping: 1.064000 ms MarkObjects: 3.633500 ms  DeleteObjects: 0.266300 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 3.22 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.35 ms.
+Unloading 4269 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (133.9 KB). Loaded Objects now: 5070.
+Memory consumption went from 174.4 MB to 174.3 MB.
+Total: 10.190900 ms (FindLiveObjects: 0.857100 ms CreateObjectMapping: 0.834000 ms MarkObjects: 8.031500 ms  DeleteObjects: 0.466300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,75 +168,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 99325.881414 seconds.
-  path: Assets/Formen/Halbkreis.Pp.blend
-  artifactKey: Guid(f85e8c9ac90e399408262d94d7b1d3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Halbkreis.Pp.blend using Guid(f85e8c9ac90e399408262d94d7b1d3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ace8c8e5ba422dcd02b619c166aa217') in 0.261734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Formen/rechteckgr.blend
-  artifactKey: Guid(985fa112968396b45a5bad2dc0cb755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/rechteckgr.blend using Guid(985fa112968396b45a5bad2dc0cb755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b43e0db2b57fd12fe00eca37d08f13') in 0.044152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Formen/Form3eck.blend
-  artifactKey: Guid(bc13dca199fe4654e99732ddea345f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Form3eck.blend using Guid(bc13dca199fe4654e99732ddea345f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0021c2c3f079b15eb766301a7a544bdf') in 0.043405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Formen/Kreis_kl.blend
-  artifactKey: Guid(def655e0bc72d05449e090680f4302f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Kreis_kl.blend using Guid(def655e0bc72d05449e090680f4302f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ada6b17d0e61bce6aca3c489b272c3') in 0.040983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Formen/Form5.blend
-  artifactKey: Guid(b2da98dc05a95374690d3d723b665952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Form5.blend using Guid(b2da98dc05a95374690d3d723b665952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96066a79c960fc8de6f730f296741dd7') in 0.040916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Resources/VuforiaConfiguration.asset
-  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3cbeb9fdf4dade35e98864b26c5f52') in 0.010944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Formen/Form2neun.blend
-  artifactKey: Guid(257d3f461aa67d3438058fd4f0a0e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Form2neun.blend using Guid(257d3f461aa67d3438058fd4f0a0e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c6a96eb615d52ffd5af87e609240ea') in 0.039855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Formen/Viereck-GROß.blend
-  artifactKey: Guid(62d4725736e83c84583633995e13bc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Viereck-GROß.blend using Guid(62d4725736e83c84583633995e13bc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ce1ae21954a67065caafcce203c814') in 0.038688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Formen/Viereckgroß.blend
-  artifactKey: Guid(e9fb095db459e2a40bdc045ea87be716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Viereckgroß.blend using Guid(e9fb095db459e2a40bdc045ea87be716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfda00d5decfd7eca3e5d9452fbca74') in 0.040202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Formen/klein-hell.blend
-  artifactKey: Guid(8221d528f8b083244bec15d400729279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/klein-hell.blend using Guid(8221d528f8b083244bec15d400729279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2499e946cfe9815752c54395857c44') in 0.038043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Formen/Kreis_Außen.blend
-  artifactKey: Guid(07f388755c6cc7d489b430eaa81d911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Kreis_Außen.blend using Guid(07f388755c6cc7d489b430eaa81d911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505144e2d8dbff8bb865ba073ce34180') in 0.040592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Formen/Dartscheibe-formen.blend
-  artifactKey: Guid(9550ea4bffb778741825618c42295049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Formen/Dartscheibe-formen.blend using Guid(9550ea4bffb778741825618c42295049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3496868e739ea4617215ec09c223aa63') in 0.142559 seconds 
