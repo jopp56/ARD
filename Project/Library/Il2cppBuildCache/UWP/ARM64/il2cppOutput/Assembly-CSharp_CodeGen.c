@@ -34,7 +34,11 @@ extern void MenuScript_CloseMenu_m8245BB415D7A23D5F8702EFA24F5DB234AC6D946 (void
 extern void MenuScript_ToogleMenu_mC536E197E304CD3F8358D5B8F805EF7FE10680E8 (void);
 // 0x0000000B System.Void MenuScript::.ctor()
 extern void MenuScript__ctor_mCDAA51C5C929C62E7082872DA581F913C3E66EDC (void);
-static Il2CppMethodPointer s_methodPointers[11] = 
+// 0x0000000C System.String VuforiaLicense::GetLicenseKey()
+extern void VuforiaLicense_GetLicenseKey_m8E6E03709CDB6968425A93FB9D016DA6AFC6C91B (void);
+// 0x0000000D System.Void VuforiaLicense::.ctor()
+extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
+static Il2CppMethodPointer s_methodPointers[13] = 
 {
 	Abstand_Awake_mFB29563B554436D79F14E2FD7F27FF57EF7D7603,
 	Abstand_Start_mACC02FFA843608DF8343CFDD62834112E4DB513D,
@@ -47,8 +51,10 @@ static Il2CppMethodPointer s_methodPointers[11] =
 	MenuScript_CloseMenu_m8245BB415D7A23D5F8702EFA24F5DB234AC6D946,
 	MenuScript_ToogleMenu_mC536E197E304CD3F8358D5B8F805EF7FE10680E8,
 	MenuScript__ctor_mCDAA51C5C929C62E7082872DA581F913C3E66EDC,
+	VuforiaLicense_GetLicenseKey_m8E6E03709CDB6968425A93FB9D016DA6AFC6C91B,
+	VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B,
 };
-static const int32_t s_InvokerIndices[11] = 
+static const int32_t s_InvokerIndices[13] = 
 {
 	9130,
 	9130,
@@ -60,13 +66,15 @@ static const int32_t s_InvokerIndices[11] =
 	9130,
 	9130,
 	9130,
+	9130,
+	13477,
 	9130,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	11,
+	13,
 	s_methodPointers,
 	0,
 	NULL,
