@@ -115,13 +115,18 @@
 		<type fullname="UnityEngine.XR.Management.XRManagerSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.OpenXR">
+		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.DPadInteraction" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.HandCommonPosesInteraction" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.HandInteractionProfile" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.HPReverbG2ControllerProfile" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.HTCViveControllerProfile" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.KHRSimpleControllerProfile" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchProControllerProfile" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftHandInteraction" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.MicrosoftMotionControllerProfile" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.PalmPoseInteraction" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.OpenXRLoader" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.OpenXR.OpenXRSettings" preserve="nothing"/>

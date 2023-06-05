@@ -569,7 +569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_RecvMsg_m53
 		// lutOffset = lutSize;
 		uint32_t L_4 = V_1;
 		__this->___lutOffset_20 = L_4;
-		// Marshal.Copy(lutPtr, lutData, 0, (int) lutSize);
+		// Marshal.Copy(lutPtr, lutData, 0, (int)lutSize);
 		intptr_t L_5 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = V_2;
 		uint32_t L_7 = V_1;
@@ -591,7 +591,7 @@ IL_002f:
 		uint32_t L_11 = V_6;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)L_11)));
 		V_7 = L_12;
-		// if(size1 > 0)
+		// if (size1 > 0)
 		uint32_t L_13 = V_4;
 		if ((!(((uint32_t)L_13) > ((uint32_t)0))))
 		{
@@ -765,9 +765,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature_Native_EndD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeDebuggerOpenXRFeature__ctor_m2DC84C4F7091238BD265B1B96D5719203C46C393 (RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA* __this, const RuntimeMethod* method) 
 {
 	{
-		// public UInt32 cacheSize=1024*1024;
+		// public UInt32 cacheSize = 1024 * 1024;
 		__this->___cacheSize_18 = ((int32_t)1048576);
-		// public UInt32 perThreadCacheSize=50*1024;
+		// public UInt32 perThreadCacheSize = 50 * 1024;
 		__this->___perThreadCacheSize_19 = ((int32_t)51200);
 		OpenXRFeature__ctor_m120460E34ECC22ED2DB96797A6DCB5C870E78852(__this, NULL);
 		return;

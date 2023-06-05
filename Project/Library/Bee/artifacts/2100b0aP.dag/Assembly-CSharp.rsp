@@ -108,6 +108,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:VUFORIA_WSA_SETTINGS
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:ENABLE_WINMD_SUPPORT
@@ -440,7 +441,6 @@
 -r:"Library/Bee/artifacts/2100b0aP.dag/VuforiaScripts.ref.dll"
 "Assets/Scripts/Abstand.cs"
 "Assets/Scripts/MenuScript.cs"
-"Assets/VuforiaLicense.cs"
 -langversion:9.0
 
 /deterministic

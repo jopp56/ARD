@@ -108,6 +108,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:VUFORIA_WSA_SETTINGS
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:ENABLE_WINMD_SUPPORT
@@ -396,8 +397,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"Library/Bee/artifacts/2100b0aP.dag/Unity.XR.OpenXR.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aP.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.xr.openxr@1.7.0/RuntimeDebugger/DebuggerState.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.7.0/RuntimeDebugger/RuntimeDebuggerOpenXRFeature.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.8.0/RuntimeDebugger/DebuggerState.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.8.0/RuntimeDebugger/RuntimeDebuggerOpenXRFeature.cs"
 -langversion:9.0
 
 /deterministic

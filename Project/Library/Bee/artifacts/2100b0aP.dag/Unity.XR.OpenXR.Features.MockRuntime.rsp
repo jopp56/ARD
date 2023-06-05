@@ -108,6 +108,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:VUFORIA_WSA_SETTINGS
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:ENABLE_WINMD_SUPPORT
@@ -397,8 +398,8 @@
 -r:"Library/Bee/artifacts/2100b0aP.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aP.dag/Unity.XR.OpenXR.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aP.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.xr.openxr@1.7.0/MockRuntime/MockRuntime.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.7.0/MockRuntime/MockRuntimeFeatureSet.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.8.0/MockRuntime/MockRuntime.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.8.0/MockRuntime/MockRuntimeFeatureSet.cs"
 -langversion:9.0
 
 /deterministic

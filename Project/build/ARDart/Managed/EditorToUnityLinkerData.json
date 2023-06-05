@@ -1188,7 +1188,35 @@
         {
             "managedAssemblyName": "Unity.XR.OpenXR.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.OpenXR.Features.Interactions.DPadInteraction",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.OpenXR.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.OpenXR.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.OpenXR.Features.Interactions.HandCommonPosesInteraction",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.OpenXR.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.OpenXR.Features.Interactions.HandInteractionProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.OpenXR.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.OpenXR.Features.Interactions.HPReverbG2ControllerProfile",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1231,6 +1259,13 @@
             "managedAssemblyName": "Unity.XR.OpenXR.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.OpenXR.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.OpenXR.Features.Interactions.PalmPoseInteraction",
             "moduleName": "",
             "usedInScenes": []
         },

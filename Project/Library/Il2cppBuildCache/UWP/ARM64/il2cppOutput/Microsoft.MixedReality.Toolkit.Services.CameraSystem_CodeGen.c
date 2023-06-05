@@ -88,7 +88,7 @@ static const int32_t s_InvokerIndices[18] =
 	9130,
 	2452,
 	6026,
-	13526,
+	13527,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_CameraSystem_CodeGenModule;
 const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_CameraSystem_CodeGenModule = 
