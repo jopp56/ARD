@@ -16,7 +16,7 @@
 
 3.GitHub Desktop Probleme und Wichtiges:
 	3.1: Error File Lock already exists:
-	Leider hilft hier nur das Repository neu zu clonen.
+	Leider hilft hier nur das Repository neu zu clonen.a
 	
 	
 	3.2:Mergen der Branches:
