@@ -117,27 +117,11 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)UnityOpenXR.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.dll')">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)UnityOpenXR.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.pdb')">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
     <None Include="$(MSBuildThisFileDirectory)VuforiaEngine.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\VuforiaEngine.dll')">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
     <None Include="$(MSBuildThisFileDirectory)VuforiaEngine.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\VuforiaEngine.pdb')">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)openxr_loader.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.dll')">
-      <DeploymentContent>true</DeploymentContent>
-      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)openxr_loader.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.pdb')">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -154,6 +138,22 @@
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
     <None Include="$(MSBuildThisFileDirectory)openxr_runtime_debugger.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.pdb')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)UnityOpenXR.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.dll')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)UnityOpenXR.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.pdb')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)openxr_loader.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.dll')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)openxr_loader.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.pdb')">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
@@ -189,20 +189,20 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <Target Name="BeforeResolveReferences" Condition="'$(BuildingProject)' == 'true'">
-        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.dll" DestinationFiles="$(MSBuildThisFileDirectory)UnityOpenXR.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.dll')" />
-        <Delete Files="$(MSBuildThisFileDirectory)UnityOpenXR.pdb" Condition="Exists('$(MSBuildThisFileDirectory)UnityOpenXR.pdb')" />
-        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.pdb" DestinationFiles="$(MSBuildThisFileDirectory)UnityOpenXR.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\VuforiaEngine.dll" DestinationFiles="$(MSBuildThisFileDirectory)VuforiaEngine.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\VuforiaEngine.dll')" />
         <Delete Files="$(MSBuildThisFileDirectory)VuforiaEngine.pdb" Condition="Exists('$(MSBuildThisFileDirectory)VuforiaEngine.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\VuforiaEngine.pdb" DestinationFiles="$(MSBuildThisFileDirectory)VuforiaEngine.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\VuforiaEngine.pdb')" />
-        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.dll" DestinationFiles="$(MSBuildThisFileDirectory)openxr_loader.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.dll')" />
-        <Delete Files="$(MSBuildThisFileDirectory)openxr_loader.pdb" Condition="Exists('$(MSBuildThisFileDirectory)openxr_loader.pdb')" />
-        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.pdb" DestinationFiles="$(MSBuildThisFileDirectory)openxr_loader.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\MicrosoftOpenXRPlugin.dll" DestinationFiles="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\MicrosoftOpenXRPlugin.dll')" />
         <Delete Files="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.pdb" Condition="Exists('$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\MicrosoftOpenXRPlugin.pdb" DestinationFiles="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\MicrosoftOpenXRPlugin.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.dll" DestinationFiles="$(MSBuildThisFileDirectory)openxr_runtime_debugger.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.dll')" />
         <Delete Files="$(MSBuildThisFileDirectory)openxr_runtime_debugger.pdb" Condition="Exists('$(MSBuildThisFileDirectory)openxr_runtime_debugger.pdb')" />
         <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.pdb" DestinationFiles="$(MSBuildThisFileDirectory)openxr_runtime_debugger.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_runtime_debugger.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.dll" DestinationFiles="$(MSBuildThisFileDirectory)UnityOpenXR.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.dll')" />
+        <Delete Files="$(MSBuildThisFileDirectory)UnityOpenXR.pdb" Condition="Exists('$(MSBuildThisFileDirectory)UnityOpenXR.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.pdb" DestinationFiles="$(MSBuildThisFileDirectory)UnityOpenXR.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXR.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.dll" DestinationFiles="$(MSBuildThisFileDirectory)openxr_loader.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.dll')" />
+        <Delete Files="$(MSBuildThisFileDirectory)openxr_loader.pdb" Condition="Exists('$(MSBuildThisFileDirectory)openxr_loader.pdb')" />
+        <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.pdb" DestinationFiles="$(MSBuildThisFileDirectory)openxr_loader.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.pdb')" />
   </Target>
 </Project>

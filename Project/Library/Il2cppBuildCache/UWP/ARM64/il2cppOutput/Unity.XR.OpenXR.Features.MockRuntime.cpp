@@ -1014,7 +1014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MockRuntime_BeforeFunctionCallback_mC
 		BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* L_1;
 		L_1 = MockRuntime_GetBeforeFunctionCallback_mC6DF44DDDC972164DAF20C5FCB2D2C8DD1937B32(L_0, NULL);
 		V_0 = L_1;
-		// if(null == callback)
+		// if (null == callback)
 		BeforeFunctionDelegate_t767D515AE77977BF5EA389123E37EB685DDADDDA* L_2 = V_0;
 		if (L_2)
 		{

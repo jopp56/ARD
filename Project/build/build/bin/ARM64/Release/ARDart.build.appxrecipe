@@ -242,20 +242,20 @@
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\StreamingAssets\Vuforia\ImagesDart.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\ImagesDart.dat</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\UnityOpenXR.dll">
-      <PackagePath>UnityOpenXR.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\VuforiaEngine.dll">
       <PackagePath>VuforiaEngine.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\openxr_loader.dll">
-      <PackagePath>openxr_loader.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\MicrosoftOpenXRPlugin.dll">
       <PackagePath>MicrosoftOpenXRPlugin.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\openxr_runtime_debugger.dll">
       <PackagePath>openxr_runtime_debugger.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\UnityOpenXR.dll">
+      <PackagePath>UnityOpenXR.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\openxr_loader.dll">
+      <PackagePath>openxr_loader.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>

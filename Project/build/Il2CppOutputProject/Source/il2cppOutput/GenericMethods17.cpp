@@ -12855,6 +12855,8 @@ inline bool Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27 (Enume
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SceneManager_get_sceneCount_mDB2658B632F95AB171E500C1519A681507B9230B (const RuntimeMethod* method) ;
 // UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetSceneAt(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetSceneAt_m5444433E1CD78FC2E573330630000B5A73E0FBF4 (int32_t ___index0, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.SceneManagement.Scene::get_isLoaded()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Scene_get_isLoaded_m5BC54CEB27330040A0BC69E66E94EE97E87298BC (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.GameObject::get_activeInHierarchy()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void System.Nullable`1<Microsoft.MixedReality.OpenXR.ManipulationEventData>::.ctor(T)
@@ -13961,15 +13963,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObjectUtils_GetComponentsInAllScenes
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_2;
+	memset((&V_2), 0, sizeof(V_2));
 	{
-		// var loadedSceneCount = SceneManager.sceneCount;
+		// var sceneCount = SceneManager.sceneCount;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = SceneManager_get_sceneCount_mDB2658B632F95AB171E500C1519A681507B9230B(NULL);
 		V_0 = L_0;
-		// for (var i = 0; i < loadedSceneCount; i++)
+		// for (var i = 0; i < sceneCount; i++)
 		V_1 = 0;
-		goto IL_001b;
+		goto IL_0026;
 	}
 
 IL_000a:
@@ -13979,22 +13983,37 @@ IL_000a:
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_2;
 		L_2 = SceneManager_GetSceneAt_m5444433E1CD78FC2E573330630000B5A73E0FBF4(L_1, NULL);
+		V_2 = L_2;
+		// if (scene.isLoaded)
+		bool L_3;
+		L_3 = Scene_get_isLoaded_m5BC54CEB27330040A0BC69E66E94EE97E87298BC((&V_2), NULL);
+		if (!L_3)
+		{
+			goto IL_0022;
+		}
+	}
+	{
 		// GetComponentsInScene(scene, components, includeInactive);
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_3 = ___components0;
-		bool L_4 = ___includeInactive1;
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_4 = V_2;
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_5 = ___components0;
+		bool L_6 = ___includeInactive1;
 		il2cpp_codegen_runtime_class_init_inline(GameObjectUtils_t11DAAEB6B091F1DEC4EC9B0D7B4A9B3F7CFAE72F_il2cpp_TypeInfo_var);
-		((  void (*) (Scene_tA1DC762B79745EB5140F054C884855B922318356, List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(L_2, L_3, L_4, il2cpp_rgctx_method(method->rgctx_data, 0));
-		// for (var i = 0; i < loadedSceneCount; i++)
-		int32_t L_5 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		((  void (*) (Scene_tA1DC762B79745EB5140F054C884855B922318356, List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 0));
 	}
 
-IL_001b:
+IL_0022:
 	{
-		// for (var i = 0; i < loadedSceneCount; i++)
-		int32_t L_6 = V_1;
-		int32_t L_7 = V_0;
-		if ((((int32_t)L_6) < ((int32_t)L_7)))
+		// for (var i = 0; i < sceneCount; i++)
+		int32_t L_7 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_7, 1));
+	}
+
+IL_0026:
+	{
+		// for (var i = 0; i < sceneCount; i++)
+		int32_t L_8 = V_1;
+		int32_t L_9 = V_0;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
 		{
 			goto IL_000a;
 		}

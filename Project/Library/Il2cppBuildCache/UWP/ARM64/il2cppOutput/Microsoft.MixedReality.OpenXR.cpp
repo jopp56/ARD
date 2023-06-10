@@ -2729,6 +2729,8 @@ struct ActionConfig_t91D4C9AF316A6BF187BC31A3ABCDA030A09CB7CE  : public RuntimeO
 	List_1_t4F2C6136C202242DD33CEC8DB9712B4D27B5AE67* ___bindings_3;
 	// System.Collections.Generic.List`1<System.String> UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionConfig::usages
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___usages_4;
+	// System.Boolean UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionConfig::isAdditive
+	bool ___isAdditive_5;
 };
 
 // UnityEngine.XR.OpenXR.Features.OpenXRInteractionFeature/ActionMapConfig
