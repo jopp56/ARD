@@ -30,4 +30,4 @@
 	b.Auf Branch gehen und wähle update from main. Dann noch commiten und pushen.
 	c.Sind wieder conflicts: Hier nicht deine modified files wählen denn die changes sind ja auf main!!! Also immer main auswählen!!!!
 	
-	3.4:Ab und zu commiten und pushen!!!!!
+	3.4:Ab und zu commiten, pushen und mergen mit main!!!!!
