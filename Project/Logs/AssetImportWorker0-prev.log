@@ -15,7 +15,7 @@ C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56664
+59735
 Successfully changed project path to: C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
 C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 130.59 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 4.75 ms.
+Refreshing native plugins compatible for Editor in 110.22 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 3.93 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Assets
@@ -63,294 +63,98 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.012849 seconds.
+Registered in 0.007356 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 148.17 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
+Refreshing native plugins compatible for Editor in 142.85 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.416 seconds
+- Completed reload, in  1.292 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1417ms)
-		BeginReloadAssembly (160ms)
+	ReloadAssembly (1293ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1008ms)
-			LoadAssemblies (156ms)
+		EndReloadAssembly (1022ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (253ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (582ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (622ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (149ms)
+				RefreshPlugins (143ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (102ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027240 seconds.
+Registered in 0.032817 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000200BD7D9030 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9CE2410 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD7D9030 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDE1D660 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9CE2410 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD6FFE30 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9CE2410 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9CE2410 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD70B440 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD719450 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD719450 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9CE2410 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\VuforiaEditorScripts.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9CE2410 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9CE2410 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDE26470 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.GraphicsTools.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE161020 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDCEE010 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDCEE010 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BECE2E50 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE3C4010 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDE26470 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BF49CC30 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SpatialManipulation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDE26470 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BECE2E50 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.UXCore.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BECE2E50 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDD21430 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BECE2E50 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BECE2E50 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BECE2E50 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDC956F0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDC9FD00 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDC9FD00 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDD21430 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BDD30A40 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B98229B0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B98265C0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B982BBD0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B982BBD0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B982FDE0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B982FDE0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B963C090 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE1A2FA0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE1F0BB0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE201FC0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B96612A0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE201FC0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE2051D0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE2051D0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BED4C220 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9422240 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE2083E0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE2083E0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9427850 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9427850 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BED85850 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE3C4010 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEDA0E60 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE3F7830 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD65EE90 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEDA0E60 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEDA0E60 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD65EE90 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE3F7830 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEDAA070 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B94E5490 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9579770 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD66EEA0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.UXComponents.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD66EEA0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD66EEA0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD6770B0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD6770B0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.UXCore.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BD67C8C0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B95B2F90 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B95B5FA0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B95B5FA0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B95B5FA0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B95B5FA0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9837FD0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEC56020 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEC5C030 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEC77440 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEC77440 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEC77440 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BEC7E850 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE430250 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE430250 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE430250 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE430250 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B987C5F0 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE430250 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE430250 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B9884400 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SpatialManipulation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200BE430250 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.UXComponents.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B988C410 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\VuforiaScripts.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B98B1E20 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B98D1A30 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.GraphicsTools.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B98D1A30 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000200B98D1A30 doesn't match image C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 153.76 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.31 ms.
+Refreshing native plugins compatible for Editor in 203.22 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
 Package Manager log level set to [2]
-[XR] [MROpenXR][Info   ][15:46:52.587348][tid:2608] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][15:46:52.587348][tid:2608] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][15:46:52.587497][tid:2608] InputProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][15:46:52.587497][tid:2608] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:03:27.902355][tid:1fa0] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:03:27.902355][tid:1fa0] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:03:27.902534][tid:1fa0] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][16:03:27.902534][tid:1fa0] InputProvider_RegisterLifecycleProvider
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][15:46:52.590806][tid:2608] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
-[XR] [MROpenXR][Info   ][15:46:52.590806][tid:2608] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][16:03:27.908021][tid:1fa0] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][16:03:27.908021][tid:1fa0] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  3.275 seconds
+- Completed reload, in  4.174 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3277ms)
-		BeginReloadAssembly (258ms)
+	ReloadAssembly (4177ms)
+		BeginReloadAssembly (428ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (21ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (2738ms)
-			LoadAssemblies (250ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (3302ms)
+			LoadAssemblies (374ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (626ms)
+			SetupTypeCache (795ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (203ms)
-			SetupLoadedEditorAssemblies (1549ms)
+			RebuildScriptCaches (242ms)
+			SetupLoadedEditorAssemblies (1817ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
+				InitializePlatformSupportModulesInManaged (67ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (154ms)
-				BeforeProcessingInitializeOnLoad (261ms)
-				ProcessInitializeOnLoadAttributes (949ms)
-				ProcessInitializeOnLoadMethodAttributes (140ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (204ms)
+				BeforeProcessingInitializeOnLoad (302ms)
+				ProcessInitializeOnLoadAttributes (1034ms)
+				ProcessInitializeOnLoadMethodAttributes (193ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 2.31 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
 Unloading 4251 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 73 unused Assets / (134.8 KB). Loaded Objects now: 5050.
-Memory consumption went from 172.9 MB to 172.8 MB.
-Total: 7.694000 ms (FindLiveObjects: 0.550600 ms CreateObjectMapping: 0.794700 ms MarkObjects: 6.042700 ms  DeleteObjects: 0.303500 ms)
+Memory consumption went from 172.8 MB to 172.7 MB.
+Total: 9.606700 ms (FindLiveObjects: 0.927400 ms CreateObjectMapping: 1.189700 ms MarkObjects: 6.991100 ms  DeleteObjects: 0.494700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -363,3 +167,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 527192.202854 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(f1c3746753ce25045a88ffeb4183ac16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94806438c00aae803037a89ec1ed7e26') in 0.104660 seconds 
