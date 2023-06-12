@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1504
     height: 920
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 92
+  controlID: 194
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 389.33337
     height: 870
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 93
+  controlID: 195
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 94
+  controlID: 196
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,22 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Sofia\OneDrive\Desktop\Dart\ARD\Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e27e0000
-    m_LastClickedID: 32482
-    m_ExpandedIDs: 00000000e27e0000007f00005881000000ca9a3bffffff7f
+    m_SelectedIDs: 10630000
+    m_LastClickedID: 25360
+    m_ExpandedIDs: 00000000fa62000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e27e0000
+    m_ExpandedIDs: 00000000fa62000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,20 +491,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9ed4ffff
-      m_LastClickedID: -11106
-      m_ExpandedIDs: 92d4ffffd0edffff60f3ffff70f7ffff28f8ffffe26b0000e26c0000986d0000
+      m_SelectedIDs: cc290000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 60f7ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: ScoreAnzeige
-        m_OriginalName: ScoreAnzeige
+        m_Name: Canvas
+        m_OriginalName: Canvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -11106
+        m_UserData: 27212
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -743,9 +743,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 154.33331, y: 330, z: 0}
+    m_Target: {x: 453.3333, y: 198, z: 0}
     speed: 2
-    m_Value: {x: 154.33345, y: 329.99994, z: 0}
+    m_Value: {x: 453.33295, y: 198.00017, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -794,11 +794,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.009903312, y: -0.009679639, z: 0.00015517397, w: 1.0001067}
     speed: 2
-    m_Value: {x: -0.009901307, y: -0.009677678, z: 0.00015514255, w: 0.99990416}
+    m_Value: {x: 0.009903312, y: 0.009679639, z: -0.00015517397, w: -1.0001067}
   m_Size:
-    m_Target: 129.4379
+    m_Target: 494.68686
     speed: 2
-    m_Value: 129.43806
+    m_Value: 494.68637
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -897,7 +897,7 @@ MonoBehaviour:
       width: 906.6666
       height: 396
     m_Scale: {x: 1.092727, y: 1.092727}
-    m_Translation: {x: 453.3333, y: 198}
+    m_Translation: {x: 453.3333, y: 198.00002}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -905,7 +905,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -414.86423
-      y: -181.19806
+      y: -181.19807
       width: 829.72845
       height: 362.39612
     m_MinimalGUI: 1
