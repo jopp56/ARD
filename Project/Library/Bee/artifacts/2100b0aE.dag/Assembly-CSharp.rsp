@@ -424,6 +424,7 @@
 -r:"Library/Bee/artifacts/2100b0aE.dag/VuforiaScripts.ref.dll"
 "Assets/Scripts/Abstand.cs"
 "Assets/Scripts/MenuScript.cs"
+"Assets/Scripts/StartMenuScript.cs"
 -langversion:9.0
 
 /deterministic
