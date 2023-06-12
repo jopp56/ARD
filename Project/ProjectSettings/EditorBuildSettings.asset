@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/SamplesResources/Scenes/0-Main.unity
     guid: a09cb257d566c489595b16ab37547666
   - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 22a325ee83fe40e4987e997a7474617d
+  - enabled: 1
     path: Assets/Scenes/DartScene.unity
     guid: 3067f1606ca445f49a16edb0a0076180
   m_configObjects:
