@@ -422,8 +422,10 @@
 -r:"Library/Bee/artifacts/2100b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/VuforiaEditorScripts.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/VuforiaScripts.ref.dll"
+"Assets/ScoreAnzeige.cs"
 "Assets/Scripts/Abstand.cs"
 "Assets/Scripts/MenuScript.cs"
+"Assets/Scripts/ScoreAnzeigeScript.cs"
 "Assets/Scripts/StartMenuScript.cs"
 -langversion:9.0
 
