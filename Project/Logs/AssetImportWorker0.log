@@ -15,7 +15,7 @@ C:/Users/User/Desktop/Dart/ARD/Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57380
+58921
 Successfully changed project path to: C:/Users/User/Desktop/Dart/ARD/Project
 C:/Users/User/Desktop/Dart/ARD/Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/User/Desktop/Dart/ARD/Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 163.54 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 13.47 ms.
+Refreshing native plugins compatible for Editor in 165.42 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 10.13 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Dart/ARD/Project/Assets
@@ -63,98 +63,98 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.013591 seconds.
+Registered in 0.011582 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 121.77 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
+Refreshing native plugins compatible for Editor in 105.65 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.70 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
+- Completed reload, in  1.086 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1206ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (829ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (470ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (421ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025616 seconds.
+Registered in 0.025428 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 124.88 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 108.78 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 Package Manager log level set to [2]
-[XR] [MROpenXR][Info   ][14:10:08.272223][tid:3930] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][14:10:08.272223][tid:3930] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][14:10:08.272296][tid:3930] InputProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][14:10:08.272296][tid:3930] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][15:07:23.388841][tid:5a28] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][15:07:23.388841][tid:5a28] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][15:07:23.388926][tid:5a28] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][15:07:23.388926][tid:5a28] InputProvider_RegisterLifecycleProvider
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][14:10:08.277529][tid:3930] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
-[XR] [MROpenXR][Info   ][14:10:08.277529][tid:3930] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][15:07:23.394774][tid:5a28] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][15:07:23.394774][tid:5a28] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  2.441 seconds
+- Completed reload, in  2.166 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2443ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (2168ms)
+		BeginReloadAssembly (174ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (2064ms)
-			LoadAssemblies (171ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1830ms)
+			LoadAssemblies (165ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (478ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (174ms)
-			SetupLoadedEditorAssemblies (1150ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (1024ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (125ms)
-				BeforeProcessingInitializeOnLoad (196ms)
-				ProcessInitializeOnLoadAttributes (668ms)
-				ProcessInitializeOnLoadMethodAttributes (125ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (596ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
 				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 2.39 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 2.28 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
 Unloading 4256 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 73 unused Assets / (134.8 KB). Loaded Objects now: 5055.
-Memory consumption went from 173.0 MB to 172.8 MB.
-Total: 6.093800 ms (FindLiveObjects: 0.556900 ms CreateObjectMapping: 0.392300 ms MarkObjects: 4.926900 ms  DeleteObjects: 0.215400 ms)
+Memory consumption went from 173.0 MB to 172.9 MB.
+Total: 5.102900 ms (FindLiveObjects: 0.412100 ms CreateObjectMapping: 0.199900 ms MarkObjects: 3.882900 ms  DeleteObjects: 0.605100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,7 +169,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 774063.708097 seconds.
-  path: Assets/Scripts/ScoreAnzeigeScript.cs
-  artifactKey: Guid(a79dff83879521c4a8d741698c1be6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScoreAnzeigeScript.cs using Guid(a79dff83879521c4a8d741698c1be6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4c9ec47eaf9d9e6853fc9133ff842a') in 0.033173 seconds 
+  Time since last request: 777337.802070 seconds.
+  path: Assets/Editor/MeasureToolSettings.asset
+  artifactKey: Guid(d66b9aa95e15ee0498762f4a98c5c05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/MeasureToolSettings.asset using Guid(d66b9aa95e15ee0498762f4a98c5c05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbac62eeadbfd97748a3921e29fb69b') in 0.053187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/OwnPrefab/Menu.prefab
+  artifactKey: Guid(4cbdb46ba06591949a30a87b843d007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OwnPrefab/Menu.prefab using Guid(4cbdb46ba06591949a30a87b843d007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49148d30e2f41986b49b13419a6e29e') in 0.353146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Formen/Form4eck.blend
+  artifactKey: Guid(9fb964e2baf3eff4480d72e7031590f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Formen/Form4eck.blend using Guid(9fb964e2baf3eff4480d72e7031590f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4622387b930681a20ebe0c032df0c0b') in 0.099674 seconds 
