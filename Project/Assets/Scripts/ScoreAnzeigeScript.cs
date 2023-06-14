@@ -11,7 +11,7 @@ public class ScoreAnzeigeScript : MonoBehaviour
 
     public TextMeshProUGUI scoreText;
 
-    int score = 301;
+    public static int score = 301;
     //int spielmodus = ;
 
     void Awake()
@@ -28,7 +28,7 @@ public class ScoreAnzeigeScript : MonoBehaviour
 
     public void changeScore()
     {
-        score -= 0 ;
+        score = MinusOne.counter;
         scoreText.text = "Dein Score:\n" + score.ToString() + " / 301";
     }
 }
