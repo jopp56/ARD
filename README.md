@@ -13,6 +13,12 @@
 	
 	2.2: Im Playmode wird Dartscheibe nicht angezeigt:
 	Vuforia Licence Key fehlt(siehe oben 1)
+	
+	2.3 Build:
+	1.Unter File-> Build Settings
+	2. Sicherstellen das dieses Einstellungen ausgewählt sind: ARM64m Release
+	3.Szene hinzufügen über add open scene, bis das startmenü noch nicht funktioniert: die Reihenfolge der aufgelisteten Scenes ändern
+	so das die gewünschte scene zuerst lädt durch verschieben der scenes
 
 3.GitHub Desktop Probleme und Wichtiges:
 	3.1: Error File Lock already exists:
