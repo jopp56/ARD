@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Random;
 
 public class KIBehaviorScript : MonoBehaviour
 {
@@ -15,8 +16,9 @@ public class KIBehaviorScript : MonoBehaviour
     void Start()
     {
         dartsCount = 0;
-        innerNormalRing = outterNormalRing;
         scoreAnzeige = 310;
+        string[][] targetListDifficultyNormal = [outerNormalRing, outerNormalRing,outerNormalRing, outerNormalRing, innerNormalRing, innerNormalRing, innerNormalRing,innerNormalRing,
+            center, tripleRing, doubleRing, doubleRing];
     }
 
     
@@ -47,7 +49,8 @@ public class KIBehaviorScript : MonoBehaviour
     }
 
     public void KIChooseTarget()
-    {
+    {   
+        
         return;
     }
 
