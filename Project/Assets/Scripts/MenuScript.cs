@@ -28,10 +28,12 @@ public class MenuScript : MonoBehaviour
     {
         
     }
+
     public void ClickToRestart()
     {
         SceneManager.LoadScene("DartScene", LoadSceneMode.Single);
     }
+
     public void CloseMenu()
     {
         toggleOn.SetActive(false);

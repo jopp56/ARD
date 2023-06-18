@@ -18692,6 +18692,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2125857072521484974, guid: 17ddfb260a527e347851e713d3a1e368,
+        type: 3}
+      propertyPath: m_text
+      value: 'Gegner Score:
+
+        301 / 301'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2125857072521484975, guid: 17ddfb260a527e347851e713d3a1e368,
+        type: 3}
+      propertyPath: m_Name
+      value: ScoreAnzeigeKI
+      objectReference: {fileID: 0}
     - target: {fileID: 2125857072667159273, guid: 17ddfb260a527e347851e713d3a1e368,
         type: 3}
       propertyPath: m_Name
@@ -20560,6 +20572,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2125857072521484975, guid: 17ddfb260a527e347851e713d3a1e368,
+        type: 3}
+      propertyPath: m_Name
+      value: ScoreAnzeigePlayer
+      objectReference: {fileID: 0}
     - target: {fileID: 2125857072667159273, guid: 17ddfb260a527e347851e713d3a1e368,
         type: 3}
       propertyPath: m_Name
