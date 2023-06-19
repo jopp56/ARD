@@ -18,11 +18,6 @@ public class MinusOne : MonoBehaviour
     {
         counter = ScoreAnzeigeScript.score;
 
-        if (counter > 0)
-        {
-            counter -= 1;
-            ScoreAnzeigeScript.instance.changeScore();
-        }
 
     }
 }

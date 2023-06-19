@@ -28,7 +28,7 @@ public class ScoreAnzeigeScript : MonoBehaviour
 
     public void changeScore()
     {
-        score = MinusOne.counter;
+        score = Enter.counter;
         scoreText.text = "Dein Score:\n" + score.ToString() + " / 301";
     }
 }
