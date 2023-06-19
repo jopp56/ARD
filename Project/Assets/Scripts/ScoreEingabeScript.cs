@@ -1,85 +1,1177 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
 public class ScoreEingabeScript : MonoBehaviour
 {
-    ///public static ScoreEingabeScript instance;/
+    public TextMeshProUGUI wurf_Text;
 
-    /*void Awake()
+    public static int eingabe = 0;
+
+    public static string[] scorearray = new string[3] { "Wurf 1", "Wurf 2", "Wurf 3" };
+
+    void Start()
     {
-        instance = this;
-    }*/
-
-    public TextMeshProUGUI wurf_einsText;
-    public TextMeshProUGUI wurf_zweiText;
-    public TextMeshProUGUI wurf_dreiText;
-
-    public static int wurf_eins = -99;
-    public static int wurf_zwei = -99;
-    public static int wurf_drei = -99;
-
-    public static int wurf;
-
-    public void Start()
-    {
-        wurf_einsText.text = "Wurf 1";
-        wurf_zweiText.text = "Wurf 2";
-        wurf_dreiText.text = "Wurf 3";
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
     }
 
-    /*//Funktioniert
     void Update()
     {
-        wurf_einsText.text = wurf_eins.ToString();
-    }*/
 
-    //Funktioniert nicht
-    public static void changeWurfScore(int button2)
-    {
-        //Zahl die eingegeben wurde
-        wurf = button2;
-        //Alternative zu button2
-        //wurf = NumberText.buttonName;
-        Debug.Log(wurf.ToString());
-
-        if (wurf_eins == -99)
-        {
-            wurf_eins = wurf;
-            Debug.Log(wurf_eins.ToString());
-            //wurf_einsText.text = wurf_eins.ToString();;
-        }
-        /*else if (wurf_zwei == -99)
-        {
-            wurf_zwei = wurf;
-            wurf_zweiText.text = wurf_zwei.ToString();
-        }
-        else if (wurf_drei == -99)
-        {
-            wurf_drei = wurf;
-            wurf_dreiText.text = wurf_drei.ToString();
-        }
-        else Debug.Log("Drei Werte wurden eingetragen!");*/
     }
-    public static void delete()
+
+    public void ButtonDouble()
     {
-        if (wurf_drei != -99)
+        if (scorearray[0] == "Wurf 1")
         {
-            wurf_drei = -99;
-            //wurf_dreiText.text = "Wurf 3";
+            scorearray[0] = "2x";
         }
-        else if (wurf_zwei != -99)
+        else if (scorearray[1] == "Wurf 2")
         {
-            wurf_zwei = -99;
-            //wurf_zweiText.text = "Wurf 2";
+            scorearray[1] = "2x";
         }
-        else if (wurf_eins != -99)
+        else if (scorearray[2] == "Wurf 3")
         {
-            wurf_eins = -99;
-            //wurf_einsText.text = "Wurf 1";
+            scorearray[2] = "2x";
         }
-        else Debug.Log("Es ist bereits alles gelöscht!");
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+
+    public void ButtonTriple()
+    {
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = "3x";
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = "3x";
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = "3x";
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+
+    public void ButtonOne()
+    {
+        eingabe = 1;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonTwo()
+    {
+        eingabe = 2;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonThree()
+    {
+        eingabe = 3;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonFour()
+    {
+        eingabe = 4;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonFive()
+    {
+        eingabe = 5;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonSix()
+    {
+        eingabe = 6;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonSeven()
+    {
+        eingabe = 7;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonEight()
+    {
+        eingabe = 8;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonNine()
+    {
+        eingabe = 9;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonTen()
+    {
+        eingabe = 10;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonEleven()
+    {
+        eingabe = 11;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonTwelve()
+    {
+        eingabe = 12;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonThirteen()
+    {
+        eingabe = 13;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonFourteen()
+    {
+        eingabe = 14;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonFifteen()
+    {
+        eingabe = 15;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonSixteen()
+    {
+        eingabe = 16;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonSeventeen()
+    {
+        eingabe = 17;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonEighteen()
+    {
+        eingabe = 18;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonNineteen()
+    {
+        eingabe = 19;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonTwenty()
+    {
+        eingabe = 20;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonBull()
+    {
+        eingabe = 25;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonBullseye()
+    {
+        eingabe = 50;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+    public void ButtonZero()
+    {
+        eingabe = 0;
+        if (scorearray[0] == "Wurf 1")
+        {
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[0] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[0] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "Wurf 2")
+        {
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[1] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[1] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "Wurf 3")
+        {
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "2x")
+        {
+            eingabe = 2 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+        else if (scorearray[2] == "3x")
+        {
+            eingabe = 3 * eingabe;
+            scorearray[2] = eingabe.ToString();
+        }
+
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+
+    public void ButtonDelete()
+    {
+        if (scorearray[2] != "Wurf 3")
+        {
+            scorearray[2] = "Wurf 3";
+        }
+        else if (scorearray[1] != "Wurf 2")
+        {
+            scorearray[1] = "Wurf 2";
+        }
+        else if (scorearray[0] != "Wurf 1")
+        {
+            scorearray[0] = "Wurf 1";
+        }
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
+    }
+
+    public void ButtonEnter()
+    {
+        wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
     }
 }
