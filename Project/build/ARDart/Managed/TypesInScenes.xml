@@ -1,7 +1,13 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Abstand" preserve="nothing"/>
+		<type fullname="KIBehaviorScript" preserve="nothing"/>
 		<type fullname="MenuScript" preserve="nothing"/>
+		<type fullname="MinusOne" preserve="nothing"/>
+		<type fullname="MinusTwo" preserve="nothing"/>
+		<type fullname="ScoreAnzeigeScript" preserve="nothing"/>
+		<type fullname="ScoreEingabeScript" preserve="nothing"/>
+		<type fullname="StartMenuScript" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.OpenXR">
 		<type fullname="Microsoft.MixedReality.OpenXR.HandTrackingFeaturePlugin" preserve="nothing"/>
@@ -102,6 +108,7 @@
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshPro" preserve="nothing"/>
+		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
@@ -168,6 +175,7 @@
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
+		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
@@ -201,6 +209,8 @@
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Vuforia.Unity.Engine">
 		<type fullname="Vuforia.ImageTargetBehaviour" preserve="nothing"/>

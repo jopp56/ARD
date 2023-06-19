@@ -9681,6 +9681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 946406513}
+  - component: {fileID: 946406514}
   m_Layer: 0
   m_Name: KI
   m_TagString: Untagged
@@ -9703,6 +9704,103 @@ Transform:
   m_Father: {fileID: 2104587053}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &946406514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946406512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e011b1d4818fdbb4580742aa7475cf0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreAnzeigeKI: {fileID: 2012004294}
+  targetListAfterDifficulty:
+  - 0
+  - 1O
+  - 1I
+  - 2O
+  - 2I
+  - 2D
+  - 3O
+  - 3I
+  - 3T
+  - 4O
+  - 4I
+  - 4D
+  - 5O
+  - 5I
+  - 6O
+  - 6I
+  - 6D
+  - 6T
+  - 7O
+  - 7I
+  - 8O
+  - 8I
+  - 8D
+  - 9O
+  - 9I
+  - 9T
+  - 10O
+  - 10I
+  - 10D
+  - 11O
+  - 11I
+  - 12O
+  - 12I
+  - 12D
+  - 12T
+  - 13O
+  - 13I
+  - 14O
+  - 14I
+  - 14D
+  - 15O
+  - 15I
+  - 15T
+  - 16O
+  - 16I
+  - 16D
+  - 17O
+  - 17I
+  - 18O
+  - 18I
+  - 18D
+  - 18T
+  - 19O
+  - 19I
+  - 20O
+  - 20I
+  - 20D
+  - 21T
+  - 22D
+  - 24D
+  - 24T
+  - 26D
+  - 27T
+  - 28D
+  - 30D
+  - 30T
+  - 32D
+  - 33T
+  - 34D
+  - 36D
+  - 36T
+  - 38D
+  - 39T
+  - 40D
+  - 42T
+  - 45T
+  - 48T
+  - 51T
+  - 54T
+  - 57T
+  - 60T
+  - 50B
+  - 25B
 --- !u!1001 &946673823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18816,6 +18914,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17ddfb260a527e347851e713d3a1e368, type: 3}
+--- !u!1 &2012004294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2125857072521484975, guid: 17ddfb260a527e347851e713d3a1e368,
+    type: 3}
+  m_PrefabInstance: {fileID: 2012004293}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2064010827
 PrefabInstance:
   m_ObjectHideFlags: 0
