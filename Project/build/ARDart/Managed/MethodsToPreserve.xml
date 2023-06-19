@@ -2,24 +2,8 @@
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="MenuScript">
 			<method name="ClickToRestart"/>
-			<method name="ClickToRestart"/>
-			<method name="ClickToRestart"/>
-			<method name="CloseMenu"/>
-			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
 			<method name="ToogleMenu"/>
-			<method name="ToogleMenu"/>
-		</type>
-		<type fullname="MinusOne">
-			<method name="ButtonPressed"/>
-			<method name="ButtonPressed"/>
-		</type>
-		<type fullname="MinusTwo">
-			<method name="ButtonPressed"/>
-			<method name="ButtonPressed"/>
-		</type>
-		<type fullname="StartMenuScript">
-			<method name="ClickOnSinglePlayerButton"/>
 		</type>
 	</assembly>
 </linker>

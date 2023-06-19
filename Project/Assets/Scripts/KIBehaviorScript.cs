@@ -11,13 +11,15 @@ public class KIBehaviorScript : MonoBehaviour
     private int scoreAnzeigeKICount;
     private int scoreAnzeigePlayerCount;
 
-    public GameObject scoreAnzeigeKI;
-    private TextMeshPro scoreAnzeigeKIText;
+    public TextMeshPro scoreAnzeigeKIText;
 
-  
-    public string[] targetListAfterDifficulty;
-    //12.0481928% für evenly verteilung auf 83 bei 1000%
-
+    public string[] outerNormalRing;
+    public string[] innerNormalRing;
+    public string[] tripleRing;
+    public string[] doubleRing;
+    public string[] center;
+    private string[][] targetListAfterDifficulty;
+    private int targetListAfterDifficultyLength;
 
    
     void Start()
@@ -25,9 +27,12 @@ public class KIBehaviorScript : MonoBehaviour
         dartsCount = 0;
         scoreAnzeigeKICount = 310;
 
+        //Target List for difficulty normal probabilty values: outerNormalRing=innerNormalRing=1/3; center=tripleRing=1/12; doubleRing= 1/6 
+        targetListAfterDifficulty = new string[][] { outerNormalRing,outerNormalRing, outerNormalRing, outerNormalRing, innerNormalRing, innerNormalRing, innerNormalRing,innerNormalRing, 
+                                                    center, tripleRing, doubleRing, doubleRing};
+        targetListAfterDifficultyLength = targetListAfterDifficulty.Length;
 
-
-        scoreAnzeigeKIText = scoreAnzeigeKI.GetComponent<TextMeshPro>();
+        scoreAnzeigeKIText = GameObject.Find("ScoreAnzeigeKI").GetComponent<TextMeshPro>();
         scoreAnzeigePlayerCount = ScoreAnzeigeScript.score;
 
     }
@@ -64,9 +69,37 @@ public class KIBehaviorScript : MonoBehaviour
 
     public void KIChooseAndHitTarget()
     {
+        System.Random choosePossibility = new System.Random();
 
         while (true)
         {
+            int choosePossibilityForHitArea = choosePossibility.Next(0, targetListAfterDifficultyLength);
+
+            string[] intendedTargetInHitArea = targetListAfterDifficulty[choosePossibilityForHitArea];
+            int choosePossibilityForIntendedTarget = choosePossibility.Next(0, intendedTargetInHitArea.Length);
+
+            string intendedTargetAsString = intendedTargetInHitArea[choosePossibilityForIntendedTarget];
+            int intendedTargetAsInt = int.Parse(intendedTargetAsString);
+
+            double chooseHitProbability = choosePossibility.NextDouble();
+            double chooseMissProbability = choosePossibility.NextDouble();
+
+            if (chooseHitProbability > chooseMissProbability)
+            {
+                UpdateKIScore(intendedTargetAsInt);
+                return;
+            }
+            else if (chooseHitProbability < chooseMissProbability)
+            {
+                int chooseProbabilityHitAnotherArea = choosePossibility.Next(0, 1);
+
+                if (chooseProbabilityHitAnotherArea == 0)
+                {
+                    UpdateKIScore(0);
+                    continue;
+                }
+            //Hier wählt man einen neuen target allerdings OHNE den intended target
+            }
         }
     }
 

@@ -446,7 +446,6 @@
 -r:"Library/Bee/artifacts/2100b0aP.dag/VuforiaScripts.ref.dll"
 "Assets/ScoreAnzeige.cs"
 "Assets/Scripts/Abstand.cs"
-"Assets/Scripts/KIBehaviorScript.cs"
 "Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/MinusOne.cs"
 "Assets/Scripts/MinusTwo.cs"
