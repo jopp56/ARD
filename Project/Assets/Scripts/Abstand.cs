@@ -17,7 +17,7 @@ public class Abstand : MonoBehaviour
     void Start() { 
     
         abstandslinie.transform.position = new Vector3(0f, 1f, 1f) * dartscheibe.transform.position.y + new Vector3(0f, 1f, 1f) * dartscheibe.transform.position.z - new Vector3(0f, 1.73f, 2.37f);
-        Instantiate(abstandslinie, abstandslinie.transform.position, Quaternion.identity);
+        Instantiate(abstandslinie, abstandslinie.transform.position, Quaternion.identity, dartscheibe.transform);
     }
 
     // Update is called once per frame
