@@ -108,6 +108,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -332,8 +333,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"C:/Users/User/Desktop/Dart/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll"
--r:"C:/Users/User/Desktop/Dart/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll"
+-r:"C:/Users/Sofia/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll"
+-r:"C:/Users/Sofia/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.OpenXR.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Async.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aE.dag/Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.ref.dll"
