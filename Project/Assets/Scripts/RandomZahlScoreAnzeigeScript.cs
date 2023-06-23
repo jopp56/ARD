@@ -12,7 +12,7 @@ public class RandomZahlScoreAnzeigeScript : MonoBehaviour
     public TextMeshProUGUI scoreText;
 
     //ändern von min und max da manche nicht in 3 Züge ferig werden können
-    int min = 150;
+    int min = 2;
     int max = 171;
     public int score;
     public int randomScore;
