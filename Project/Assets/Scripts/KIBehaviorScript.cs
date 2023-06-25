@@ -8,32 +8,24 @@ using System;
 public class KIBehaviorScript : MonoBehaviour
 {
     private int dartsCount;
-    private int scoreAnzeigeKICount;
-    private int scoreAnzeigePlayerCount;
+    private int scoreKICount;
+    private int scorePlayerCount;
 
-    public TextMeshPro scoreAnzeigeKIText;
+    private TextMeshPro scoreAnzeigeKIText;
+    public GameObject menu;
 
-    public string[] outerNormalRing;
-    public string[] innerNormalRing;
-    public string[] tripleRing;
-    public string[] doubleRing;
-    public string[] center;
-    private string[][] targetListAfterDifficulty;
-    private int targetListAfterDifficultyLength;
+    public string[] targetListFieldNames;
+    private string[][] targetListWithFieldNamesAndProbabilites;
 
-   
+
     void Start()
     {
         dartsCount = 0;
-        scoreAnzeigeKICount = 310;
-
-        //Target List for difficulty normal probabilty values: outerNormalRing=innerNormalRing=1/3; center=tripleRing=1/12; doubleRing= 1/6 
-        targetListAfterDifficulty = new string[][] { outerNormalRing,outerNormalRing, outerNormalRing, outerNormalRing, innerNormalRing, innerNormalRing, innerNormalRing,innerNormalRing, 
-                                                    center, tripleRing, doubleRing, doubleRing};
-        targetListAfterDifficultyLength = targetListAfterDifficulty.Length;
-
+        scoreKICount = 310;
+        scorePlayerCount = ScoreAnzeigeScript.score;
+        targetListWithFieldNamesAndProbabilites = AssignProbabilitiesToTargets(targetListFieldNames);
         scoreAnzeigeKIText = GameObject.Find("ScoreAnzeigeKI").GetComponent<TextMeshPro>();
-        scoreAnzeigePlayerCount = ScoreAnzeigeScript.score;
+
 
     }
 
@@ -47,15 +39,15 @@ public class KIBehaviorScript : MonoBehaviour
     {
         while (true)
         {
-            if(dartsCount<=3)
+            if (dartsCount == 0)
             {
                 KIChooseAndHitTarget();
             }
-            else if(scoreAnzeigeKICount >= 180)
+            else if(scoreKICount >= 180 && dartsCount == 0)
             {
                 KIChooseAndHitFinishTargets();
             }
-            else if(scoreAnzeigeKICount == 0 || scoreAnzeigePlayerCount == 0)
+            else if(scoreKICount == 0 || scorePlayerCount == 0)
             {
                 break;
             }
@@ -67,59 +59,91 @@ public class KIBehaviorScript : MonoBehaviour
         EndGameSequence();
     }
 
-    public void KIChooseAndHitTarget()
+    public string[][] AssignProbabilitiesToTargets(string[] targetListFieldNames)
     {
-        System.Random choosePossibility = new System.Random();
-
-        while (true)
+        //equal distributed 100% over 82 fields -> 1.20481928%
+        string[][] targetListWithProbabilities = new string [targetListFieldNames.Length][];
+        for(int index = 0; index < targetListFieldNames.Length; index++)
         {
-            int choosePossibilityForHitArea = choosePossibility.Next(0, targetListAfterDifficultyLength);
-
-            string[] intendedTargetInHitArea = targetListAfterDifficulty[choosePossibilityForHitArea];
-            int choosePossibilityForIntendedTarget = choosePossibility.Next(0, intendedTargetInHitArea.Length);
-
-            string intendedTargetAsString = intendedTargetInHitArea[choosePossibilityForIntendedTarget];
-            int intendedTargetAsInt = int.Parse(intendedTargetAsString);
-
-            double chooseHitProbability = choosePossibility.NextDouble();
-            double chooseMissProbability = choosePossibility.NextDouble();
-
-            if (chooseHitProbability > chooseMissProbability)
-            {
-                UpdateKIScore(intendedTargetAsInt);
-                return;
-            }
-            else if (chooseHitProbability < chooseMissProbability)
-            {
-                int chooseProbabilityHitAnotherArea = choosePossibility.Next(0, 1);
-
-                if (chooseProbabilityHitAnotherArea == 0)
-                {
-                    UpdateKIScore(0);
-                    continue;
-                }
-            //Hier wählt man einen neuen target allerdings OHNE den intended target
-            }
+            string probability = "1.20481928";
+            string fieldName = targetListFieldNames[index];
+            targetListWithProbabilities[index][0] = fieldName;
+            targetListWithProbabilities[index][1] = probability;
         }
+
+        return targetListWithProbabilities;
     }
 
+    public void KIChooseAndHitTarget()
+    {
+        System.Random random = new System.Random();
+
+        while (dartsCount < 3)
+        {
+            int randomFieldChoose = random.Next(0, targetListWithFieldNamesAndProbabilites.Length - 1);
+            //hitQuote muss angepasst werden wenn Probs feststehen~hier trifft er erste bei einer quote von ca.0.5
+            double hitQuote = random.NextDouble() * 2.5;
+
+            string targetName = targetListWithFieldNamesAndProbabilites[randomFieldChoose][0];
+            string targetProbability = targetListWithFieldNamesAndProbabilites[randomFieldChoose][1];
+
+
+            if(double.Parse(targetProbability) < hitQuote)
+            {
+                dartsCount++;
+                animateDarts("0");
+                //sound abspielen für nicht treffen 
+            }
+            else
+            {
+                dartsCount++;
+                animateDarts(targetName);
+                if(targetName.Length == 3)
+                {
+                    int targetValue = int.Parse(targetName[0] + "" + targetName[1]);
+                    scoreKICount += targetValue;
+                    UpdateKIScoreAnzeige(scoreKICount);
+               
+                }
+                if(targetName.Length == 2)
+                {
+                    int targetValue = int.Parse(targetName[0] + "");
+                    scoreKICount += targetValue;
+                    UpdateKIScoreAnzeige(scoreKICount);
+                }
+            }
+        }
+        //zerstören der vorhanden darts am ende
+    }
     public void KIWaitForPlayerToFinishRound()
     {
-        return;
+        int pastScore = scorePlayerCount;
+        while(pastScore == scorePlayerCount)
+        {
+            pastScore = ScoreAnzeigeScript.score;
+            continue;
+        }
+        scorePlayerCount = ScoreAnzeigeScript.score;
     }
 
     public void KIChooseAndHitFinishTargets()
     {
+        //trifft finish weg oder nicht
         return;
     }
 
     public void EndGameSequence()
     {
-        SceneManager.LoadScene("MenuScene", LoadSceneMode.Single);
+        menu.SetActive(true);
     }
 
-    public void UpdateKIScore(int intendedTargetAsInt)
+    public void UpdateKIScoreAnzeige(int newScore)
     {
+        scoreAnzeigeKIText.SetText("KI Score:"+ "\n" + newScore + "/" + "310");
+    }
+
+    public void animateDarts(string targetName) {
+        //Flug animierung, spawn auf feld
         return;
     }
 }
