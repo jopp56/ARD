@@ -53,4 +53,9 @@ public class MenuScript : MonoBehaviour
             menu.SetActive(false);
         }
     }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("MenuScene", LoadSceneMode.Single);
+    }
 }
