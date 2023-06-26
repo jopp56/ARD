@@ -15,7 +15,7 @@ public class KIBehaviorScript : MonoBehaviour
     public GameObject menu;
 
     public string[] targetListFieldNames;
-    private string[][] targetListWithFieldNamesAndProbabilities;
+    private string[,] targetListWithFieldNamesAndProbabilities;
 
 
     void Start()
@@ -23,9 +23,9 @@ public class KIBehaviorScript : MonoBehaviour
         dartsCount = 0;
         scoreKICount = 310;
         scorePlayerCount = ScoreAnzeigeScript.score;
-        targetListWithFieldNamesAndProbabilities = new string[82][];
-        targetListWithFieldNamesAndProbabilities = AssignProbabilitiesToTargets(targetListFieldNames);
+        targetListWithFieldNamesAndProbabilities = new string[82,2];
         scoreAnzeigeKIText = GameObject.Find("ScoreAnzeigeKI").GetComponent<TextMeshPro>();
+        AssignProbabilitiesToTargets(targetListFieldNames);
 
 
     }
@@ -60,19 +60,17 @@ public class KIBehaviorScript : MonoBehaviour
         EndGameSequence();
     }
 
-    public string[][] AssignProbabilitiesToTargets(string[] targetListFieldNames)
+    public void AssignProbabilitiesToTargets(string[] targetListFieldNames)
     {
         //equal distributed 100% over 82 fields -> 1.20481928%
-        string[][] targetListWithProbabilities = new string [targetListFieldNames.Length][];
         for(int index = 0; index < targetListFieldNames.Length; index++)
         {
             string probability = "1.20481928";
             string fieldName = targetListFieldNames[index];
-            targetListWithProbabilities[index][0] = fieldName;
-            targetListWithProbabilities[index][1] = probability;
+            targetListWithFieldNamesAndProbabilities[index,0] = fieldName;
+            targetListWithFieldNamesAndProbabilities[index,1] = probability;
         }
 
-        return targetListWithProbabilities;
     }
 
     public void KIChooseAndHitTarget()
@@ -85,8 +83,8 @@ public class KIBehaviorScript : MonoBehaviour
             //hitQuote muss angepasst werden wenn Probs feststehen~hier trifft er erste bei einer quote von ca.0.5
             double hitQuote = random.NextDouble() * 2.5;
 
-            string targetName = targetListWithFieldNamesAndProbabilities[randomFieldChoose][0];
-            string targetProbability = targetListWithFieldNamesAndProbabilities[randomFieldChoose][1];
+            string targetName = targetListWithFieldNamesAndProbabilities[randomFieldChoose,0];
+            string targetProbability = targetListWithFieldNamesAndProbabilities[randomFieldChoose,1];
 
 
             if(double.Parse(targetProbability) < hitQuote)
@@ -119,10 +117,13 @@ public class KIBehaviorScript : MonoBehaviour
     public void KIWaitForPlayerToFinishRound()
     {
         int pastScore = scorePlayerCount;
-        while(pastScore == scorePlayerCount)
+        while(true)
         {
-            pastScore = ScoreAnzeigeScript.score;
-            continue;
+            if(pastScore != ScoreAnzeigeScript.score)
+            {
+
+            }
+
         }
         scorePlayerCount = ScoreAnzeigeScript.score;
     }
