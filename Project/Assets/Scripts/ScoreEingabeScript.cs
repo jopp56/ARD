@@ -1172,6 +1172,9 @@ public class ScoreEingabeScript : MonoBehaviour
 
     public void ButtonEnter()
     {
+        scorearray[0] = "Wurf 1";
+        scorearray[1] = "Wurf 2";
+        scorearray[2] = "Wurf 3";
         wurf_Text.text = scorearray[0] + " | " + scorearray[1] + " | " + scorearray[2];
     }
 }

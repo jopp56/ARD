@@ -11,12 +11,12 @@ public class FinishWegeScript : MonoBehaviour
     public static string[] wurfarray = new string[9] { "Werfe1.1", "Werfe2.1", "Werfe3.1", "Werfe1.2", "Werfe2.2", "Werfe3.2", "Werfe1.3", "Werfe2.3", "Werfe3.3" };
 
     public static int rndScore;
-    
+
     void Awake()
     {
         //zuWerfenText.text = "In drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2];
         //oder:
-        zuWerfenText.text = "In maximal drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2] 
+        zuWerfenText.text = "In maximal drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2]
             + "\n oder:\n" + wurfarray[3] + " | " + wurfarray[4] + " | " + wurfarray[5]
             + "\n oder:\n" + wurfarray[6] + " | " + wurfarray[7] + " | " + wurfarray[8];
     }
@@ -1456,7 +1456,7 @@ public class FinishWegeScript : MonoBehaviour
         }
         else if (wurfarray[6] == "-")
         {
-            zuWerfenText.text = "In maximal drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2] 
+            zuWerfenText.text = "In maximal drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2]
                 + "\n oder:\n" + wurfarray[3] + " | " + wurfarray[4] + " | " + wurfarray[5];
         }
         else
@@ -1470,6 +1470,6 @@ public class FinishWegeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
