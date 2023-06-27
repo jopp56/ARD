@@ -1449,6 +1449,8 @@ public class FinishWegeScript : MonoBehaviour
                 break;
         }
 
+        ChangeMaterialScript.instance.changeColor();
+
         //Ausgabe Finishwege 1.Variante oder 2.Varianten oder 3. Variante
         if (wurfarray[3] == "-")
         {
