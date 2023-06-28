@@ -1449,8 +1449,6 @@ public class FinishWegeScript : MonoBehaviour
                 break;
         }
 
-        ChangeMaterialScript.instance.changeColor();
-
         //Ausgabe Finishwege 1.Variante oder 2.Varianten oder 3. Variante
         if (wurfarray[3] == "-")
         {
@@ -1467,6 +1465,8 @@ public class FinishWegeScript : MonoBehaviour
                 + "\n oder:\n" + wurfarray[3] + " | " + wurfarray[4] + " | " + wurfarray[5]
                 + "\n oder:\n" + wurfarray[6] + " | " + wurfarray[7] + " | " + wurfarray[8];
         }
+        
+        ChangeMaterialScript.instance.changeColor();
     }
 
     // Update is called once per frame
