@@ -28,9 +28,12 @@ public class AroundTheClockScript : MonoBehaviour
 
     public void ButtonGetroffen()
     {
-        feld += 1;
-        levelText.text = "Triff Feld " + feld.ToString() + "!";
-        if (feld == 20)
+        if (feld < 20)
+        {
+            feld += 1;
+            levelText.text = "Triff Feld " + feld.ToString() + "!";
+        }
+        else if (feld == 20)
         {
             endeText.text = "Du hast das Training erfolreich abgeschlossen!";
         }
@@ -41,10 +44,15 @@ public class AroundTheClockScript : MonoBehaviour
         leben -= 1;
         lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
 
-        if (leben == 0)
+        if (leben == 0 && feld > 1)
         {
             feld -= 1;
             levelText.text = "Triff Feld " + feld.ToString() + "!";
+            leben = 3;
+            lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+        }
+        else if (leben == 0 && feld == 1)
+        {
             leben = 3;
             lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
         }
