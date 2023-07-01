@@ -10,11 +10,11 @@ public class Abstand : MonoBehaviour
     void Awake()
     {
         dartscheibe = GameObject.FindWithTag("Dartscheibe");
-
     }
 
     // Start is called before the first frame update
-    void Start() { 
+    void Start() 
+    { 
     
         abstandslinie.transform.position = new Vector3(0f, 1f, 1f) * dartscheibe.transform.position.y + new Vector3(0f, 1f, 1f) * dartscheibe.transform.position.z - new Vector3(0f, 1.73f, 2.37f);
         Instantiate(abstandslinie, abstandslinie.transform.position, Quaternion.identity, dartscheibe.transform);

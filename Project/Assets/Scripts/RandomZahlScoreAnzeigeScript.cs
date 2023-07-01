@@ -64,15 +64,15 @@ public class RandomZahlScoreAnzeigeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ScoreEingabeScript.scorearray[0] == "2x")
+        if (ScoreEingabeScript.scorearray[0] == "2x" || ScoreEingabeScript.scorearray[0] == "50")
         {
             finishopt1 = true;
         }
-        if (ScoreEingabeScript.scorearray[1] == "2x")
+        if (ScoreEingabeScript.scorearray[1] == "2x" || ScoreEingabeScript.scorearray[1] == "50")
         {
             finishopt2 = true;
         }
-        if (ScoreEingabeScript.scorearray[2] == "2x")
+        if (ScoreEingabeScript.scorearray[2] == "2x" || ScoreEingabeScript.scorearray[2] == "50")
         {
             finishopt3 = true;
         }
