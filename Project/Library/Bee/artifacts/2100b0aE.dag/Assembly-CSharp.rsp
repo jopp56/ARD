@@ -428,6 +428,7 @@
 "Assets/Scripts/ChangeMaterialScript.cs"
 "Assets/Scripts/FinishWegeScript.cs"
 "Assets/Scripts/KIBehaviorScript.cs"
+"Assets/Scripts/Level2MaterialScript.cs"
 "Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/RandomZahlScoreAnzeigeScript.cs"
 "Assets/Scripts/ScoreAnzeigeScript.cs"

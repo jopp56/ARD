@@ -10,7 +10,7 @@ public class AroundTheClockScript : MonoBehaviour
     public TextMeshProUGUI levelText;
     public TextMeshProUGUI lebenText;
     public TextMeshProUGUI endeText;
-    public int feld;
+    public static int feld;
     public int leben;
 
     void Start()
