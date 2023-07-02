@@ -31,7 +31,8 @@ public class MenuScript : MonoBehaviour
 
     public void ClickToRestart()
     {
-        SceneManager.LoadScene("DartScene", LoadSceneMode.Single);
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name, LoadSceneMode.Single);
     }
 
     public void CloseMenu()

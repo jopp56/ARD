@@ -565,6 +565,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 171929785}
   finishText: {fileID: 1822813679}
+  neustart: {fileID: 0}
+  "men\xFC": {fileID: 0}
+  finishopt1: 0
+  finishopt2: 0
+  finishopt3: 0
   eingabesumme: 0
 --- !u!114 &55148800
 MonoBehaviour:
@@ -15862,6 +15867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e011b1d4818fdbb4580742aa7475cf0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreAnzeigeKIText: {fileID: 0}
   menu: {fileID: 9003082562687299219}
   targetListFieldNames:
   - 40D
@@ -21332,52 +21338,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3319388287565203108, guid: 4cbdb46ba06591949a30a87b843d007e,
-        type: 3}
-      propertyPath: m_text
-      value: "Zur\xFCck zu Hauptmen\xFC"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3319388288018421588, guid: 4cbdb46ba06591949a30a87b843d007e,
-        type: 3}
-      propertyPath: m_Name
-      value: "Hauptmen\xFC"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3702646146491386391, guid: 4cbdb46ba06591949a30a87b843d007e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4163560173157870503, guid: 4cbdb46ba06591949a30a87b843d007e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5492167309433969014, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: m_Name
       value: Menu
       objectReference: {fileID: 0}
-    - target: {fileID: 5492167309433969014, guid: 4cbdb46ba06591949a30a87b843d007e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6139371395399882936, guid: 4cbdb46ba06591949a30a87b843d007e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003082561330528797, guid: 4cbdb46ba06591949a30a87b843d007e,
-        type: 3}
-      propertyPath: menu
-      value: 
-      objectReference: {fileID: 9003082562687299219}
     - target: {fileID: 9003082561330528797, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: toggleOn
       value: 
       objectReference: {fileID: 611694859}
     - target: {fileID: 9003082561330528797, guid: 4cbdb46ba06591949a30a87b843d007e,
+        type: 3}
+      propertyPath: toggleOff
+      value: 
+      objectReference: {fileID: 611694860}
+    - target: {fileID: 9003082562687299221, guid: 4cbdb46ba06591949a30a87b843d007e,
+        type: 3}
+      propertyPath: toggleOn
+      value: 
+      objectReference: {fileID: 611694859}
+    - target: {fileID: 9003082562687299221, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: toggleOff
       value: 
@@ -21445,24 +21426,3 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 9003082562687299218}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &9003082562687299220 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3319388288018421588, guid: 4cbdb46ba06591949a30a87b843d007e,
-    type: 3}
-  m_PrefabInstance: {fileID: 9003082562687299218}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &9003082562687299221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9003082562687299220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f14e48f8b9d6e94884ce79dc82d89eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  menu: {fileID: 9003082562687299219}
-  toggleOff: {fileID: 611694860}
-  toggleOn: {fileID: 611694859}

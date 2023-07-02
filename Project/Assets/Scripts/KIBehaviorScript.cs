@@ -11,7 +11,7 @@ public class KIBehaviorScript : MonoBehaviour
     private int scoreKICount;
     private int scorePlayerCount;
 
-    private TextMeshPro scoreAnzeigeKIText;
+    public TextMeshPro scoreAnzeigeKIText;
     public GameObject menu;
 
     public string[] targetListFieldNames;
@@ -23,7 +23,7 @@ public class KIBehaviorScript : MonoBehaviour
         dartsCount = 0;
         scoreKICount = 310;
         scorePlayerCount = ScoreAnzeigeScript.score;
-        targetListWithFieldNamesAndProbabilities = new string[82,2];
+        this.targetListFieldNames = targetListFieldNames;
         scoreAnzeigeKIText = GameObject.Find("ScoreAnzeigeKI").GetComponent<TextMeshPro>();
         AssignProbabilitiesToTargets(targetListFieldNames);
 
@@ -40,7 +40,7 @@ public class KIBehaviorScript : MonoBehaviour
     {
         while (true)
         {
-            if (dartsCount == 0)
+            if (dartsCount <= 3)
             {
                 KIChooseAndHitTarget();
             }
@@ -63,6 +63,7 @@ public class KIBehaviorScript : MonoBehaviour
     public void AssignProbabilitiesToTargets(string[] targetListFieldNames)
     {
         //equal distributed 100% over 82 fields -> 1.20481928%
+        this.targetListWithFieldNamesAndProbabilities = new string[82, 2];
         for(int index = 0; index < targetListFieldNames.Length; index++)
         {
             string probability = "1.20481928";
@@ -79,7 +80,7 @@ public class KIBehaviorScript : MonoBehaviour
 
         while (dartsCount < 3)
         {
-            int randomFieldChoose = random.Next(0, targetListWithFieldNamesAndProbabilities.Length - 1);
+            int randomFieldChoose = random.Next(0, targetListFieldNames.Length - 1);
             //hitQuote muss angepasst werden wenn Probs feststehen~hier trifft er erste bei einer quote von ca.0.5
             double hitQuote = random.NextDouble() * 2.5;
 
@@ -116,16 +117,13 @@ public class KIBehaviorScript : MonoBehaviour
     }
     public void KIWaitForPlayerToFinishRound()
     {
-        int pastScore = scorePlayerCount;
-        while(true)
+        int currentScore = ScoreAnzeigeScript.score;
+        if(currentScore != scorePlayerCount)
         {
-            if(pastScore != ScoreAnzeigeScript.score)
-            {
-
-            }
-
+            dartsCount = 3;
+            return;
         }
-        scorePlayerCount = ScoreAnzeigeScript.score;
+        return;
     }
 
     public void KIChooseAndHitFinishTargets()
