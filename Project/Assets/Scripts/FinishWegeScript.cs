@@ -1465,8 +1465,8 @@ public class FinishWegeScript : MonoBehaviour
                 + "\n oder:\n" + wurfarray[3] + " | " + wurfarray[4] + " | " + wurfarray[5]
                 + "\n oder:\n" + wurfarray[6] + " | " + wurfarray[7] + " | " + wurfarray[8];
         }
-        
-        ChangeMaterialScript.instance.changeColor();
+
+        //ChangeMaterialScript.instance.changeColor();
     }
 
     // Update is called once per frame

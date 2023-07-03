@@ -23,7 +23,7 @@ public class Level3RandomFelderScript : MonoBehaviour
         rend.enabled = true;
         rend.sharedMaterial = material[0];
 
-        
+
     }
 
     public void changeMaterial()
@@ -43,7 +43,7 @@ public class Level3RandomFelderScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Random3FelderScript.instance.randomFeld1.Equals(feld) || Random3FelderScript.instance.randomFeld2.Equals(feld) || Random3FelderScript.instance.randomFeld3.Equals(feld))
+        if (Random3FelderScript.instance.randomFeld1.Equals(feld) || Random3FelderScript.instance.randomFeld2.Equals(feld) || Random3FelderScript.instance.randomFeld3.Equals(feld))
         {
             wahr.text = "yes";
             //rend.sharedMaterial = material[1];
@@ -52,6 +52,6 @@ public class Level3RandomFelderScript : MonoBehaviour
         {
             wahr.text = "no";
             //rend.sharedMaterial = material[0];
-        }*/
+        }
     }
 }
