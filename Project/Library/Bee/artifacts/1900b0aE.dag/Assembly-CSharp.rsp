@@ -115,9 +115,18 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"C:/Darts - Pp/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll"
+-r:"C:/Darts - Pp/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -199,6 +208,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
@@ -324,8 +335,6 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
--r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll"
--r:"C:/Users/joshu/OneDrive/Desktop/Dart/ARD/Project/Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Microsoft.MixedReality.GraphicsTools.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Microsoft.MixedReality.GraphicsTools.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Microsoft.MixedReality.OpenXR.Editor.ref.dll"
@@ -416,7 +425,20 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VuforiaEditorScripts.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VuforiaScripts.ref.dll"
 "Assets/Scripts/Abstand.cs"
+"Assets/Scripts/Animation.cs"
+"Assets/Scripts/AroundTheClockScript.cs"
+"Assets/Scripts/ChangeMaterialScript.cs"
+"Assets/Scripts/CheckPositionScript.cs"
+"Assets/Scripts/FinishWegeScript.cs"
+"Assets/Scripts/KIBehaviorScript.cs"
+"Assets/Scripts/Level2MaterialScript.cs"
+"Assets/Scripts/Level3RandomFelderScript.cs"
 "Assets/Scripts/MenuScript.cs"
+"Assets/Scripts/Random3FelderScript.cs"
+"Assets/Scripts/RandomZahlScoreAnzeigeScript.cs"
+"Assets/Scripts/ScoreAnzeigeScript.cs"
+"Assets/Scripts/ScoreEingabeScript.cs"
+"Assets/Scripts/StartMenuScript.cs"
 -langversion:9.0
 
 /deterministic
