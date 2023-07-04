@@ -45,6 +45,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ThemePropertyValue" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Easing" preserve="nothing" serialized="true"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.KeyBinding" preserve="nothing" serialized="true"/>
@@ -79,7 +80,12 @@
 		<type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Vuforia.Unity.Engine">
 		<type fullname="Vuforia.VuforiaConfiguration/DatabaseConfiguration" preserve="nothing" serialized="true"/>

@@ -2,34 +2,34 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{a07f2873-0cae-4f30-b6a2-8b45b578b539}</UniqueIdentifier>
+      <UniqueIdentifier>{09b25135-d744-4c77-baf9-4c951fd607e9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{87d8d8ca-3cb6-490f-bcb4-dddedc587c31}</UniqueIdentifier>
+      <UniqueIdentifier>{fd7b5017-5599-4279-87ab-a30e58ed08e8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{f0c1219d-101a-447a-b093-50c6f845e129}</UniqueIdentifier>
+      <UniqueIdentifier>{41c8ee95-bee8-4cac-8a33-a73c793d4b34}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{01e5e275-f731-4a5d-9e05-a84cc73da3c8}</UniqueIdentifier>
+      <UniqueIdentifier>{7827912e-b4ab-4567-94a1-a4ca38bdd929}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets\Vuforia">
-      <UniqueIdentifier>{6aff1f5c-73ff-4d8d-ba1e-e00fc4ec1c2a}</UniqueIdentifier>
+      <UniqueIdentifier>{70fd50bc-f615-4a3d-99ed-b5806c68dd1f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\MicrosoftOpenXRPlugin">
-      <UniqueIdentifier>{874587a2-41b8-4f90-b1fd-e68ae5e2d76d}</UniqueIdentifier>
+      <UniqueIdentifier>{1dbc6277-f22d-4845-8265-8cc5be5dbb9c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\UnityOpenXR">
-      <UniqueIdentifier>{f96909a2-b998-4459-9e1d-c60422602dfc}</UniqueIdentifier>
+      <UniqueIdentifier>{5eb7444b-d3eb-4d69-a75f-e4053d85c3c1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{67764ffa-3599-4397-91f7-44226b1b3aa1}</UniqueIdentifier>
+      <UniqueIdentifier>{17e53356-d98e-4234-ba1e-b64cb98a53e3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets">
-      <UniqueIdentifier>{69f1046b-63b9-44f0-b7cb-2c73767d9445}</UniqueIdentifier>
+      <UniqueIdentifier>{2550081d-b922-426b-85c1-9493a0bb4a16}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems">
-      <UniqueIdentifier>{120a84ce-2e58-43dd-ba17-4716719e6477}</UniqueIdentifier>
+      <UniqueIdentifier>{a0f1e5dd-2413-4f49-9436-253162912c9a}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />
@@ -48,6 +48,21 @@
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\level0.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level1">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level2">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level3">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level4">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level5">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\nativePlugins.txt">
@@ -72,6 +87,24 @@
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets0.resource">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets1.assets.resS">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets2.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets3.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets4.assets">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets5.assets">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity default resources">
