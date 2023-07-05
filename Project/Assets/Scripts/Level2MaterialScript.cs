@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class Level2MaterialScript : MonoBehaviour
 {
     public Material[] material;
     Renderer rend;
+    public string feldname;
     
     void Start()
     {
@@ -16,7 +18,7 @@ public class Level2MaterialScript : MonoBehaviour
 
     void Update()
     {
-        if (AroundTheClockScript.feld == 1)
+        if (AroundTheClockScript.feld.ToString() == feldname)
         {
             //GameObject.Find("1");
             rend.sharedMaterial = material[1];
