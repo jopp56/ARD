@@ -12,11 +12,13 @@ public class AroundTheClockScript : MonoBehaviour
     public TextMeshProUGUI endeText;
     public static int feld;
     public int leben;
+    public int i;
 
     void Start()
     {
         feld = 1;
         leben = 3;
+        i = 1;
         levelText.text = "Triff Feld S" + feld.ToString() + "!";
         lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
     }
@@ -38,36 +40,51 @@ public class AroundTheClockScript : MonoBehaviour
             endeText.text = "Du hast das Training erfolreich abgeschlossen!";
         } */
 
-        for (int i = 1; i <= 60; i++)
-        {
+        if (i <= 61)
+        { 
             if (i <= 20)
             {
-                feld += 1;
-                for (feld = 1; feld < 21; feld++)
+                if (feld < 20)
                 {
+                    feld += 1;
                     levelText.text = "Triff Feld S" + feld.ToString() + "!";
+                }
+                else if (feld == 20)
+                {
+                    feld = 1;
                 }
             } 
             else if (i > 20 && i <= 40)
             {
-                for (feld = 1; feld < 21; feld++)
+                if (feld < 20)
                 {
+                    feld += 1;
                     levelText.text = "Triff Feld D" + feld.ToString() + "!";
-                }    
+                }
+                else if (feld == 20)
+                {
+                    feld = 1;
+                }
             }
             else if (i > 40 && i <= 60)
             {
-                for (feld = 1; feld < 21; feld++)
+
+                if (feld < 20)
                 {
+                    feld += 1;
                     levelText.text = "Triff Feld T" + feld.ToString() + "!";
                 }
+                else if (feld == 20)
+                {
+                    feld = 1;
+                }
             }
-            else if (i == 60)
+            else if (i == 61)
             {
                 endeText.text = "Du hast das Training erfolreich abgeschlossen!";
             }
+            i++;
         }
-        
     }
 
     public void ButtonVerfehlt()
