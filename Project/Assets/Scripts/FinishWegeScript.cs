@@ -56,7 +56,7 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 20";
                 wurfarray[1] = "Triple 17";
                 wurfarray[2] = "Bull's-Eye";
-                wurfarray[3] = "Triple 19"; //?
+                wurfarray[3] = "Triple 19";
                 wurfarray[4] = "Triple 18";
                 wurfarray[5] = "Bull's-Eye";
                 wurfarray[6] = "-";
@@ -155,7 +155,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 18";
                 wurfarray[4] = "Triple 18";
                 wurfarray[5] = "Double 20";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 19";
+                wurfarray[7] = "Triple 17";
+                wurfarray[8] = "Double 20"; //T20, T16, D20
                 break;
 
             case 147:
@@ -182,7 +184,10 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 20";
                 wurfarray[1] = "Triple 19";
                 wurfarray[2] = "Double 14";
-                wurfarray[3] = "-";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "Triple 15";
+                wurfarray[5] = "Double 20";
+                wurfarray[6] = "-";
                 break;
 
             case 144:
@@ -212,14 +217,19 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 17";
                 wurfarray[4] = "Triple 17";
                 wurfarray[5] = "Double 20";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 19";
+                wurfarray[7] = "Triple 19";
+                wurfarray[8] = "Double 14";
                 break;
 
             case 141:
                 wurfarray[0] = "Triple 20";
                 wurfarray[1] = "Triple 19";
                 wurfarray[2] = "Double 12";
-                wurfarray[3] = "-";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "Triple 15";
+                wurfarray[5] = "Double 18";
+                wurfarray[6] = "-";
                 break;
 
             case 140:
@@ -233,7 +243,7 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 20";
                 wurfarray[1] = "Triple 13";
                 wurfarray[2] = "Double 20";
-                wurfarray[3] = "Triple 19";
+                wurfarray[3] = "Triple 19"; //T20, T19, D11
                 wurfarray[4] = "Triple 14";
                 wurfarray[5] = "Double 20";
                 wurfarray[6] = "Triple 19";
@@ -274,7 +284,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 20";
                 wurfarray[4] = "Triple 17";
                 wurfarray[5] = "Double 12";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Bull's-Eye";
+                wurfarray[7] = "Triple 15";
+                wurfarray[8] = "Double 20";
                 break;
 
             case 134:
@@ -284,7 +296,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 17";
                 wurfarray[4] = "Triple 17";
                 wurfarray[5] = "Double 16";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 20";
+                wurfarray[7] = "Triple 14";
+                wurfarray[8] = "Double 16";
                 break;
 
             case 133:
@@ -301,7 +315,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Bull";
                 wurfarray[4] = "Triple 19";
                 wurfarray[5] = "Bull's-Eye";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 20";
+                wurfarray[7] = "Triple 16";
+                wurfarray[8] = "Double 12"; // Bull's-Eye, T14, D20
                 break;
 
             case 131:
@@ -311,28 +327,41 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 17";
                 wurfarray[4] = "Double 20";
                 wurfarray[5] = "Double 20";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 19";
+                wurfarray[7] = "Triple 14";
+                wurfarray[8] = "Double 16";
                 break;
 
             case 130:
                 wurfarray[0] = "Triple 20";
                 wurfarray[1] = "Triple 20";
                 wurfarray[2] = "Double 5";
-                wurfarray[3] = "-";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "20";
+                wurfarray[5] = "Bull's-Eye";
+                wurfarray[6] = "-";
                 break;
 
             case 129:
                 wurfarray[0] = "Triple 19";
                 wurfarray[1] = "Triple 16";
                 wurfarray[2] = "Double 12";
-                wurfarray[3] = "-";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "Triple 19";
+                wurfarray[5] = "Double 6";
+                wurfarray[6] = "-";
                 break;
 
             case 128:
                 wurfarray[0] = "Triple 18";
                 wurfarray[1] = "Triple 14";
                 wurfarray[2] = "Double 16";
-                wurfarray[3] = "-";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "Triple 18";
+                wurfarray[5] = "Double 7";
+                wurfarray[6] = "Triple 18";
+                wurfarray[7] = "Triple 18";
+                wurfarray[8] = "Double 10";
                 break;
 
             case 127:
@@ -346,7 +375,10 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 19";
                 wurfarray[1] = "Triple 19";
                 wurfarray[2] = "Double 6";
-                wurfarray[3] = "-";
+                wurfarray[3] = "Triple 19";
+                wurfarray[4] = "19";
+                wurfarray[5] = "Bull's-Eye";
+                wurfarray[6] = "-";
                 break;
 
             case 125:
@@ -356,7 +388,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Bull";
                 wurfarray[4] = "Triple 20";
                 wurfarray[5] = "Double 20";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 20";
+                wurfarray[7] = "Triple 15";
+                wurfarray[8] = "Double 10"; //50, 25, 50
                 break;
 
             case 124:
@@ -396,7 +430,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Bull";
                 wurfarray[4] = "Triple 20";
                 wurfarray[5] = "Double 18";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 17";
+                wurfarray[7] = "Triple 20";
+                wurfarray[8] = "Double 5";
                 break;
 
             case 120:
@@ -471,14 +507,20 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 19";
                 wurfarray[1] = "16";
                 wurfarray[2] = "Double 20";
-                wurfarray[3] = "-";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "13";
+                wurfarray[5] = "Double 20";
+                wurfarray[6] = "-";
                 break;
 
             case 112:
                 wurfarray[0] = "Triple 20";
                 wurfarray[1] = "Triple 12";
                 wurfarray[2] = "Double 8";
-                wurfarray[3] = "-";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "12";
+                wurfarray[5] = "Double 20";
+                wurfarray[6] = "-";
                 break;
 
             case 111:
@@ -495,7 +537,7 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 19";
                 wurfarray[1] = "13";
                 wurfarray[2] = "Double 20";
-                wurfarray[3] = "Triple 20";
+                wurfarray[3] = "Triple 20"; //T20, 10, D20
                 wurfarray[4] = "Triple 10";
                 wurfarray[5] = "Double 10";
                 wurfarray[6] = "Triple 20";
@@ -529,7 +571,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 19";
                 wurfarray[4] = "Bull's-Eye";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 20";
+                wurfarray[7] = "7";
+                wurfarray[8] = "Double 20";
                 break;
 
             case 106:
@@ -548,17 +592,22 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 20";
                 wurfarray[1] = "13";
                 wurfarray[2] = "Double 16";
-                wurfarray[3] = "-";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "5";
+                wurfarray[5] = "Double 20";
+                wurfarray[6] = "-";
                 break;
 
             case 104:
                 wurfarray[0] = "Triple 19";
                 wurfarray[1] = "7";
                 wurfarray[2] = "Double 20";
-                wurfarray[3] = "Triple 18";
-                wurfarray[4] = "Bull's-Eye";
-                wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[3] = "Triple 19";
+                wurfarray[4] = "15";
+                wurfarray[5] = "Double 16";
+                wurfarray[6] = "Triple 18";
+                wurfarray[7] = "Bull's-Eye";
+                wurfarray[8] = "-";	//T20, 4, D20
                 break;
 
             case 103:
@@ -568,7 +617,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 19";
                 wurfarray[4] = "10";
                 wurfarray[5] = "Double 18";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 20";
+                wurfarray[7] = "3";
+                wurfarray[8] = "Double 20";
                 break;
 
             case 102:
@@ -578,7 +629,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 20";
                 wurfarray[4] = "6";
                 wurfarray[5] = "Double 18";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 20";
+                wurfarray[7] = "2";
+                wurfarray[8] = "Double 20";
                 break;
 
             case 101:
@@ -588,7 +641,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 17";
                 wurfarray[4] = "Bull's-Eye";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 20";
+                wurfarray[7] = "1";
+                wurfarray[8] = "Double 20";
                 break;
 
             case 100:
@@ -723,10 +778,12 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 15";
                 wurfarray[1] = "Double 20";
                 wurfarray[2] = "-";
-                wurfarray[3] = "Bull";
-                wurfarray[4] = "20";
-                wurfarray[5] = "Double 20";
-                wurfarray[6] = "-";
+                wurfarray[3] = "Triple 19";
+                wurfarray[4] = "Double 14";
+                wurfarray[5] = "-";
+                wurfarray[6] = "Bull";
+                wurfarray[7] = "20";
+                wurfarray[8] = "Double 20";
                 break;
 
             case 84:
@@ -763,10 +820,12 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 19";
                 wurfarray[1] = "Double 12";
                 wurfarray[2] = "-";
-                wurfarray[3] = "Bull";
-                wurfarray[4] = "16";
-                wurfarray[5] = "Double 20";
-                wurfarray[6] = "-";
+                wurfarray[3] = "Triple 15";
+                wurfarray[4] = "Double 18";
+                wurfarray[5] = "-";
+                wurfarray[6] = "Bull";
+                wurfarray[7] = "16";
+                wurfarray[8] = "Double 20";
                 break;
 
             case 80:
@@ -844,10 +903,12 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 16";
                 wurfarray[1] = "Double 12";
                 wurfarray[2] = "-";
-                wurfarray[3] = "Triple 12";
-                wurfarray[4] = "Double 18";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "Double 6";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 12";
+                wurfarray[7] = "Double 18";
+                wurfarray[8] = "-";
                 break;
 
             case 71:
@@ -864,10 +925,12 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 18";
                 wurfarray[1] = "Double 8";
                 wurfarray[2] = "-";
-                wurfarray[3] = "Triple 10";
-                wurfarray[4] = "Double 20";
+                wurfarray[3] = "Triple 20";
+                wurfarray[4] = "Double 5";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 10";
+                wurfarray[7] = "Double 20";
+                wurfarray[8] = "-";
                 break;
 
             case 69:
@@ -887,7 +950,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 16";
                 wurfarray[4] = "Double 10";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 18";
+                wurfarray[7] = "Double 7";
+                wurfarray[8] = "-";
                 break;
 
             case 67:
@@ -904,8 +969,8 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 10";
                 wurfarray[1] = "Double 18";
                 wurfarray[2] = "-";
-                wurfarray[3] = "Bull's-Eye";
-                wurfarray[4] = "Bull's-Eye";
+                wurfarray[3] = "Triple 18";
+                wurfarray[4] = "Double 6";
                 wurfarray[5] = "-";
                 wurfarray[6] = "Triple 16";
                 wurfarray[7] = "Double 9";
@@ -916,10 +981,12 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 11";
                 wurfarray[1] = "Double 16";
                 wurfarray[2] = "-";
-                wurfarray[3] = "Bull";
+                wurfarray[3] = "Bull"; //T15, D10
                 wurfarray[4] = "Double 20";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 19";
+                wurfarray[7] = "Double 4";
+                wurfarray[8] = "-";
                 break;
 
             case 64:
@@ -939,7 +1006,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 17";
                 wurfarray[4] = "Double 6";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 13";
+                wurfarray[7] = "Double 12";
+                wurfarray[8] = "-";
                 break;
 
             case 62:
@@ -949,7 +1018,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Triple 14";
                 wurfarray[4] = "Double 10";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 12";
+                wurfarray[7] = "Double 13";
+                wurfarray[8] = "-";
                 break;
 
             case 61:
@@ -959,7 +1030,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "Bull";
                 wurfarray[4] = "Double 18";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "Triple 7";
+                wurfarray[7] = "Double 20";
+                wurfarray[8] = "-";	// T11, D14
                 break;
 
             case 60:
@@ -994,7 +1067,10 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Triple 16";
                 wurfarray[1] = "Double 4";
                 wurfarray[2] = "-";
-                wurfarray[3] = "-";
+                wurfarray[3] = "16";
+                wurfarray[4] = "Double 20";
+                wurfarray[5] = "-";
+                wurfarray[6] = "-";
                 break;
 
             case 55:
@@ -1085,7 +1161,7 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "10";
                 wurfarray[4] = "Double 18";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "-"; //14, D16
                 break;
 
             case 45:
@@ -1095,7 +1171,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "13";
                 wurfarray[4] = "Double 16";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "19";
+                wurfarray[7] = "Double 13";
+                wurfarray[8] = "-";
                 break;
 
             case 44:
@@ -1125,7 +1203,9 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[3] = "10";
                 wurfarray[4] = "Double 16";
                 wurfarray[5] = "-";
-                wurfarray[6] = "-";
+                wurfarray[6] = "2";
+                wurfarray[7] = "Double 20";
+                wurfarray[8] = "-";
                 break;
 
             case 41:
@@ -1142,7 +1222,10 @@ public class FinishWegeScript : MonoBehaviour
                 wurfarray[0] = "Double 20";
                 wurfarray[1] = "-";
                 wurfarray[2] = "-";
-                wurfarray[3] = "-";
+                wurfarray[3] = "20";
+                wurfarray[4] = "Double 10";
+                wurfarray[5] = "-";
+                wurfarray[6] = "-";
                 break;
 
             case 39:

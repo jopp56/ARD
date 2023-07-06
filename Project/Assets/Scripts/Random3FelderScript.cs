@@ -23,9 +23,11 @@ public class Random3FelderScript : MonoBehaviour
         //Alle Felder
         for (int i = 1; i <= 20; i++)
         {
-            range.Add(i.ToString());
+            range.Add("Inner " + i.ToString());
+            range.Add("Outter " + i.ToString());
             range.Add("Double " + i.ToString());
             range.Add("Triple " + i.ToString());
+
         }
         range.Add("25");
         range.Add("50");
@@ -49,6 +51,6 @@ public class Random3FelderScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
