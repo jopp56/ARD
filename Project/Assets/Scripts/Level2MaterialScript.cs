@@ -18,9 +18,8 @@ public class Level2MaterialScript : MonoBehaviour
 
     void Update()
     {
-        if (AroundTheClockScript.feld.ToString() == feldname)
+        if (AroundTheClockScript.i.ToString() == feldname)
         {
-            //GameObject.Find("1");
             rend.sharedMaterial = material[1];
         } else
         {
