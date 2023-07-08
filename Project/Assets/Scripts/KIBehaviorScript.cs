@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 using System;
@@ -14,6 +15,7 @@ public class KIBehaviorScript : MonoBehaviour
     public GameObject scoreAnzeigePlayerText;
     public GameObject scoreAnzeigeKIText;
     public GameObject menu;
+    public GameObject closeButton;
 
     public string[] targetListFieldNames;
     private string[,] targetListWithFieldNamesAndProbabilities;
@@ -26,37 +28,31 @@ public class KIBehaviorScript : MonoBehaviour
         this.targetListFieldNames = targetListFieldNames;
         AssignProbabilitiesToTargets(targetListFieldNames);
 
-
     }
 
     
     void Update()
     {
-        KIRun();
+        StartCoroutine(KIRun());
     }
 
-    public void KIRun()
+    IEnumerator KIRun()
     {
-       this.scorePlayerCount = ScoreAnzeigeScript.score;
-
-            if (dartsCount <= 3)
+            this.scorePlayerCount = ScoreAnzeigeScript.score;
+            if (dartsCount<3)
             {
                 KIChooseAndHitTarget();
+
             }
-            else if(scoreKICount <= 170 && dartsCount == 0)
+            if (scoreKICount <= 170 && dartsCount == 0)
             {
                 KIChooseAndHitFinishTargets();
             }
-            else if(scoreKICount == 0 || scorePlayerCount == 0)
+            if (scoreKICount == 0 || scorePlayerCount == 0)
             {
                 EndGameSequence();
             }
-            else
-            {
-                TextMeshPro playerScore = scoreAnzeigePlayerText.GetComponent<TextMeshPro>();
-                string playerScoreBeforeWait = playerScore.text;
-                KIWaitForPlayerToFinishRound(playerScoreBeforeWait);
-            }
+        yield return null;
     }
 
     public void AssignProbabilitiesToTargets(string[] targetListFieldNames)
@@ -100,7 +96,6 @@ public class KIBehaviorScript : MonoBehaviour
                 if(targetName.Length == 3)
                 {
                     int targetValue = int.Parse(targetName[0] + "" + targetName[1]);
-                    Debug.Log(targetValue);
                     scoreKICount -= targetValue;
                     UpdateKIScoreAnzeige(scoreKICount);
                
@@ -108,7 +103,6 @@ public class KIBehaviorScript : MonoBehaviour
                 if(targetName.Length == 2)
                 {
                     int targetValue = int.Parse(targetName[0] + "");
-                    Debug.Log(targetValue);
                     scoreKICount -= targetValue;
                     UpdateKIScoreAnzeige(scoreKICount);
                 }
@@ -116,14 +110,10 @@ public class KIBehaviorScript : MonoBehaviour
         }
         //zerstören der vorhanden darts am ende
     }
-    public void KIWaitForPlayerToFinishRound(string playerScoreBeforeWait)
+    public void KIWaitForPlayerToFinishRound()
     {
-        TextMeshPro playerScore = scoreAnzeigePlayerText.GetComponent<TextMeshPro>();
-        string checkIfChangedText = playerScore.text;
-        if (playerScoreBeforeWait.Equals(checkIfChangedText) == false)
-        {
-            dartsCount = 3;
-        }
+        Debug.Log("Called wait");
+        dartsCount = 0;
     }
 
     public void KIChooseAndHitFinishTargets()
@@ -135,12 +125,12 @@ public class KIBehaviorScript : MonoBehaviour
     public void EndGameSequence()
     {
         menu.SetActive(true);
+        closeButton.SetActive(false);
     }
 
     public void UpdateKIScoreAnzeige(int newScore)
     {
-        Debug.Log(newScore);
-        TextMeshPro scoreKI = scoreAnzeigeKIText.GetComponent<TextMeshPro>();
+        TextMeshProUGUI scoreKI = scoreAnzeigeKIText.GetComponent<TextMeshProUGUI>();
         scoreKI.SetText("KI Score:" + "\n" + newScore.ToString() + "/" + "310");
     }
 
