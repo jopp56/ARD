@@ -15839,7 +15839,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1700757615
 Transform:
   m_ObjectHideFlags: 0
@@ -15867,7 +15867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e011b1d4818fdbb4580742aa7475cf0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreAnzeigeKIText: {fileID: 0}
+  scoreAnzeigePlayerText: {fileID: 171929784}
+  scoreAnzeigeKIText: {fileID: 1191663786}
   menu: {fileID: 3515418990504474596}
   targetListFieldNames:
   - 40D
