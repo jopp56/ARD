@@ -39,9 +39,10 @@ public class KIBehaviorScript : MonoBehaviour
     IEnumerator KIRun()
     {
             this.scorePlayerCount = ScoreAnzeigeScript.score;
-            if (dartsCount<3)
+            if (dartsCount<3 && scoreKICount > 170)
             {
                 KIChooseAndHitTarget();
+                yield return new WaitForSeconds(10);
 
             }
             if (scoreKICount <= 170 && dartsCount == 0)
@@ -73,8 +74,6 @@ public class KIBehaviorScript : MonoBehaviour
     {
         System.Random random = new System.Random();
 
-        while (dartsCount < 3)
-        {
             int randomFieldChoose = random.Next(0, targetListFieldNames.Length - 1);
             //hitQuote muss angepasst werden wenn Probs feststehen~hier trifft er erste bei einer quote von ca.0.5
             double hitQuote = random.NextDouble() * 2.5;
@@ -96,6 +95,7 @@ public class KIBehaviorScript : MonoBehaviour
                 if(targetName.Length == 3)
                 {
                     int targetValue = int.Parse(targetName[0] + "" + targetName[1]);
+                    Debug.Log(targetValue);
                     scoreKICount -= targetValue;
                     UpdateKIScoreAnzeige(scoreKICount);
                
@@ -107,25 +107,79 @@ public class KIBehaviorScript : MonoBehaviour
                     UpdateKIScoreAnzeige(scoreKICount);
                 }
             }
-        }
         //zerstören der vorhanden darts am ende
     }
     public void KIWaitForPlayerToFinishRound()
-    {
-        Debug.Log("Called wait");
+    { 
         dartsCount = 0;
     }
 
     public void KIChooseAndHitFinishTargets()
     {
-        //trifft finish weg oder nicht
-        return;
+       System.Random random = new System.Random();
+
+       for(int index = 0; index <= targetListFieldNames.Length-1; index++)
+        {
+            string targetName = targetListWithFieldNamesAndProbabilities[index,0];
+
+            if (targetName.Length == 3)
+            {
+                int targetValue = int.Parse(targetName[0] + "" + targetName[1]);
+                int checkIfLeadsToWin = scoreKICount - targetValue;
+                if (checkIfLeadsToWin < 0)
+                {
+                    continue;
+                }
+                else
+                {
+                    string targetProbability = targetListWithFieldNamesAndProbabilities[index, 1];
+                    double hitQuote = random.NextDouble() * 0.25;
+                    if (double.Parse(targetProbability) < hitQuote)
+                    {
+                            dartsCount++;
+                            animateDarts("0");
+                            //sound abspielen
+                    }
+                    else
+                    {
+                        scoreKICount -= targetValue;
+                        UpdateKIScoreAnzeige(scoreKICount);
+                    }
+                }
+            }
+            if (targetName.Length == 2)
+            {
+                int targetValue = int.Parse(targetName[0] + "");
+                int checkIfLeadsToWin = scoreKICount - targetValue;
+                if (checkIfLeadsToWin < 0)
+                {
+                    continue;
+                }
+                else
+                {
+                    string targetProbability = targetListWithFieldNamesAndProbabilities[index, 1];
+                    double hitQuote = random.NextDouble() * 0.25;
+                    if (double.Parse(targetProbability) < hitQuote)
+                    {
+                        dartsCount++;
+                        animateDarts("0");
+                        //sound abspielen
+                    }
+                    else
+                    {
+                        scoreKICount -= targetValue;
+                        UpdateKIScoreAnzeige(scoreKICount);
+                    }
+                }
+            }
+        }
     }
 
     public void EndGameSequence()
     {
         menu.SetActive(true);
         closeButton.SetActive(false);
+
     }
 
     public void UpdateKIScoreAnzeige(int newScore)
