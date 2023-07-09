@@ -20,6 +20,10 @@ public class KIBehaviorScript : MonoBehaviour
     public string[] targetListFieldNames;
     private string[,] targetListWithFieldNamesAndProbabilities;
 
+    public AudioSource winAudio;
+    public AudioSource loseAudio;
+    public AudioSource missedAudio;
+
 
     void Start()
     {
@@ -39,10 +43,9 @@ public class KIBehaviorScript : MonoBehaviour
     IEnumerator KIRun()
     {
             this.scorePlayerCount = ScoreAnzeigeScript.score;
-            if (dartsCount<3 && scoreKICount > 170)
+            if (dartsCount< 3 && scoreKICount > 170)
             {
                 KIChooseAndHitTarget();
-                yield return new WaitForSeconds(10);
 
             }
             if (scoreKICount <= 170 && dartsCount == 0)
@@ -85,8 +88,10 @@ public class KIBehaviorScript : MonoBehaviour
             if(double.Parse(targetProbability) < hitQuote)
             {
                 dartsCount++;
+                Debug.Log("Hit Nothing");
+                missedAudio.Play();
                 animateDarts("0");
-                //sound abspielen für nicht treffen 
+                Debug.Log("Returned");
             }
             else
             {
@@ -107,11 +112,11 @@ public class KIBehaviorScript : MonoBehaviour
                     UpdateKIScoreAnzeige(scoreKICount);
                 }
             }
-        //zerstören der vorhanden darts am ende
     }
     public void KIWaitForPlayerToFinishRound()
     { 
         dartsCount = 0;
+        //delete darts der KI
     }
 
     public void KIChooseAndHitFinishTargets()
@@ -138,7 +143,7 @@ public class KIBehaviorScript : MonoBehaviour
                     {
                             dartsCount++;
                             animateDarts("0");
-                            //sound abspielen
+                            missedAudio.Play();
                     }
                     else
                     {
@@ -163,7 +168,7 @@ public class KIBehaviorScript : MonoBehaviour
                     {
                         dartsCount++;
                         animateDarts("0");
-                        //sound abspielen
+                        missedAudio.Play();
                     }
                     else
                     {
@@ -179,6 +184,15 @@ public class KIBehaviorScript : MonoBehaviour
     {
         menu.SetActive(true);
         closeButton.SetActive(false);
+        if(scorePlayerCount == 0)
+        {
+            winAudio.Play();
+        }
+
+        if(scoreKICount == 0)
+        {
+            loseAudio.Play();
+        }
 
     }
 
