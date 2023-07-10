@@ -16,6 +16,7 @@ public class KIBehaviorScript : MonoBehaviour
     public GameObject scoreAnzeigeKIText;
     public GameObject menu;
     public GameObject closeButton;
+    public GameObject formen;
 
     public string[] targetListFieldNames;
     private string[,] targetListWithFieldNamesAndProbabilities;
@@ -45,17 +46,20 @@ public class KIBehaviorScript : MonoBehaviour
             this.scorePlayerCount = ScoreAnzeigeScript.score;
             if (dartsCount< 3 && scoreKICount > 170)
             {
+                formen.SetActive(true);
                 KIChooseAndHitTarget();
-
+                
             }
             if (scoreKICount <= 170 && dartsCount == 0)
             {
+                formen.SetActive(true);
                 KIChooseAndHitFinishTargets();
             }
             if (scoreKICount == 0 || scorePlayerCount == 0)
             {
                 EndGameSequence();
             }
+        formen.SetActive(false);
         yield return null;
     }
 
@@ -100,7 +104,6 @@ public class KIBehaviorScript : MonoBehaviour
                 if(targetName.Length == 3)
                 {
                     int targetValue = int.Parse(targetName[0] + "" + targetName[1]);
-                    Debug.Log(targetValue);
                     scoreKICount -= targetValue;
                     UpdateKIScoreAnzeige(scoreKICount);
                
@@ -112,6 +115,7 @@ public class KIBehaviorScript : MonoBehaviour
                     UpdateKIScoreAnzeige(scoreKICount);
                 }
             }
+        Debug.Log("Nichts gemacht");
     }
     public void KIWaitForPlayerToFinishRound()
     { 
