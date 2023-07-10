@@ -28,7 +28,7 @@ public class ATCUhrzeigersinnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void ButtonGetroffen()
@@ -37,8 +37,8 @@ public class ATCUhrzeigersinnScript : MonoBehaviour
         {
             if (i < 20)
             {
-                    feld = felderreihenfolge[i];
-                    levelText.text = "Triff Feld S" + feld.ToString() + "!";
+                feld = felderreihenfolge[i];
+                levelText.text = "Triff Feld S" + feld.ToString() + "!";
             }
             else if (i >= 20 && i < 40)
             {
@@ -60,7 +60,7 @@ public class ATCUhrzeigersinnScript : MonoBehaviour
             }
             else if (i == 60)
             {
-                endeText.text = "Du hast das Training erfolreich abgeschlossen!";
+                endeText.text = "Du hast das Training erfolgreich abgeschlossen!";
             }
             i++;
         }
@@ -68,6 +68,37 @@ public class ATCUhrzeigersinnScript : MonoBehaviour
 
     public void ButtonVerfehlt()
     {
+        leben -= 1;
+        lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
 
+        if (leben == 0 && feld > 1 && i <= 20)
+        {
+            i--;
+            feld = felderreihenfolge[i - 1];
+            levelText.text = "Triff Feld S" + feld.ToString() + "!";
+            leben = 3;
+            lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+        }
+        else if (leben == 0 && feld > 1 && i > 20 && i <= 40)
+        {
+            i--;
+            feld = felderreihenfolge[i - 21];
+            levelText.text = "Triff Feld D" + feld.ToString() + "!";
+            leben = 3;
+            lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+        }
+        else if (leben == 0 && feld > 1 && i > 40)
+        {
+            i--;
+            feld = felderreihenfolge[i - 41];
+            levelText.text = "Triff Feld T" + feld.ToString() + "!";
+            leben = 3;
+            lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+        }
+        else if (leben == 0 && feld == 1)
+        {
+            leben = 3;
+            lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+        }
     }
 }

@@ -70,7 +70,7 @@ public class AroundTheClockScript : MonoBehaviour
             }
             else if (i == 60)
             {
-                endeText.text = "Du hast das Training erfolreich abgeschlossen!";
+                endeText.text = "Du hast das Training erfolgreich abgeschlossen!";
             }
             i++;
         }
