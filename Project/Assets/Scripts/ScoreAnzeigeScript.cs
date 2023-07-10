@@ -11,8 +11,8 @@ public class ScoreAnzeigeScript : MonoBehaviour
 
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI finishText;
-    public Button neustart;
-    public Button menü;
+    //public Button neustart;
+    //public Button menü;
     public bool finishopt1;
     public bool finishopt2;
     public bool finishopt3;
@@ -23,8 +23,8 @@ public class ScoreAnzeigeScript : MonoBehaviour
     void Awake()
     {
         instance = this;
-        menü.gameObject.SetActive(false);
-        neustart.gameObject.SetActive(false);
+        //menü.gameObject.SetActive(false);
+        //neustart.gameObject.SetActive(false);
     }
 
 
@@ -117,8 +117,8 @@ public class ScoreAnzeigeScript : MonoBehaviour
             finishopt2 = false;
             finishopt3 = false;
             finishText.text = "FINISHED!";
-            menü.gameObject.SetActive(true);
-            neustart.gameObject.SetActive(true);
+            //menü.gameObject.SetActive(true);
+            //neustart.gameObject.SetActive(true);
         }
         else if (eingabesumme == score && finishopt2 && ScoreEingabeScript.scorearray[2] == "0")
         {
@@ -131,8 +131,8 @@ public class ScoreAnzeigeScript : MonoBehaviour
             finishopt2 = false;
             finishopt3 = false;
             finishText.text = "FINISHED!";
-            menü.gameObject.SetActive(true);
-            neustart.gameObject.SetActive(true);
+            //menü.gameObject.SetActive(true);
+            //neustart.gameObject.SetActive(true);
         }
         else if (eingabesumme == score && finishopt1 && ScoreEingabeScript.scorearray[2] == "0" && ScoreEingabeScript.scorearray[1] == "0")
         {
@@ -145,8 +145,8 @@ public class ScoreAnzeigeScript : MonoBehaviour
             finishopt2 = false;
             finishopt3 = false;
             finishText.text = "FINISHED!";
-            menü.gameObject.SetActive(true);
-            neustart.gameObject.SetActive(true);
+            //menü.gameObject.SetActive(true);
+            //neustart.gameObject.SetActive(true);
         }
 
     }

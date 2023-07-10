@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Random3FelderScript : MonoBehaviour
@@ -24,7 +25,7 @@ public class Random3FelderScript : MonoBehaviour
         for (int i = 1; i <= 20; i++)
         {
             range.Add("Inner " + i.ToString());
-            range.Add("Outter " + i.ToString());
+            range.Add("Outer " + i.ToString());
             range.Add("Double " + i.ToString());
             range.Add("Triple " + i.ToString());
 
@@ -45,12 +46,18 @@ public class Random3FelderScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        randomFelderText.text = "Zu werfende Felder:\n" + randomFeld1 + " | " + randomFeld2 + " | " + randomFeld3;
+        randomFelderText.text = "Zu werfende Felder:\n\n" + randomFeld1 + " | " + randomFeld2 + " | " + randomFeld3;
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    public void NeueFelder()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name, LoadSceneMode.Single);
     }
 }
