@@ -3,10 +3,14 @@
 		<type fullname="Abstand" preserve="nothing"/>
 		<type fullname="AroundTheClockScript" preserve="nothing"/>
 		<type fullname="ChangeMaterialScript" preserve="nothing"/>
+		<type fullname="DSFelderScript" preserve="nothing"/>
+		<type fullname="DSFinishWegeScript" preserve="nothing"/>
 		<type fullname="FinishWegeScript" preserve="nothing"/>
 		<type fullname="KIBehaviorScript" preserve="nothing"/>
 		<type fullname="Level2MaterialScript" preserve="nothing"/>
 		<type fullname="Level3RandomFelderScript" preserve="nothing"/>
+		<type fullname="Level5ButtonScript" preserve="nothing"/>
+		<type fullname="Level5Materials" preserve="nothing"/>
 		<type fullname="MenuScript" preserve="nothing"/>
 		<type fullname="Random3FelderScript" preserve="nothing"/>
 		<type fullname="RandomZahlScoreAnzeigeScript" preserve="nothing"/>
@@ -31,6 +35,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.BaseHandVisualizer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerMappingProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizationProfile" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityEyeTrackingProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityGesturesProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityHandTrackingProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionRulesProfile" preserve="nothing"/>
@@ -68,6 +73,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.FingerCursor" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.GGVPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MeshCursor" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MousePointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.PokePointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.RiggedHandVisualizer" preserve="nothing"/>

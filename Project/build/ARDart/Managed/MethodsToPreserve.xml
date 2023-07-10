@@ -4,34 +4,47 @@
 			<method name="ButtonGetroffen"/>
 			<method name="ButtonVerfehlt"/>
 		</type>
+		<type fullname="KIBehaviorScript">
+			<method name="KIWaitForPlayerToFinishRound"/>
+		</type>
+		<type fullname="Level5ButtonScript">
+			<method name="Blau"/>
+			<method name="Delete"/>
+			<method name="Enter"/>
+			<method name="Grün"/>
+			<method name="Orange"/>
+		</type>
 		<type fullname="MenuScript">
 			<method name="BackToMainMenu"/>
 			<method name="BackToMainMenu"/>
 			<method name="BackToMainMenu"/>
 			<method name="BackToMainMenu"/>
 			<method name="BackToMainMenu"/>
+			<method name="BackToMainMenu"/>
 			<method name="ClickToRestart"/>
 			<method name="ClickToRestart"/>
 			<method name="ClickToRestart"/>
 			<method name="ClickToRestart"/>
 			<method name="ClickToRestart"/>
+			<method name="ClickToRestart"/>
 			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
+			<method name="CloseMenu"/>
+			<method name="ToogleMenu"/>
 			<method name="ToogleMenu"/>
 			<method name="ToogleMenu"/>
 			<method name="ToogleMenu"/>
 			<method name="ToogleMenu"/>
 			<method name="ToogleMenu"/>
 		</type>
-		<type fullname="RandomZahlScoreAnzeigeScript">
-			<method name="changeScore"/>
+		<type fullname="Random3FelderScript">
+			<method name="NeueFelder"/>
 		</type>
 		<type fullname="ScoreAnzeigeScript">
-			<method name="changeScore"/>
 			<method name="changeScore"/>
 		</type>
 		<type fullname="ScoreEingabeScript">
@@ -122,6 +135,8 @@
 			<method name="ClickOnSinglePlayerButton"/>
 			<method name="ClickOnTrainingButton1"/>
 			<method name="ClickOnTrainingButton2"/>
+			<method name="ClickOnTrainingButton3"/>
+			<method name="ClickOnTrainingButton3"/>
 			<method name="ClickOnTrainingButton3"/>
 		</type>
 	</assembly>

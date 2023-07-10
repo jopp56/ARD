@@ -9,6 +9,8 @@ public class StartMenuScript : MonoBehaviour
     public GameObject trainingButton1;
     public GameObject trainingButton2;
     public GameObject trainingButton3;
+    public GameObject trainingButton4;
+    public GameObject trainingButton5;
     public GameObject kiButton;
     // Start is called before the first frame update
     void Start()
@@ -40,6 +42,16 @@ public class StartMenuScript : MonoBehaviour
     public void ClickOnTrainingButton3()
     {
         SceneManager.LoadScene("Level3RandomFelderScene", LoadSceneMode.Single);
+    }
+
+    public void ClickOnTrainingButton4()
+    {
+        SceneManager.LoadScene("Level4AtCAlternativeScene", LoadSceneMode.Single);
+    }
+
+    public void ClickOnTrainingButton5()
+    {
+        SceneManager.LoadScene("Level5RandomFelderPunkteScene", LoadSceneMode.Single);
     }
 
     public void ClickOnKIButton()
