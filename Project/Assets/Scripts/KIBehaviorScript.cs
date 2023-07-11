@@ -30,7 +30,7 @@ public class KIBehaviorScript : MonoBehaviour
     void Start()
     {
         dartsCount = 0;
-        scoreKICount = 310;
+        scoreKICount = 301;
         this.targetListFieldNames = targetListFieldNames;
         AssignProbabilitiesToTargets(targetListFieldNames);
 
@@ -39,7 +39,11 @@ public class KIBehaviorScript : MonoBehaviour
     
     void Update()
     {
-        StartCoroutine(KIRun());
+        scorePlayerCount = ScoreAnzeigeScript.score;
+        if (scoreKICount > 0 && scorePlayerCount > 0)
+        {
+            StartCoroutine(KIRun());
+        }
     }
 
     IEnumerator KIRun()
@@ -116,7 +120,6 @@ public class KIBehaviorScript : MonoBehaviour
                     UpdateKIScoreAnzeige(scoreKICount);
                 }
             }
-        Debug.Log("Nichts gemacht");
     }
     public void KIWaitForPlayerToFinishRound()
     { 
@@ -188,12 +191,21 @@ public class KIBehaviorScript : MonoBehaviour
         closeButton.SetActive(false);
         eingabemenu.SetActive(false);
 
+        if (scoreKICount == 0) { 
+            loseAudio.Play();
+        }
+
+        if(scorePlayerCount == 0)
+        {
+            winAudio.Play();
+        }
+
     }
 
     public void UpdateKIScoreAnzeige(int newScore)
     {
         TextMeshProUGUI scoreKI = scoreAnzeigeKIText.GetComponent<TextMeshProUGUI>();
-        scoreKI.SetText("KI Score:" + "\n" + newScore.ToString() + "/" + "310");
+        scoreKI.SetText("KI Score:" + "\n" + newScore.ToString() + "/" + "301");
     }
 
     public void animateDarts(string targetName) {
