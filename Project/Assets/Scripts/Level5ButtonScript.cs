@@ -10,6 +10,12 @@ public class Level5ButtonScript : MonoBehaviour
     public TextMeshProUGUI wurf_Text;
     public TextMeshProUGUI finished;
     public TextMeshProUGUI runde;
+    public TextMeshProUGUI blauButton;
+    public TextMeshProUGUI grünButton;
+    public TextMeshProUGUI orangeButton;
+    public string feld1;
+    public string feld2;
+    public string feld3;
     public static int counter = 1;
     int runden = 1;
     public static string[] farbarray = new string[3] { "-", "-", "-" };
@@ -79,6 +85,83 @@ public class Level5ButtonScript : MonoBehaviour
         randomFeld3 = rnd.Next(1, 21);
         wurf_Text.text = "Getroffene Felder:\n\n" + farbarray[0] + " | " + farbarray[1] + " | " + farbarray[2];
         runde.text = "Runde:\n" + runden.ToString() + "/10";
+        if (randomFeld1 < 21) 
+        {
+            feld1 = "Outer " + randomFeld1;
+        }
+        else if (randomFeld1 > 20 && randomFeld1 < 41)
+        {
+            feld1 = "Inner " + (randomFeld1 - 20);
+        }
+        else if (randomFeld1 > 40 && randomFeld1 < 61)
+        {
+            feld1 = "Double " + (randomFeld1 - 40);
+        }
+        else if (randomFeld1 > 60 && randomFeld1 < 81)
+        {
+            feld1 = "Triple " + (randomFeld1 - 60);
+        }
+        else if (randomFeld1 == 81)
+        {
+            feld1 = "25";
+        }
+        else if (randomFeld1 == 82)
+        {
+            feld1 = "50";
+        }
+
+        if (randomFeld2 < 21)
+        {
+            feld2 = "Outer " + randomFeld2;
+        }
+        else if (randomFeld2 > 20 && randomFeld2 < 41)
+        {
+            feld2 = "Inner " + (randomFeld2 - 20);
+        }
+        else if (randomFeld2 > 40 && randomFeld2 < 61)
+        {
+            feld2 = "Double " + (randomFeld2 - 40);
+        }
+        else if (randomFeld2 > 60 && randomFeld2 < 81)
+        {
+            feld2 = "Triple " + (randomFeld2 - 60);
+        }
+        else if (randomFeld2 == 81)
+        {
+            feld2 = "25";
+        }
+        else if (randomFeld2 == 82)
+        {
+            feld2 = "50";
+        }
+
+        if (randomFeld3 < 21)
+        {
+            feld3 = "Outer " + randomFeld3;
+        }
+        else if (randomFeld3 > 20 && randomFeld3 < 41)
+        {
+            feld3 = "Inner " + (randomFeld3 - 20);
+        }
+        else if (randomFeld3 > 40 && randomFeld3 < 61)
+        {
+            feld3 = "Double " + (randomFeld3 - 40);
+        }
+        else if (randomFeld3 > 60 && randomFeld3 < 81)
+        {
+            feld3 = "Triple " + (randomFeld3 - 60);
+        }
+        else if (randomFeld3 == 81)
+        {
+            feld3 = "25";
+        }
+        else if (randomFeld3 == 82)
+        {
+            feld3 = "50";
+        }
+        blauButton.text = "Blau:\n" + feld1;
+        grünButton.text = "Grün:\n" + feld2;
+        orangeButton.text = "Orange:\n" + feld3;
 
     }
 
@@ -347,6 +430,85 @@ public class Level5ButtonScript : MonoBehaviour
             runde.text = "Runde:\n" + "10" + "/10";
             finished.text = "FINISHED!\n\n" + score + "/85";
         }
+
+        //Feld in Button
+        if (randomFeld1 < 21)
+        {
+            feld1 = "Outer " + randomFeld1;
+        }
+        else if (randomFeld1 > 20 && randomFeld1 < 41)
+        {
+            feld1 = "Inner " + (randomFeld1 - 20);
+        }
+        else if (randomFeld1 > 40 && randomFeld1 < 61)
+        {
+            feld1 = "Double " + (randomFeld1 - 40);
+        }
+        else if (randomFeld1 > 60 && randomFeld1 < 81)
+        {
+            feld1 = "Triple " + (randomFeld1 - 60);
+        }
+        else if (randomFeld1 == 81)
+        {
+            feld1 = "25";
+        }
+        else if (randomFeld1 == 82)
+        {
+            feld1 = "50";
+        }
+
+        if (randomFeld2 < 21)
+        {
+            feld2 = "Outer " + randomFeld2;
+        }
+        else if (randomFeld2 > 20 && randomFeld2 < 41)
+        {
+            feld2 = "Inner " + (randomFeld2 - 20);
+        }
+        else if (randomFeld2 > 40 && randomFeld2 < 61)
+        {
+            feld2 = "Double " + (randomFeld2 - 40);
+        }
+        else if (randomFeld2 > 60 && randomFeld2 < 81)
+        {
+            feld2 = "Triple " + (randomFeld2 - 60);
+        }
+        else if (randomFeld2 == 81)
+        {
+            feld2 = "25";
+        }
+        else if (randomFeld2 == 82)
+        {
+            feld2 = "50";
+        }
+
+        if (randomFeld3 < 21)
+        {
+            feld3 = "Outer " + randomFeld3;
+        }
+        else if (randomFeld3 > 20 && randomFeld3 < 41)
+        {
+            feld3 = "Inner " + (randomFeld3 - 20);
+        }
+        else if (randomFeld3 > 40 && randomFeld3 < 61)
+        {
+            feld3 = "Double " + (randomFeld3 - 40);
+        }
+        else if (randomFeld3 > 60 && randomFeld3 < 81)
+        {
+            feld3 = "Triple " + (randomFeld3 - 60);
+        }
+        else if (randomFeld3 == 81)
+        {
+            feld3 = "25";
+        }
+        else if (randomFeld3 == 82)
+        {
+            feld3 = "50";
+        }
+        blauButton.text = "Blau:\n" + feld1;
+        grünButton.text = "Grün:\n" + feld2;
+        orangeButton.text = "Orange:\n" + feld3;
         counter++;
         
     }
