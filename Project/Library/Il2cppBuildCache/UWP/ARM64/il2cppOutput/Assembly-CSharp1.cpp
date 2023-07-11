@@ -220,14 +220,13 @@ struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // VuforiaLicense
 struct VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC;
-// KIBehaviorScript/<KIRun>d__14
-struct U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15;
+// KIBehaviorScript/<KIRun>d__15
+struct U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 
 IL2CPP_EXTERN_C RuntimeClass* AroundTheClockScript_t427ACA809A7DCB40621373668E9072FBA5834451_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Level3RandomFelderScript_tF4787B03DD2D022C5413953CC4AB07693A8A2565_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Level5ButtonScript_t891B247CA7787FD8EC27252BB1F3D56FC0FA2684_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Level5Materials_tB727BF77BAAF5AD90E1E95352880CDFA4B4C9062_il2cpp_TypeInfo_var;
@@ -242,7 +241,7 @@ IL2CPP_EXTERN_C RuntimeClass* ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34ED
 IL2CPP_EXTERN_C RuntimeClass* ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral01257C073AB8CA3C108848F31015E99ACBFEB8AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral04EC32C6FF6BEEAA16F1E43255257E0CFA7BB1A2;
 IL2CPP_EXTERN_C String_t* _stringLiteral10E1A4B42B609B4C63B23FEBC0D0F2D51074E2AE;
@@ -264,6 +263,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7CFEE134F04DDC3BFBB77D5292707E38ECEEAD5A
 IL2CPP_EXTERN_C String_t* _stringLiteral8B1B4910097B6EA900B79DD17583005FEAE67B0F;
 IL2CPP_EXTERN_C String_t* _stringLiteral8CC380261DBD65758E5E14BED09836B346408C08;
 IL2CPP_EXTERN_C String_t* _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED;
+IL2CPP_EXTERN_C String_t* _stringLiteral94E9610E128CC0D88BB3B1B95985471DC2801BB7;
 IL2CPP_EXTERN_C String_t* _stringLiteral95C629CCC32B4B2EA14FC5885D1DCB402AE003A8;
 IL2CPP_EXTERN_C String_t* _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE;
 IL2CPP_EXTERN_C String_t* _stringLiteralA1C52A30645908E34422B1D5E4393D189ECE60D6;
@@ -296,7 +296,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CKIRunU3Ed__14_System_Collections_IEnumerator_Reset_mF197D15F914C98C8392A16FBB28F4A65B0BC4C4D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CKIRunU3Ed__15_System_Collections_IEnumerator_Reset_m7AD90DA3F3562572154ADA2FEBDE518550F79866_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -442,14 +442,14 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
 
-// KIBehaviorScript/<KIRun>d__14
-struct U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15  : public RuntimeObject
+// KIBehaviorScript/<KIRun>d__15
+struct U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B  : public RuntimeObject
 {
-	// System.Int32 KIBehaviorScript/<KIRun>d__14::<>1__state
+	// System.Int32 KIBehaviorScript/<KIRun>d__15::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object KIBehaviorScript/<KIRun>d__14::<>2__current
+	// System.Object KIBehaviorScript/<KIRun>d__15::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// KIBehaviorScript KIBehaviorScript/<KIRun>d__14::<>4__this
+	// KIBehaviorScript KIBehaviorScript/<KIRun>d__15::<>4__this
 	KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* ___U3CU3E4__this_2;
 };
 
@@ -1592,16 +1592,18 @@ struct KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866  : public Mono
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___menu_9;
 	// UnityEngine.GameObject KIBehaviorScript::closeButton
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___closeButton_10;
+	// UnityEngine.GameObject KIBehaviorScript::formen
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___formen_11;
 	// System.String[] KIBehaviorScript::targetListFieldNames
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___targetListFieldNames_11;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___targetListFieldNames_12;
 	// System.String[,] KIBehaviorScript::targetListWithFieldNamesAndProbabilities
-	StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* ___targetListWithFieldNamesAndProbabilities_12;
+	StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* ___targetListWithFieldNamesAndProbabilities_13;
 	// UnityEngine.AudioSource KIBehaviorScript::winAudio
-	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___winAudio_13;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___winAudio_14;
 	// UnityEngine.AudioSource KIBehaviorScript::loseAudio
-	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___loseAudio_14;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___loseAudio_15;
 	// UnityEngine.AudioSource KIBehaviorScript::missedAudio
-	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___missedAudio_15;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___missedAudio_16;
 };
 
 // Level2MaterialScript
@@ -2702,8 +2704,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_AssignProbabilitiesToTa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* KIBehaviorScript_KIRun_m372A8A549828ADBEE575350D222B80E41C7FDE19 (KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* __this, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
-// System.Void KIBehaviorScript/<KIRun>d__14::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKIRunU3Ed__14__ctor_mB64C6B1736E3C60BBB72D5F35EB440AE82E06FE3 (U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.Void KIBehaviorScript/<KIRun>d__15::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKIRunU3Ed__15__ctor_m55F408769B5FD82E3EB87BDCA52C7A8FC8665BDF (U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
 // System.Void System.Random::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Random__ctor_m151183BD4F021499A98B9DE8502DAD4B12DD16AC (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* __this, const RuntimeMethod* method) ;
 // System.Double System.Double::Parse(System.String)
@@ -2834,11 +2836,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_Start_mFD4DED5F56ACB2FC
 		// scoreKICount = 310;
 		__this->___scoreKICount_5 = ((int32_t)310);
 		// this.targetListFieldNames = targetListFieldNames;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___targetListFieldNames_11;
-		__this->___targetListFieldNames_11 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetListFieldNames_11), (void*)L_0);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->___targetListFieldNames_12;
+		__this->___targetListFieldNames_12 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetListFieldNames_12), (void*)L_0);
 		// AssignProbabilitiesToTargets(targetListFieldNames);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = __this->___targetListFieldNames_11;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = __this->___targetListFieldNames_12;
 		KIBehaviorScript_AssignProbabilitiesToTargets_m5139B2282D1C63EA34E9824FC17DA4B1D32AB645(__this, L_1, NULL);
 		// }
 		return;
@@ -2863,14 +2865,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* KIBehaviorScript_KIRun_m372A8A
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15* L_0 = (U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15*)il2cpp_codegen_object_new(U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15_il2cpp_TypeInfo_var);
+		U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B* L_0 = (U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B*)il2cpp_codegen_object_new(U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		U3CKIRunU3Ed__14__ctor_mB64C6B1736E3C60BBB72D5F35EB440AE82E06FE3(L_0, 0, NULL);
-		U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15* L_1 = L_0;
+		U3CKIRunU3Ed__15__ctor_m55F408769B5FD82E3EB87BDCA52C7A8FC8665BDF(L_0, 0, NULL);
+		U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this_2 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_2), (void*)__this);
@@ -2894,8 +2896,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_AssignProbabilitiesToTa
 		// this.targetListWithFieldNamesAndProbabilities = new string[82, 2];
 		il2cpp_array_size_t L_1[] = { (il2cpp_array_size_t)((int32_t)82), (il2cpp_array_size_t)2 };
 		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_0 = (StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF*)GenArrayNew(StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF_il2cpp_TypeInfo_var, L_1);
-		__this->___targetListWithFieldNamesAndProbabilities_12 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetListWithFieldNamesAndProbabilities_12), (void*)L_0);
+		__this->___targetListWithFieldNamesAndProbabilities_13 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetListWithFieldNamesAndProbabilities_13), (void*)L_0);
 		// for(int index = 0; index < targetListFieldNames.Length; index++)
 		V_0 = 0;
 		goto IL_003c;
@@ -2913,13 +2915,13 @@ IL_0012:
 		String_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_2 = L_5;
 		// targetListWithFieldNamesAndProbabilities[index,0] = fieldName;
-		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_6 = __this->___targetListWithFieldNamesAndProbabilities_12;
+		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_6 = __this->___targetListWithFieldNamesAndProbabilities_13;
 		int32_t L_7 = V_0;
 		String_t* L_8 = V_2;
 		NullCheck(L_6);
 		(L_6)->SetAt(L_7, 0, L_8);
 		// targetListWithFieldNamesAndProbabilities[index,1] = probability;
-		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_9 = __this->___targetListWithFieldNamesAndProbabilities_12;
+		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_9 = __this->___targetListWithFieldNamesAndProbabilities_13;
 		int32_t L_10 = V_0;
 		String_t* L_11 = V_1;
 		NullCheck(L_9);
@@ -2952,10 +2954,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_KIChooseAndHitTarget_m3
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral26EDD3876068861DDA182B9423FF4370E057E2B8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral283A6276D8CC19A0B508090A0D2AF52503D1686E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral94E9610E128CC0D88BB3B1B95985471DC2801BB7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
 		s_Il2CppMethodInitialized = true;
@@ -2975,7 +2977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_KIChooseAndHitTarget_m3
 		Random__ctor_m151183BD4F021499A98B9DE8502DAD4B12DD16AC(L_0, NULL);
 		// int randomFieldChoose = random.Next(0, targetListFieldNames.Length - 1);
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_1 = L_0;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = __this->___targetListFieldNames_11;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = __this->___targetListFieldNames_12;
 		NullCheck(L_2);
 		NullCheck(L_1);
 		int32_t L_3;
@@ -2987,14 +2989,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_KIChooseAndHitTarget_m3
 		L_4 = VirtualFuncInvoker0< double >::Invoke(8 /* System.Double System.Random::NextDouble() */, L_1);
 		V_1 = ((double)il2cpp_codegen_multiply(L_4, (2.5)));
 		// string targetName = targetListWithFieldNamesAndProbabilities[randomFieldChoose,0];
-		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_5 = __this->___targetListWithFieldNamesAndProbabilities_12;
+		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_5 = __this->___targetListWithFieldNamesAndProbabilities_13;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		String_t* L_7;
 		L_7 = (L_5)->GetAt(L_6, 0);
 		V_2 = L_7;
 		// string targetProbability = targetListWithFieldNamesAndProbabilities[randomFieldChoose,1];
-		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_8 = __this->___targetListWithFieldNamesAndProbabilities_12;
+		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_8 = __this->___targetListWithFieldNamesAndProbabilities_13;
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
 		String_t* L_10;
@@ -3005,7 +3007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_KIChooseAndHitTarget_m3
 		double L_12 = V_1;
 		if ((!(((double)L_11) < ((double)L_12))))
 		{
-			goto IL_0083;
+			goto IL_0087;
 		}
 	}
 	{
@@ -3016,17 +3018,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_KIChooseAndHitTarget_m3
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral283A6276D8CC19A0B508090A0D2AF52503D1686E, NULL);
 		// missedAudio.Play();
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = __this->___missedAudio_15;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = __this->___missedAudio_16;
 		NullCheck(L_14);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_14, NULL);
 		// animateDarts("0");
 		KIBehaviorScript_animateDarts_m253A1E620CBA2A333C49F5C61FE95C605FCCA4ED(__this, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
 		// Debug.Log("Returned");
 		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral26EDD3876068861DDA182B9423FF4370E057E2B8, NULL);
-		return;
+		goto IL_012e;
 	}
 
-IL_0083:
+IL_0087:
 	{
 		// dartsCount++;
 		int32_t L_15 = __this->___dartsCount_4;
@@ -3041,7 +3043,7 @@ IL_0083:
 		L_18 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_17, NULL);
 		if ((!(((uint32_t)L_18) == ((uint32_t)3))))
 		{
-			goto IL_00f1;
+			goto IL_00ea;
 		}
 	}
 	{
@@ -3065,70 +3067,67 @@ IL_0083:
 		int32_t L_26;
 		L_26 = Int32_Parse_m59B9CC9D5E5B6C99C14251E57FB43BE6AB658767(L_25, NULL);
 		V_3 = L_26;
-		// Debug.Log(targetValue);
-		int32_t L_27 = V_3;
-		int32_t L_28 = L_27;
-		RuntimeObject* L_29 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_28);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_29, NULL);
 		// scoreKICount -= targetValue;
-		int32_t L_30 = __this->___scoreKICount_5;
-		int32_t L_31 = V_3;
-		__this->___scoreKICount_5 = ((int32_t)il2cpp_codegen_subtract(L_30, L_31));
+		int32_t L_27 = __this->___scoreKICount_5;
+		int32_t L_28 = V_3;
+		__this->___scoreKICount_5 = ((int32_t)il2cpp_codegen_subtract(L_27, L_28));
 		// UpdateKIScoreAnzeige(scoreKICount);
-		int32_t L_32 = __this->___scoreKICount_5;
-		KIBehaviorScript_UpdateKIScoreAnzeige_m85D25C3C63B1CCA7C6A68271462765ECC76664B1(__this, L_32, NULL);
+		int32_t L_29 = __this->___scoreKICount_5;
+		KIBehaviorScript_UpdateKIScoreAnzeige_m85D25C3C63B1CCA7C6A68271462765ECC76664B1(__this, L_29, NULL);
 	}
 
-IL_00f1:
+IL_00ea:
 	{
 		// if(targetName.Length == 2)
-		String_t* L_33 = V_2;
-		NullCheck(L_33);
-		int32_t L_34;
-		L_34 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_33, NULL);
-		if ((!(((uint32_t)L_34) == ((uint32_t)2))))
+		String_t* L_30 = V_2;
+		NullCheck(L_30);
+		int32_t L_31;
+		L_31 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_30, NULL);
+		if ((!(((uint32_t)L_31) == ((uint32_t)2))))
 		{
-			goto IL_0135;
+			goto IL_012e;
 		}
 	}
 	{
 		// int targetValue = int.Parse(targetName[0] + "");
-		String_t* L_35 = V_2;
-		NullCheck(L_35);
-		Il2CppChar L_36;
-		L_36 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_35, 0, NULL);
-		V_4 = L_36;
-		String_t* L_37;
-		L_37 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_4), NULL);
-		String_t* L_38 = L_37;
-		G_B6_0 = L_38;
-		if (L_38)
+		String_t* L_32 = V_2;
+		NullCheck(L_32);
+		Il2CppChar L_33;
+		L_33 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_32, 0, NULL);
+		V_4 = L_33;
+		String_t* L_34;
+		L_34 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_4), NULL);
+		String_t* L_35 = L_34;
+		G_B6_0 = L_35;
+		if (L_35)
 		{
-			G_B7_0 = L_38;
-			goto IL_0113;
+			G_B7_0 = L_35;
+			goto IL_010c;
 		}
 	}
 	{
 		G_B7_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 	}
 
-IL_0113:
+IL_010c:
 	{
-		int32_t L_39;
-		L_39 = Int32_Parse_m59B9CC9D5E5B6C99C14251E57FB43BE6AB658767(G_B7_0, NULL);
-		V_5 = L_39;
+		int32_t L_36;
+		L_36 = Int32_Parse_m59B9CC9D5E5B6C99C14251E57FB43BE6AB658767(G_B7_0, NULL);
+		V_5 = L_36;
 		// scoreKICount -= targetValue;
-		int32_t L_40 = __this->___scoreKICount_5;
-		int32_t L_41 = V_5;
-		__this->___scoreKICount_5 = ((int32_t)il2cpp_codegen_subtract(L_40, L_41));
+		int32_t L_37 = __this->___scoreKICount_5;
+		int32_t L_38 = V_5;
+		__this->___scoreKICount_5 = ((int32_t)il2cpp_codegen_subtract(L_37, L_38));
 		// UpdateKIScoreAnzeige(scoreKICount);
-		int32_t L_42 = __this->___scoreKICount_5;
-		KIBehaviorScript_UpdateKIScoreAnzeige_m85D25C3C63B1CCA7C6A68271462765ECC76664B1(__this, L_42, NULL);
+		int32_t L_39 = __this->___scoreKICount_5;
+		KIBehaviorScript_UpdateKIScoreAnzeige_m85D25C3C63B1CCA7C6A68271462765ECC76664B1(__this, L_39, NULL);
 	}
 
-IL_0135:
+IL_012e:
 	{
+		// Debug.Log("Nichts gemacht");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral94E9610E128CC0D88BB3B1B95985471DC2801BB7, NULL);
 		// }
 		return;
 	}
@@ -3178,7 +3177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_KIChooseAndHitFinishTar
 IL_000d:
 	{
 		// string targetName = targetListWithFieldNamesAndProbabilities[index,0];
-		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_1 = __this->___targetListWithFieldNamesAndProbabilities_12;
+		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_1 = __this->___targetListWithFieldNamesAndProbabilities_13;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		String_t* L_3;
@@ -3226,7 +3225,7 @@ IL_000d:
 	}
 	{
 		// string targetProbability = targetListWithFieldNamesAndProbabilities[index, 1];
-		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_16 = __this->___targetListWithFieldNamesAndProbabilities_12;
+		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_16 = __this->___targetListWithFieldNamesAndProbabilities_13;
 		int32_t L_17 = V_1;
 		NullCheck(L_16);
 		String_t* L_18;
@@ -3253,7 +3252,7 @@ IL_000d:
 		// animateDarts("0");
 		KIBehaviorScript_animateDarts_m253A1E620CBA2A333C49F5C61FE95C605FCCA4ED(__this, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
 		// missedAudio.Play();
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_24 = __this->___missedAudio_15;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_24 = __this->___missedAudio_16;
 		NullCheck(L_24);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_24, NULL);
 		goto IL_00c8;
@@ -3319,7 +3318,7 @@ IL_00ed:
 	}
 	{
 		// string targetProbability = targetListWithFieldNamesAndProbabilities[index, 1];
-		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_37 = __this->___targetListWithFieldNamesAndProbabilities_12;
+		StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF* L_37 = __this->___targetListWithFieldNamesAndProbabilities_13;
 		int32_t L_38 = V_1;
 		NullCheck(L_37);
 		String_t* L_39;
@@ -3346,7 +3345,7 @@ IL_00ed:
 		// animateDarts("0");
 		KIBehaviorScript_animateDarts_m253A1E620CBA2A333C49F5C61FE95C605FCCA4ED(__this, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
 		// missedAudio.Play();
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_45 = __this->___missedAudio_15;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_45 = __this->___missedAudio_16;
 		NullCheck(L_45);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_45, NULL);
 		goto IL_0169;
@@ -3374,7 +3373,7 @@ IL_016d:
 	{
 		// for(int index = 0; index <= targetListFieldNames.Length-1; index++)
 		int32_t L_50 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_51 = __this->___targetListFieldNames_11;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_51 = __this->___targetListFieldNames_12;
 		NullCheck(L_51);
 		if ((((int32_t)L_50) <= ((int32_t)((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_51)->max_length)), 1)))))
 		{
@@ -3407,7 +3406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_EndGameSequence_m8DD127
 	}
 	{
 		// winAudio.Play();
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___winAudio_13;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___winAudio_14;
 		NullCheck(L_3);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_3, NULL);
 	}
@@ -3423,7 +3422,7 @@ IL_002b:
 	}
 	{
 		// loseAudio.Play();
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___loseAudio_14;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___loseAudio_15;
 		NullCheck(L_5);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_5, NULL);
 	}
@@ -3486,8 +3485,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript__ctor_mB27608755CAB46FA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void KIBehaviorScript/<KIRun>d__14::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKIRunU3Ed__14__ctor_mB64C6B1736E3C60BBB72D5F35EB440AE82E06FE3 (U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void KIBehaviorScript/<KIRun>d__15::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKIRunU3Ed__15__ctor_m55F408769B5FD82E3EB87BDCA52C7A8FC8665BDF (U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3496,15 +3495,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKIRunU3Ed__14__ctor_mB64C6B1736E3C60B
 		return;
 	}
 }
-// System.Void KIBehaviorScript/<KIRun>d__14::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKIRunU3Ed__14_System_IDisposable_Dispose_m54E0903A62764483EBC42786CD6D857CAEF39B18 (U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15* __this, const RuntimeMethod* method) 
+// System.Void KIBehaviorScript/<KIRun>d__15::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKIRunU3Ed__15_System_IDisposable_Dispose_m6D1ED6ED150CCE8C20AA186A299702203489CBC7 (U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// System.Boolean KIBehaviorScript/<KIRun>d__14::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CKIRunU3Ed__14_MoveNext_m4B47F940E813275EE34CAD9EC8A9710B4020C338 (U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15* __this, const RuntimeMethod* method) 
+// System.Boolean KIBehaviorScript/<KIRun>d__15::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CKIRunU3Ed__15_MoveNext_mCEC9050E44D9E9437BFAFBF707910D5A04C7B6F0 (U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3522,21 +3521,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CKIRunU3Ed__14_MoveNext_m4B47F940E8132
 		int32_t L_2 = V_0;
 		if (!L_2)
 		{
-			goto IL_0017;
+			goto IL_001a;
 		}
 	}
 	{
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) == ((int32_t)1)))
 		{
-			goto IL_0086;
+			goto IL_00ad;
 		}
 	}
 	{
 		return (bool)0;
 	}
 
-IL_0017:
+IL_001a:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// this.scorePlayerCount = ScoreAnzeigeScript.score;
@@ -3551,7 +3550,7 @@ IL_0017:
 		int32_t L_7 = L_6->___dartsCount_4;
 		if ((((int32_t)L_7) >= ((int32_t)3)))
 		{
-			goto IL_0045;
+			goto IL_0054;
 		}
 	}
 	{
@@ -3560,74 +3559,92 @@ IL_0017:
 		int32_t L_9 = L_8->___scoreKICount_5;
 		if ((((int32_t)L_9) <= ((int32_t)((int32_t)170))))
 		{
-			goto IL_0045;
+			goto IL_0054;
 		}
 	}
 	{
-		// KIChooseAndHitTarget();
+		// formen.SetActive(true);
 		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_10 = V_1;
 		NullCheck(L_10);
-		KIBehaviorScript_KIChooseAndHitTarget_m31D06D069A2EC36CAABA1C27C9AEFED697D12766(L_10, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = L_10->___formen_11;
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
+		// KIChooseAndHitTarget();
+		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_12 = V_1;
+		NullCheck(L_12);
+		KIBehaviorScript_KIChooseAndHitTarget_m31D06D069A2EC36CAABA1C27C9AEFED697D12766(L_12, NULL);
 	}
 
-IL_0045:
+IL_0054:
 	{
 		// if (scoreKICount <= 170 && dartsCount == 0)
-		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_11 = V_1;
-		NullCheck(L_11);
-		int32_t L_12 = L_11->___scoreKICount_5;
-		if ((((int32_t)L_12) > ((int32_t)((int32_t)170))))
-		{
-			goto IL_0060;
-		}
-	}
-	{
 		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_13 = V_1;
 		NullCheck(L_13);
-		int32_t L_14 = L_13->___dartsCount_4;
-		if (L_14)
+		int32_t L_14 = L_13->___scoreKICount_5;
+		if ((((int32_t)L_14) > ((int32_t)((int32_t)170))))
 		{
-			goto IL_0060;
+			goto IL_007b;
 		}
 	}
 	{
-		// KIChooseAndHitFinishTargets();
 		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_15 = V_1;
 		NullCheck(L_15);
-		KIBehaviorScript_KIChooseAndHitFinishTargets_m9D04F5A66DACCAA7415782EBD93C24795170B8C8(L_15, NULL);
+		int32_t L_16 = L_15->___dartsCount_4;
+		if (L_16)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		// formen.SetActive(true);
+		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_17 = V_1;
+		NullCheck(L_17);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = L_17->___formen_11;
+		NullCheck(L_18);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)1, NULL);
+		// KIChooseAndHitFinishTargets();
+		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_19 = V_1;
+		NullCheck(L_19);
+		KIBehaviorScript_KIChooseAndHitFinishTargets_m9D04F5A66DACCAA7415782EBD93C24795170B8C8(L_19, NULL);
 	}
 
-IL_0060:
+IL_007b:
 	{
 		// if (scoreKICount == 0 || scorePlayerCount == 0)
-		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_16 = V_1;
-		NullCheck(L_16);
-		int32_t L_17 = L_16->___scoreKICount_5;
-		if (!L_17)
-		{
-			goto IL_0070;
-		}
-	}
-	{
-		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_18 = V_1;
-		NullCheck(L_18);
-		int32_t L_19 = L_18->___scorePlayerCount_6;
-		if (L_19)
-		{
-			goto IL_0076;
-		}
-	}
-
-IL_0070:
-	{
-		// EndGameSequence();
 		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_20 = V_1;
 		NullCheck(L_20);
-		KIBehaviorScript_EndGameSequence_m8DD1273B9A3065B16E30EE037339916380E4175D(L_20, NULL);
+		int32_t L_21 = L_20->___scoreKICount_5;
+		if (!L_21)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_22 = V_1;
+		NullCheck(L_22);
+		int32_t L_23 = L_22->___scorePlayerCount_6;
+		if (L_23)
+		{
+			goto IL_0091;
+		}
 	}
 
-IL_0076:
+IL_008b:
 	{
+		// EndGameSequence();
+		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_24 = V_1;
+		NullCheck(L_24);
+		KIBehaviorScript_EndGameSequence_m8DD1273B9A3065B16E30EE037339916380E4175D(L_24, NULL);
+	}
+
+IL_0091:
+	{
+		// formen.SetActive(false);
+		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_25 = V_1;
+		NullCheck(L_25);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = L_25->___formen_11;
+		NullCheck(L_26);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_26, (bool)0, NULL);
 		// yield return null;
 		__this->___U3CU3E2__current_1 = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)NULL);
@@ -3635,33 +3652,33 @@ IL_0076:
 		return (bool)1;
 	}
 
-IL_0086:
+IL_00ad:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// }
 		return (bool)0;
 	}
 }
-// System.Object KIBehaviorScript/<KIRun>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CKIRunU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2A7634C6D1C69785AE3EE1C424527739A68E724B (U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15* __this, const RuntimeMethod* method) 
+// System.Object KIBehaviorScript/<KIRun>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CKIRunU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFBE383556716F12E3BDDBC055C95FCA385341646 (U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void KIBehaviorScript/<KIRun>d__14::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKIRunU3Ed__14_System_Collections_IEnumerator_Reset_mF197D15F914C98C8392A16FBB28F4A65B0BC4C4D (U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15* __this, const RuntimeMethod* method) 
+// System.Void KIBehaviorScript/<KIRun>d__15::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CKIRunU3Ed__15_System_Collections_IEnumerator_Reset_m7AD90DA3F3562572154ADA2FEBDE518550F79866 (U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CKIRunU3Ed__14_System_Collections_IEnumerator_Reset_mF197D15F914C98C8392A16FBB28F4A65B0BC4C4D_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CKIRunU3Ed__15_System_Collections_IEnumerator_Reset_m7AD90DA3F3562572154ADA2FEBDE518550F79866_RuntimeMethod_var)));
 	}
 }
-// System.Object KIBehaviorScript/<KIRun>d__14::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CKIRunU3Ed__14_System_Collections_IEnumerator_get_Current_mC34D0541DE0D9788EADD5FB1780E24ABC1D5C4F1 (U3CKIRunU3Ed__14_tD67471F6EB52E73F0F0DE03FAFB19A1FD8AF6C15* __this, const RuntimeMethod* method) 
+// System.Object KIBehaviorScript/<KIRun>d__15::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CKIRunU3Ed__15_System_Collections_IEnumerator_get_Current_m86A6498FC64F83CC84027726EA169C67EA1E98E8 (U3CKIRunU3Ed__15_t01821C5B2CE67B5E3B306A45E1CA88029BB14A6B* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current_1;
