@@ -17,6 +17,7 @@ public class KIBehaviorScript : MonoBehaviour
     public GameObject menu;
     public GameObject closeButton;
     public GameObject formen;
+    public GameObject eingabemenu;
 
     public string[] targetListFieldNames;
     private string[,] targetListWithFieldNamesAndProbabilities;
@@ -126,10 +127,8 @@ public class KIBehaviorScript : MonoBehaviour
     public void KIChooseAndHitFinishTargets()
     {
        System.Random random = new System.Random();
-
-       for(int index = 0; index <= targetListFieldNames.Length-1; index++)
-        {
-            string targetName = targetListWithFieldNamesAndProbabilities[index,0];
+       int randomIndex = random.Next(0, targetListFieldNames.Length-1);
+       string targetName = targetListWithFieldNamesAndProbabilities[randomIndex,0];
 
             if (targetName.Length == 3)
             {
@@ -137,11 +136,11 @@ public class KIBehaviorScript : MonoBehaviour
                 int checkIfLeadsToWin = scoreKICount - targetValue;
                 if (checkIfLeadsToWin < 0)
                 {
-                    continue;
+                    return;
                 }
                 else
                 {
-                    string targetProbability = targetListWithFieldNamesAndProbabilities[index, 1];
+                    string targetProbability = targetListWithFieldNamesAndProbabilities[randomIndex, 1];
                     double hitQuote = random.NextDouble() * 0.25;
                     if (double.Parse(targetProbability) < hitQuote)
                     {
@@ -162,11 +161,11 @@ public class KIBehaviorScript : MonoBehaviour
                 int checkIfLeadsToWin = scoreKICount - targetValue;
                 if (checkIfLeadsToWin < 0)
                 {
-                    continue;
+                    return;
                 }
                 else
                 {
-                    string targetProbability = targetListWithFieldNamesAndProbabilities[index, 1];
+                    string targetProbability = targetListWithFieldNamesAndProbabilities[randomIndex, 1];
                     double hitQuote = random.NextDouble() * 0.25;
                     if (double.Parse(targetProbability) < hitQuote)
                     {
@@ -182,21 +181,12 @@ public class KIBehaviorScript : MonoBehaviour
                 }
             }
         }
-    }
 
     public void EndGameSequence()
     {
         menu.SetActive(true);
         closeButton.SetActive(false);
-        if(scorePlayerCount == 0)
-        {
-            winAudio.Play();
-        }
-
-        if(scoreKICount == 0)
-        {
-            loseAudio.Play();
-        }
+        eingabemenu.SetActive(false);
 
     }
 
