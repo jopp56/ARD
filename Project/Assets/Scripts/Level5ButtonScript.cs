@@ -159,9 +159,9 @@ public class Level5ButtonScript : MonoBehaviour
         {
             feld3 = "50";
         }
-        blauButton.text = "Blau:\n" + feld1;
-        grünButton.text = "Grün:\n" + feld2;
-        orangeButton.text = "Orange:\n" + feld3;
+        blauButton.text = feld1;
+        grünButton.text = feld2;
+        orangeButton.text = feld3;
 
     }
 
@@ -506,9 +506,9 @@ public class Level5ButtonScript : MonoBehaviour
         {
             feld3 = "50";
         }
-        blauButton.text = "Blau:\n" + feld1;
-        grünButton.text = "Grün:\n" + feld2;
-        orangeButton.text = "Orange:\n" + feld3;
+        blauButton.text = feld1;
+        grünButton.text = feld2;
+        orangeButton.text = feld3;
         counter++;
 
     }
