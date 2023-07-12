@@ -7,6 +7,7 @@ public class Level3RandomFelderScript : MonoBehaviour
     public static Level3RandomFelderScript instance;
     public Material[] material;
     Renderer rend;
+    //MeshRenderer rend;
     public string feld;
 
     void Awake()
@@ -18,6 +19,7 @@ public class Level3RandomFelderScript : MonoBehaviour
     void Start()
     {
         rend = GetComponent<Renderer>();
+        //rend = GetComponent<MeshRenderer>();
         rend.enabled = true;
         rend.sharedMaterial = material[0];
     }
@@ -41,10 +43,12 @@ public class Level3RandomFelderScript : MonoBehaviour
         if (Random3FelderScript.instance.randomFeld1.Equals(feld) || Random3FelderScript.instance.randomFeld2.Equals(feld) || Random3FelderScript.instance.randomFeld3.Equals(feld))
         {
             rend.sharedMaterial = material[1];
+            //GetComponent<MeshRenderer>().material = material[1];
         }
         else
         {
             rend.sharedMaterial = material[0];
+            //GetComponent<MeshRenderer>().material = material[0];
         }
     }
 }
