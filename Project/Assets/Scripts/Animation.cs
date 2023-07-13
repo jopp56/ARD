@@ -24,6 +24,7 @@ public class Animation : MonoBehaviour
         StartCoroutine(ThrowDarts());
     }
 
+
     private IEnumerator ThrowDarts()
     {
         for (int i = 0; i < numThrows; i++)
@@ -66,6 +67,6 @@ public class Animation : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        dart.transform.position = end;
+        dart.transform.position = start;
     }
 }
