@@ -15963,6 +15963,7 @@ MonoBehaviour:
   formen: {fileID: 1437011064}
   eingabemenu: {fileID: 2104083682}
   arrowPrefab: {fileID: 1925957834}
+  dartscheibe: {fileID: 2104587049}
   camera: {fileID: 1646572595}
   targetPositions: []
   targetListFieldNames:
