@@ -14,14 +14,14 @@ public class ScoreAnzeigeScript : MonoBehaviour
     public bool finishopt2;
     public bool finishopt3;
 
-    private int score;
+    public static int score;
     public int eingabesumme;
 
 
 
     void Start()
     {
-        this.score = 301;
+        score = 301;
         scoreText.text = "Dein Score:\n" + score.ToString() + " / 301";
         finishopt1 = false;
         finishopt2 = false;
@@ -106,8 +106,5 @@ public class ScoreAnzeigeScript : MonoBehaviour
             finishText.text = "FINISHED!";
         }
 
-    }
-    public int GetScore() { 
-        return score; 
     }
 }
