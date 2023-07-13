@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731715, g: 0.13414735, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15962,6 +15962,8 @@ MonoBehaviour:
   closeButton: {fileID: 99879626}
   formen: {fileID: 1437011064}
   eingabemenu: {fileID: 2104083682}
+  arrowPrefab: {fileID: 1925957834}
+  targetPositions: []
   targetListFieldNames:
   - 40D
   - 10D
@@ -16045,6 +16047,7 @@ MonoBehaviour:
   - 5I
   - 25C
   - 50C
+  targetProbabilities: []
   winAudio: {fileID: 1700757618}
   loseAudio: {fileID: 1700757617}
   missedAudio: {fileID: 1700757619}
@@ -20022,7 +20025,7 @@ PrefabInstance:
     - target: {fileID: 873635201814573931, guid: d82e2f09994ad2f4fb43359bfb977f64,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 873635201814573931, guid: d82e2f09994ad2f4fb43359bfb977f64,
         type: 3}
