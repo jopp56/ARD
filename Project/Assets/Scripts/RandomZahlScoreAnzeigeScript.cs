@@ -41,8 +41,7 @@ public class RandomZahlScoreAnzeigeScript : MonoBehaviour
 
         //Generate random index for range
         int index = rnd.Next(range.Count);
-        //randomScore = rnd.Next(min, max);     //im Bereich min bis max
-        randomScore = range[index];             //aus Liste random Zahl
+        randomScore = range[index];             //aus Liste random Feld
         score = randomScore;
     }
 
@@ -78,6 +77,7 @@ public class RandomZahlScoreAnzeigeScript : MonoBehaviour
         if (eingabesumme < score - 1)
         {
             score -= eingabesumme;
+            randomScore = score;
             scoreText.text = "Dein Score:\n" + score.ToString() + " / " + randomScore.ToString();
             ScoreEingabeScript.scorearray[0] = "Wurf 1";
             ScoreEingabeScript.scorearray[1] = "Wurf 2";

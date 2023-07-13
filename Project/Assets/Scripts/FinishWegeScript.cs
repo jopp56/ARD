@@ -12,17 +12,14 @@ public class FinishWegeScript : MonoBehaviour
 
     public static int rndScore;
 
-    void Awake()
+    void Start()
     {
-        //zuWerfenText.text = "In drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2];
-        //oder:
         zuWerfenText.text = "In maximal drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2]
             + "\n oder:\n" + wurfarray[3] + " | " + wurfarray[4] + " | " + wurfarray[5]
             + "\n oder:\n" + wurfarray[6] + " | " + wurfarray[7] + " | " + wurfarray[8];
     }
 
-    // Start is called before the first frame update
-    void Start()
+    void Update()
     {
         rndScore = RandomZahlScoreAnzeigeScript.instance.randomScore;
 
@@ -1548,13 +1545,5 @@ public class FinishWegeScript : MonoBehaviour
                 + "\n oder:\n" + wurfarray[3] + " | " + wurfarray[4] + " | " + wurfarray[5]
                 + "\n oder:\n" + wurfarray[6] + " | " + wurfarray[7] + " | " + wurfarray[8];
         }
-
-        //ChangeMaterialScript.instance.changeColor();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

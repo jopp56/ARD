@@ -12,21 +12,10 @@ public class DSFinishWegeScript : MonoBehaviour
 
     public static int score1;
 
-
-    void Awake()
-    {
-        //zuWerfenText.text = "In drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2];
-        //oder:
-        /*zuWerfenText.text = "In maximal drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2]
-            + "\n oder:\n" + wurfarray[3] + " | " + wurfarray[4] + " | " + wurfarray[5]
-            + "\n oder:\n" + wurfarray[6] + " | " + wurfarray[7] + " | " + wurfarray[8];*/
-    }
-
     // Start is called before the first frame update
     void Start()
     {
         zuWerfenText.text = " ";
-
     }
 
     // Update is called once per frame

@@ -24,19 +24,6 @@ public class Level3RandomFelderScript : MonoBehaviour
         rend.sharedMaterial = material[0];
     }
 
-    //wird in Update aufegrufen, also nicht notwendig
-    /*public void changeMaterial()
-    {
-        if (Random3FelderScript.instance.randomFeld1.Equals(feld) || Random3FelderScript.instance.randomFeld2.Equals(feld) || Random3FelderScript.instance.randomFeld3.Equals(feld))
-        {
-            rend.sharedMaterial = material[1];
-        }
-        else
-        {
-            rend.sharedMaterial = material[0];
-        }
-    }*/
-
     // Update is called once per frame
     void Update()
     {
