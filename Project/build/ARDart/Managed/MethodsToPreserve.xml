@@ -21,12 +21,14 @@
 			<method name="BackToMainMenu"/>
 			<method name="BackToMainMenu"/>
 			<method name="BackToMainMenu"/>
+			<method name="BackToMainMenu"/>
 			<method name="ClickToRestart"/>
 			<method name="ClickToRestart"/>
 			<method name="ClickToRestart"/>
 			<method name="ClickToRestart"/>
 			<method name="ClickToRestart"/>
 			<method name="ClickToRestart"/>
+			<method name="ClickToRestart"/>
 			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
@@ -34,6 +36,8 @@
 			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
 			<method name="CloseMenu"/>
+			<method name="CloseMenu"/>
+			<method name="ToogleMenu"/>
 			<method name="ToogleMenu"/>
 			<method name="ToogleMenu"/>
 			<method name="ToogleMenu"/>
@@ -45,6 +49,7 @@
 			<method name="NeueFelder"/>
 		</type>
 		<type fullname="ScoreAnzeigeScript">
+			<method name="changeScore"/>
 			<method name="changeScore"/>
 		</type>
 		<type fullname="ScoreEingabeScript">

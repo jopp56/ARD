@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level5RandomFelderPunkteScene.unity
     guid: f11816aa8579cd042b56eac49a2c6af2
+  - enabled: 1
+    path: Assets/Scenes/Level4AtCAlternativeScene.unity
+    guid: 17f3f3361cf9612408589e791a8519f7
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4435252f6071f1b46b7e791c0b11e8b5,
       type: 2}

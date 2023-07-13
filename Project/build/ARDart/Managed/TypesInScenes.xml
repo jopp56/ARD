@@ -1,6 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Abstand" preserve="nothing"/>
+		<type fullname="Animation" preserve="nothing"/>
 		<type fullname="AroundTheClockScript" preserve="nothing"/>
 		<type fullname="ChangeMaterialScript" preserve="nothing"/>
 		<type fullname="DSFelderScript" preserve="nothing"/>
@@ -11,6 +12,7 @@
 		<type fullname="Level3RandomFelderScript" preserve="nothing"/>
 		<type fullname="Level5ButtonScript" preserve="nothing"/>
 		<type fullname="Level5Materials" preserve="nothing"/>
+		<type fullname="Lv4MaterialScript" preserve="nothing"/>
 		<type fullname="MenuScript" preserve="nothing"/>
 		<type fullname="Random3FelderScript" preserve="nothing"/>
 		<type fullname="RandomZahlScoreAnzeigeScript" preserve="nothing"/>
@@ -221,10 +223,8 @@
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Vuforia.Unity.Engine">
 		<type fullname="Vuforia.ImageTargetBehaviour" preserve="nothing"/>

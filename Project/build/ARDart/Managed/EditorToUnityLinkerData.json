@@ -11,6 +11,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Animation",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "AroundTheClockScript",
             "moduleName": "",
             "usedInScenes": []
@@ -75,6 +82,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -97,6 +105,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -154,9 +163,17 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Lv4MaterialScript",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -708,6 +725,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -730,6 +748,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -773,6 +792,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -865,6 +885,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -901,6 +922,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -958,6 +980,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -973,6 +996,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -988,6 +1012,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1003,6 +1028,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1018,6 +1044,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1033,6 +1060,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1048,6 +1076,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1063,6 +1092,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1078,6 +1108,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1093,6 +1124,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1108,6 +1140,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity"
             ]
         },
@@ -1122,6 +1155,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1137,6 +1171,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1152,6 +1187,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1167,6 +1203,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity"
             ]
         },
@@ -1188,6 +1225,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1203,6 +1241,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1239,6 +1278,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1254,6 +1294,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1269,6 +1310,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1284,6 +1326,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1299,6 +1342,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1314,6 +1358,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1329,6 +1374,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1344,6 +1390,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1359,6 +1406,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1374,6 +1422,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1396,6 +1445,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1411,6 +1461,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1433,6 +1484,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1448,6 +1500,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1463,6 +1516,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1478,6 +1532,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1493,6 +1548,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity"
             ]
         },
@@ -1507,6 +1563,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1522,6 +1579,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1537,6 +1595,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1552,6 +1611,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1567,6 +1627,7 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
@@ -1582,16 +1643,10 @@
                 "Assets/Scenes/Level1FinishWegeScene.unity",
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
+                "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
                 "Assets/Scenes/MenuScene.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.Button",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
@@ -1604,13 +1659,6 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.GraphicRaycaster",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.UI.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.UI.Image",
             "moduleName": "",
             "usedInScenes": []
         },

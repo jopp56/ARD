@@ -1695,7 +1695,7 @@ PrefabInstance:
     - target: {fileID: 3799277165482444576, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.216
+      value: 0.177
       objectReference: {fileID: 0}
     - target: {fileID: 3799277165482444576, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
@@ -1732,11 +1732,21 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4782295538975371351, guid: 4cbdb46ba06591949a30a87b843d007e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0036
+      objectReference: {fileID: 0}
     - target: {fileID: 4909594347852316013, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: iconQuadTexture
       value: 
       objectReference: {fileID: 2800000, guid: b5066c514f7f02f4292cf842f3c8b75f, type: 3}
+    - target: {fileID: 5082927345232128447, guid: 4cbdb46ba06591949a30a87b843d007e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0042
+      objectReference: {fileID: 0}
     - target: {fileID: 5283811441620466167, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1800,7 +1810,7 @@ PrefabInstance:
     - target: {fileID: 6875594836697322444, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0176
+      value: -0.0135
       objectReference: {fileID: 0}
     - target: {fileID: 6875594836697322444, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
@@ -1810,7 +1820,7 @@ PrefabInstance:
     - target: {fileID: 6875594836814977708, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0014
+      value: -0.0069
       objectReference: {fileID: 0}
     - target: {fileID: 9124989853620312811, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
@@ -1845,7 +1855,7 @@ PrefabInstance:
     - target: {fileID: 9124989853620312811, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9124989853620312811, guid: 4cbdb46ba06591949a30a87b843d007e,
         type: 3}

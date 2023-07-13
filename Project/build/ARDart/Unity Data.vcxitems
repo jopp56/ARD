@@ -93,6 +93,14 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level7">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\level7.resS">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\nativePlugins.txt">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
@@ -137,6 +145,10 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets2.assets.resS">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\sharedassets2.resource">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
@@ -153,11 +165,11 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets5.assets.resS">
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets6.assets">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets6.assets">
+    <None Include="$(MSBuildThisFileDirectory)Data\sharedassets7.assets">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>

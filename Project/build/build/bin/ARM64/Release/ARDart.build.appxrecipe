@@ -206,6 +206,9 @@
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\level6">
       <PackagePath>Data\level6</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\level7">
+      <PackagePath>Data\level7</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
@@ -239,6 +242,9 @@
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\sharedassets6.assets">
       <PackagePath>Data\sharedassets6.assets</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\sharedassets7.assets">
+      <PackagePath>Data\sharedassets7.assets</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\level1.resS">
       <PackagePath>Data\level1.resS</PackagePath>
     </AppxPackagedFile>
@@ -257,6 +263,9 @@
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\level6.resS">
       <PackagePath>Data\level6.resS</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\level7.resS">
+      <PackagePath>Data\level7.resS</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
     </AppxPackagedFile>
@@ -266,8 +275,8 @@
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\sharedassets1.assets.resS">
       <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\sharedassets5.assets.resS">
-      <PackagePath>Data\sharedassets5.assets.resS</PackagePath>
+    <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\sharedassets2.assets.resS">
+      <PackagePath>Data\sharedassets2.assets.resS</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\ARDart\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>

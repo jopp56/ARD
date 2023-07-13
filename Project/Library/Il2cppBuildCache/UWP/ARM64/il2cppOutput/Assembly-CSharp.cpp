@@ -230,6 +230,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral817AAD639EBEF9D67373E07EE2CC2FD90016189C
 IL2CPP_EXTERN_C String_t* _stringLiteral8566D5274E477751726ABFCF909053A5949E9FF6;
 IL2CPP_EXTERN_C String_t* _stringLiteral8AAD0059D7ADAA6E46B41CC4B8DB728C1EDF99E7;
 IL2CPP_EXTERN_C String_t* _stringLiteral8B4AAF77CA2EFBCFB46A2B41E7DE76B5429140D9;
+IL2CPP_EXTERN_C String_t* _stringLiteral9213097DEB64BECD803ABDC1E6D55D89B55F5171;
 IL2CPP_EXTERN_C String_t* _stringLiteral92CBA7D808088058BEE36B5C447EE48DE7738AC2;
 IL2CPP_EXTERN_C String_t* _stringLiteral99C84EF4807C682ACBCF3ADD7766CFCD201F4EAD;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D2D612E3CC03029EEAD53A5A4DEF567987021CC;
@@ -255,7 +256,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE193267A8529D71C7A279A9DB6CE7EFC790D9C6C
 IL2CPP_EXTERN_C String_t* _stringLiteralE40C14D476197CEF8286506F0A7870E5254D2CB0;
 IL2CPP_EXTERN_C String_t* _stringLiteralE6E00C8B219A77D909AFCAAF557E44DE8BC14548;
 IL2CPP_EXTERN_C String_t* _stringLiteralE78D47973120FF3A3BD59B6E8A39FB89861EB326;
-IL2CPP_EXTERN_C String_t* _stringLiteralE78F28369F234AB24B3736E84E7DD1387D4F146E;
 IL2CPP_EXTERN_C String_t* _stringLiteralE8B46CE410EF148C73B95174E6C967E76DD48CAE;
 IL2CPP_EXTERN_C String_t* _stringLiteralE91FE173F59B063D620A934CE1A010F2B114C1F3;
 IL2CPP_EXTERN_C String_t* _stringLiteralE9324997EDB92A079648F27FC22128770EF9E9B4;
@@ -3247,8 +3247,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AroundTheClockScript_ButtonGetroffen_m93
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AroundTheClockScript_t427ACA809A7DCB40621373668E9072FBA5834451_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral73A0D5F12CBE21BFBAEE13AB577F07B8E34FFDBF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9213097DEB64BECD803ABDC1E6D55D89B55F5171);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD47BAF17C1273D73A0544DEC6D5E243F1F2C6BA7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE78F28369F234AB24B3736E84E7DD1387D4F146E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE8B46CE410EF148C73B95174E6C967E76DD48CAE);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -3394,10 +3394,10 @@ IL_0108:
 		}
 	}
 	{
-		// endeText.text = "Du hast das Training erfolreich abgeschlossen!";
+		// endeText.text = "Du hast das Training erfolgreich abgeschlossen!";
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_25 = __this->___endeText_6;
 		NullCheck(L_25);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_25, _stringLiteralE78F28369F234AB24B3736E84E7DD1387D4F146E);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_25, _stringLiteral9213097DEB64BECD803ABDC1E6D55D89B55F5171);
 	}
 
 IL_0121:
@@ -3720,8 +3720,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ATCUhrzeigersinnScript_ButtonGetroffen_m
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral73A0D5F12CBE21BFBAEE13AB577F07B8E34FFDBF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9213097DEB64BECD803ABDC1E6D55D89B55F5171);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD47BAF17C1273D73A0544DEC6D5E243F1F2C6BA7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE78F28369F234AB24B3736E84E7DD1387D4F146E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE8B46CE410EF148C73B95174E6C967E76DD48CAE);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -3879,10 +3879,10 @@ IL_011b:
 		}
 	}
 	{
-		// endeText.text = "Du hast das Training erfolreich abgeschlossen!";
+		// endeText.text = "Du hast das Training erfolgreich abgeschlossen!";
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_39 = __this->___endeText_6;
 		NullCheck(L_39);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_39, _stringLiteralE78F28369F234AB24B3736E84E7DD1387D4F146E);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_39, _stringLiteral9213097DEB64BECD803ABDC1E6D55D89B55F5171);
 	}
 
 IL_0134:
@@ -3901,6 +3901,238 @@ IL_0140:
 // System.Void ATCUhrzeigersinnScript::ButtonVerfehlt()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ATCUhrzeigersinnScript_ButtonVerfehlt_m6F27370BDCD60201A7DECDE56C2C1B8AA93915D0 (ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral73A0D5F12CBE21BFBAEE13AB577F07B8E34FFDBF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD47BAF17C1273D73A0544DEC6D5E243F1F2C6BA7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE40C14D476197CEF8286506F0A7870E5254D2CB0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE78D47973120FF3A3BD59B6E8A39FB89861EB326);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE8B46CE410EF148C73B95174E6C967E76DD48CAE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// leben -= 1;
+		int32_t L_0 = __this->___leben_8;
+		__this->___leben_8 = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
+		// lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___lebenText_5;
+		int32_t* L_2 = (&__this->___leben_8);
+		String_t* L_3;
+		L_3 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_2, NULL);
+		String_t* L_4;
+		L_4 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralE40C14D476197CEF8286506F0A7870E5254D2CB0, L_3, _stringLiteralE78D47973120FF3A3BD59B6E8A39FB89861EB326, NULL);
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, L_4);
+		// if (leben == 0 && feld > 1 && i <= 20)
+		int32_t L_5 = __this->___leben_8;
+		if (L_5)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		int32_t L_6 = __this->___feld_7;
+		if ((((int32_t)L_6) <= ((int32_t)1)))
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		int32_t L_7 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		if ((((int32_t)L_7) > ((int32_t)((int32_t)20))))
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		// i--;
+		int32_t L_8 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+		// feld = felderreihenfolge[i - 1];
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = __this->___felderreihenfolge_10;
+		int32_t L_10 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		NullCheck(L_9);
+		int32_t L_11 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+		int32_t L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		__this->___feld_7 = L_12;
+		// levelText.text = "Triff Feld S" + feld.ToString() + "!";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_13 = __this->___levelText_4;
+		int32_t* L_14 = (&__this->___feld_7);
+		String_t* L_15;
+		L_15 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_14, NULL);
+		String_t* L_16;
+		L_16 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralD47BAF17C1273D73A0544DEC6D5E243F1F2C6BA7, L_15, _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46, NULL);
+		NullCheck(L_13);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_13, L_16);
+		// leben = 3;
+		__this->___leben_8 = 3;
+		// lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = __this->___lebenText_5;
+		int32_t* L_18 = (&__this->___leben_8);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralE40C14D476197CEF8286506F0A7870E5254D2CB0, L_19, _stringLiteralE78D47973120FF3A3BD59B6E8A39FB89861EB326, NULL);
+		NullCheck(L_17);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_17, L_20);
+		return;
+	}
+
+IL_00c2:
+	{
+		// else if (leben == 0 && feld > 1 && i > 20 && i <= 40)
+		int32_t L_21 = __this->___leben_8;
+		if (L_21)
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_22 = __this->___feld_7;
+		if ((((int32_t)L_22) <= ((int32_t)1)))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_23 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		if ((((int32_t)L_23) <= ((int32_t)((int32_t)20))))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_24 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		if ((((int32_t)L_24) > ((int32_t)((int32_t)40))))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		// i--;
+		int32_t L_25 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9 = ((int32_t)il2cpp_codegen_subtract(L_25, 1));
+		// feld = felderreihenfolge[i - 21];
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = __this->___felderreihenfolge_10;
+		int32_t L_27 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		NullCheck(L_26);
+		int32_t L_28 = ((int32_t)il2cpp_codegen_subtract(L_27, ((int32_t)21)));
+		int32_t L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		__this->___feld_7 = L_29;
+		// levelText.text = "Triff Feld D" + feld.ToString() + "!";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_30 = __this->___levelText_4;
+		int32_t* L_31 = (&__this->___feld_7);
+		String_t* L_32;
+		L_32 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_31, NULL);
+		String_t* L_33;
+		L_33 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteral73A0D5F12CBE21BFBAEE13AB577F07B8E34FFDBF, L_32, _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46, NULL);
+		NullCheck(L_30);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_30, L_33);
+		// leben = 3;
+		__this->___leben_8 = 3;
+		// lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_34 = __this->___lebenText_5;
+		int32_t* L_35 = (&__this->___leben_8);
+		String_t* L_36;
+		L_36 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_35, NULL);
+		String_t* L_37;
+		L_37 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralE40C14D476197CEF8286506F0A7870E5254D2CB0, L_36, _stringLiteralE78D47973120FF3A3BD59B6E8A39FB89861EB326, NULL);
+		NullCheck(L_34);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_34, L_37);
+		return;
+	}
+
+IL_015e:
+	{
+		// else if (leben == 0 && feld > 1 && i > 40)
+		int32_t L_38 = __this->___leben_8;
+		if (L_38)
+		{
+			goto IL_01ee;
+		}
+	}
+	{
+		int32_t L_39 = __this->___feld_7;
+		if ((((int32_t)L_39) <= ((int32_t)1)))
+		{
+			goto IL_01ee;
+		}
+	}
+	{
+		int32_t L_40 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		if ((((int32_t)L_40) <= ((int32_t)((int32_t)40))))
+		{
+			goto IL_01ee;
+		}
+	}
+	{
+		// i--;
+		int32_t L_41 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9 = ((int32_t)il2cpp_codegen_subtract(L_41, 1));
+		// feld = felderreihenfolge[i - 41];
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_42 = __this->___felderreihenfolge_10;
+		int32_t L_43 = ((ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_StaticFields*)il2cpp_codegen_static_fields_for(ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5_il2cpp_TypeInfo_var))->___i_9;
+		NullCheck(L_42);
+		int32_t L_44 = ((int32_t)il2cpp_codegen_subtract(L_43, ((int32_t)41)));
+		int32_t L_45 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_44));
+		__this->___feld_7 = L_45;
+		// levelText.text = "Triff Feld T" + feld.ToString() + "!";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_46 = __this->___levelText_4;
+		int32_t* L_47 = (&__this->___feld_7);
+		String_t* L_48;
+		L_48 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_47, NULL);
+		String_t* L_49;
+		L_49 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralE8B46CE410EF148C73B95174E6C967E76DD48CAE, L_48, _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46, NULL);
+		NullCheck(L_46);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_46, L_49);
+		// leben = 3;
+		__this->___leben_8 = 3;
+		// lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_50 = __this->___lebenText_5;
+		int32_t* L_51 = (&__this->___leben_8);
+		String_t* L_52;
+		L_52 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_51, NULL);
+		String_t* L_53;
+		L_53 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralE40C14D476197CEF8286506F0A7870E5254D2CB0, L_52, _stringLiteralE78D47973120FF3A3BD59B6E8A39FB89861EB326, NULL);
+		NullCheck(L_50);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_50, L_53);
+		return;
+	}
+
+IL_01ee:
+	{
+		// else if (leben == 0 && feld == 1)
+		int32_t L_54 = __this->___leben_8;
+		if (L_54)
+		{
+			goto IL_022b;
+		}
+	}
+	{
+		int32_t L_55 = __this->___feld_7;
+		if ((!(((uint32_t)L_55) == ((uint32_t)1))))
+		{
+			goto IL_022b;
+		}
+	}
+	{
+		// leben = 3;
+		__this->___leben_8 = 3;
+		// lebenText.text = "Du hast noch " + leben.ToString() + " Leben";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_56 = __this->___lebenText_5;
+		int32_t* L_57 = (&__this->___leben_8);
+		String_t* L_58;
+		L_58 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_57, NULL);
+		String_t* L_59;
+		L_59 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralE40C14D476197CEF8286506F0A7870E5254D2CB0, L_58, _stringLiteralE78D47973120FF3A3BD59B6E8A39FB89861EB326, NULL);
+		NullCheck(L_56);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_56, L_59);
+	}
+
+IL_022b:
 	{
 		// }
 		return;

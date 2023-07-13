@@ -17,6 +17,8 @@ Data\level5
 Data\level5.resS
 Data\level6
 Data\level6.resS
+Data\level7
+Data\level7.resS
 Data\nativePlugins.txt
 Data\resources.assets
 Data\resources.assets.resS
@@ -30,12 +32,13 @@ Data\sharedassets0.resource
 Data\sharedassets1.assets
 Data\sharedassets1.assets.resS
 Data\sharedassets2.assets
+Data\sharedassets2.assets.resS
 Data\sharedassets2.resource
 Data\sharedassets3.assets
 Data\sharedassets4.assets
 Data\sharedassets5.assets
-Data\sharedassets5.assets.resS
 Data\sharedassets6.assets
+Data\sharedassets7.assets
 Data\StreamingAssets\Vuforia\ImagesDart.dat
 Data\StreamingAssets\Vuforia\ImagesDart.xml
 Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json
