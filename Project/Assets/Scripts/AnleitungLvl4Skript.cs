@@ -14,7 +14,7 @@ public class AnleitungLvl4Skript : MonoBehaviour
 
     public void ButtonAnleitung()
     {
-        anleitungText.text = "Bei diesem Spielmodus müssen die Spieler versuchen, die Zahlen auf dem Dartboard der Reihe nach zu treffen, beginnend mit der 1 und endet mit der 20.";
+        anleitungText.text = "Bei diesem Spielmodus musst du versuchen, die Zahlen auf dem Dartboard der Reihe nach zu treffen, beginnend mit der 1 und endet mit der 20.";
     }
 
 
