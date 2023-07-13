@@ -2354,13 +2354,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: d1e8a0fba3ddd7645958c364c42716a5, type: 2}
+  - {fileID: 2100000, guid: 0d1402a0a2abdff4e866e117a9859e80, type: 2}
+  - {fileID: 2100000, guid: 3c2806368a65a504a8b8eb5718687f3d, type: 2}
+  - {fileID: 2100000, guid: f73970be1a2cc32468b9269b6fe54b0c, type: 2}
+  - {fileID: 2100000, guid: d5fc85e403089cc4098f571759f8d23b, type: 2}
+  - {fileID: 2100000, guid: a9cae348fd3ffd24a9b646e5e61d1619, type: 2}
+  - {fileID: 2100000, guid: 3915b0a797bc08b428e303bef6dc0ddf, type: 2}
   feld: Double 3
 --- !u!1001 &194696252
 PrefabInstance:
