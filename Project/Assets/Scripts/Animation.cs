@@ -62,7 +62,7 @@ public class Animation : MonoBehaviour
         while (elapsedTime < duration)
         {
             float progress = elapsedTime / duration;
-            dart.transform.position = Vector3.Lerp(start, end, progress);
+            dart.transform.position = Vector3.Lerp(start, end, -progress);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
