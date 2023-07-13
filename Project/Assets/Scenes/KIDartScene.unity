@@ -15963,6 +15963,7 @@ MonoBehaviour:
   formen: {fileID: 1437011064}
   eingabemenu: {fileID: 2104083682}
   arrowPrefab: {fileID: 1925957834}
+  camera: {fileID: 1646572595}
   targetPositions: []
   targetListFieldNames:
   - 40D
@@ -16047,7 +16048,6 @@ MonoBehaviour:
   - 5I
   - 25C
   - 50C
-  targetProbabilities: []
   winAudio: {fileID: 1700757618}
   loseAudio: {fileID: 1700757617}
   missedAudio: {fileID: 1700757619}

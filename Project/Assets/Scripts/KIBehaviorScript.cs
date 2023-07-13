@@ -19,16 +19,17 @@ public class KIBehaviorScript : MonoBehaviour
     public GameObject formen;
     public GameObject eingabemenu;
     public GameObject arrowPrefab;
+    private GameObject[] spawnedArrows;
+    public GameObject camera;
     public Transform[] targetPositions;
 
     public string[] targetListFieldNames;
     private string[,] targetListWithFieldNamesAndProbabilities;
-    public float[] targetProbabilities;
 
     public AudioSource winAudio;
     public AudioSource loseAudio;
     public AudioSource missedAudio;
-    private object spawnedArrows;
+    private float flightTime;
 
     void Start()
     {
@@ -36,6 +37,7 @@ public class KIBehaviorScript : MonoBehaviour
         scoreKICount = 301;
         this.targetListFieldNames = targetListFieldNames;
         AssignProbabilitiesToTargets(targetListFieldNames);
+        flightTime = 4f;
 
     }
 
@@ -91,17 +93,17 @@ public class KIBehaviorScript : MonoBehaviour
 
         else if (fieldName.EndsWith("D"))
         {
-            return "0.17";
+            return "0.16";
         }
 
         else if (fieldName.EndsWith("T"))
         {
-            return "0,13";
+            return "0,14";
         }
 
         else if (fieldName.EndsWith("Center"))
         {
-            return "0.15";
+            return "0.13";
         }
         else if (fieldName.EndsWith("Bullseye"))
         {
@@ -117,7 +119,7 @@ public class KIBehaviorScript : MonoBehaviour
 
         int randomFieldChoose = random.Next(0, targetListFieldNames.Length - 1);
         //hitQuote muss angepasst werden wenn Probs feststehen~hier trifft er erste bei einer quote von ca.0.5
-        double hitQuote = random.NextDouble() * 2.5;
+        double hitQuote = random.NextDouble();
 
         string targetName = targetListWithFieldNamesAndProbabilities[randomFieldChoose, 0];
         string targetProbability = targetListWithFieldNamesAndProbabilities[randomFieldChoose, 1];
@@ -126,10 +128,9 @@ public class KIBehaviorScript : MonoBehaviour
         if (double.Parse(targetProbability) < hitQuote)
         {
             dartsCount++;
-            Debug.Log("Hit Nothing");
-            missedAudio.Play();
             animateDarts("0");
-            Debug.Log("Returned");
+            missedAudio.Play();
+           
         }
         else
         {
@@ -173,7 +174,7 @@ public class KIBehaviorScript : MonoBehaviour
             else
             {
                 string targetProbability = targetListWithFieldNamesAndProbabilities[randomIndex, 1];
-                double hitQuote = random.NextDouble() * 0.25;
+                double hitQuote = random.NextDouble();
                 if (double.Parse(targetProbability) < hitQuote)
                 {
                     dartsCount++;
@@ -198,7 +199,7 @@ public class KIBehaviorScript : MonoBehaviour
             else
             {
                 string targetProbability = targetListWithFieldNamesAndProbabilities[randomIndex, 1];
-                double hitQuote = random.NextDouble() * 0.25;
+                double hitQuote = random.NextDouble();
                 if (double.Parse(targetProbability) < hitQuote)
                 {
                     dartsCount++;
@@ -236,10 +237,54 @@ public class KIBehaviorScript : MonoBehaviour
     {
         TextMeshProUGUI scoreKI = scoreAnzeigeKIText.GetComponent<TextMeshProUGUI>();
         scoreKI.SetText("KI Score:" + "\n" + newScore.ToString() + "/" + "301");
+
+        ClearArrows();
     }
 
     public void animateDarts(string targetName)
     {
 
+        Vector3 targetPosition = FindTargetPosition(targetName);
+
+        GameObject arrow = Instantiate(arrowPrefab, camera.transform.position, Quaternion.identity);
+
+        SimulateFlightPath(arrow, targetPosition, flightTime);
+
+    }
+
+    public void ClearArrows()
+    {
+        if (dartsCount == 3)
+        {
+            foreach (GameObject arrow in spawnedArrows)
+            {
+                if (arrow != null)
+                {
+                    Destroy(arrow);
+                }
+            }
+        }
+    }
+    private Vector3 FindTargetPosition(string targetName)
+    {
+        GameObject field = GameObject.Find(targetName);
+        Vector3 fieldPosition = field.transform.position;
+
+        return fieldPosition;
+    }
+
+    private void SimulateFlightPath(GameObject dart, Vector3 target, float duration)
+    {
+        Vector3 startPosition = dart.transform.position;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < duration)
+        {
+            float progress = elapsedTime / duration;
+            dart.transform.position = Vector3.Lerp(startPosition, target, -progress);
+            elapsedTime += Time.deltaTime;
+        }
+
+        dart.transform.position = target;
     }
 }
