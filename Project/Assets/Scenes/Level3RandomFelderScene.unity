@@ -12546,10 +12546,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1491833391881265448, guid: 3f85bf2a4dc826b4fb05cbc50320ce55,
+        type: 3}
+      propertyPath: toggleOn
+      value: 
+      objectReference: {fileID: 611694859}
+    - target: {fileID: 1491833391881265448, guid: 3f85bf2a4dc826b4fb05cbc50320ce55,
+        type: 3}
+      propertyPath: toggleOff
+      value: 
+      objectReference: {fileID: 611694860}
     - target: {fileID: 1650332454783678942, guid: 3f85bf2a4dc826b4fb05cbc50320ce55,
         type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650332454783678942, guid: 3f85bf2a4dc826b4fb05cbc50320ce55,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650332454783678942, guid: 3f85bf2a4dc826b4fb05cbc50320ce55,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1650332454783678942, guid: 3f85bf2a4dc826b4fb05cbc50320ce55,
         type: 3}
@@ -12615,6 +12635,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428794022453705613, guid: 3f85bf2a4dc826b4fb05cbc50320ce55,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5068105925598012911, guid: 3f85bf2a4dc826b4fb05cbc50320ce55,
         type: 3}

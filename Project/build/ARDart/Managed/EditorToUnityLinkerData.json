@@ -11,13 +11,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Animation",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "AroundTheClockScript",
             "moduleName": "",
             "usedInScenes": []
@@ -291,13 +284,6 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizationProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1198,13 +1184,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/DartScene.unity",
-                "Assets/Scenes/KIDartScene.unity",
-                "Assets/Scenes/Level1FinishWegeScene.unity",
-                "Assets/Scenes/Level2Scene.unity",
-                "Assets/Scenes/Level3RandomFelderScene.unity",
-                "Assets/Scenes/Level4AtCAlternativeScene.unity",
-                "Assets/Scenes/Level5RandomFelderPunkteScene.unity"
+                "Assets/Scenes/MenuScene.unity"
             ]
         },
         {

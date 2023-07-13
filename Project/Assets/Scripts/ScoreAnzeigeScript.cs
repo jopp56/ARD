@@ -7,7 +7,6 @@ using TMPro;
 
 public class ScoreAnzeigeScript : MonoBehaviour
 {
-    public static ScoreAnzeigeScript instance;
 
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI finishText;
@@ -20,12 +19,6 @@ public class ScoreAnzeigeScript : MonoBehaviour
     public static int score = 301;
     public int eingabesumme;
 
-    void Awake()
-    {
-        instance = this;
-        //menü.gameObject.SetActive(false);
-        //neustart.gameObject.SetActive(false);
-    }
 
 
     void Start()

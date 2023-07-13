@@ -1700,25 +1700,23 @@ struct RandomZahlScoreAnzeigeScript_tDC31134753E768164D519D78F6E2BB2057BC454F_St
 struct ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	// TMPro.TextMeshProUGUI ScoreAnzeigeScript::scoreText
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___scoreText_5;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___scoreText_4;
 	// TMPro.TextMeshProUGUI ScoreAnzeigeScript::finishText
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___finishText_6;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___finishText_5;
 	// System.Boolean ScoreAnzeigeScript::finishopt1
-	bool ___finishopt1_7;
+	bool ___finishopt1_6;
 	// System.Boolean ScoreAnzeigeScript::finishopt2
-	bool ___finishopt2_8;
+	bool ___finishopt2_7;
 	// System.Boolean ScoreAnzeigeScript::finishopt3
-	bool ___finishopt3_9;
+	bool ___finishopt3_8;
 	// System.Int32 ScoreAnzeigeScript::eingabesumme
-	int32_t ___eingabesumme_11;
+	int32_t ___eingabesumme_10;
 };
 
 struct ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields
 {
-	// ScoreAnzeigeScript ScoreAnzeigeScript::instance
-	ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6* ___instance_4;
 	// System.Int32 ScoreAnzeigeScript::score
-	int32_t ___score_10;
+	int32_t ___score_9;
 };
 
 // UnityEngine.EventSystems.UIBehaviour
@@ -3081,7 +3079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSimulateFlightPathU3Ed__14_MoveNext_m
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
-			goto IL_0076;
+			goto IL_0077;
 		}
 	}
 	{
@@ -3093,7 +3091,7 @@ IL_0010:
 		__this->___U3CU3E1__state_0 = (-1);
 		// float elapsedTime = 0f;
 		__this->___U3CelapsedTimeU3E5__2_6 = (0.0f);
-		goto IL_007d;
+		goto IL_007e;
 	}
 
 IL_0024:
@@ -3102,7 +3100,7 @@ IL_0024:
 		float L_3 = __this->___U3CelapsedTimeU3E5__2_6;
 		float L_4 = __this->___duration_2;
 		V_1 = ((float)(L_3/L_4));
-		// dart.transform.position = Vector3.Lerp(start, end, progress);
+		// dart.transform.position = Vector3.Lerp(start, end, -progress);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___dart_3;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -3111,7 +3109,7 @@ IL_0024:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = __this->___end_5;
 		float L_9 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
-		L_10 = Vector3_Lerp_m57EE8D709A93B2B0FF8D499FA2947B1D61CB1FD6_inline(L_7, L_8, L_9, NULL);
+		L_10 = Vector3_Lerp_m57EE8D709A93B2B0FF8D499FA2947B1D61CB1FD6_inline(L_7, L_8, ((-L_9)), NULL);
 		NullCheck(L_6);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_6, L_10, NULL);
 		// elapsedTime += Time.deltaTime;
@@ -3126,12 +3124,12 @@ IL_0024:
 		return (bool)1;
 	}
 
-IL_0076:
+IL_0077:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 	}
 
-IL_007d:
+IL_007e:
 	{
 		// while (elapsedTime < duration)
 		float L_13 = __this->___U3CelapsedTimeU3E5__2_6;
@@ -3142,12 +3140,12 @@ IL_007d:
 		}
 	}
 	{
-		// dart.transform.position = end;
+		// dart.transform.position = start;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___dart_3;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_15, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = __this->___end_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = __this->___start_4;
 		NullCheck(L_16);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_16, L_17, NULL);
 		// }
@@ -4803,7 +4801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 	{
 		// if (ScoreAnzeigeScript.score <= 158 || ScoreAnzeigeScript.score == 160 || ScoreAnzeigeScript.score == 161 || ScoreAnzeigeScript.score == 164 || ScoreAnzeigeScript.score == 167 || ScoreAnzeigeScript.score == 170)
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_0 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_0 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_0) <= ((int32_t)((int32_t)158))))
 		{
 			goto IL_004b;
@@ -4811,7 +4809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_1 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_1 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)160))))
 		{
 			goto IL_004b;
@@ -4819,7 +4817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_2 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_2 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)161))))
 		{
 			goto IL_004b;
@@ -4827,7 +4825,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_3 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_3 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_3) == ((int32_t)((int32_t)164))))
 		{
 			goto IL_004b;
@@ -4835,7 +4833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_4 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_4 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_4) == ((int32_t)((int32_t)167))))
 		{
 			goto IL_004b;
@@ -4843,7 +4841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_5 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_5 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((!(((uint32_t)L_5) == ((uint32_t)((int32_t)170)))))
 		{
 			goto IL_0308;
@@ -5329,7 +5327,7 @@ IL_02d3:
 		// if (feld2 <= ScoreAnzeigeScript.score)
 		int32_t L_153 = __this->___feld2_8;
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_154 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_154 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_153) > ((int32_t)L_154)))
 		{
 			goto IL_02f4;
@@ -5365,7 +5363,7 @@ IL_0308:
 		// if (feld2 <= ScoreAnzeigeScript.score)
 		int32_t L_163 = __this->___feld2_8;
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_164 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_164 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_163) > ((int32_t)L_164)))
 		{
 			goto IL_0329;
@@ -5514,11 +5512,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 	{
 		// score1 = ScoreAnzeigeScript.score;
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_0 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_0 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		il2cpp_codegen_runtime_class_init_inline(DSFinishWegeScript_t2677FEF6B664A6A5DB56116D6832A1F03B69199D_il2cpp_TypeInfo_var);
 		((DSFinishWegeScript_t2677FEF6B664A6A5DB56116D6832A1F03B69199D_StaticFields*)il2cpp_codegen_static_fields_for(DSFinishWegeScript_t2677FEF6B664A6A5DB56116D6832A1F03B69199D_il2cpp_TypeInfo_var))->___score1_6 = L_0;
 		// if (ScoreAnzeigeScript.score <= 158 || ScoreAnzeigeScript.score == 160 || ScoreAnzeigeScript.score == 161 || ScoreAnzeigeScript.score == 164 || ScoreAnzeigeScript.score == 167 || ScoreAnzeigeScript.score == 170)
-		int32_t L_1 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_1 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_1) <= ((int32_t)((int32_t)158))))
 		{
 			goto IL_0055;
@@ -5526,7 +5524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_2 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_2 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)160))))
 		{
 			goto IL_0055;
@@ -5534,7 +5532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_3 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_3 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_3) == ((int32_t)((int32_t)161))))
 		{
 			goto IL_0055;
@@ -5542,7 +5540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_4 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_4 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_4) == ((int32_t)((int32_t)164))))
 		{
 			goto IL_0055;
@@ -5550,7 +5548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_5 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_5 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_5) == ((int32_t)((int32_t)167))))
 		{
 			goto IL_0055;
@@ -5558,7 +5556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		int32_t L_6 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_10;
+		int32_t L_6 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((!(((uint32_t)L_6) == ((uint32_t)((int32_t)170)))))
 		{
 			goto IL_3797;

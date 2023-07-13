@@ -6,6 +6,29 @@
   
   	Output directory: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Release
   	Cache directory: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\obj\il2cppOutputProject\ARM64\Release
-  ObjectFiles: 765 of which compiled: 0
-  Total compilation time: 1148 milliseconds.
-  Cleaned up 1 object files.
+  Il2CppCCalculateFieldValues3.cpp
+  Il2CppGenericMethodDefinitions.c
+  Il2CppRgctxTable.c
+  Il2CppCCalculateTypeValues1.cpp
+  Il2CppMetadataRegistration.c
+  Assembly-CSharp_CodeGen.c
+  Il2CppCCFieldValuesTable.cpp
+  Assembly-CSharp1.cpp
+  Il2CppMetadataUsage.c
+  Il2CppTypeDefinitions.c
+  Assembly-CSharp.cpp
+  ObjectFiles: 765 of which compiled: 11
+  	Time Compile: 5985 milliseconds Assembly-CSharp.cpp
+  	Time Compile: 5238 milliseconds Il2CppTypeDefinitions.c
+  	Time Compile: 4248 milliseconds Il2CppMetadataUsage.c
+  	Time Compile: 3113 milliseconds Assembly-CSharp1.cpp
+  	Time Compile: 2110 milliseconds Il2CppCCalculateTypeValues1.cpp
+  	Time Compile: 1838 milliseconds Il2CppRgctxTable.c
+  	Time Compile: 1711 milliseconds Il2CppGenericMethodDefinitions.c
+  	Time Compile: 1575 milliseconds Il2CppCCFieldValuesTable.cpp
+  	Time Compile: 1508 milliseconds Il2CppCCalculateFieldValues3.cpp
+  	Time Compile: 1333 milliseconds Assembly-CSharp_CodeGen.c
+  Total compilation time: 7474 milliseconds.
+  Bibliothek "C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_4A4022793779C23232BD1F72CDC3122A\GameAssembly.lib" und Objekt "C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_4A4022793779C23232BD1F72CDC3122A\GameAssembly.exp" werden erstellt.
+  Total link time: 29519 milliseconds.
+  Cleaned up 12 object files.

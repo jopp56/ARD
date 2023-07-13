@@ -20,6 +20,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.SceneSystem.RuntimeRenderSettings" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.SceneSystem.RuntimeSunlightSettings" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo" preserve="nothing" serialized="true"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialObserverConfiguration" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.AnimatorParameter" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider/BezierPointSet" preserve="nothing" serialized="true"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Editor.InspectorPropertySetting" preserve="nothing" serialized="true"/>

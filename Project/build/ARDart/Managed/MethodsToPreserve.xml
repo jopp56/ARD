@@ -141,8 +141,8 @@
 			<method name="ClickOnTrainingButton1"/>
 			<method name="ClickOnTrainingButton2"/>
 			<method name="ClickOnTrainingButton3"/>
-			<method name="ClickOnTrainingButton3"/>
-			<method name="ClickOnTrainingButton3"/>
+			<method name="ClickOnTrainingButton4"/>
+			<method name="ClickOnTrainingButton5"/>
 		</type>
 	</assembly>
 </linker>

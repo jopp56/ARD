@@ -2,34 +2,34 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Data">
-      <UniqueIdentifier>{2ce49a9a-874d-45dc-a5f4-a56dd07cb22c}</UniqueIdentifier>
+      <UniqueIdentifier>{c08dc1cb-0fa1-4929-9933-19d10955bc8f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\Resources">
-      <UniqueIdentifier>{3127a565-77d6-487e-8e5d-6c80d26fb95c}</UniqueIdentifier>
+      <UniqueIdentifier>{24a12da0-54d8-4416-addc-953542242a3c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Metadata">
-      <UniqueIdentifier>{e1b7e107-9b01-4736-bbbc-963b0a6f9734}</UniqueIdentifier>
+      <UniqueIdentifier>{39b15fca-c555-40c5-a177-aca259f1e796}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data\Resources">
-      <UniqueIdentifier>{21bb3484-f8a3-424b-9112-3680fc3b25fb}</UniqueIdentifier>
+      <UniqueIdentifier>{ea91f809-e20d-4d43-b5b8-f90ee12335e1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets\Vuforia">
-      <UniqueIdentifier>{135d031a-419e-45ef-ae71-9c4a45a0cc29}</UniqueIdentifier>
+      <UniqueIdentifier>{0964e9a5-0a50-42e9-a089-122c19e5d3b4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\MicrosoftOpenXRPlugin">
-      <UniqueIdentifier>{3f11e126-f88c-4b9b-ae02-6a628de0de0e}</UniqueIdentifier>
+      <UniqueIdentifier>{82997026-e99b-4256-b79e-996d30689521}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems\UnityOpenXR">
-      <UniqueIdentifier>{0e3aa453-cbcc-469d-8c11-d4bf43891944}</UniqueIdentifier>
+      <UniqueIdentifier>{ab661870-fee0-4801-b7cc-ad935f3c0349}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\il2cpp_data">
-      <UniqueIdentifier>{ce133f68-c421-4982-988e-39202637f565}</UniqueIdentifier>
+      <UniqueIdentifier>{2904ea3b-b47b-4c7e-a257-d808dcf5d634}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\StreamingAssets">
-      <UniqueIdentifier>{a8c28ab6-2799-40b6-abd5-0e4d134ed13e}</UniqueIdentifier>
+      <UniqueIdentifier>{3cf8e63d-64dc-4c20-9984-b993d5e1db84}</UniqueIdentifier>
     </Filter>
     <Filter Include="Data\UnitySubsystems">
-      <UniqueIdentifier>{a9ecb82f-d590-479d-9cf1-5518613e4f9d}</UniqueIdentifier>
+      <UniqueIdentifier>{3d6df8f0-c59d-4b90-a2f5-3e445178f4a8}</UniqueIdentifier>
     </Filter>
     <Resource Include="$(MSBuildThisFileDirectory)Resource.res" />
     <None Include="$(MSBuildThisFileDirectory)StoreManifest.xml" />
@@ -47,46 +47,28 @@
     <None Include="$(MSBuildThisFileDirectory)Data\level0">
       <Filter>Data</Filter>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level1">
+    <None Include="$(MSBuildThisFileDirectory)Data\level0.resS">
       <Filter>Data</Filter>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level1.resS">
+    <None Include="$(MSBuildThisFileDirectory)Data\level1">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\level2">
       <Filter>Data</Filter>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level2.resS">
-      <Filter>Data</Filter>
-    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\level3">
-      <Filter>Data</Filter>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level3.resS">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\level4">
       <Filter>Data</Filter>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level4.resS">
-      <Filter>Data</Filter>
-    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\level5">
-      <Filter>Data</Filter>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level5.resS">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\level6">
       <Filter>Data</Filter>
     </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level6.resS">
-      <Filter>Data</Filter>
-    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\level7">
-      <Filter>Data</Filter>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Data\level7.resS">
       <Filter>Data</Filter>
     </None>
     <None Include="$(MSBuildThisFileDirectory)Data\nativePlugins.txt">
@@ -170,11 +152,15 @@
     <None Include="$(MSBuildThisFileDirectory)Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
       <Filter>Data\UnitySubsystems\UnityOpenXR</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="$(OutDir)GameAssembly.dll" />
-    <None Include="$(OutDir)GameAssembly.pdb" />
-    <None Include="$(UnityWSAPlayerDir)Players\UAP\il2cpp\$(PlatformTarget)\$(UnityPlayerConfiguration)\baselib.dll" />
-    <None Include="$(UnityWSAPlayerDir)Players\UAP\il2cpp\$(PlatformTarget)\$(UnityPlayerConfiguration)\baselib_UAP_$(PlatformTarget)_$(UnityPlayerConfiguration)_il2cpp.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)VuforiaEngine.dll" />
+    <None Include="$(MSBuildThisFileDirectory)VuforiaEngine.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.dll" />
+    <None Include="$(MSBuildThisFileDirectory)MicrosoftOpenXRPlugin.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)openxr_runtime_debugger.dll" />
+    <None Include="$(MSBuildThisFileDirectory)openxr_runtime_debugger.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)UnityOpenXR.dll" />
+    <None Include="$(MSBuildThisFileDirectory)UnityOpenXR.pdb" />
+    <None Include="$(MSBuildThisFileDirectory)openxr_loader.dll" />
+    <None Include="$(MSBuildThisFileDirectory)openxr_loader.pdb" />
   </ItemGroup>
 </Project>

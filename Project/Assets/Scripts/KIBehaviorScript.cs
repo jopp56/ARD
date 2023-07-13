@@ -39,7 +39,7 @@ public class KIBehaviorScript : MonoBehaviour
         this.targetListFieldNames = targetListFieldNames;
         AssignProbabilitiesToTargets(targetListFieldNames);
         flightTime = 2f;
-        this.spawnedArrows = new GameObject[3];
+        this.spawnedArrows = new GameObject[4];
 
     }
 
@@ -289,8 +289,8 @@ public class KIBehaviorScript : MonoBehaviour
 
         while (elapsedTime < duration)
         {
-            float progress = 2 * (elapsedTime / duration);
-            dart.transform.position = Vector3.Lerp(startPosition, target, -progress);
+            float progress = elapsedTime / duration;
+            dart.transform.position = Vector3.Lerp(startPosition, target, progress);
             elapsedTime += Time.deltaTime;
         }
 

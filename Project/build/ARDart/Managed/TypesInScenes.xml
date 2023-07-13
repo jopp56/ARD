@@ -1,7 +1,6 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Abstand" preserve="nothing"/>
-		<type fullname="Animation" preserve="nothing"/>
 		<type fullname="AroundTheClockScript" preserve="nothing"/>
 		<type fullname="ChangeMaterialScript" preserve="nothing"/>
 		<type fullname="DSFelderScript" preserve="nothing"/>
@@ -75,7 +74,6 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.FingerCursor" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.GGVPointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MeshCursor" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MousePointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.PokePointer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.RiggedHandVisualizer" preserve="nothing"/>
