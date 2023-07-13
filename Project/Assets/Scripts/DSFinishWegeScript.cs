@@ -12,6 +12,8 @@ public class DSFinishWegeScript : MonoBehaviour
 
     public static int score1;
 
+    public ScoreAnzeigeScript scoreMe;
+
     void Awake()
     {
         //zuWerfenText.text = "In drei Würfen Finishen, werfe:\n\n" + wurfarray[0] + " | " + wurfarray[1] + " | " + wurfarray[2];
@@ -25,13 +27,15 @@ public class DSFinishWegeScript : MonoBehaviour
     void Start()
     {
         zuWerfenText.text = " ";
+        this.scoreMe  = new ScoreAnzeigeScript();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        score1 = ScoreAnzeigeScript.score;
-        if (ScoreAnzeigeScript.score <= 158 || ScoreAnzeigeScript.score == 160 || ScoreAnzeigeScript.score == 161 || ScoreAnzeigeScript.score == 164 || ScoreAnzeigeScript.score == 167 || ScoreAnzeigeScript.score == 170)
+        score1 = scoreMe.GetScore();
+        if (scoreMe.GetScore() <= 158 || scoreMe.GetScore() == 160 || scoreMe.GetScore() == 161 || scoreMe.GetScore() == 164 || scoreMe.GetScore() == 167 || scoreMe.GetScore() == 170)
         {
             switch (score1)
             {

@@ -11,6 +11,7 @@ public class KIBehaviorScript : MonoBehaviour
     private int dartsCount;
     private int scoreKICount;
     private int scorePlayerCount;
+    public ScoreAnzeigeScript scoreMe;
 
     public GameObject scoreAnzeigePlayerText;
     public GameObject scoreAnzeigeKIText;
@@ -40,13 +41,14 @@ public class KIBehaviorScript : MonoBehaviour
         AssignProbabilitiesToTargets(targetListFieldNames);
         flightTime = 2f;
         this.spawnedArrows = new GameObject[4];
+        scoreMe = new ScoreAnzeigeScript();
 
     }
 
 
     void Update()
     {
-        scorePlayerCount = ScoreAnzeigeScript.score;
+        scorePlayerCount = scoreMe.GetScore();
         if (scoreKICount > 0 && scorePlayerCount > 0)
         {
             StartCoroutine(KIRun());
@@ -55,7 +57,7 @@ public class KIBehaviorScript : MonoBehaviour
 
     IEnumerator KIRun()
     {
-        this.scorePlayerCount = ScoreAnzeigeScript.score;
+        this.scorePlayerCount = scoreMe.GetScore();
         if (dartsCount < 3 && scoreKICount > 170)
         {
             formen.SetActive(true);

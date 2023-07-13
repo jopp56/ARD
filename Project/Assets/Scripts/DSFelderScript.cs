@@ -9,6 +9,7 @@ public class DSFelderScript : MonoBehaviour
     Renderer rend;
     public string feld1;
     public int feld2;
+    public ScoreAnzeigeScript scoreMe;
 
     void Awake()
     {
@@ -21,13 +22,15 @@ public class DSFelderScript : MonoBehaviour
         rend = GetComponent<Renderer>();
         rend.enabled = true;
         rend.sharedMaterial = material[7];
+        scoreMe = new ScoreAnzeigeScript();
+
     }
 
     // Update is called once per frame
     void Update()
     {
         //(nicht 169, 168, 166, 165, 163, 162, 159)
-        if (ScoreAnzeigeScript.score <= 158 || ScoreAnzeigeScript.score == 160 || ScoreAnzeigeScript.score == 161 || ScoreAnzeigeScript.score == 164 || ScoreAnzeigeScript.score == 167 || ScoreAnzeigeScript.score == 170)
+        if (scoreMe.GetScore() <= 158 || scoreMe.GetScore() == 160 || scoreMe.GetScore() == 161 || scoreMe.GetScore() == 164 || scoreMe.GetScore() == 167 || scoreMe.GetScore() == 170)
         {
             if ((DSFinishWegeScript.wurfarray[0] == feld1 && DSFinishWegeScript.wurfarray[1] != "-") || (DSFinishWegeScript.wurfarray[1] == feld1 && DSFinishWegeScript.wurfarray[2] != "-"))
             {
@@ -55,7 +58,7 @@ public class DSFelderScript : MonoBehaviour
             }
             else
             {
-                if (feld2 <= ScoreAnzeigeScript.score)
+                if (feld2 <= scoreMe.GetScore())
                 {
                     rend.sharedMaterial = material[7];
                 }
@@ -67,7 +70,7 @@ public class DSFelderScript : MonoBehaviour
         }
         else
         {
-            if (feld2 <= ScoreAnzeigeScript.score)
+            if (feld2 <= scoreMe.GetScore())
             {
                 rend.sharedMaterial = material[7];
             }
