@@ -38,7 +38,7 @@ public class KIBehaviorScript : MonoBehaviour
         scoreKICount = 301;
         this.targetListFieldNames = targetListFieldNames;
         AssignProbabilitiesToTargets(targetListFieldNames);
-        flightTime = 2f;
+        flightTime = 5f;
         this.spawnedArrows = new GameObject[4];
         //ScoreAnzeigeScript.score = 301;
 
@@ -285,13 +285,13 @@ public class KIBehaviorScript : MonoBehaviour
 
     private void SimulateFlightPath(GameObject dart, Vector3 target, float duration)
     {
-        Vector3 startPosition = dart.transform.position;
+        Vector3 startPosition = camera.transform.position;
         float elapsedTime = 0f;
 
         while (elapsedTime < duration)
         {
             float progress = elapsedTime / duration;
-            dart.transform.position = Vector3.Lerp(startPosition, target, progress);
+            dart.transform.position = Vector3.Lerp(startPosition, target, -progress);
             elapsedTime += Time.deltaTime;
         }
 
