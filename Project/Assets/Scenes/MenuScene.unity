@@ -1461,10 +1461,44 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Das Dartboard: Ein Dartboard besteht aus 20 nummerierten Segmenten, die
+    als \"Zahlen\" von 1 bis 20 bezeichnet werden. In der Mitte befindet sich das
+    Bulls-Eye, das in das innere Bulls-Eye (meistens rot) und das \xE4u\xDFere Bulls-Eye
+    (meistens gr\xFCn) unterteilt ist.\r\n\r\n\r\nAbstand und Position: Die Spieler
+    werfen ihre Darts von einem Abstand von 2,37 Metern (7 Fu\xDF 9 1/4 Zoll) zur
+    Wurflinie, die \"Oche\" genannt wird. Beim Werfen m\xFCssen sich beide F\xFC\xDFe
+    des Spielers hinter der Linie befinden.\r\n\r\n\r\nPunkte z\xE4hlen: Beim Dartspiel
+    gibt es verschiedene Wege, Punkte zu erzielen. Die h\xF6chste Punktzahl, die
+    man mit einem einzelnen Dart erzielen kann, ist 60 (Treffer im Triple-20-Segment).
+    Das Bulls-Eye z\xE4hlt 50 Punkte im \xE4u\xDFeren Ring und 25 Punkte im inneren
+    Ring.\r\n\r\n\r\nTrefferwertung: Jedes Segment des Dartboards hat einen bestimmten
+    Wert. Die \xE4u\xDFeren Ringe (Doppel) haben den doppelten Wert des Segments,
+    w\xE4hrend die inneren Ringe (Triple) den dreifachen Wert des Segments haben.
+    Ein Treffer in das Bulls-Eye z\xE4hlt entweder 50 oder 25 Punkte, je nachdem
+    ob der \xE4u\xDFere oder innere Ring getroffen wird.\r\n\r\n\r\nAbwechselndes
+    Werfen: Beim Dart werfen die Spieler abwechselnd ihre drei Darts auf das Dartboard.
+    Der Spieler, der an der Reihe ist, darf so lange werfen, bis er entweder sein
+    Ziel verfehlt oder das Spiel beendet hat. Das Spiel muss mit einem Doppelfeld
+    (\xE4u\xDFerer Rand des Dartboards) beendet werden.\r\n\r\n\r\nunterschiedliche
+    Felder:\r\n\r\n\r\nTriple 20: Das Feld Triple 20 ist das h\xF6chstbewertete Feld
+    auf dem Dartboard. Ein Treffer in diesem Feld bringt 60 Punkte, was das Maximum
+    f\xFCr einen einzelnen Wurf ist. Die KI sollte also versuchen, so oft wie m\xF6glich
+    Triple 20 zu treffen, um schnell viele Punkte zu sammeln.\r\n\r\n\r\nDouble-Felder:
+    Die Double-Felder befinden sich am \xE4u\xDFeren Rand des Dartboards. Ein Treffer
+    in einem Double-Feld verdoppelt die Punktzahl des entsprechenden Segments. Die
+    KI sollte strategisch versuchen, diese Felder zu treffen, um ihre Punktzahl zu
+    maximieren.\r\n\r\n\r\nTriple-Felder: \xC4hnlich wie die Double-Felder befinden
+    sich die Triple-Felder in der N\xE4he des Zentrums des Dartboards. Ein Treffer
+    in einem Triple-Feld verdreifacht die Punktzahl des Segments. Die KI sollte die
+    Triple-Felder anvisieren, um ihre Punktzahl zu erh\xF6hen.\r\n\r\n\r\nBullseye:
+    Das Bullseye besteht aus zwei Teilen - dem Inner Bullseye (Bulls-Eye oder Doppel-Bull)
+    in der Mitte und dem Outer Bullseye (Bulls) im inneren Kreis des Dartboards.
+    Ein Treffer im Inner Bullseye bringt 50 Punkte, w\xE4hrend ein Treffer im Outer
+    Bullseye 25 Punkte bringt. Die KI sollte versuchen, das Bullseye zu treffen,
+    insbesondere das Inner Bullseye, um eine hohe Punktzahl zu erzielen.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2972,10 +3006,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Praktiziere deine Wurfform: Eine konsistente Wurfform ist entscheidend
+    f\xFCr gute Ergebnisse. \xDCbe regelm\xE4\xDFig und versuche, deine Wurftechnik
+    zu verbessern.\r\n\r\n\r\nZielen: Konzentriere dich auf deine Ziele. Fixiere
+    das gew\xFCnschte Ziel auf der Dartscheibe und versuche, den Dartpfeil genau
+    dorthin zu werfen.\r\n\r\n\r\nKontrolliere deinen K\xF6rper: Achte auf deine
+    K\xF6rperhaltung und -balance w\xE4hrend des Wurfs. Ein stabiler Stand und eine
+    entspannte Hand k\xF6nnen dazu beitragen, deine W\xFCrfe genauer zu machen.\r\n\r\n\r\n\xDCbe
+    das Timing: Finde das richtige Timing f\xFCr deinen Wurf. Zu schnell oder zu
+    langsam zu werfen, kann deine Genauigkeit beeintr\xE4chtigen. Experimentiere
+    und finde heraus, welches Timing f\xFCr dich am besten funktioniert.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
