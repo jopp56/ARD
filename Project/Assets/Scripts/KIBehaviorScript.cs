@@ -19,6 +19,7 @@ public class KIBehaviorScript : MonoBehaviour
     public GameObject formen;
     public GameObject eingabemenu;
     public GameObject arrowPrefab;
+    public GameObject dartscheibe;
     private GameObject[] spawnedArrows;
     public GameObject camera;
     public Transform[] targetPositions;
@@ -37,7 +38,9 @@ public class KIBehaviorScript : MonoBehaviour
         scoreKICount = 301;
         this.targetListFieldNames = targetListFieldNames;
         AssignProbabilitiesToTargets(targetListFieldNames);
-        flightTime = 4f;
+        flightTime = 60f;
+        this.spawnedArrows = new GameObject[4];
+        //ScoreAnzeigeScript.score = 301;
 
     }
 
@@ -105,12 +108,12 @@ public class KIBehaviorScript : MonoBehaviour
         {
             return "0.13";
         }
-        else if (fieldName.EndsWith("Bullseye"))
+        else
         {
             return "0.1";
         }
 
-        return "Kein Feld vorhanden";
+
     }
 
     public void KIChooseAndHitTarget()
@@ -118,19 +121,18 @@ public class KIBehaviorScript : MonoBehaviour
         System.Random random = new System.Random();
 
         int randomFieldChoose = random.Next(0, targetListFieldNames.Length - 1);
-        //hitQuote muss angepasst werden wenn Probs feststehen~hier trifft er erste bei einer quote von ca.0.5
-        double hitQuote = random.NextDouble();
+        double accuracy = random.NextDouble();
 
         string targetName = targetListWithFieldNamesAndProbabilities[randomFieldChoose, 0];
         string targetProbability = targetListWithFieldNamesAndProbabilities[randomFieldChoose, 1];
 
 
-        if (double.Parse(targetProbability) < hitQuote)
+        if (double.Parse(targetProbability) < accuracy)
         {
             dartsCount++;
             animateDarts("0");
             missedAudio.Play();
-           
+
         }
         else
         {
@@ -154,7 +156,6 @@ public class KIBehaviorScript : MonoBehaviour
     public void KIWaitForPlayerToFinishRound()
     {
         dartsCount = 0;
-        //delete darts der KI
     }
 
     public void KIChooseAndHitFinishTargets()
@@ -174,8 +175,8 @@ public class KIBehaviorScript : MonoBehaviour
             else
             {
                 string targetProbability = targetListWithFieldNamesAndProbabilities[randomIndex, 1];
-                double hitQuote = random.NextDouble();
-                if (double.Parse(targetProbability) < hitQuote)
+                double accuracy = random.NextDouble();
+                if (double.Parse(targetProbability) < accuracy)
                 {
                     dartsCount++;
                     animateDarts("0");
@@ -199,8 +200,8 @@ public class KIBehaviorScript : MonoBehaviour
             else
             {
                 string targetProbability = targetListWithFieldNamesAndProbabilities[randomIndex, 1];
-                double hitQuote = random.NextDouble();
-                if (double.Parse(targetProbability) < hitQuote)
+                double accuracy = random.NextDouble();
+                if (double.Parse(targetProbability) < accuracy)
                 {
                     dartsCount++;
                     animateDarts("0");
@@ -243,25 +244,37 @@ public class KIBehaviorScript : MonoBehaviour
 
     public void animateDarts(string targetName)
     {
+        if (targetName.Equals("0"))
+        {
+            /*
+            Vector3 targetPosition = dartscheibe.transform.position;  
+            GameObject arrow = Instantiate(arrowPrefab, camera.transform.position, Quaternion.identity);
+            SimulateFlightPath(arrow, targetPosition, flightTime);
+            Destroy(arrow);
+            */
+            return;
+        }
+        else
+        {
 
-        Vector3 targetPosition = FindTargetPosition(targetName);
+            Vector3 targetPosition = FindTargetPosition(targetName);
 
-        GameObject arrow = Instantiate(arrowPrefab, camera.transform.position, Quaternion.identity);
+            GameObject arrow = Instantiate(arrowPrefab, targetPosition, Quaternion.identity);
 
-        SimulateFlightPath(arrow, targetPosition, flightTime);
+           // SimulateFlightPath(arrow, targetPosition, flightTime);
+
+            spawnedArrows[dartsCount] = arrow;
+        }
 
     }
 
     public void ClearArrows()
     {
-        if (dartsCount == 3)
+        foreach (GameObject arrow in spawnedArrows)
         {
-            foreach (GameObject arrow in spawnedArrows)
+            if (arrow != null)
             {
-                if (arrow != null)
-                {
-                    Destroy(arrow);
-                }
+                Destroy(arrow, 20);
             }
         }
     }
@@ -272,19 +285,20 @@ public class KIBehaviorScript : MonoBehaviour
 
         return fieldPosition;
     }
-
+    /*
     private void SimulateFlightPath(GameObject dart, Vector3 target, float duration)
     {
-        Vector3 startPosition = dart.transform.position;
+        Vector3 startPosition = camera.transform.position;
         float elapsedTime = 0f;
 
         while (elapsedTime < duration)
         {
             float progress = elapsedTime / duration;
-            position.transform.position = Vector3.Lerp(startPosition, target, -progress);
+            camera.transform.position = Vector3.Lerp(startPosition, target, progress);
             elapsedTime += Time.deltaTime;
         }
 
         dart.transform.position = target;
     }
+   */
 }

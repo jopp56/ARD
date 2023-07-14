@@ -63,7 +63,7 @@ public class Animation : MonoBehaviour
         while (elapsedTime < duration)
         {
             float progress = elapsedTime / duration;
-            camera.transform.position = Vector3.Lerp(start, end, -progress);
+            GetComponent<Camera>().transform.position = Vector3.Lerp(start, end, -progress);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
