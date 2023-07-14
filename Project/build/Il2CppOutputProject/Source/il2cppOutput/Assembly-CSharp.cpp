@@ -87,6 +87,10 @@ struct ATCUhrzeigersinnScript_t40728DD1403369622C0BEA64BF6630B5A63418E5;
 struct Abstand_tF592DBA0504D7FD9FF733CE7DF485BBAC114CE51;
 // Animation
 struct Animation_tEC33195B0B2E18ABF28C90641DDB6DA92B77286E;
+// AnleitungLvl2Skript
+struct AnleitungLvl2Skript_tF427238FB3854E3188773E7D06C63E7CDEA998B2;
+// AnleitungLvl4Skript
+struct AnleitungLvl4Skript_tC23398C8833F9A8D34505C9E379F6CE6A3CF2C89;
 // AroundTheClockScript
 struct AroundTheClockScript_t427ACA809A7DCB40621373668E9072FBA5834451;
 // UnityEngine.Canvas
@@ -95,8 +99,6 @@ struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
 // ChangeMaterialScript
 struct ChangeMaterialScript_tE3764BB9533781891B95B3347754F755E17416CE;
-// CheckPositionScript
-struct CheckPositionScript_t937824F7AF871698D81A00AD58834BC2D50F75A0;
 // UnityEngine.Component
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
 // UnityEngine.Coroutine
@@ -240,6 +242,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA97D9A464989F0DE9A18C92B1475A56D74579D84
 IL2CPP_EXTERN_C String_t* _stringLiteralAA21F182C70B0DF0DC75CE642AEA3C1F1F20F1E5;
 IL2CPP_EXTERN_C String_t* _stringLiteralAA4DA1A93F07E2E4B09F8D5E2C45905E26A45E79;
 IL2CPP_EXTERN_C String_t* _stringLiteralB16CF3324CA15FF0851B0F99DD86AC638C3E0CAE;
+IL2CPP_EXTERN_C String_t* _stringLiteralB34CA27277173AD0E90E19DD0A248FD541EBD5CA;
 IL2CPP_EXTERN_C String_t* _stringLiteralB551BE988B3E811CD9DA3C53C2BFE4F636B5E0DC;
 IL2CPP_EXTERN_C String_t* _stringLiteralB98200DBA40424F17FD4158EA9161F6FD052DFD2;
 IL2CPP_EXTERN_C String_t* _stringLiteralB9E15D36DACFA970D8917F8A2D25B3E56074B572;
@@ -1573,6 +1576,20 @@ struct Animation_tEC33195B0B2E18ABF28C90641DDB6DA92B77286E  : public MonoBehavio
 	int32_t ___numThrows_13;
 };
 
+// AnleitungLvl2Skript
+struct AnleitungLvl2Skript_tF427238FB3854E3188773E7D06C63E7CDEA998B2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// TMPro.TextMeshProUGUI AnleitungLvl2Skript::anleitungText
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___anleitungText_4;
+};
+
+// AnleitungLvl4Skript
+struct AnleitungLvl4Skript_tC23398C8833F9A8D34505C9E379F6CE6A3CF2C89  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// TMPro.TextMeshProUGUI AnleitungLvl4Skript::anleitungText
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___anleitungText_4;
+};
+
 // AroundTheClockScript
 struct AroundTheClockScript_t427ACA809A7DCB40621373668E9072FBA5834451  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1609,11 +1626,6 @@ struct ChangeMaterialScript_tE3764BB9533781891B95B3347754F755E17416CE_StaticFiel
 {
 	// ChangeMaterialScript ChangeMaterialScript::instance
 	ChangeMaterialScript_tE3764BB9533781891B95B3347754F755E17416CE* ___instance_4;
-};
-
-// CheckPositionScript
-struct CheckPositionScript_t937824F7AF871698D81A00AD58834BC2D50F75A0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
 };
 
 // DSFelderScript
@@ -3186,6 +3198,106 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSimulateFlightPathU3Ed__14_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void AnleitungLvl2Skript::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnleitungLvl2Skript_Start_mD318C711D8D2ACD3F16723F8F3A5A0C99A473292 (AnleitungLvl2Skript_tF427238FB3854E3188773E7D06C63E7CDEA998B2* __this, const RuntimeMethod* method) 
+{
+	{
+		// { }
+		return;
+	}
+}
+// System.Void AnleitungLvl2Skript::ButtonAnleitung()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnleitungLvl2Skript_ButtonAnleitung_mF1AFCF72DCAECFBA116F4A5A3C4462B95413C416 (AnleitungLvl2Skript_tF427238FB3854E3188773E7D06C63E7CDEA998B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB34CA27277173AD0E90E19DD0A248FD541EBD5CA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// anleitungText.text = "Bei diesem Spielmodus musst du versuchen, die Zahlen auf dem Dartboard der Reihe nach zu treffen, beginnend mit der 1 und endet mit der 20.";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___anleitungText_4;
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, _stringLiteralB34CA27277173AD0E90E19DD0A248FD541EBD5CA);
+		// }
+		return;
+	}
+}
+// System.Void AnleitungLvl2Skript::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnleitungLvl2Skript_Update_m70C73D46CE81191E8DF6FC64F347706967FCC0C7 (AnleitungLvl2Skript_tF427238FB3854E3188773E7D06C63E7CDEA998B2* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void AnleitungLvl2Skript::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnleitungLvl2Skript__ctor_m8190B52CDB2C696A472EB768714963E237965744 (AnleitungLvl2Skript_tF427238FB3854E3188773E7D06C63E7CDEA998B2* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void AnleitungLvl4Skript::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnleitungLvl4Skript_Start_m5BFD0C45B3725A176A49E03EC0138202A0306DA6 (AnleitungLvl4Skript_tC23398C8833F9A8D34505C9E379F6CE6A3CF2C89* __this, const RuntimeMethod* method) 
+{
+	{
+		// { }
+		return;
+	}
+}
+// System.Void AnleitungLvl4Skript::ButtonAnleitung()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnleitungLvl4Skript_ButtonAnleitung_m26B17A42C0846924D312521A55D59DCE99EA9CDF (AnleitungLvl4Skript_tC23398C8833F9A8D34505C9E379F6CE6A3CF2C89* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB34CA27277173AD0E90E19DD0A248FD541EBD5CA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// anleitungText.text = "Bei diesem Spielmodus musst du versuchen, die Zahlen auf dem Dartboard der Reihe nach zu treffen, beginnend mit der 1 und endet mit der 20.";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___anleitungText_4;
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, _stringLiteralB34CA27277173AD0E90E19DD0A248FD541EBD5CA);
+		// }
+		return;
+	}
+}
+// System.Void AnleitungLvl4Skript::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnleitungLvl4Skript_Update_mF0E592743D8D2A62401D34B6EFEB981271ABBC45 (AnleitungLvl4Skript_tC23398C8833F9A8D34505C9E379F6CE6A3CF2C89* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void AnleitungLvl4Skript::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnleitungLvl4Skript__ctor_m2776D6E0ED67D31032CAFD8757499D70418302F3 (AnleitungLvl4Skript_tC23398C8833F9A8D34505C9E379F6CE6A3CF2C89* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void AroundTheClockScript::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AroundTheClockScript_Start_m4C81D86C5DA2CB47CBE33AAEEB68A9216E6D607B (AroundTheClockScript_t427ACA809A7DCB40621373668E9072FBA5834451* __this, const RuntimeMethod* method) 
 {
@@ -4723,22 +4835,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangeMaterialScript__ctor_m6FFB9604A340
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void CheckPositionScript::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CheckPositionScript__ctor_m3F72FBF2356F6A553531E07630C83F49C227F833 (CheckPositionScript_t937824F7AF871698D81A00AD58834BC2D50F75A0* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void DSFelderScript::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Awake_m1755BD61513AC25A114795107E7C3EBBFF77E11C (DSFelderScript_t19136F21843A49154EE8ADC65865B9BF1406BF1C* __this, const RuntimeMethod* method) 
 {
@@ -4800,7 +4896,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 	}
 	{
 		// if (ScoreAnzeigeScript.score <= 158 || ScoreAnzeigeScript.score == 160 || ScoreAnzeigeScript.score == 161 || ScoreAnzeigeScript.score == 164 || ScoreAnzeigeScript.score == 167 || ScoreAnzeigeScript.score == 170)
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_0) <= ((int32_t)((int32_t)158))))
 		{
@@ -4808,7 +4903,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)160))))
 		{
@@ -4816,7 +4910,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_2 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)161))))
 		{
@@ -4824,7 +4917,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_3 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_3) == ((int32_t)((int32_t)164))))
 		{
@@ -4832,7 +4924,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_4 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_4) == ((int32_t)((int32_t)167))))
 		{
@@ -4840,7 +4931,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript_Update_m6693F05DB2B4B08FB
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_5 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((!(((uint32_t)L_5) == ((uint32_t)((int32_t)170)))))
 		{
@@ -5326,7 +5416,6 @@ IL_02d3:
 	{
 		// if (feld2 <= ScoreAnzeigeScript.score)
 		int32_t L_153 = __this->___feld2_8;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_154 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_153) > ((int32_t)L_154)))
 		{
@@ -5362,7 +5451,6 @@ IL_0308:
 	{
 		// if (feld2 <= ScoreAnzeigeScript.score)
 		int32_t L_163 = __this->___feld2_8;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_164 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_163) > ((int32_t)L_164)))
 		{
@@ -5411,14 +5499,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFelderScript__ctor_mD8758A38CDDF2F99B7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void DSFinishWegeScript::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Awake_m964FF520CDD8537FECDD53CEB8040DEC55F21AF1 (DSFinishWegeScript_t2677FEF6B664A6A5DB56116D6832A1F03B69199D* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
 // System.Void DSFinishWegeScript::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Start_mBC216988636E30A0CB6C7F62102BC814F3499856 (DSFinishWegeScript_t2677FEF6B664A6A5DB56116D6832A1F03B69199D* __this, const RuntimeMethod* method) 
 {
@@ -5511,7 +5591,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 	int32_t V_0 = 0;
 	{
 		// score1 = ScoreAnzeigeScript.score;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		il2cpp_codegen_runtime_class_init_inline(DSFinishWegeScript_t2677FEF6B664A6A5DB56116D6832A1F03B69199D_il2cpp_TypeInfo_var);
 		((DSFinishWegeScript_t2677FEF6B664A6A5DB56116D6832A1F03B69199D_StaticFields*)il2cpp_codegen_static_fields_for(DSFinishWegeScript_t2677FEF6B664A6A5DB56116D6832A1F03B69199D_il2cpp_TypeInfo_var))->___score1_6 = L_0;
@@ -5523,7 +5602,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_2 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)160))))
 		{
@@ -5531,7 +5609,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_3 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_3) == ((int32_t)((int32_t)161))))
 		{
@@ -5539,7 +5616,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_4 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_4) == ((int32_t)((int32_t)164))))
 		{
@@ -5547,7 +5623,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_5 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_5) == ((int32_t)((int32_t)167))))
 		{
@@ -5555,7 +5630,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript_Update_m9E5669A806F24
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_6 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((!(((uint32_t)L_6) == ((uint32_t)((int32_t)170)))))
 		{
@@ -12846,8 +12920,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DSFinishWegeScript__cctor_m71C2B4AF74347
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void FinishWegeScript::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FinishWegeScript_Awake_mC5B3466CDEAF2C0404F44A28F3239D529F934ECC (FinishWegeScript_t04E530CD3D3F631EE42632E84BE900B1A9A77446* __this, const RuntimeMethod* method) 
+// System.Void FinishWegeScript::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FinishWegeScript_Start_mDC34F847CDFEE6F5E8CF31B0BC0F0987EDACDCDF (FinishWegeScript_t04E530CD3D3F631EE42632E84BE900B1A9A77446* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12982,8 +13056,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FinishWegeScript_Awake_mC5B3466CDEAF2C04
 		return;
 	}
 }
-// System.Void FinishWegeScript::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FinishWegeScript_Start_mDC34F847CDFEE6F5E8CF31B0BC0F0987EDACDCDF (FinishWegeScript_t04E530CD3D3F631EE42632E84BE900B1A9A77446* __this, const RuntimeMethod* method) 
+// System.Void FinishWegeScript::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FinishWegeScript_Update_mB9DC7E506AC253F3B1D94E7B2FA92A0754C9C281 (FinishWegeScript_t04E530CD3D3F631EE42632E84BE900B1A9A77446* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20249,14 +20323,6 @@ IL_368e:
 		L_1127 = String_Concat_m6B0734B65813C8EA093D78E5C2D16534EB6FE8C0(L_1123, NULL);
 		NullCheck(L_1080);
 		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1080, L_1127);
-		// }
-		return;
-	}
-}
-// System.Void FinishWegeScript::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FinishWegeScript_Update_mB9DC7E506AC253F3B1D94E7B2FA92A0754C9C281 (FinishWegeScript_t04E530CD3D3F631EE42632E84BE900B1A9A77446* __this, const RuntimeMethod* method) 
-{
-	{
 		// }
 		return;
 	}

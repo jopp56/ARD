@@ -1,6 +1,16 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AnleitungLvl2Skript">
+			<method name="ButtonAnleitung"/>
+		</type>
+		<type fullname="AnleitungLvl4Skript">
+			<method name="ButtonAnleitung"/>
+		</type>
 		<type fullname="AroundTheClockScript">
+			<method name="ButtonGetroffen"/>
+			<method name="ButtonVerfehlt"/>
+		</type>
+		<type fullname="ATCUhrzeigersinnScript">
 			<method name="ButtonGetroffen"/>
 			<method name="ButtonVerfehlt"/>
 		</type>
@@ -47,6 +57,12 @@
 		</type>
 		<type fullname="Random3FelderScript">
 			<method name="NeueFelder"/>
+		</type>
+		<type fullname="RandomZahlScoreAnzeigeScript">
+			<method name="changeScore"/>
+		</type>
+		<type fullname="RegelnSkript">
+			<method name="ButtonTipps"/>
 		</type>
 		<type fullname="ScoreAnzeigeScript">
 			<method name="changeScore"/>
@@ -143,6 +159,9 @@
 			<method name="ClickOnTrainingButton3"/>
 			<method name="ClickOnTrainingButton4"/>
 			<method name="ClickOnTrainingButton5"/>
+		</type>
+		<type fullname="TippsSkript">
+			<method name="ButtonTipps"/>
 		</type>
 	</assembly>
 </linker>

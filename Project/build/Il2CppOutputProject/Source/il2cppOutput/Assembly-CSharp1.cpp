@@ -182,6 +182,8 @@ struct RandomZahlScoreAnzeigeScript_tDC31134753E768164D519D78F6E2BB2057BC454F;
 struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
 // UnityEngine.RectTransform
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+// RegelnSkript
+struct RegelnSkript_t3A038FC57EF8732460690E762EE8D264A34D0586;
 // UnityEngine.Renderer
 struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
 // System.Runtime.Serialization.SafeSerializationManager
@@ -218,6 +220,8 @@ struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
 struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
 // UnityEngine.Texture2D
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+// TippsSkript
+struct TippsSkript_tC306560E90789CC2C9DB749F0DED3BFB03F90D65;
 // UnityEngine.Transform
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 // UnityEngine.Events.UnityAction
@@ -284,6 +288,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE
 IL2CPP_EXTERN_C String_t* _stringLiteralA019FB7F17AA36A9743C530E1F11D5613B8B1158;
 IL2CPP_EXTERN_C String_t* _stringLiteralA1C52A30645908E34422B1D5E4393D189ECE60D6;
 IL2CPP_EXTERN_C String_t* _stringLiteralA3627341AC0438C7F6FA5AEBCDC8438E90C20337;
+IL2CPP_EXTERN_C String_t* _stringLiteralA6BDF4469CAC7C12320AB3678AF67E2E5719ADED;
 IL2CPP_EXTERN_C String_t* _stringLiteralB015ABE8F4E5796CABB2090C95B134793CCA2FA5;
 IL2CPP_EXTERN_C String_t* _stringLiteralB1EDAF2D6881BB251F1D599487E4623C7457658E;
 IL2CPP_EXTERN_C String_t* _stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978;
@@ -292,6 +297,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB6E95EAAA386E912C97249D7DB44E03239C01A44
 IL2CPP_EXTERN_C String_t* _stringLiteralBD2155E54D0A0EF69D6B035ACE4FB0D1E5C8A136;
 IL2CPP_EXTERN_C String_t* _stringLiteralC6C98BEC5ECA7393E1C715DD151D3967D18663A3;
 IL2CPP_EXTERN_C String_t* _stringLiteralD5A78F524AED63F766CBD7EB6FE158E1EF1348AB;
+IL2CPP_EXTERN_C String_t* _stringLiteralD7513CD306AD64E6CD15B24587766C444579C5EB;
 IL2CPP_EXTERN_C String_t* _stringLiteralD75FC888505267E8E9CB24F34E721E84934FFAD2;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDE288C76D2C90FADE65AE09D79433508E526D3E2;
@@ -1894,6 +1900,13 @@ struct RandomZahlScoreAnzeigeScript_tDC31134753E768164D519D78F6E2BB2057BC454F_St
 	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___rnd_14;
 };
 
+// RegelnSkript
+struct RegelnSkript_t3A038FC57EF8732460690E762EE8D264A34D0586  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject RegelnSkript::anleitungText
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___anleitungText_4;
+};
+
 // ScoreAnzeigeScript
 struct ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1949,6 +1962,13 @@ struct StartMenuScript_t78D819D1DEC7599700D4790BEFE923EA37E35546  : public MonoB
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trainingButton5_9;
 	// UnityEngine.GameObject StartMenuScript::kiButton
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___kiButton_10;
+};
+
+// TippsSkript
+struct TippsSkript_tC306560E90789CC2C9DB749F0DED3BFB03F90D65  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject TippsSkript::tippsText
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___tippsText_4;
 };
 
 // UnityEngine.EventSystems.UIBehaviour
@@ -2927,10 +2947,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_SetText_m848189C290727009A95A00
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_ClearArrows_m2289C139A1934439AD655E0BD05F3C34E7BC7A8C (KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* __this, const RuntimeMethod* method) ;
 // System.Boolean System.String::Equals(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
-// UnityEngine.Transform UnityEngine.GameObject::get_transform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
-// UnityEngine.Vector3 UnityEngine.Transform::get_position()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 KIBehaviorScript::FindTargetPosition(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 KIBehaviorScript_FindTargetPosition_mE64179B0E3B62FD5CA03D44C960CA661454F5D67 (KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* __this, String_t* ___targetName0, const RuntimeMethod* method) ;
 // UnityEngine.Quaternion UnityEngine.Quaternion::get_identity()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_mB9CAEEB21BC81352CBF32DB9664BFC06FA7EA27B_inline (const RuntimeMethod* method) ;
 // T UnityEngine.Object::Instantiate<UnityEngine.GameObject>(T,UnityEngine.Vector3,UnityEngine.Quaternion)
@@ -2938,24 +2956,16 @@ inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_
 {
 	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m2A2DD50EC8EB54C91AF71E02DFD6969174D82B08_gshared)(___original0, ___position1, ___rotation2, method);
 }
-// System.Void KIBehaviorScript::SimulateFlightPath(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_SimulateFlightPath_mFD49B9D49AC56A5DB798196BFAC625908E1D328C (KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___dart0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___target1, float ___duration2, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
-// UnityEngine.Vector3 KIBehaviorScript::FindTargetPosition(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 KIBehaviorScript_FindTargetPosition_mE64179B0E3B62FD5CA03D44C960CA661454F5D67 (KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* __this, String_t* ___targetName0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::Destroy(UnityEngine.Object,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_m0E1B4CF8C29EB7FC8658C2C84C57F49C0DD12C91 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, float ___t1, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_mFF1D6C65A7E2CD82443F4DCE4C53472FB30B7F51 (String_t* ___name0, const RuntimeMethod* method) ;
-// UnityEngine.Vector3 UnityEngine.Vector3::Lerp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m57EE8D709A93B2B0FF8D499FA2947B1D61CB1FD6_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, float ___t2, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
-// System.Single UnityEngine.Time::get_deltaTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_m7AB6BFA101D83E1D8F2EF3D5A128AEE9DDBF1A6D (const RuntimeMethod* method) ;
+// UnityEngine.Transform UnityEngine.GameObject::get_transform()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
@@ -3035,10 +3045,6 @@ inline void List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8 (List_1_t0591
 {
 	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_gshared)(__this, method);
 }
-// System.Single UnityEngine.Mathf::Clamp01(System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline (float ___value0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -3065,8 +3071,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_Start_mFD4DED5F56ACB2FC
 		// AssignProbabilitiesToTargets(targetListFieldNames);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = __this->___targetListFieldNames_18;
 		KIBehaviorScript_AssignProbabilitiesToTargets_m5139B2282D1C63EA34E9824FC17DA4B1D32AB645(__this, L_1, NULL);
-		// flightTime = 2f;
-		__this->___flightTime_23 = (2.0f);
+		// flightTime = 60f;
+		__this->___flightTime_23 = (60.0f);
 		// this.spawnedArrows = new GameObject[4];
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_2 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)4);
 		__this->___spawnedArrows_15 = L_2;
@@ -3086,7 +3092,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_Update_m7D991534CC2DD4A
 	}
 	{
 		// scorePlayerCount = ScoreAnzeigeScript.score;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		__this->___scorePlayerCount_6 = L_0;
 		// if (scoreKICount > 0 && scorePlayerCount > 0)
@@ -3832,9 +3837,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_animateDarts_m253A1E620
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
 	{
 		// if (targetName.Equals("0"))
 		String_t* L_0 = ___targetName0;
@@ -3843,79 +3845,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_animateDarts_m253A1E620
 		L_1 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_0, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
 		if (!L_1)
 		{
-			goto IL_0054;
+			goto IL_000e;
 		}
 	}
 	{
-		// Vector3 targetPosition = dartscheibe.transform.position;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___dartscheibe_14;
-		NullCheck(L_2);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
-		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
-		NullCheck(L_3);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
-		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
-		V_0 = L_4;
-		// GameObject arrow = Instantiate(arrowPrefab, camera.transform.position, Quaternion.identity);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___arrowPrefab_13;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___camera_16;
-		NullCheck(L_6);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
-		L_7 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_6, NULL);
-		NullCheck(L_7);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
-		L_8 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_7, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
-		L_9 = Quaternion_get_identity_mB9CAEEB21BC81352CBF32DB9664BFC06FA7EA27B_inline(NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
-		L_10 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m2537AA64AEAC12995F52F5B412866556B83CFBE0(L_5, L_8, L_9, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m2537AA64AEAC12995F52F5B412866556B83CFBE0_RuntimeMethod_var);
-		V_1 = L_10;
-		// SimulateFlightPath(arrow, targetPosition, flightTime);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
-		float L_13 = __this->___flightTime_23;
-		KIBehaviorScript_SimulateFlightPath_mFD49B9D49AC56A5DB798196BFAC625908E1D328C(__this, L_11, L_12, L_13, NULL);
-		// Destroy(arrow);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_1;
-		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_14, NULL);
+		// return;
 		return;
 	}
 
-IL_0054:
+IL_000e:
 	{
 		// Vector3 targetPosition = FindTargetPosition(targetName);
-		String_t* L_15 = ___targetName0;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
-		L_16 = KIBehaviorScript_FindTargetPosition_mE64179B0E3B62FD5CA03D44C960CA661454F5D67(__this, L_15, NULL);
-		V_2 = L_16;
-		// GameObject arrow = Instantiate(arrowPrefab, camera.transform.position, Quaternion.identity);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___arrowPrefab_13;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___camera_16;
-		NullCheck(L_18);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
-		L_19 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_18, NULL);
-		NullCheck(L_19);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
-		L_20 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_19, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_21;
-		L_21 = Quaternion_get_identity_mB9CAEEB21BC81352CBF32DB9664BFC06FA7EA27B_inline(NULL);
+		String_t* L_2 = ___targetName0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = KIBehaviorScript_FindTargetPosition_mE64179B0E3B62FD5CA03D44C960CA661454F5D67(__this, L_2, NULL);
+		V_0 = L_3;
+		// GameObject arrow = Instantiate(arrowPrefab, targetPosition, Quaternion.identity);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___arrowPrefab_13;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
+		L_6 = Quaternion_get_identity_mB9CAEEB21BC81352CBF32DB9664BFC06FA7EA27B_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
-		L_22 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m2537AA64AEAC12995F52F5B412866556B83CFBE0(L_17, L_20, L_21, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m2537AA64AEAC12995F52F5B412866556B83CFBE0_RuntimeMethod_var);
-		V_3 = L_22;
-		// SimulateFlightPath(arrow, targetPosition, flightTime);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = V_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_2;
-		float L_25 = __this->___flightTime_23;
-		KIBehaviorScript_SimulateFlightPath_mFD49B9D49AC56A5DB798196BFAC625908E1D328C(__this, L_23, L_24, L_25, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m2537AA64AEAC12995F52F5B412866556B83CFBE0(L_4, L_5, L_6, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m2537AA64AEAC12995F52F5B412866556B83CFBE0_RuntimeMethod_var);
+		V_1 = L_7;
 		// spawnedArrows[dartsCount] = arrow;
-		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_26 = __this->___spawnedArrows_15;
-		int32_t L_27 = __this->___dartsCount_4;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_3;
-		NullCheck(L_26);
-		ArrayElementTypeCheck (L_26, L_28);
-		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(L_27), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_28);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = __this->___spawnedArrows_15;
+		int32_t L_9 = __this->___dartsCount_4;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_1;
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_10);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_9), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_10);
 		// }
 		return;
 	}
@@ -3960,7 +3920,7 @@ IL_000b:
 		}
 	}
 	{
-		// Destroy(arrow,20);
+		// Destroy(arrow, 20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_m0E1B4CF8C29EB7FC8658C2C84C57F49C0DD12C91(L_7, (20.0f), NULL);
@@ -4005,76 +3965,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
 		// return fieldPosition;
 		return L_3;
-	}
-}
-// System.Void KIBehaviorScript::SimulateFlightPath(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KIBehaviorScript_SimulateFlightPath_mFD49B9D49AC56A5DB798196BFAC625908E1D328C (KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___dart0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___target1, float ___duration2, const RuntimeMethod* method) 
-{
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	float V_1 = 0.0f;
-	float V_2 = 0.0f;
-	{
-		// Vector3 startPosition = dart.transform.position;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___dart0;
-		NullCheck(L_0);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
-		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
-		NullCheck(L_1);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
-		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
-		V_0 = L_2;
-		// float elapsedTime = 0f;
-		V_1 = (0.0f);
-		goto IL_0033;
-	}
-
-IL_0014:
-	{
-		// float progress = elapsedTime / duration;
-		float L_3 = V_1;
-		float L_4 = ___duration2;
-		V_2 = ((float)(L_3/L_4));
-		// dart.transform.position = Vector3.Lerp(startPosition, target, progress);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = ___dart0;
-		NullCheck(L_5);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
-		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___target1;
-		float L_9 = V_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
-		L_10 = Vector3_Lerp_m57EE8D709A93B2B0FF8D499FA2947B1D61CB1FD6_inline(L_7, L_8, L_9, NULL);
-		NullCheck(L_6);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_6, L_10, NULL);
-		// elapsedTime += Time.deltaTime;
-		float L_11 = V_1;
-		float L_12;
-		L_12 = Time_get_deltaTime_m7AB6BFA101D83E1D8F2EF3D5A128AEE9DDBF1A6D(NULL);
-		V_1 = ((float)il2cpp_codegen_add(L_11, L_12));
-	}
-
-IL_0033:
-	{
-		// while (elapsedTime < duration)
-		float L_13 = V_1;
-		float L_14 = ___duration2;
-		if ((((float)L_13) < ((float)L_14)))
-		{
-			goto IL_0014;
-		}
-	}
-	{
-		// dart.transform.position = target;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = ___dart0;
-		NullCheck(L_15);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
-		L_16 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_15, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = ___target1;
-		NullCheck(L_16);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_16, L_17, NULL);
-		// }
-		return;
 	}
 }
 // System.Void KIBehaviorScript::.ctor()
@@ -4148,7 +4038,6 @@ IL_001a:
 		__this->___U3CU3E1__state_0 = (-1);
 		// this.scorePlayerCount = ScoreAnzeigeScript.score;
 		KIBehaviorScript_t001860E415CE2E63197644D29570FE611EFC6866* L_4 = V_1;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_5 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		NullCheck(L_4);
 		L_4->___scorePlayerCount_6 = L_5;
@@ -5082,14 +4971,6 @@ IL_03a4:
 		String_t* L_96 = __this->___feld3_13;
 		NullCheck(L_95);
 		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_95, L_96);
-		// }
-		return;
-	}
-}
-// System.Void Level5ButtonScript::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Level5ButtonScript_Update_m1A2DC3D6BB9F4097BA753D6155E544CEB93F848D (Level5ButtonScript_t891B247CA7787FD8EC27252BB1F3D56FC0FA2684* __this, const RuntimeMethod* method) 
-{
-	{
 		// }
 		return;
 	}
@@ -7569,7 +7450,7 @@ IL_0019:
 		int32_t L_12;
 		L_12 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(7 /* System.Int32 System.Random::Next(System.Int32) */, L_9, L_11);
 		V_0 = L_12;
-		// randomScore = range[index];             //aus Liste random Zahl
+		// randomScore = range[index];             //aus Liste random Feld
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_13 = ((RandomZahlScoreAnzeigeScript_tDC31134753E768164D519D78F6E2BB2057BC454F_StaticFields*)il2cpp_codegen_static_fields_for(RandomZahlScoreAnzeigeScript_tDC31134753E768164D519D78F6E2BB2057BC454F_il2cpp_TypeInfo_var))->___range_13;
 		int32_t L_14 = V_0;
 		NullCheck(L_13);
@@ -7780,7 +7661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomZahlScoreAnzeigeScript_changeScore
 		int32_t L_13 = __this->___score_10;
 		if ((((int32_t)L_12) >= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_13, 1)))))
 		{
-			goto IL_00b9;
+			goto IL_00c8;
 		}
 	}
 	{
@@ -7788,34 +7669,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomZahlScoreAnzeigeScript_changeScore
 		int32_t L_14 = __this->___score_10;
 		int32_t L_15 = __this->___eingabesumme_12;
 		__this->___score_10 = ((int32_t)il2cpp_codegen_subtract(L_14, L_15));
+		// randomScore = score;
+		int32_t L_16 = __this->___score_10;
+		__this->___randomScore_11 = L_16;
 		// scoreText.text = "Dein Score:\n" + score.ToString() + " / " + randomScore.ToString();
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_16 = __this->___scoreText_5;
-		int32_t* L_17 = (&__this->___score_10);
-		String_t* L_18;
-		L_18 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_17, NULL);
-		int32_t* L_19 = (&__this->___randomScore_11);
-		String_t* L_20;
-		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_19, NULL);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = __this->___scoreText_5;
+		int32_t* L_18 = (&__this->___score_10);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		int32_t* L_20 = (&__this->___randomScore_11);
 		String_t* L_21;
-		L_21 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_18, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_20, NULL);
-		NullCheck(L_16);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_16, L_21);
+		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_20, NULL);
+		String_t* L_22;
+		L_22 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_19, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_21, NULL);
+		NullCheck(L_17);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_17, L_22);
 		// ScoreEingabeScript.scorearray[0] = "Wurf 1";
 		il2cpp_codegen_runtime_class_init_inline(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
-		NullCheck(L_22);
-		ArrayElementTypeCheck (L_22, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_23);
-		ArrayElementTypeCheck (L_23, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		ArrayElementTypeCheck (L_23, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_24);
-		ArrayElementTypeCheck (L_24, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
-		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		ArrayElementTypeCheck (L_24, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
+		NullCheck(L_25);
+		ArrayElementTypeCheck (L_25, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
 		// finishopt1 = false;
 		__this->___finishopt1_7 = (bool)0;
 		// finishopt2 = false;
@@ -7825,45 +7709,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomZahlScoreAnzeigeScript_changeScore
 		return;
 	}
 
-IL_00b9:
+IL_00c8:
 	{
 		// else if (eingabesumme > score)
-		int32_t L_25 = __this->___eingabesumme_12;
-		int32_t L_26 = __this->___score_10;
-		if ((((int32_t)L_25) <= ((int32_t)L_26)))
+		int32_t L_26 = __this->___eingabesumme_12;
+		int32_t L_27 = __this->___score_10;
+		if ((((int32_t)L_26) <= ((int32_t)L_27)))
 		{
-			goto IL_0131;
+			goto IL_0140;
 		}
 	}
 	{
 		// scoreText.text = "Dein Score:\n" + score.ToString() + " / " + randomScore.ToString();
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_27 = __this->___scoreText_5;
-		int32_t* L_28 = (&__this->___score_10);
-		String_t* L_29;
-		L_29 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_28, NULL);
-		int32_t* L_30 = (&__this->___randomScore_11);
-		String_t* L_31;
-		L_31 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_30, NULL);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_28 = __this->___scoreText_5;
+		int32_t* L_29 = (&__this->___score_10);
+		String_t* L_30;
+		L_30 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_29, NULL);
+		int32_t* L_31 = (&__this->___randomScore_11);
 		String_t* L_32;
-		L_32 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_29, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_31, NULL);
-		NullCheck(L_27);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_27, L_32);
+		L_32 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_31, NULL);
+		String_t* L_33;
+		L_33 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_30, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_32, NULL);
+		NullCheck(L_28);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_28, L_33);
 		// ScoreEingabeScript.scorearray[0] = "Wurf 1";
 		il2cpp_codegen_runtime_class_init_inline(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_33 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
-		NullCheck(L_33);
-		ArrayElementTypeCheck (L_33, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_34);
-		ArrayElementTypeCheck (L_34, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		ArrayElementTypeCheck (L_34, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_35 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_35);
-		ArrayElementTypeCheck (L_35, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
-		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		ArrayElementTypeCheck (L_35, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
+		NullCheck(L_36);
+		ArrayElementTypeCheck (L_36, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
 		// finishopt1 = false;
 		__this->___finishopt1_7 = (bool)0;
 		// finishopt2 = false;
@@ -7873,56 +7757,56 @@ IL_00b9:
 		return;
 	}
 
-IL_0131:
+IL_0140:
 	{
 		// else if (eingabesumme == score && finishopt3)
-		int32_t L_36 = __this->___eingabesumme_12;
-		int32_t L_37 = __this->___score_10;
-		if ((!(((uint32_t)L_36) == ((uint32_t)L_37))))
+		int32_t L_37 = __this->___eingabesumme_12;
+		int32_t L_38 = __this->___score_10;
+		if ((!(((uint32_t)L_37) == ((uint32_t)L_38))))
 		{
-			goto IL_01da;
+			goto IL_01e9;
 		}
 	}
 	{
-		bool L_38 = __this->___finishopt3_9;
-		if (!L_38)
+		bool L_39 = __this->___finishopt3_9;
+		if (!L_39)
 		{
-			goto IL_01da;
+			goto IL_01e9;
 		}
 	}
 	{
 		// score -= eingabesumme;
-		int32_t L_39 = __this->___score_10;
-		int32_t L_40 = __this->___eingabesumme_12;
-		__this->___score_10 = ((int32_t)il2cpp_codegen_subtract(L_39, L_40));
+		int32_t L_40 = __this->___score_10;
+		int32_t L_41 = __this->___eingabesumme_12;
+		__this->___score_10 = ((int32_t)il2cpp_codegen_subtract(L_40, L_41));
 		// scoreText.text = "Dein Score:\n" + score.ToString() + " / " + randomScore.ToString();
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_41 = __this->___scoreText_5;
-		int32_t* L_42 = (&__this->___score_10);
-		String_t* L_43;
-		L_43 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_42, NULL);
-		int32_t* L_44 = (&__this->___randomScore_11);
-		String_t* L_45;
-		L_45 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_44, NULL);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_42 = __this->___scoreText_5;
+		int32_t* L_43 = (&__this->___score_10);
+		String_t* L_44;
+		L_44 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_43, NULL);
+		int32_t* L_45 = (&__this->___randomScore_11);
 		String_t* L_46;
-		L_46 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_43, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_45, NULL);
-		NullCheck(L_41);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_41, L_46);
+		L_46 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_45, NULL);
+		String_t* L_47;
+		L_47 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_44, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_46, NULL);
+		NullCheck(L_42);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_42, L_47);
 		// ScoreEingabeScript.scorearray[0] = "Wurf 1";
 		il2cpp_codegen_runtime_class_init_inline(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_47 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
-		NullCheck(L_47);
-		ArrayElementTypeCheck (L_47, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_48 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_48);
-		ArrayElementTypeCheck (L_48, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		ArrayElementTypeCheck (L_48, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_49 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_49);
-		ArrayElementTypeCheck (L_49, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
-		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		ArrayElementTypeCheck (L_49, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_50 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
+		NullCheck(L_50);
+		ArrayElementTypeCheck (L_50, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
 		// finishopt1 = false;
 		__this->___finishopt1_7 = (bool)0;
 		// finishopt2 = false;
@@ -7930,75 +7814,75 @@ IL_0131:
 		// finishopt3 = false;
 		__this->___finishopt3_9 = (bool)0;
 		// finishText.text = "FINISHED!";
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_50 = __this->___finishText_6;
-		NullCheck(L_50);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_50, _stringLiteral01257C073AB8CA3C108848F31015E99ACBFEB8AC);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_51 = __this->___finishText_6;
+		NullCheck(L_51);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_51, _stringLiteral01257C073AB8CA3C108848F31015E99ACBFEB8AC);
 		return;
 	}
 
-IL_01da:
+IL_01e9:
 	{
 		// else if (eingabesumme == score && finishopt2 && ScoreEingabeScript.scorearray[2] == "0")
-		int32_t L_51 = __this->___eingabesumme_12;
-		int32_t L_52 = __this->___score_10;
-		if ((!(((uint32_t)L_51) == ((uint32_t)L_52))))
+		int32_t L_52 = __this->___eingabesumme_12;
+		int32_t L_53 = __this->___score_10;
+		if ((!(((uint32_t)L_52) == ((uint32_t)L_53))))
 		{
-			goto IL_0299;
+			goto IL_02a8;
 		}
 	}
 	{
-		bool L_53 = __this->___finishopt2_8;
-		if (!L_53)
+		bool L_54 = __this->___finishopt2_8;
+		if (!L_54)
 		{
-			goto IL_0299;
+			goto IL_02a8;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_54 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
-		NullCheck(L_54);
-		int32_t L_55 = 2;
-		String_t* L_56 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
-		bool L_57;
-		L_57 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_56, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
-		if (!L_57)
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_55 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
+		NullCheck(L_55);
+		int32_t L_56 = 2;
+		String_t* L_57 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		bool L_58;
+		L_58 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_57, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
+		if (!L_58)
 		{
-			goto IL_0299;
+			goto IL_02a8;
 		}
 	}
 	{
 		// score -= eingabesumme;
-		int32_t L_58 = __this->___score_10;
-		int32_t L_59 = __this->___eingabesumme_12;
-		__this->___score_10 = ((int32_t)il2cpp_codegen_subtract(L_58, L_59));
+		int32_t L_59 = __this->___score_10;
+		int32_t L_60 = __this->___eingabesumme_12;
+		__this->___score_10 = ((int32_t)il2cpp_codegen_subtract(L_59, L_60));
 		// scoreText.text = "Dein Score:\n" + score.ToString() + " / " + randomScore.ToString();
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_60 = __this->___scoreText_5;
-		int32_t* L_61 = (&__this->___score_10);
-		String_t* L_62;
-		L_62 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_61, NULL);
-		int32_t* L_63 = (&__this->___randomScore_11);
-		String_t* L_64;
-		L_64 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_63, NULL);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_61 = __this->___scoreText_5;
+		int32_t* L_62 = (&__this->___score_10);
+		String_t* L_63;
+		L_63 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_62, NULL);
+		int32_t* L_64 = (&__this->___randomScore_11);
 		String_t* L_65;
-		L_65 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_62, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_64, NULL);
-		NullCheck(L_60);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_60, L_65);
+		L_65 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_64, NULL);
+		String_t* L_66;
+		L_66 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_63, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_65, NULL);
+		NullCheck(L_61);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_61, L_66);
 		// ScoreEingabeScript.scorearray[0] = "Wurf 1";
 		il2cpp_codegen_runtime_class_init_inline(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_66 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
-		NullCheck(L_66);
-		ArrayElementTypeCheck (L_66, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		(L_66)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_67 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_67);
-		ArrayElementTypeCheck (L_67, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		ArrayElementTypeCheck (L_67, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_68 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_68);
-		ArrayElementTypeCheck (L_68, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
-		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		ArrayElementTypeCheck (L_68, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_69 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
+		NullCheck(L_69);
+		ArrayElementTypeCheck (L_69, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		(L_69)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
 		// finishopt1 = false;
 		__this->___finishopt1_7 = (bool)0;
 		// finishopt2 = false;
@@ -8006,88 +7890,88 @@ IL_01da:
 		// finishopt3 = false;
 		__this->___finishopt3_9 = (bool)0;
 		// finishText.text = "FINISHED!";
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_69 = __this->___finishText_6;
-		NullCheck(L_69);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_69, _stringLiteral01257C073AB8CA3C108848F31015E99ACBFEB8AC);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_70 = __this->___finishText_6;
+		NullCheck(L_70);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_70, _stringLiteral01257C073AB8CA3C108848F31015E99ACBFEB8AC);
 		return;
 	}
 
-IL_0299:
+IL_02a8:
 	{
 		// else if (eingabesumme == score && finishopt1 && ScoreEingabeScript.scorearray[2] == "0" && ScoreEingabeScript.scorearray[1] == "0")
-		int32_t L_70 = __this->___eingabesumme_12;
-		int32_t L_71 = __this->___score_10;
-		if ((!(((uint32_t)L_70) == ((uint32_t)L_71))))
+		int32_t L_71 = __this->___eingabesumme_12;
+		int32_t L_72 = __this->___score_10;
+		if ((!(((uint32_t)L_71) == ((uint32_t)L_72))))
 		{
-			goto IL_036d;
+			goto IL_037c;
 		}
 	}
 	{
-		bool L_72 = __this->___finishopt1_7;
-		if (!L_72)
+		bool L_73 = __this->___finishopt1_7;
+		if (!L_73)
 		{
-			goto IL_036d;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_73 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
-		NullCheck(L_73);
-		int32_t L_74 = 2;
-		String_t* L_75 = (L_73)->GetAt(static_cast<il2cpp_array_size_t>(L_74));
-		bool L_76;
-		L_76 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_75, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
-		if (!L_76)
-		{
-			goto IL_036d;
+			goto IL_037c;
 		}
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_77 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
-		NullCheck(L_77);
-		int32_t L_78 = 1;
-		String_t* L_79 = (L_77)->GetAt(static_cast<il2cpp_array_size_t>(L_78));
-		bool L_80;
-		L_80 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_79, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
-		if (!L_80)
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_74 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
+		NullCheck(L_74);
+		int32_t L_75 = 2;
+		String_t* L_76 = (L_74)->GetAt(static_cast<il2cpp_array_size_t>(L_75));
+		bool L_77;
+		L_77 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_76, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
+		if (!L_77)
 		{
-			goto IL_036d;
+			goto IL_037c;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_78 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
+		NullCheck(L_78);
+		int32_t L_79 = 1;
+		String_t* L_80 = (L_78)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
+		bool L_81;
+		L_81 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_80, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
+		if (!L_81)
+		{
+			goto IL_037c;
 		}
 	}
 	{
 		// score -= eingabesumme;
-		int32_t L_81 = __this->___score_10;
-		int32_t L_82 = __this->___eingabesumme_12;
-		__this->___score_10 = ((int32_t)il2cpp_codegen_subtract(L_81, L_82));
+		int32_t L_82 = __this->___score_10;
+		int32_t L_83 = __this->___eingabesumme_12;
+		__this->___score_10 = ((int32_t)il2cpp_codegen_subtract(L_82, L_83));
 		// scoreText.text = "Dein Score:\n" + score.ToString() + " / " + randomScore.ToString();
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_83 = __this->___scoreText_5;
-		int32_t* L_84 = (&__this->___score_10);
-		String_t* L_85;
-		L_85 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_84, NULL);
-		int32_t* L_86 = (&__this->___randomScore_11);
-		String_t* L_87;
-		L_87 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_86, NULL);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_84 = __this->___scoreText_5;
+		int32_t* L_85 = (&__this->___score_10);
+		String_t* L_86;
+		L_86 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_85, NULL);
+		int32_t* L_87 = (&__this->___randomScore_11);
 		String_t* L_88;
-		L_88 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_85, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_87, NULL);
-		NullCheck(L_83);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_83, L_88);
+		L_88 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_87, NULL);
+		String_t* L_89;
+		L_89 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(_stringLiteralB41779EB2020C2E403D62ACF997DCC329D9C8978, L_86, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_88, NULL);
+		NullCheck(L_84);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_84, L_89);
 		// ScoreEingabeScript.scorearray[0] = "Wurf 1";
 		il2cpp_codegen_runtime_class_init_inline(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_89 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
-		NullCheck(L_89);
-		ArrayElementTypeCheck (L_89, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
-		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_90 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_90);
-		ArrayElementTypeCheck (L_90, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		(L_90)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
-		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		ArrayElementTypeCheck (L_90, _stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		(L_90)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral9BD5E5FA680BBFE6AB87DDEDEB957498A68224BE);
+		// ScoreEingabeScript.scorearray[1] = "Wurf 2";
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_91 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
 		NullCheck(L_91);
-		ArrayElementTypeCheck (L_91, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
-		(L_91)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		ArrayElementTypeCheck (L_91, _stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		(L_91)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE9F2DD6740B26DB573631C1803B09BCCE704008F);
+		// ScoreEingabeScript.scorearray[2] = "Wurf 3";
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_92 = ((ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_StaticFields*)il2cpp_codegen_static_fields_for(ScoreEingabeScript_tA1210F33FF818EE5DAACECD742735B8534413666_il2cpp_TypeInfo_var))->___scorearray_6;
+		NullCheck(L_92);
+		ArrayElementTypeCheck (L_92, _stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
+		(L_92)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7A47674458A631FBE5D36C43BA1B43B0B3EFD55A);
 		// finishopt1 = false;
 		__this->___finishopt1_7 = (bool)0;
 		// finishopt2 = false;
@@ -8095,12 +7979,12 @@ IL_0299:
 		// finishopt3 = false;
 		__this->___finishopt3_9 = (bool)0;
 		// finishText.text = "FINISHED!";
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_92 = __this->___finishText_6;
-		NullCheck(L_92);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_92, _stringLiteral01257C073AB8CA3C108848F31015E99ACBFEB8AC);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_93 = __this->___finishText_6;
+		NullCheck(L_93);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_93, _stringLiteral01257C073AB8CA3C108848F31015E99ACBFEB8AC);
 	}
 
-IL_036d:
+IL_037c:
 	{
 		// }
 		return;
@@ -8150,6 +8034,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomZahlScoreAnzeigeScript__cctor_m422
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void RegelnSkript::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegelnSkript_Start_m49F112B9DD4A64EE4E8AC85499383E187C86DCC6 (RegelnSkript_t3A038FC57EF8732460690E762EE8D264A34D0586* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void RegelnSkript::ButtonTipps()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegelnSkript_ButtonTipps_m3523A4A8F869C14E7DB975CA42407866EECE5A85 (RegelnSkript_t3A038FC57EF8732460690E762EE8D264A34D0586* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD7513CD306AD64E6CD15B24587766C444579C5EB);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// TextMeshProUGUI textComponent = anleitungText.GetComponent<TextMeshProUGUI>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___anleitungText_4;
+		NullCheck(L_0);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1;
+		L_1 = GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E(L_0, GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E_RuntimeMethod_var);
+		// textComponent.text = "Das Dartboard: Ein Dartboard besteht aus 20 nummerierten Segmenten, die als \"Zahlen\" von 1 bis 20 bezeichnet werden. In der Mitte befindet sich das Bulls-Eye, das in das innere Bulls-Eye (meistens rot) und das ?u?ere Bulls-Eye (meistens gr?n) unterteilt ist.\r\n\r\n\r\nAbstand und Position: Die Spieler werfen ihre Darts von einem Abstand von 2,37 Metern (7 Fu? 9 1/4 Zoll) zur Wurflinie, die \"Oche\" genannt wird. Beim Werfen m?ssen sich beide F??e des Spielers hinter der Linie befinden.\r\n\r\n\r\nPunkte z?hlen: Beim Dartspiel gibt es verschiedene Wege, Punkte zu erzielen. Die h?chste Punktzahl, die man mit einem einzelnen Dart erzielen kann, ist 60 (Treffer im Triple-20-Segment). Das Bulls-Eye z?hlt 50 Punkte im ?u?eren Ring und 25 Punkte im inneren Ring.\r\n\r\n\r\nTrefferwertung: Jedes Segment des Dartboards hat einen bestimmten Wert. Die ?u?eren Ringe (Doppel) haben den doppelten Wert des Segments, w?hrend die inneren Ringe (Triple) den dreifachen Wert des Segments haben. Ein Treffer in das Bulls-Eye z?hlt entweder 50 oder 25 Punkte, je nachdem ob der ?u?ere oder innere Ring getroffen wird.\r\n\r\n\r\nAbwechselndes Werfen: Beim Dart werfen die Spieler abwechselnd ihre drei Darts auf das Dartboard. Der Spieler, der an der Reihe ist, darf so lange werfen, bis er entweder sein Ziel verfehlt oder das Spiel beendet hat.\r\n\r\n\r\nunterschiedliche Felder:\r\n\r\n\r\nTriple 20: Das Feld Triple 20 ist das h?chstbewertete Feld auf dem Dartboard. Ein Treffer in diesem Feld bringt 60 Punkte, was das Maximum f?r einen einzelnen Wurf ist. Die KI sollte also versuchen, so oft wie m?glich Triple 20 zu treffen, um schnell viele Punkte zu sammeln.\r\n\r\n\r\nDouble-Felder: Die Double-Felder befinden sich am ?u?eren Rand des Dartboards. Ein Treffer in einem Double-Feld verdoppelt die Punktzahl des entsprechenden Segments. Die KI sollte strategisch versuchen, diese Felder zu treffen, um ihre Punktzahl zu maximieren.\r\n\r\n\r\nTriple-Felder: ?hnlich wie die Double-Felder befinden sich die Triple-Felder in der N?he des Zentrums des Dartboards. Ein Treffer in einem Triple-Feld verdreifacht die Punktzahl des Segments. Die KI sollte die Triple-Felder anvisieren, um ihre Punktzahl zu erh?hen.\r\n\r\n\r\nBullseye: Das Bullseye besteht aus zwei Teilen - dem Inner Bullseye (Bulls-Eye oder Doppel-Bull) in der Mitte und dem Outer Bullseye (Bulls) im inneren Kreis des Dartboards. Ein Treffer im Inner Bullseye bringt 50 Punkte, w?hrend ein Treffer im Outer Bullseye 25 Punkte bringt. Die KI sollte versuchen, das Bullseye zu treffen, insbesondere das Inner Bullseye, um eine hohe Punktzahl zu erzielen.\r\n";
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralD7513CD306AD64E6CD15B24587766C444579C5EB);
+		// }
+		return;
+	}
+}
+// System.Void RegelnSkript::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegelnSkript_Update_mD6BB92D6E91C5957E3186DD25567D75E3F950474 (RegelnSkript_t3A038FC57EF8732460690E762EE8D264A34D0586* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void RegelnSkript::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RegelnSkript__ctor_mC032A9C858E0CE6CC5610D7A21F5D1656D48A6B8 (RegelnSkript_t3A038FC57EF8732460690E762EE8D264A34D0586* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void ScoreAnzeigeScript::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreAnzeigeScript_Start_mB6EC210F804140162BA9972FD0A28D3941E22127 (ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6* __this, const RuntimeMethod* method) 
 {
@@ -8162,9 +8101,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreAnzeigeScript_Start_mB6EC210F804140
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// score = 301;
+		((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9 = ((int32_t)301);
 		// scoreText.text = "Dein Score:\n" + score.ToString() + " / 301";
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___scoreText_4;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		String_t* L_1;
 		L_1 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9), NULL);
 		String_t* L_2;
@@ -8343,7 +8283,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreAnzeigeScript_changeScore_mCC61C7B1
 		__this->___eingabesumme_10 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_3, L_7)), L_11));
 		// if (eingabesumme < score - 1)
 		int32_t L_12 = __this->___eingabesumme_10;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_13 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_12) >= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_13, 1)))))
 		{
@@ -8352,7 +8291,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreAnzeigeScript_changeScore_mCC61C7B1
 	}
 	{
 		// score -= eingabesumme;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_14 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		int32_t L_15 = __this->___eingabesumme_10;
 		((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9 = ((int32_t)il2cpp_codegen_subtract(L_14, L_15));
@@ -8393,7 +8331,6 @@ IL_00aa:
 	{
 		// else if (eingabesumme > score)
 		int32_t L_22 = __this->___eingabesumme_10;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_23 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((((int32_t)L_22) <= ((int32_t)L_23)))
 		{
@@ -8403,7 +8340,6 @@ IL_00aa:
 	{
 		// scoreText.text = "Dein Score:\n" + score.ToString() + " / 301";
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_24 = __this->___scoreText_4;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		String_t* L_25;
 		L_25 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9), NULL);
 		String_t* L_26;
@@ -8439,7 +8375,6 @@ IL_0115:
 	{
 		// else if (eingabesumme == score && finishopt3)
 		int32_t L_30 = __this->___eingabesumme_10;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_31 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((!(((uint32_t)L_30) == ((uint32_t)L_31))))
 		{
@@ -8455,7 +8390,6 @@ IL_0115:
 	}
 	{
 		// score -= eingabesumme;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_33 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		int32_t L_34 = __this->___eingabesumme_10;
 		((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9 = ((int32_t)il2cpp_codegen_subtract(L_33, L_34));
@@ -8500,7 +8434,6 @@ IL_01ac:
 	{
 		// else if (eingabesumme == score && finishopt2 && ScoreEingabeScript.scorearray[2] == "0")
 		int32_t L_42 = __this->___eingabesumme_10;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_43 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((!(((uint32_t)L_42) == ((uint32_t)L_43))))
 		{
@@ -8529,7 +8462,6 @@ IL_01ac:
 	}
 	{
 		// score -= eingabesumme;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_49 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		int32_t L_50 = __this->___eingabesumme_10;
 		((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9 = ((int32_t)il2cpp_codegen_subtract(L_49, L_50));
@@ -8574,7 +8506,6 @@ IL_0259:
 	{
 		// else if (eingabesumme == score && finishopt1 && ScoreEingabeScript.scorearray[2] == "0" && ScoreEingabeScript.scorearray[1] == "0")
 		int32_t L_58 = __this->___eingabesumme_10;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_59 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		if ((!(((uint32_t)L_58) == ((uint32_t)L_59))))
 		{
@@ -8616,7 +8547,6 @@ IL_0259:
 	}
 	{
 		// score -= eingabesumme;
-		il2cpp_codegen_runtime_class_init_inline(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
 		int32_t L_69 = ((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9;
 		int32_t L_70 = __this->___eingabesumme_10;
 		((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9 = ((int32_t)il2cpp_codegen_subtract(L_69, L_70));
@@ -8667,21 +8597,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreAnzeigeScript__ctor_m1FB69B3173F6D0
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-// System.Void ScoreAnzeigeScript::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreAnzeigeScript__cctor_m0099BD319F435C14AE1585847DE8FB83EFAB30FD (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// public static int score = 301;
-		((ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_StaticFields*)il2cpp_codegen_static_fields_for(ScoreAnzeigeScript_t85535F628A48416A1894F1EDDA34EDE05A458FC6_il2cpp_TypeInfo_var))->___score_9 = ((int32_t)301);
 		return;
 	}
 }
@@ -16834,6 +16749,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScript__ctor_mB6F3477CA7BC1C979
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void TippsSkript::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TippsSkript_Start_mAE16FB8222F4D12E72C4DAC9250FB2EDF57F6F3A (TippsSkript_tC306560E90789CC2C9DB749F0DED3BFB03F90D65* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void TippsSkript::ButtonTipps()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TippsSkript_ButtonTipps_mD8F42871DA2F6DF01161A80D329AE672D22D7ABF (TippsSkript_tC306560E90789CC2C9DB749F0DED3BFB03F90D65* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA6BDF4469CAC7C12320AB3678AF67E2E5719ADED);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// TextMeshProUGUI tippsTextComponent = tippsText.GetComponent<TextMeshProUGUI>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___tippsText_4;
+		NullCheck(L_0);
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1;
+		L_1 = GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E(L_0, GameObject_GetComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_mBDBF977A8C7734F6EDD83FC65C6FDDE74427611E_RuntimeMethod_var);
+		// tippsTextComponent.text = "Praktiziere deine Wurfform: Eine konsistente Wurfform ist entscheidend f?r gute Ergebnisse. ?be regelm??ig und versuche, deine Wurftechnik zu verbessern.\r\n\r\n\r\nZielen: Konzentriere dich auf deine Ziele. Fixiere das gew?nschte Ziel auf der Dartscheibe und versuche, den Dartpfeil genau dorthin zu werfen.\r\n\r\n\r\nKontrolliere deinen K?rper: Achte auf deine K?rperhaltung und -balance w?hrend des Wurfs. Ein stabiler Stand und eine entspannte Hand k?nnen dazu beitragen, deine W?rfe genauer zu machen.\r\n\r\n\r\n?be das Timing: Finde das richtige Timing f?r deinen Wurf. Zu schnell oder zu langsam zu werfen, kann deine Genauigkeit beeintr?chtigen. Experimentiere und finde heraus, welches Timing f?r dich am besten funktioniert.\r\n\r\n\r\nStrategisches Spielen: Denke voraus und entwickle eine Spielstrategie. ?berlege, welche Ziele du anvisieren m?chtest, um das meiste aus deinen W?rfen herauszuholen. Zum Beispiel, indem du versuchst, in bestimmten Bereichen der Dartscheibe zu bleiben, um Punkte zu maximieren oder bestimmte Ziele zu blockieren.\r\n\r\n\r\nTrainiere verschiedene Wurftechniken: Versuche, verschiedene Wurftechniken zu erlernen und zu beherrschen. Je mehr Variationen du beherrschst, desto besser kannst du auf verschiedene Spielsituationen reagieren.\r\n\r\n\r\nMentale St?rke: Dart ist auch ein mentaler Sport. Trainiere deine Konzentration und bleibe ruhig, auch wenn du unter Druck stehst. Der richtige Fokus kann einen gro?en Unterschied machen.\r\n\r\n\r\nTrainiere regelm??ig: ?bung macht den Meister! Widme regelm??ig Zeit zum Dartspielen, um deine F?higkeiten zu verbessern. Je mehr du trainierst, desto besser wirst du. Die Briblle kann dir mit den unterschiedlichen Spielmodi dabei helfen.\r\n\r\n\r\nSpa? haben: Genie?e das Spiel und hab Spa? daran. Der Spa?faktor kann dazu beitragen, dass du entspannt bleibst und besser spielst.\r\n";
+		NullCheck(L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_1, _stringLiteralA6BDF4469CAC7C12320AB3678AF67E2E5719ADED);
+		// }
+		return;
+	}
+}
+// System.Void TippsSkript::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TippsSkript_Update_m0CB61DD726287D544F9EC2438DC820687901EA20 (TippsSkript_tC306560E90789CC2C9DB749F0DED3BFB03F90D65* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void TippsSkript::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TippsSkript__ctor_m955EA1226B6144AF7DE423CF7ED2E493BDCD526D (TippsSkript_tC306560E90789CC2C9DB749F0DED3BFB03F90D65* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.String VuforiaLicense::GetLicenseKey()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m8E6E03709CDB6968425A93FB9D016DA6AFC6C91B (const RuntimeMethod* method) 
 {
@@ -16886,49 +16856,6 @@ IL_0009:
 	{
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = V_0;
 		return L_1;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m57EE8D709A93B2B0FF8D499FA2947B1D61CB1FD6_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, float ___t2, const RuntimeMethod* method) 
-{
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		float L_0 = ___t2;
-		float L_1;
-		L_1 = Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline(L_0, NULL);
-		___t2 = L_1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___a0;
-		float L_3 = L_2.___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___b1;
-		float L_5 = L_4.___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___a0;
-		float L_7 = L_6.___x_2;
-		float L_8 = ___t2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___a0;
-		float L_10 = L_9.___y_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___b1;
-		float L_12 = L_11.___y_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___a0;
-		float L_14 = L_13.___y_3;
-		float L_15 = ___t2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___a0;
-		float L_17 = L_16.___z_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___b1;
-		float L_19 = L_18.___z_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___a0;
-		float L_21 = L_20.___z_4;
-		float L_22 = ___t2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
-		memset((&L_23), 0, sizeof(L_23));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_23), ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8)))), ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15)))), ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22)))), /*hidden argument*/NULL);
-		V_0 = L_23;
-		goto IL_0053;
-	}
-
-IL_0053:
-	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_0;
-		return L_24;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) 
@@ -17017,64 +16944,5 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mF590592
 	{
 		int32_t L_0 = (int32_t)__this->____size_2;
 		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline (float ___value0, const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	float V_1 = 0.0f;
-	bool V_2 = false;
-	{
-		float L_0 = ___value0;
-		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		V_1 = (0.0f);
-		goto IL_002d;
-	}
-
-IL_0015:
-	{
-		float L_2 = ___value0;
-		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
-		bool L_3 = V_2;
-		if (!L_3)
-		{
-			goto IL_0029;
-		}
-	}
-	{
-		V_1 = (1.0f);
-		goto IL_002d;
-	}
-
-IL_0029:
-	{
-		float L_4 = ___value0;
-		V_1 = L_4;
-		goto IL_002d;
-	}
-
-IL_002d:
-	{
-		float L_5 = V_1;
-		return L_5;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
-{
-	{
-		float L_0 = ___x0;
-		__this->___x_2 = L_0;
-		float L_1 = ___y1;
-		__this->___y_3 = L_1;
-		float L_2 = ___z2;
-		__this->___z_4 = L_2;
-		return;
 	}
 }

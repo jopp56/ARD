@@ -38,7 +38,7 @@ public class KIBehaviorScript : MonoBehaviour
         scoreKICount = 301;
         this.targetListFieldNames = targetListFieldNames;
         AssignProbabilitiesToTargets(targetListFieldNames);
-        flightTime = 5f;
+        flightTime = 60f;
         this.spawnedArrows = new GameObject[4];
         //ScoreAnzeigeScript.score = 301;
 
@@ -113,7 +113,7 @@ public class KIBehaviorScript : MonoBehaviour
             return "0.1";
         }
 
-       
+
     }
 
     public void KIChooseAndHitTarget()
@@ -132,7 +132,7 @@ public class KIBehaviorScript : MonoBehaviour
             dartsCount++;
             animateDarts("0");
             missedAudio.Play();
-           
+
         }
         else
         {
@@ -246,19 +246,22 @@ public class KIBehaviorScript : MonoBehaviour
     {
         if (targetName.Equals("0"))
         {
+            /*
             Vector3 targetPosition = dartscheibe.transform.position;  
             GameObject arrow = Instantiate(arrowPrefab, camera.transform.position, Quaternion.identity);
             SimulateFlightPath(arrow, targetPosition, flightTime);
             Destroy(arrow);
+            */
+            return;
         }
         else
         {
 
             Vector3 targetPosition = FindTargetPosition(targetName);
 
-            GameObject arrow = Instantiate(arrowPrefab, camera.transform.position, Quaternion.identity);
+            GameObject arrow = Instantiate(arrowPrefab, targetPosition, Quaternion.identity);
 
-            SimulateFlightPath(arrow, targetPosition, flightTime);
+            // SimulateFlightPath(arrow, targetPosition, flightTime);
 
             spawnedArrows[dartsCount] = arrow;
         }
@@ -267,13 +270,13 @@ public class KIBehaviorScript : MonoBehaviour
 
     public void ClearArrows()
     {
-            foreach (GameObject arrow in spawnedArrows)
+        foreach (GameObject arrow in spawnedArrows)
+        {
+            if (arrow != null)
             {
-                if (arrow != null)
-                {
-                    Destroy(arrow,20);
-                }
+                Destroy(arrow, 20);
             }
+        }
     }
     private Vector3 FindTargetPosition(string targetName)
     {
@@ -282,7 +285,7 @@ public class KIBehaviorScript : MonoBehaviour
 
         return fieldPosition;
     }
-
+    /*
     private void SimulateFlightPath(GameObject dart, Vector3 target, float duration)
     {
         Vector3 startPosition = camera.transform.position;
@@ -291,10 +294,11 @@ public class KIBehaviorScript : MonoBehaviour
         while (elapsedTime < duration)
         {
             float progress = elapsedTime / duration;
-            dart.transform.position = Vector3.Lerp(startPosition, target, -progress);
+            camera.transform.position = Vector3.Lerp(startPosition, target, progress);
             elapsedTime += Time.deltaTime;
         }
 
         dart.transform.position = target;
     }
+   */
 }

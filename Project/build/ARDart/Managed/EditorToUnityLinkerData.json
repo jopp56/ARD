@@ -11,7 +11,28 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "AnleitungLvl2Skript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "AnleitungLvl4Skript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "AroundTheClockScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ATCUhrzeigersinnScript",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -214,20 +235,6 @@
             "managedAssemblyName": "Microsoft.MixedReality.OpenXR.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.OpenXR.Remoting.PlayModeRemotingPlugin",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Boundary.MixedRealityBoundaryVisualizationProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Diagnostics.MixedRealityDiagnosticsProfile",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -435,13 +442,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.WindowsMixedRealityControllerVisualizer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.MixedRealityCameraProfile",
@@ -508,20 +508,6 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.SceneSystem.MixedRealitySceneSystemProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessMeshObserverProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessSystemProfile",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -754,6 +740,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RegelnSkript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "ResourceManager",
             "fullManagedTypeName": "",
@@ -816,6 +809,13 @@
             "nativeClass": "StreamingManager",
             "fullManagedTypeName": "",
             "moduleName": "Streaming",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TippsSkript",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -1127,7 +1127,8 @@
                 "Assets/Scenes/Level2Scene.unity",
                 "Assets/Scenes/Level3RandomFelderScene.unity",
                 "Assets/Scenes/Level4AtCAlternativeScene.unity",
-                "Assets/Scenes/Level5RandomFelderPunkteScene.unity"
+                "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
+                "Assets/Scenes/MenuScene.unity"
             ]
         },
         {
@@ -1175,15 +1176,6 @@
                 "Assets/Scenes/Level3RandomFelderScene.unity",
                 "Assets/Scenes/Level4AtCAlternativeScene.unity",
                 "Assets/Scenes/Level5RandomFelderPunkteScene.unity",
-                "Assets/Scenes/MenuScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Cubemap",
-            "fullManagedTypeName": "UnityEngine.Cubemap",
-            "moduleName": "Core",
-            "usedInScenes": [
                 "Assets/Scenes/MenuScene.unity"
             ]
         },
