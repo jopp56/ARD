@@ -281,7 +281,7 @@ public class KIBehaviorScript : MonoBehaviour
         while (elapsedTime < duration)
         {
             float progress = elapsedTime / duration;
-            dart.transform.position = Vector3.Lerp(startPosition, target, -progress);
+            position.transform.position = Vector3.Lerp(startPosition, target, -progress);
             elapsedTime += Time.deltaTime;
         }
 
