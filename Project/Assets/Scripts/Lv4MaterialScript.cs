@@ -18,7 +18,7 @@ public class Lv4MaterialScript : MonoBehaviour
 
     void Update()
     {
-        if (ATCUhrzeigersinnScript.i.ToString() == feldname)
+        if (ATCUhrzeigersinnScript.feld.ToString() == feldname)
         {
             rend.sharedMaterial = material[1];
         }
