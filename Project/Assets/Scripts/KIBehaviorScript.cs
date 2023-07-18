@@ -261,7 +261,7 @@ public class KIBehaviorScript : MonoBehaviour
 
             GameObject arrow = Instantiate(arrowPrefab, targetPosition, Quaternion.identity);
 
-           // SimulateFlightPath(arrow, targetPosition, flightTime);
+            // SimulateFlightPath(arrow, targetPosition, flightTime);
 
             spawnedArrows[dartsCount] = arrow;
         }
