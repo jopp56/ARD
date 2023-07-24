@@ -10,6 +10,7 @@ public class Level5ButtonScript : MonoBehaviour
     public TextMeshProUGUI wurf_Text;
     public TextMeshProUGUI finished;
     public TextMeshProUGUI runde;
+    public TextMeshProUGUI scoreText;
     public TextMeshProUGUI blauButton;
     public TextMeshProUGUI grünButton;
     public TextMeshProUGUI orangeButton;
@@ -40,6 +41,7 @@ public class Level5ButtonScript : MonoBehaviour
         randomFeld3 = rnd.Next(1, 21);
         wurf_Text.text = "Getroffene Felder:\n\n" + farbarray[0] + " | " + farbarray[1] + " | " + farbarray[2];
         runde.text = "Runde:\n" + runden.ToString() + "/10";
+        scoreText.text = "Score:\n" + score.ToString() + "/85";
         if (randomFeld1 < 21)
         {
             feld1 = "Outer " + randomFeld1;
@@ -293,6 +295,7 @@ public class Level5ButtonScript : MonoBehaviour
             farbarray[1] = "-";
             farbarray[2] = "-";
             runde.text = "Runde:\n" + runden.ToString() + "/10";
+            scoreText.text = "Score:\n" + score.ToString() + "/85";
             wurf_Text.text = "Getroffene Felder:\n\n" + farbarray[0] + " | " + farbarray[1] + " | " + farbarray[2];
         }
         else if (counter == 10)
@@ -302,7 +305,8 @@ public class Level5ButtonScript : MonoBehaviour
             farbarray[2] = "-";
             wurf_Text.text = "Getroffene Felder:\n\n" + farbarray[0] + " | " + farbarray[1] + " | " + farbarray[2];
             runde.text = "Runde:\n" + "10" + "/10";
-            finished.text = "FINISHED!\n\n" + score + "/85";
+            scoreText.text = "Score:\n" + score.ToString() + "/85";
+            finished.text = "FINISHED!\n\n" + score.ToString() + "/85";
         }
 
         //Feld über Button
