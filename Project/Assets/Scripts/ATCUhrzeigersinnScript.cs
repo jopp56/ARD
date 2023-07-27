@@ -10,7 +10,7 @@ public class ATCUhrzeigersinnScript : MonoBehaviour
     public TextMeshProUGUI levelText;
     public TextMeshProUGUI lebenText;
     public TextMeshProUGUI endeText;
-    public int feld;
+    public static int feld;
     public int leben;
     public static int i;
     public int[] felderreihenfolge = new int[20];

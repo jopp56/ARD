@@ -57,7 +57,13 @@ public class Random3FelderScript : MonoBehaviour
 
     public void NeueFelder()
     {
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.name, LoadSceneMode.Single);
+        int index1 = rnd.Next(range.Count);
+        int index2 = rnd.Next(range.Count);
+        int index3 = rnd.Next(range.Count);
+        randomFeld1 = range[index1];             //aus Liste random Feld
+        randomFeld2 = range[index2];             //aus Liste random Feld
+        randomFeld3 = range[index3];             //aus Liste random Feld
+
+        randomFelderText.text = "Zu werfende Felder:\n\n" + randomFeld1 + " | " + randomFeld2 + " | " + randomFeld3;
     }
 }
