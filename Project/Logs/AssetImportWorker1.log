@@ -15,7 +15,7 @@ C:/Users/User/Desktop/Dart/ARD/Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63037
+50037
 Successfully changed project path to: C:/Users/User/Desktop/Dart/ARD/Project
 C:/Users/User/Desktop/Dart/ARD/Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/User/Desktop/Dart/ARD/Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 176.89 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 14.49 ms.
+Refreshing native plugins compatible for Editor in 150.38 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 14.13 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Desktop/Dart/ARD/Project/Assets
@@ -63,210 +63,98 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.013834 seconds.
+Registered in 0.010457 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.16 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.36 ms.
+Refreshing native plugins compatible for Editor in 104.25 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.37 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
+- Completed reload, in  1.125 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1112ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (784ms)
+		EndReloadAssembly (789ms)
 			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (223ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (460ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (433ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (79ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027138 seconds.
+Registered in 0.024522 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.42 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.57 ms.
+Refreshing native plugins compatible for Editor in 149.38 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.45 ms.
 Package Manager log level set to [2]
-[XR] [MROpenXR][Info   ][12:18:40.407832][tid:1fac] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][12:18:40.407832][tid:1fac] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][12:18:40.407950][tid:1fac] InputProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][12:18:40.407950][tid:1fac] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][14:17:33.783921][tid:1330] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][14:17:33.783921][tid:1330] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][14:17:33.784006][tid:1330] InputProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][14:17:33.784006][tid:1330] InputProvider_RegisterLifecycleProvider
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][12:18:40.415385][tid:1fac] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
-[XR] [MROpenXR][Info   ][12:18:40.415385][tid:1fac] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][14:17:33.789082][tid:1330] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][14:17:33.789082][tid:1330] OnPluginStarted UnityVersion=2021.3.4f1 OpenXRPluginVersion=1.8.0 MROpenXRPluginVersion=1.8.0.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  2.423 seconds
+- Completed reload, in  2.685 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2425ms)
-		BeginReloadAssembly (206ms)
+	ReloadAssembly (2686ms)
+		BeginReloadAssembly (257ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (2042ms)
-			LoadAssemblies (193ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2085ms)
+			LoadAssemblies (249ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (412ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (156ms)
-			SetupLoadedEditorAssemblies (1191ms)
+			SetupTypeCache (578ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (201ms)
+			SetupLoadedEditorAssemblies (978ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (175ms)
-				ProcessInitializeOnLoadAttributes (745ms)
-				ProcessInitializeOnLoadMethodAttributes (123ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (150ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (481ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 2.01 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.31 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
 Unloading 4273 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 73 unused Assets / (134.8 KB). Loaded Objects now: 5078.
 Memory consumption went from 179.7 MB to 179.6 MB.
-Total: 3.587400 ms (FindLiveObjects: 0.390300 ms CreateObjectMapping: 0.190000 ms MarkObjects: 2.805700 ms  DeleteObjects: 0.199500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018839 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.30 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.633 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1634ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1379ms)
-			LoadAssemblies (122ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (774ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (553ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.51 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.10 ms.
-Unloading 4164 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (101.2 KB). Loaded Objects now: 5082.
-Memory consumption went from 170.5 MB to 170.4 MB.
-Total: 3.963300 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.191400 ms MarkObjects: 2.937000 ms  DeleteObjects: 0.517400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.031418 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.27 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.939 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1941ms)
-		BeginReloadAssembly (247ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1487ms)
-			LoadAssemblies (190ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (396ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (728ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (519ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 20.27 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
-Unloading 4164 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (101.3 KB). Loaded Objects now: 5086.
-Memory consumption went from 170.5 MB to 170.4 MB.
-Total: 5.629400 ms (FindLiveObjects: 0.787800 ms CreateObjectMapping: 0.651300 ms MarkObjects: 4.054500 ms  DeleteObjects: 0.134000 ms)
+Total: 4.675800 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.201100 ms MarkObjects: 3.918300 ms  DeleteObjects: 0.189900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -281,7 +169,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1183919.267548 seconds.
-  path: Assets/Scripts/TippsSkript.cs
-  artifactKey: Guid(7640be5663e822c4691f0a6d67108a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TippsSkript.cs using Guid(7640be5663e822c4691f0a6d67108a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c9ec213f84db598e5c9afdd92a358c') in 0.030585 seconds 
+  Time since last request: 1571.394120 seconds.
+  path: Assets/OwnPrefab/Abstandslinie.prefab
+  artifactKey: Guid(6bb7dba263bd5514fa0737cfbf278f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OwnPrefab/Abstandslinie.prefab using Guid(6bb7dba263bd5514fa0737cfbf278f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a9f8d11c7ee7c248a253883f3a71fb') in 0.267566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/OwnPrefab/Menu 1.prefab
+  artifactKey: Guid(3f85bf2a4dc826b4fb05cbc50320ce55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OwnPrefab/Menu 1.prefab using Guid(3f85bf2a4dc826b4fb05cbc50320ce55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7c7b7ffdaadd33149ec0b1e7ca16cf') in 0.312387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 268.929160 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/BoundingBoxSlateGrabbed.mat
+  artifactKey: Guid(f671b04930fdad54c8b50a4c6d7d9b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/BoundingBoxSlateGrabbed.mat using Guid(f671b04930fdad54c8b50a4c6d7d9b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05d40de214d06a503901d44cab1e51a') in 0.210448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Audio/MRTK_Slate_Release.wav
+  artifactKey: Guid(45a90682f74bb0c41b65994c63b74e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Audio/MRTK_Slate_Release.wav using Guid(45a90682f74bb0c41b65994c63b74e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a86a0153f3dbbe789c3c96c91a65c33') in 0.040825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.microsoft.mrtk.standardassets/Prefabs/MRTK_BoundingBox_TranslateHandle.prefab
+  artifactKey: Guid(36104d131cc1c8e4b9fd97140be75871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.standardassets/Prefabs/MRTK_BoundingBox_TranslateHandle.prefab using Guid(36104d131cc1c8e4b9fd97140be75871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc2c8fbc4dd7855d7305094f926932c') in 0.077889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Textures/SlateProximityDark.png
+  artifactKey: Guid(fa39be8281cd4d9469e40925bc7a8866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Textures/SlateProximityDark.png using Guid(fa39be8281cd4d9469e40925bc7a8866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ab066d5fa1d8bd98228c8207263d49') in 0.036449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/BoxDisplayConfiguration_HoloLens2_Slate.asset
+  artifactKey: Guid(dda36b069f5139e44998995a0e25fbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/BoxDisplayConfiguration_HoloLens2_Slate.asset using Guid(dda36b069f5139e44998995a0e25fbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232eb15777db9fcfe2c0088e2a5a8246') in 0.009249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/LinksConfiguration_HoloLens2_Slate.asset
+  artifactKey: Guid(671e2126e50a8794aa0347227ad916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/LinksConfiguration_HoloLens2_Slate.asset using Guid(671e2126e50a8794aa0347227ad916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fe78b8ca56dfbeb6aed061f094d426') in 0.015462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/ScaleHandlesConfiguration_HoloLens2_Slate.asset
+  artifactKey: Guid(901ed6b94a657664492ab0dd5c7c56f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Profiles/BoundsControl/HoloLens2Style_Slate/ScaleHandlesConfiguration_HoloLens2_Slate.asset using Guid(901ed6b94a657664492ab0dd5c7c56f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddf090413206b9a0169bbbab6b49787') in 0.008982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Textures/SlateProximityLight.png
+  artifactKey: Guid(60383fbd9df11344da29f00f32399ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Textures/SlateProximityLight.png using Guid(60383fbd9df11344da29f00f32399ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a633e2a9569cdc77bca73033dfb0064') in 0.013060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_TranslateHandle.prefab
+  artifactKey: Guid(f73c916a7266dd941a534f5f0f10a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_TranslateHandle.prefab using Guid(f73c916a7266dd941a534f5f0f10a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d6dadc3b1e14362af9d83e5a3e954c') in 0.017572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Slate/Slate.prefab
+  artifactKey: Guid(937ce507dd7ee334ba569554e24adbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Slate/Slate.prefab using Guid(937ce507dd7ee334ba569554e24adbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea99fd920718091281d547833cb5a216') in 0.179358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Models/MRTK_BoundingBox_ScaleHandle_Slate.fbx
+  artifactKey: Guid(a6473ac7ac982fb488db53a454bf0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Models/MRTK_BoundingBox_ScaleHandle_Slate.fbx using Guid(a6473ac7ac982fb488db53a454bf0a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7fa15d97f76a6c4eabe99fda4472f0') in 0.072135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Models/SlateProximity.fbx
+  artifactKey: Guid(cf34af2d0b0a8f7429945739d73c5c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.graphicstools.unity/Runtime/Models/SlateProximity.fbx using Guid(cf34af2d0b0a8f7429945739d73c5c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd6c233dddcb5cc6e311fe69a3a853d') in 0.025521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_ScaleHandle_Slate.prefab
+  artifactKey: Guid(c45e552a6d92491468c421c35c5dd63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_ScaleHandle_Slate.prefab using Guid(c45e552a6d92491468c421c35c5dd63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5006392d5668c98de3af2e1d48317d74') in 0.013946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.microsoft.mrtk.standardassets/Models/MRTK_BoundingBox_ScaleHandle_Slate.fbx
+  artifactKey: Guid(5dfeada92ad6cbf42981059538d03d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.standardassets/Models/MRTK_BoundingBox_ScaleHandle_Slate.fbx using Guid(5dfeada92ad6cbf42981059538d03d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a74c75fe9b2aa2c4c7cfae8951d60fe') in 0.021237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.microsoft.mrtk.standardassets/Prefabs/MRTK_BoundingBox_ScaleHandle_Slate.prefab
+  artifactKey: Guid(b2a9a0c1d61ec264c80f9e6ae83d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mrtk.standardassets/Prefabs/MRTK_BoundingBox_ScaleHandle_Slate.prefab using Guid(b2a9a0c1d61ec264c80f9e6ae83d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4088ab998a3905d96fc87201d8354785') in 0.018115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Slate/SlateUGUI.prefab
+  artifactKey: Guid(bc5f3663391bc8b4fbe79313540d2b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Slate/SlateUGUI.prefab using Guid(bc5f3663391bc8b4fbe79313540d2b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecf7185f3695defdb40121b1fc88884') in 0.215063 seconds 

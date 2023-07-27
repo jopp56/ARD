@@ -530,7 +530,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &193654292
 GameObject:
@@ -564,7 +564,7 @@ Transform:
   - {fileID: 59554877}
   - {fileID: 840837566}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &449487303
 GameObject:
@@ -1966,8 +1966,555 @@ Transform:
   m_Children:
   - {fileID: 449487306}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1092485888
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 289200654, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289200654, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289200654, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289200654, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247122214, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247122214, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247122214, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247122214, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381859274, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381859274, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381859274, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381859274, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 756010788331680793, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 756010788331680793, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 756010788331680793, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 756010788331680793, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871140116700267477, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613511615107669644, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613511615107669644, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613511615107669644, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845670900231857706, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076014151472104930, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804731071153559, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633424, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Name
+      value: RegelnMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.071
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.03939998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732531835232, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732699586560, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732699586566, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_text
+      value: Regeln
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871205360345666930, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_text
+      value: "Das Dartboard: Ein Dartboard besteht aus 20 nummerierten Segmenten,
+        die als \\\"Zahlen\\\" von 1 bis 20 bezeichnet werden. In der Mitte befindet
+        sich das Bulls-Eye, das in das innere Bulls-Eye (meistens rot) und das \xE4u\xDFere
+        Bulls-Eye (meistens gr\xFCn) unterteilt ist. Abstand und Position: Die Spieler
+        werfen ihre Darts von einem Abstand von 2,37 Metern (7 Fu\xDF 9 1/4 Zoll)
+        zur Wurflinie, die \\\"Oche\\\" genannt wird. Beim Werfen m\xFCssen sich
+        beide F\xFC\xDFe des Spielers hinter der Linie befinden. Punkte z\xE4hlen:
+        Beim Dartspiel gibt es verschiedene Wege, Punkte zu erzielen. Die h\xF6chste
+        Punktzahl, die man mit einem einzelnen Dart erzielen kann, ist 60 (Treffer
+        im Triple-20-Segment). Das Bulls-Eye z\xE4hlt 50 Punkte im \xE4u\xDFeren
+        Ring und 25 Punkte im inneren Ring. Trefferwertung: Jedes Segment des Dartboards
+        hat einen bestimmten Wert. Die \xE4u\xDFeren Ringe (Doppel) haben den doppelten
+        Wert des Segments, w\xE4hrend die inneren Ringe (Triple) den dreifachen Wert
+        des Segments haben. Ein Treffer in das Bulls-Eye z\xE4hlt entweder 50 oder
+        25 Punkte, je nachdem ob der \xE4u\xDFere oder innere Ring getroffen wird.
+        Abwechselndes Werfen: Beim Dart werfen die Spieler abwechselnd ihre drei
+        Darts auf das Dartboard. Der Spieler, der an der Reihe ist, darf so lange
+        werfen, bis er entweder sein Ziel verfehlt oder das Spiel beendet hat. unterschiedliche
+        Felder: Triple 20: Das Feld Triple 20 ist das h\xF6chstbewertete Feld auf
+        dem Dartboard.  Ein Treffer in diesem Feld bringt 60 Punkte, was das Maximum
+        f\xFCr einen einzelnen Wurf ist. Die KI sollte also versuchen, so oft wie
+        m\xF6glich Triple 20 zu treffen, um schnell viele Punkte zu sammeln. Double-Felder:
+        Die Double-Felder befinden sich am \xE4u\xDFeren Rand des Dartboards. Ein
+        Treffer in einem Double-Feld verdoppelt die Punktzahl des entsprechenden
+        Segments. Die KI sollte strategisch versuchen, diese Felder zu treffen, um
+        ihre Punktzahl zu maximieren. Triple-Felder: \xC4hnlich wie die Double-Felder
+        befinden sich die Triple-Felder in der N\xE4he des Zentrums des Dartboards.
+        Ein Treffer in einem Triple-Feld verdreifacht die Punktzahl des Segments.
+        Die KI sollte die Triple-Felder anvisieren, um ihre Punktzahl zu erh\xF6hen.
+        Bullseye: Das Bullseye besteht aus zwei Teilen - dem Inner Bullseye (Bulls-Eye
+        oder Doppel-Bull) in der Mitte und dem Outer Bullseye (Bulls) im inneren
+        Kreis des Dartboards. Ein Treffer im Inner Bullseye bringt 50 Punkte, w\xE4hrend
+        ein Treffer im Outer Bullseye 25 Punkte bringt. Die KI sollte versuchen,
+        das Bullseye zu treffen, insbesondere das Inner Bullseye, um eine hohe Punktzahl
+        zu erzielen."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871205360345666930, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871205360345666930, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8178212091613169495, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8178212091798782880, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070935254811724540, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070935254811724540, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+--- !u!1001 &1249492911
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 289200654, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289200654, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289200654, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289200654, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247122214, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247122214, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247122214, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247122214, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381859274, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381859274, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381859274, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381859274, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 756010788331680793, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 756010788331680793, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 756010788331680793, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 756010788331680793, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871140116700267477, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613511615107669644, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613511615107669644, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613511615107669644, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845670900231857706, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076014151472104930, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956393358417557099, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804731071153559, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633424, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Name
+      value: TippsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3758
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0712046
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732255633425, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732531835232, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732699586560, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771804732699586566, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_text
+      value: Tipps
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871205360345666930, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_text
+      value: "Praktiziere deine Wurfform: Eine konsistente Wurfform ist entscheidend
+        f\xFCr gute Ergebnisse. \xDCbe regelm\xE4\xDFig und versuche, deine Wurftechnik
+        zu verbessern. Zielen: Konzentriere dich auf deine Ziele. Fixiere das gew\xFCnschte
+        Ziel auf der Dartscheibe und versuche, den Dartpfeil genau dorthin zu werfen.
+        Kontrolliere deinen K\xF6rper: Achte auf deine K\xF6rperhaltung und -balance
+        w\xE4hrend des Wurfs. Ein stabiler Stand und eine entspannte Hand k\xF6nnen
+        dazu beitragen, deine W\xFCrfe genauer zu machen. \xDCbe das Timing: Finde
+        das richtige Timing f\xFCr deinen Wurf. Zu schnell oder zu langsam zu werfen,
+        kann deine Genauigkeit beeintr\xE4chtigen. Experimentiere und finde heraus,
+        welches Timing f\xFCr dich am besten funktioniert. Strategisches Spielen:
+        Denke voraus und entwickle eine Spielstrategie. \xDCberlege, welche Ziele
+        du anvisieren m\xF6chtest, um das meiste aus deinen W\xFCrfen herauszuholen.
+        Zum Beispiel, indem du versuchst, in bestimmten Bereichen der Dartscheibe
+        zu bleiben, um Punkte zu maximieren oder bestimmte Ziele zu blockieren. Trainiere
+        verschiedene Wurftechniken: Versuche, verschiedene Wurftechniken zu erlernen
+        und zu beherrschen. Je mehr Variationen du beherrschst, desto besser kannst
+        du auf verschiedene Spielsituationen reagieren. Mentale St\xE4rke: Dart ist
+        auch ein mentaler Sport. Trainiere deine Konzentration und bleibe ruhig,
+        auch wenn du unter Druck stehst. Der richtige Fokus kann einen gro\xDFen
+        Unterschied machen. Trainiere regelm\xE4\xDFig: \xDCbung macht den Meister!
+        Widme regelm\xE4\xDFig Zeit zum Dartspielen, um deine F\xE4higkeiten zu verbessern.
+        Je mehr du trainierst, desto besser wirst du. Die Briblle kann dir mit den
+        unterschiedlichen Spielmodi dabei helfen. Spa\xDF haben: Genie\xDFe das Spiel
+        und hab Spa\xDF daran. Der Spa\xDFfaktor kann dazu beitragen, dass du entspannt
+        bleibst und besser spielst."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8178212091613169495, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8178212091798782880, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070935254811724540, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070935254811724540, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070935254811724540, guid: 3c6a20a83e642ff42a2b180b988bb327,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c6a20a83e642ff42a2b180b988bb327, type: 3}
 --- !u!1 &1313527548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2012,7 +2559,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1675430103
 PrefabInstance:
