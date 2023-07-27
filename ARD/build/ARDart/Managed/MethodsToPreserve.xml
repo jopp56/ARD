@@ -1,0 +1,167 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AnleitungLvl2Skript">
+			<method name="ButtonAnleitung"/>
+		</type>
+		<type fullname="AnleitungLvl4Skript">
+			<method name="ButtonAnleitung"/>
+		</type>
+		<type fullname="AroundTheClockScript">
+			<method name="ButtonGetroffen"/>
+			<method name="ButtonVerfehlt"/>
+		</type>
+		<type fullname="ATCUhrzeigersinnScript">
+			<method name="ButtonGetroffen"/>
+			<method name="ButtonVerfehlt"/>
+		</type>
+		<type fullname="KIBehaviorScript">
+			<method name="KIWaitForPlayerToFinishRound"/>
+		</type>
+		<type fullname="Level5ButtonScript">
+			<method name="Blau"/>
+			<method name="Delete"/>
+			<method name="Enter"/>
+			<method name="Grün"/>
+			<method name="Orange"/>
+		</type>
+		<type fullname="MenuScript">
+			<method name="BackToMainMenu"/>
+			<method name="BackToMainMenu"/>
+			<method name="BackToMainMenu"/>
+			<method name="BackToMainMenu"/>
+			<method name="BackToMainMenu"/>
+			<method name="BackToMainMenu"/>
+			<method name="BackToMainMenu"/>
+			<method name="ClickToRestart"/>
+			<method name="ClickToRestart"/>
+			<method name="ClickToRestart"/>
+			<method name="ClickToRestart"/>
+			<method name="ClickToRestart"/>
+			<method name="ClickToRestart"/>
+			<method name="ClickToRestart"/>
+			<method name="CloseMenu"/>
+			<method name="CloseMenu"/>
+			<method name="CloseMenu"/>
+			<method name="CloseMenu"/>
+			<method name="CloseMenu"/>
+			<method name="CloseMenu"/>
+			<method name="CloseMenu"/>
+			<method name="CloseMenu"/>
+			<method name="ToogleMenu"/>
+			<method name="ToogleMenu"/>
+			<method name="ToogleMenu"/>
+			<method name="ToogleMenu"/>
+			<method name="ToogleMenu"/>
+			<method name="ToogleMenu"/>
+			<method name="ToogleMenu"/>
+		</type>
+		<type fullname="Random3FelderScript">
+			<method name="NeueFelder"/>
+		</type>
+		<type fullname="RandomZahlScoreAnzeigeScript">
+			<method name="changeScore"/>
+		</type>
+		<type fullname="RegelnSkript">
+			<method name="ButtonTipps"/>
+		</type>
+		<type fullname="ScoreAnzeigeScript">
+			<method name="changeScore"/>
+			<method name="changeScore"/>
+		</type>
+		<type fullname="ScoreEingabeScript">
+			<method name="ButtonBull"/>
+			<method name="ButtonBull"/>
+			<method name="ButtonBull"/>
+			<method name="ButtonBullseye"/>
+			<method name="ButtonBullseye"/>
+			<method name="ButtonBullseye"/>
+			<method name="ButtonDelete"/>
+			<method name="ButtonDelete"/>
+			<method name="ButtonDelete"/>
+			<method name="ButtonDouble"/>
+			<method name="ButtonDouble"/>
+			<method name="ButtonDouble"/>
+			<method name="ButtonEight"/>
+			<method name="ButtonEight"/>
+			<method name="ButtonEight"/>
+			<method name="ButtonEighteen"/>
+			<method name="ButtonEighteen"/>
+			<method name="ButtonEighteen"/>
+			<method name="ButtonEleven"/>
+			<method name="ButtonEleven"/>
+			<method name="ButtonEleven"/>
+			<method name="ButtonEnter"/>
+			<method name="ButtonEnter"/>
+			<method name="ButtonEnter"/>
+			<method name="ButtonFifteen"/>
+			<method name="ButtonFifteen"/>
+			<method name="ButtonFifteen"/>
+			<method name="ButtonFive"/>
+			<method name="ButtonFive"/>
+			<method name="ButtonFive"/>
+			<method name="ButtonFour"/>
+			<method name="ButtonFour"/>
+			<method name="ButtonFour"/>
+			<method name="ButtonFourteen"/>
+			<method name="ButtonFourteen"/>
+			<method name="ButtonFourteen"/>
+			<method name="ButtonNine"/>
+			<method name="ButtonNine"/>
+			<method name="ButtonNine"/>
+			<method name="ButtonNineteen"/>
+			<method name="ButtonNineteen"/>
+			<method name="ButtonNineteen"/>
+			<method name="ButtonOne"/>
+			<method name="ButtonOne"/>
+			<method name="ButtonOne"/>
+			<method name="ButtonSeven"/>
+			<method name="ButtonSeven"/>
+			<method name="ButtonSeven"/>
+			<method name="ButtonSeventeen"/>
+			<method name="ButtonSeventeen"/>
+			<method name="ButtonSeventeen"/>
+			<method name="ButtonSix"/>
+			<method name="ButtonSix"/>
+			<method name="ButtonSix"/>
+			<method name="ButtonSixteen"/>
+			<method name="ButtonSixteen"/>
+			<method name="ButtonSixteen"/>
+			<method name="ButtonTen"/>
+			<method name="ButtonTen"/>
+			<method name="ButtonTen"/>
+			<method name="ButtonThirteen"/>
+			<method name="ButtonThirteen"/>
+			<method name="ButtonThirteen"/>
+			<method name="ButtonThree"/>
+			<method name="ButtonThree"/>
+			<method name="ButtonThree"/>
+			<method name="ButtonTriple"/>
+			<method name="ButtonTriple"/>
+			<method name="ButtonTriple"/>
+			<method name="ButtonTwelve"/>
+			<method name="ButtonTwelve"/>
+			<method name="ButtonTwelve"/>
+			<method name="ButtonTwenty"/>
+			<method name="ButtonTwenty"/>
+			<method name="ButtonTwenty"/>
+			<method name="ButtonTwo"/>
+			<method name="ButtonTwo"/>
+			<method name="ButtonTwo"/>
+			<method name="ButtonZero"/>
+			<method name="ButtonZero"/>
+			<method name="ButtonZero"/>
+		</type>
+		<type fullname="StartMenuScript">
+			<method name="ClickOnKIButton"/>
+			<method name="ClickOnSinglePlayerButton"/>
+			<method name="ClickOnTrainingButton1"/>
+			<method name="ClickOnTrainingButton2"/>
+			<method name="ClickOnTrainingButton3"/>
+			<method name="ClickOnTrainingButton4"/>
+			<method name="ClickOnTrainingButton5"/>
+		</type>
+		<type fullname="TippsSkript">
+			<method name="ButtonTipps"/>
+		</type>
+	</assembly>
+</linker>

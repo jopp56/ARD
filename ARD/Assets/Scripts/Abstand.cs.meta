@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3917194bf3a34b24588527dfe767ec34
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - abstandslinie: {fileID: 3345554624791546168, guid: 6bb7dba263bd5514fa0737cfbf278f2f,
+      type: 3}
+  - dartscheibe: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,35 @@
+﻿  Building GameAssembly.dll with MsvcWinRtToolChain
+  	Msvc Install Version: 17.0
+  	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
+  	Msvc Linker Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\ARM64\link.exe
+  	Msvc Compiler Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\ARM64\cl.exe
+  
+  	Output directory: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\bin\ARM64\Release
+  	Cache directory: C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\obj\il2cppOutputProject\ARM64\Release
+  Il2CppCCalculateFieldValues3.cpp
+  Il2CppCCTypeValuesTable.cpp
+  Il2CppGenericMethodDefinitions.c
+  Il2CppCCalculateTypeValues1.cpp
+  Il2CppCCFieldValuesTable.cpp
+  Assembly-CSharp_CodeGen.c
+  Assembly-CSharp1.cpp
+  Il2CppMetadataRegistration.c
+  Il2CppRgctxTable.c
+  Il2CppMetadataUsage.c
+  Il2CppTypeDefinitions.c
+  Assembly-CSharp.cpp
+  ObjectFiles: 765 of which compiled: 12
+  	Time Compile: 5285 milliseconds Assembly-CSharp.cpp
+  	Time Compile: 4596 milliseconds Il2CppTypeDefinitions.c
+  	Time Compile: 3341 milliseconds Il2CppMetadataUsage.c
+  	Time Compile: 2477 milliseconds Assembly-CSharp1.cpp
+  	Time Compile: 1677 milliseconds Il2CppCCalculateTypeValues1.cpp
+  	Time Compile: 1555 milliseconds Il2CppGenericMethodDefinitions.c
+  	Time Compile: 1332 milliseconds Il2CppRgctxTable.c
+  	Time Compile: 1256 milliseconds Il2CppCCTypeValuesTable.cpp
+  	Time Compile: 1211 milliseconds Il2CppCCalculateFieldValues3.cpp
+  	Time Compile: 1009 milliseconds Il2CppCCFieldValuesTable.cpp
+  Total compilation time: 6859 milliseconds.
+  Bibliothek "C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_D68ADD080761E74E2E06CB6B168B44A0\GameAssembly.lib" und Objekt "C:\Users\joshu\OneDrive\Desktop\Dart\ARD\Project\build\build\obj\il2cppOutputProject\ARM64\Release\linkresult_D68ADD080761E74E2E06CB6B168B44A0\GameAssembly.exp" werden erstellt.
+  Total link time: 34857 milliseconds.
+  Cleaned up 13 object files.
